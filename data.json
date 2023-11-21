@@ -12,17 +12,17 @@
   {
     "artist": "Ada Band ",
     "song": " Kau Auraku",
-    "tabs": "Tab/Ada Band - Kau Auraku.pdf"
+    "tabs": "Tab/ada-band-kau-auraku.html"
   },
   {
     "artist": "Ada Band ",
     "song": " Manusia Bodoh",
-    "tabs": "Tab/Ada Band - Manusia Bodoh.pdf"
+    "tabs": "Tab/ada-band-manusia-bodoh.html"
   },
   {
     "artist": "Ada Band ",
     "song": " Masih Sahabatku Kekasihku",
-    "tabs": "Tab/Ada Band - Masih Sahabatku Kekasihku.pdf"
+    "tabs": "Tab/ada-band-masih-sahabatku-kekasihku.html"
   },
   {
     "artist": "Ada Band ",
@@ -127,12 +127,12 @@
   {
     "artist": "Ari Lasso ",
     "song": " Arti Cinta",
-    "tabs": "Tab/Ari Lasso - Arti Cinta.pdf"
+    "tabs": "Tab/ari-lasso-arti-cinta.html"
   },
   {
     "artist": "Ari Lasso ",
     "song": " Hampa",
-    "tabs": "Tab/Ari Lasso - Hampa.pdf"
+    "tabs": "Tab/ari-lasso-hampa.html"
   },
   {
     "artist": "Ari Wibowo ",
@@ -146,8 +146,13 @@
   },
   {
     "artist": "Armada ",
+    "song": "Asal Kau Bahagia",
+    "tabs": "Tab/armada-asal-kau-bahagia.html"
+  },
+  {
+    "artist": "Armada ",
     "song": " Hargai Aku",
-    "tabs": "Tab/Armada - Hargai Aku.pdf"
+    "tabs": "Tab/armada-hargai-aku.html"
   },
   {
     "artist": "Armada ",
@@ -157,12 +162,12 @@
   {
     "artist": "Armada ",
     "song": " Katakan Sejujurnya",
-    "tabs": "Tab/Armada - Katakan Sejujurnya.pdf"
+    "tabs": "Tab/armada-katakan-sejujurnya.html"
   },
   {
     "artist": "Armada ",
     "song": " Mau Dibawa Kemana",
-    "tabs": "Tab/Armada - Mau Dibawa Kemana.pdf"
+    "tabs": "Tab/armada-mau-dibawa-kemana.html"
   },
   {
     "artist": "Armada ",
@@ -172,12 +177,7 @@
   {
     "artist": "Armada ",
     "song": " Pergi Pagi Pulang Pagi",
-    "tabs": "Tab/Armada - Pergi Pagi Pulang Pagi.pdf"
-  },
-  {
-    "artist": "Armada ",
-    "song": "Asal Kau Bahagia",
-    "tabs": "Tab/Armada -Asal Kau Bahagia.pdf"
+    "tabs": "Tab/armada-pergi-pagi-pulang-pagi.html"
   },
   {
     "artist": "BCL ",
@@ -197,16 +197,22 @@
   {
     "artist": "Bee Gees ",
     "song": " To Love Somebody",
-    "tabs": "Tab/Bee Gees - To Love Somebody.pdf"
+    "tabs": "Tab/bee-gees-to-love-somebody.html"
   },
   {
     "artist": "Bee Gees ",
     "song": " Words",
-    "tabs": "Tab/Bee Gees - Words.pdf"
+    "tabs": "Tab/bee-gees-words.html"
+  },
+  
+  {
+    "artist": "Betharia Sonata ",
+    "song": " Hati Yang Luka",
+    "tabs": "Tab/betharia-sonata-hati-yang-luka.html"
   },
   {
-    "artist": "Bermata ",
-    "song": " Tapi Tak Melihat",
+    "artist": "Bimbo ",
+    "song": " Bermata Tapi Tak Melihat",
     "tabs": "Tab/Bermata - Tapi Tak Melihat.pdf"
   },
   {
@@ -222,7 +228,7 @@
   {
     "artist": "Bimbo ",
     "song": " Flamboyan",
-    "tabs": "Tab/Bimbo - Flamboyan.pdf"
+    "tabs": "Tab/bimbo-flamboyan.html"
   },
   {
     "artist": "Bimbo ",
@@ -272,7 +278,7 @@
   {
     "artist": "Black Brothers ",
     "song": " Terjalin Kembali",
-    "tabs": "Tab/Black Brothers - Terjalin Kembali.pdf"
+    "tabs": "Tab/black-brothers-terjalin-kembali.html"
   },
   {
     "artist": "Blackout ",
@@ -317,7 +323,7 @@
   {
     "artist": "Boy Shandy ",
     "song": " Rayuan Maut",
-    "tabs": "Tab/Boy Shandy - Rayuan Maut.pdf"
+    "tabs": "Tab/boy-shandy-rayuan-maut.html"
   },
   {
     "artist": "Bragi ",
@@ -332,7 +338,7 @@
   {
     "artist": "Broery Marantika ",
     "song": " Biarkan Bulan Bicara",
-    "tabs": "Tab/Broery Marantika - Biarkan Bulan Bicara.pdf"
+    "tabs": "Tab/broery-biarkan-bulan-bicara.html"
   },
   {
     "artist": "Broery Marantika ",
@@ -347,7 +353,7 @@
   {
     "artist": "Broery Marantika ",
     "song": " Jangan Ada Dusta",
-    "tabs": "Tab/Broery Marantika - Jangan Ada Dusta.pdf"
+    "tabs": "Tab/broery-jangan-ada-dusta.html"
   },
   {
     "artist": "Broery Feat Dewi Yull ",
@@ -417,7 +423,7 @@
   {
     "artist": "Cokelat ",
     "song": " Jauh",
-    "tabs": "Tab/Cokelat - Jauh.pdf"
+    "tabs": "Tab/cokelat-jauh.html"
   },
   {
     "artist": "Cokelat ",
@@ -527,12 +533,12 @@
   {
     "artist": "D'Masiv ",
     "song": " Cinta Sampai Disini",
-    "tabs": "Tab/D'Masiv - Cinta Sampai Disini.pdf"
+    "tabs": "Tab/dmasiv-cinta-sampai-disini.html"
   },
   {
     "artist": "D'Masiv ",
     "song": " Diantara Kalian",
-    "tabs": "Tab/D'Masiv - Diantara Kalian.pdf"
+    "tabs": "Tab/dmasiv-diantara-kalian.html"
   },
   {
     "artist": "D'Masiv ",
@@ -552,7 +558,7 @@
   {
     "artist": "Deddy Dores ",
     "song": " Hilangnya Seorang Gadis",
-    "tabs": "Tab/Deddy Dores - Hilangnya Seorang Gadis.pdf"
+    "tabs": "Tab/deddy-dores-hilangnya-seorang-gadis.html"
   },
   {
     "artist": "Deddy Dores ",
@@ -737,12 +743,12 @@
   {
     "artist": "Element ",
     "song": " Cinta Tak Bersyarat",
-    "tabs": "Tab/Element - Cinta Tak Bersyarat.pdf"
+    "tabs": "Tab/element-cinta-tak-bersyarat.html"
   },
   {
     "artist": "Element ",
     "song": " Rahasia Hati",
-    "tabs": "Tab/Element - Rahasia Hati.pdf"
+    "tabs": "Tab/element-rahasia-hati.html"
   },
   {
     "artist": "Engelbert Humperdinck ",
@@ -842,7 +848,7 @@
   {
     "artist": "Grace Simon ",
     "song": " Lihat Air Mata",
-    "tabs": "Tab/Grace Simon - Lihat Air Mata.pdf"
+    "tabs": "Tab/grace-simon-lihatlah-air-mata.html"
   },
   {
     "artist": "Guns N Roses ",
@@ -867,7 +873,7 @@
   {
     "artist": "Hello ",
     "song": " Dua Cincin",
-    "tabs": "Tab/Hello - Dua Cincin.pdf"
+    "tabs": "Tab/hello-dua-cincin.html"
   },
   {
     "artist": "Helloween ",
@@ -877,7 +883,7 @@
   {
     "artist": "Hendri Rotinsulu ",
     "song": " Diwajahmu Kulihat Bulan",
-    "tabs": "Tab/Hendri Rotinsulu - Diwajahmu Kulihat Bulan.pdf"
+    "tabs": "Tab/hendri-rotinsulu-diwajahmu-kulihat-bulan.html"
   },
   {
     "artist": "Hetty Koes Endang ",
@@ -887,12 +893,12 @@
   {
     "artist": "Iis Dahlia ",
     "song": " Fatwa Pujangga",
-    "tabs": "Tab/Iis Dahlia - Fatwa Pujangga.pdf"
+    "tabs": "Tab/iis-dahlia-fatwa-pujangga.html"
   },
   {
     "artist": "Imam S Arifin ",
     "song": " Jandaku",
-    "tabs": "Tab/Imam S Arifin - Jandaku.pdf"
+    "tabs": "Tab/imam-s-arifin-jandaku.html"
   },
   {
     "artist": "Inka Christie ",
@@ -932,12 +938,12 @@
   {
     "artist": "Jhonny Iskandar ",
     "song": " Bukan Pengemis Cinta",
-    "tabs": "Tab/Jhonny Iskandar - Bukan Pengemis Cinta.pdf"
+    "tabs": "Tab/jhonny-iskandar-bukan-pengemis-cinta.html"
   },
   {
     "artist": "Jhonny Iskandar ",
     "song": " Secangkir Kopi",
-    "tabs": "Tab/Jhonny Iskandar - Secangkir Kopi.pdf"
+    "tabs": "Tab/jhonny-iskandar-secangkir-kopi.html"
   },
   {
     "artist": "Josh Turner ",
@@ -1067,7 +1073,7 @@
   {
     "artist": "Koes Plus ",
     "song": " Bunga Di Tepi Jalan",
-    "tabs": "Tab/Koes Plus - Bunga Di Tepi Jalan.pdf"
+    "tabs": "Tab/koes-plus-bunga-ditepi-jalan.html"
   },
   {
     "artist": "Koes Plus ",
@@ -1262,7 +1268,7 @@
   {
     "artist": "Koes Plus ",
     "song": " Why Do You Love Me",
-    "tabs": "Tab/Koes Plus - Why Do You Love Me.pdf"
+    "tabs": "Tab/koes-plus-why-do-you-love-me.html"
   },
   {
     "artist": "Kotak ",
@@ -1302,12 +1308,12 @@
   {
     "artist": "Lian Manurung ",
     "song": " Sai Anju Ma Au",
-    "tabs": "Tab/Lian Manurung - Sai Anju Ma Au.pdf"
+    "tabs": "Tab/lian-manurung-sai-anju-ma-au.html"
   },
   {
     "artist": "Lionel Ritchie ",
     "song": " Hello",
-    "tabs": "Tab/Lionel Ritchie - Hello.pdf"
+    "tabs": "Tab/lionel-ritchie-hello.html"
   },
   {
     "artist": "Lobo ",
@@ -1357,12 +1363,12 @@
   {
     "artist": "Muchsin Alatas ",
     "song": " Pasrah",
-    "tabs": "Tab/Muchsin Alatas - Pasrah.pdf"
+    "tabs": "Tab/muchsin-alatas-pasrah.html"
   },
   {
     "artist": "Muchsin Alatas ",
     "song": " Renungkanlah",
-    "tabs": "Tab/Muchsin Alatas - Renungkanlah.pdf"
+    "tabs": "Tab/muchsin-alatas-renungkanlah.html"
   },
   {
     "artist": "Mulan Jameela ",
@@ -1377,7 +1383,7 @@
   {
     "artist": "Murry's Group ",
     "song": " Papiku Mamiku",
-    "tabs": "Tab/Murry's Group - Papiku Mamiku.pdf"
+    "tabs": "Tab/murrys-group-papiku-mamiku.html"
   },
   {
     "artist": "Mus Mujiono ",
@@ -1407,7 +1413,7 @@
   {
     "artist": "Naff ",
     "song": " Terendap Laraku",
-    "tabs": "Tab/Naff - Terendap Laraku.pdf"
+    "tabs": "Tab/naff-terendap-laraku.html"
   },
   {
     "artist": "Naif ",
@@ -1437,7 +1443,7 @@
   {
     "artist": "Nike Ardila ",
     "song": " Bintang Kehidupan",
-    "tabs": "Tab/Nike Ardila - Bintang Kehidupan.pdf"
+    "tabs": "Tab/nike-ardila-bintang-kehidupan.html"
   },
   {
     "artist": "Nineball ",
@@ -1462,12 +1468,12 @@
   {
     "artist": "Nirvana ",
     "song": " Smells Like Teen Spirits",
-    "tabs": "Tab/Nirvana - Smells Like Teen Spirits.pdf"
+    "tabs": "Tab/nirvana-smells-like-teen-spirit.html"
   },
   {
     "artist": "Nirvana ",
     "song": " The Man Who Sold The World",
-    "tabs": "Tab/Nirvana - The Man Who Sold The World.pdf"
+    "tabs": "Tab/nirvana-the-man-who-sold.html"
   },
   {
     "artist": "No Koes ",
@@ -1497,7 +1503,7 @@
   {
     "artist": "Noah ",
     "song": " Cinta Bukan Dusta",
-    "tabs": "Tab/Noah - Cinta Bukan Dusta.pdf"
+    "tabs": "Tab/niah-cinta-bukan-dusta.html"
   },
   {
     "artist": "Noah ",
@@ -1507,12 +1513,12 @@
   {
     "artist": "Noah ",
     "song": " Seperti Kemarin",
-    "tabs": "Tab/Noah - Seperti Kemarin.pdf"
+    "tabs": "Tab/noah-seperti-kemarin.html"
   },
   {
     "artist": "Noah ",
     "song": " Tak Lagi Sama",
-    "tabs": "Tab/Noah - Tak Lagi Sama.pdf"
+    "tabs": "Tab/noah-tak-lagi-sama.html"
   },
   {
     "artist": "Novia Kolopaking ",
@@ -1562,7 +1568,7 @@
   {
     "artist": "Padi ",
     "song": " Begitu Indah",
-    "tabs": "Tab/Padi - Begitu Indah.pdf"
+    "tabs": "Tab/padi-begitu-indah.html"
   },
   {
     "artist": "Padi ",
@@ -1622,17 +1628,17 @@
   {
     "artist": "Peterpan ",
     "song": " Bintang Disurga",
-    "tabs": "Tab/Peterpan - Bintang Disurga.pdf"
+    "tabs": "Tab/peterpan-bintang-disruga.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Menunggumu",
-    "tabs": "Tab/Peterpan - Menunggumu.pdf"
+    "tabs": "Tab/peterpan-menunggumu.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Mimpi Yang Sempurna",
-    "tabs": "Tab/Peterpan - Mimpi Yang Sempurna.pdf"
+    "tabs": "Tab/peterpan-mimpi-yang-sempurna.html"
   },
   {
     "artist": "Peterpan ",
@@ -1642,12 +1648,12 @@
   {
     "artist": "Peterpan ",
     "song": " Walau Habis Terang",
-    "tabs": "Tab/Peterpan - Walau Habis Terang.pdf"
+    "tabs": "Tab/peterpan-walau-habis-terang.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Yang Terdalam",
-    "tabs": "Tab/Peterpan - Yang Terdalam.pdf"
+    "tabs": "Tab/peterpan-yang-terdalam.html"
   },
   {
     "artist": "Projector Band ",
@@ -1708,6 +1714,11 @@
     "artist": "RHCP ",
     "song": " Californication",
     "tabs": "Tab/RHCP - Californication.pdf"
+  }, 
+  {
+    "artist": "Richard Cocciante ",
+    "song": " Just For You",
+    "tabs": "Tab/richard-cocciante-just-for-you.html"
   },
   {
     "artist": "Richard Marx ",
@@ -1717,7 +1728,7 @@
   {
     "artist": "Rod Stewart ",
     "song": " Have I Told You Lately",
-    "tabs": "Tab/Rod Stewart - Have I Told You Lately.pdf"
+    "tabs": "Tab/rod-stewart-have-i-told-you-late.html"
   },
   {
     "artist": "Rossa ",
@@ -1777,22 +1788,22 @@
   {
     "artist": "Scorpions ",
     "song": " Always Somewhere",
-    "tabs": "Tab/Scorpions - Always Somewhere.pdf"
+    "tabs": "Tab/scorpions-always-somewhere.html"
   },
   {
     "artist": "Scorpions ",
     "song": " Still Loving You",
-    "tabs": "Tab/Scorpions - Still Loving You.pdf"
+    "tabs": "Tab/scorpions-still-loving-you.html"
   },
   {
     "artist": "Scorpions ",
     "song": " When The Smoke Is Going Down",
-    "tabs": "Tab/Scorpions - When The Smoke Is Going Down.pdf"
+    "tabs": "Tab/scorpions-when-the-smoke-is-going-down.html"
   },
   {
     "artist": "Second Civil ",
     "song": " Aku Kau Dan Kenangan",
-    "tabs": "Tab/Second Civil - Aku Kau Dan Kenangan.pdf"
+    "tabs": "Tab/second-civil-aku-kau-dan-kenangan.html"
   },
   {
     "artist": "See New Project ",
@@ -1802,7 +1813,7 @@
   {
     "artist": "Seventeen ",
     "song": " Hal Terindah",
-    "tabs": "Tab/Seventeen - Hal Terindah.pdf"
+    "tabs": "Tab/seventeen-hal-terindah.html"
   },
   {
     "artist": "Seventeen ",
@@ -1817,7 +1828,7 @@
   {
     "artist": "Seventeen ",
     "song": " Menemukanmu",
-    "tabs": "Tab/Seventeen - Menemukanmu.pdf"
+    "tabs": "Tab/seventeen-menemukanmu.html"
   },
   {
     "artist": "Seventeen ",
@@ -1872,7 +1883,7 @@
   {
     "artist": "ST12 ",
     "song": " Cinta Tak Harus Memiliki",
-    "tabs": "Tab/ST12 - Cinta Tak Harus Memiliki.pdf"
+    "tabs": "Tab/st12-cinta-tak-harus-memiliki.html"
   },
   {
     "artist": "ST12 ",
@@ -1917,7 +1928,7 @@
   {
     "artist": "Stephen Sanchez ",
     "song": " Until I Found You",
-    "tabs": "Tab/Stephen Sanchez - Until I Found You.pdf"
+    "tabs": "Tab/stephen-sanchez-until-i-found-you.html"
   },
   {
     "artist": "Stinky ",
@@ -1962,7 +1973,7 @@
   {
     "artist": "The Beatles ",
     "song": " And I Love Her",
-    "tabs": "Tab/The Beatles - And I Love Her.pdf"
+    "tabs": "Tab/the-beatles-and-i-love-her.html"
   },
   {
     "artist": "The Beatles ",
@@ -1972,7 +1983,7 @@
   {
     "artist": "The Beatles ",
     "song": " Hey Jude",
-    "tabs": "Tab/The Beatles - Hey Jude.pdf"
+    "tabs": "Tab/the-beatles-hey-jude.html"
   },
   {
     "artist": "The Beatles ",
@@ -1982,7 +1993,7 @@
   {
     "artist": "The Beatles ",
     "song": " Let It Be",
-    "tabs": "Tab/The Beatles - Let It Be.pdf"
+    "tabs": "Tab/the-beatles-let-it-be.html"
   },
   {
     "artist": "The Beatles ",
@@ -1997,7 +2008,7 @@
   {
     "artist": "The Beatles ",
     "song": " Something",
-    "tabs": "Tab/The Beatles - Something.pdf"
+    "tabs": "Tab/the-beatles-something.html"
   },
   {
     "artist": "The Beatles ",
@@ -2227,12 +2238,12 @@
   {
     "artist": "Ungu ",
     "song": " Sayang",
-    "tabs": "Tab/Ungu - Sayang.pdf"
+    "tabs": "Tab/ungu-sayang.html"
   },
   {
     "artist": "Ungu ",
     "song": " Sejauh Mungkin",
-    "tabs": "Tab/Ungu - Sejauh Mungkin.pdf"
+    "tabs": "Tab/ungu-sejauh-mungkin.html"
   },
   {
     "artist": "Ungu ",
@@ -2322,7 +2333,7 @@
   {
     "artist": "Vanny Vabiola ",
     "song": "Jangan Sampai Tiga Kali",
-    "tabs": "Tab/Vanny Vabiola -Jangan Sampai Tiga Kali.pdf"
+    "tabs": "Tab/vanny-vabiola-jangan-sampai-tiga-kali.html"
   },
   {
     "artist": "Victor Hutabarat ",
@@ -2332,7 +2343,7 @@
   {
     "artist": "Victor Hutabarat ",
     "song": " O Tano Batak",
-    "tabs": "Tab/Victor Hutabarat - O Tano Batak.pdf"
+    "tabs": "Tab/victor-hutabarat-o-tano-batak.html"
   },
   {
     "artist": "Virgoun ",
@@ -2377,7 +2388,7 @@
   {
     "artist": "Wali ",
     "song": " Yank",
-    "tabs": "Tab/Wali - Yank.pdf"
+    "tabs": "Tab/wali-yank.html"
   },
   {
     "artist": "Wayang ",
