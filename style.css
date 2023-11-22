@@ -12,9 +12,17 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 a {
   text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
 }
 
 /* ===================Tabs=================================== */
