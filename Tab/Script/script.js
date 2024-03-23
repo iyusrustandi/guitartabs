@@ -30,3 +30,10 @@ function decrementTab(tab) {
 $.get('Script/button.html', function (data) {
   $('#transposebutton').replaceWith(data);
 });
+
+// ========================Visibility Button=====================
+$.get('Script/button.html', function (data) {
+  $('#toggleLyrics').click(function () {
+    $('.lyrics').slideToggle();
+  });
+});
