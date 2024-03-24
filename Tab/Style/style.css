@@ -34,8 +34,18 @@ h4 {
   font-size: 3vw;
 }
 .transposebutton {
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-size: 3vw;
+  color: #fff;
+  border-style: solid;
+  border-radius: 10px;
+  background: #85929e;
+}
+.transposebutton a,
+.transposebutton button {
+  flex: 1;
 }
 .lyrics {
   display: none;
@@ -50,6 +60,9 @@ h4 {
   color: #000;
   border-style: solid;
   border-radius: 10px;
+  /* box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.22), 1px 0px 0px 0px rgba(0, 0, 0, 0.22), 1px 2px 0px 0px rgba(0, 0, 0, 0.22), 2px 1px 0px 0px rgba(0, 0, 0, 0.22), 2px 3px 0px 0px rgba(0, 0, 0, 0.22), 3px 2px 0px 0px rgba(0, 0, 0, 0.22),
+    3px 4px 0px 0px rgba(0, 0, 0, 0.22), 4px 3px 0px 0px rgba(0, 0, 0, 0.22), 4px 5px 0px 0px rgba(0, 0, 0, 0.22), 5px 4px 0px 0px rgba(0, 0, 0, 0.22), 5px 6px 0px 0px rgba(0, 0, 0, 0.22), 6px 5px 0px 0px rgba(0, 0, 0, 0.22),
+    6px 7px 0px 0px rgba(0, 0, 0, 0.22), 7px 6px 0px 0px rgba(0, 0, 0, 0.22), 7px 8px 0px 0px rgba(0, 0, 0, 0.22), 8px 7px 0px 0px rgba(0, 0, 0, 0.22); */
 }
 /* 
 ========================visibility button===================== */
@@ -58,7 +71,7 @@ h4 {
   position: relative;
   width: 60px;
   height: 30px;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 .toggle-slider {
@@ -86,7 +99,7 @@ h4 {
 }
 
 input:checked + .toggle-slider {
-  background-color: #2196f3;
+  background-color: #0a3091;
 }
 
 input:focus + .toggle-slider {
