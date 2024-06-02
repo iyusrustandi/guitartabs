@@ -42,7 +42,7 @@ h4 {
   border-style: solid;
   border-radius: 5px;
   background: #85929e;
-  padding: 5px;
+  padding: px;
 }
 .transposebutton a,
 .transposebutton button {
@@ -50,6 +50,8 @@ h4 {
 }
 .button {
   border-radius: 8px;
+  width: 5vw;
+  height: 5vw;
 }
 .lyrics {
   display: none;
