@@ -123,3 +123,38 @@ input:checked + .toggle-slider:before {
 input[type='checkbox'] {
   display: none;
 }
+
+#chords-container {
+  width: 100%;
+  padding: 0px;
+  padding-left: 5px;
+  margin: 0px;
+}
+.chords-gallery {
+  width: 25%;
+  float: left;
+}
+
+.chords-gallery img {
+  width: 50%;
+  height: auto;
+  border: 2px solid #009999;
+}
+
+@media only screen and (max-width: 771px) {
+  .chords-gallery {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .chords-gallery {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .chords-gallery {
+    width: 100%;
+  }
+}
