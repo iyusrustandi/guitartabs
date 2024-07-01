@@ -119,42 +119,47 @@ input:checked + .toggle-slider:before {
   transform: translateX(26px);
 }
 
-/* Hide default HTML checkbox */
 input[type='checkbox'] {
   display: none;
 }
-
 #chords-container {
-  width: 100%;
-  padding: 0px;
-  padding-top: 15px;
-  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .chords-gallery {
-  width: 23%;
-  float: left;
+  margin: 0px;
+  width: calc(25% - 20px);
 }
 
 .chords-gallery img {
   width: 100%;
   height: auto;
-  border: 2px solid #009999;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-@media only screen and (max-width: 771px) {
+@media (max-width: 1200px) {
   .chords-gallery {
-    width: 23%;
+    width: calc(25% - 20px);
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media (max-width: 900px) {
   .chords-gallery {
-    width: 23%;
+    width: calc(25% - 20px);
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media (max-width: 600px) {
   .chords-gallery {
-    width: 75%;
+    width: calc(27% - 20px);
+  }
+}
+
+@media (max-width: 400px) {
+  .chords-gallery {
+    width: 27%;
   }
 }
