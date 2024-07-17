@@ -37,3 +37,31 @@ $.get('Script/button.html', function (data) {
     $('.lyrics').slideToggle();
   });
 });
+
+// ====================new tabs button ====================
+document.addEventListener('DOMContentLoaded', function () {
+  const buttons = document.querySelectorAll('#tabs-nav .button');
+  const sections = document.querySelectorAll('section');
+
+  buttons.forEach((button) => {
+    button.addEventListener('click', function (event) {
+      event.preventDefault();
+
+      buttons.forEach((button) => {
+        button.classList.remove('active');
+      });
+
+      button.classList.add('active');
+
+      sections.forEach((section) => {
+        section.classList.remove('active');
+      });
+
+      const targetId = button.getAttribute('href').substring(1);
+      const targetSection = document.getElementById(targetId);
+      if (targetSection) {
+        targetSection.classList.add('active');
+      }
+    });
+  });
+});
