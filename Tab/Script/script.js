@@ -27,12 +27,12 @@ function decrementTab(tab) {
 }
 
 // ========================Transposebutton=====================
-$.get('Script/button.html', function (data) {
+$.get('Components/transposebutton.html', function (data) {
   $('#transposebutton').replaceWith(data);
 });
 
 // ========================Visibility Button=====================
-$.get('Script/button.html', function (data) {
+$.get('Components/transposebutton.html', function (data) {
   $('#toggleLyrics').click(function () {
     $('.lyrics').slideToggle();
   });
@@ -64,4 +64,52 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   });
+});
+
+// =================== transposebutton ver 2 ===========================
+document.addEventListener('DOMContentLoaded', function () {
+  // Load header.html into #header-container
+  fetch('Components/transposebutton2.html')
+    .then((response) => response.text())
+    .then((data) => {
+      document.getElementById('transposebutton2').innerHTML = data;
+      highlightActiveButton(); // Highlight the button based on the active section
+      attachTabEventListeners(); // Attach event listeners after loading header
+    });
+
+  function highlightActiveButton() {
+    const activeSection = document.querySelector('section.active');
+    const targetId = '#' + activeSection.id;
+
+    // Find the button corresponding to the active section
+    const correspondingButton = document.querySelector(`.transposebutton .button[data-target="${targetId}"]`);
+
+    if (correspondingButton) {
+      correspondingButton.classList.add('active');
+    }
+  }
+
+  function attachTabEventListeners() {
+    const buttons = document.querySelectorAll('.transposebutton .button');
+
+    buttons.forEach((button) => {
+      button.addEventListener('click', function () {
+        const targetSectionId = this.getAttribute('data-target');
+
+        // Remove active class from all sections
+        document.querySelectorAll('section').forEach((section) => {
+          section.classList.remove('active');
+        });
+
+        // Hide active state on all buttons
+        buttons.forEach((btn) => btn.classList.remove('active'));
+
+        // Add active class to the clicked button
+        this.classList.add('active');
+
+        // Show the selected section
+        document.querySelector(targetSectionId).classList.add('active');
+      });
+    });
+  }
 });
