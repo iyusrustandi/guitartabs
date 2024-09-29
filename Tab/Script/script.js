@@ -113,3 +113,15 @@ document.addEventListener('DOMContentLoaded', function () {
 //     });
 //   }
 // });
+
+// ======================= lyric tabs =============================
+function myFunction() {
+  var elements = document.getElementsByClassName('lyricTabs');
+  for (var i = 0; i < elements.length; i++) {
+    if (elements[i].style.display === 'none') {
+      elements[i].style.display = 'block';
+    } else {
+      elements[i].style.display = 'none';
+    }
+  }
+}
