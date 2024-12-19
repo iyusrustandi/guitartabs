@@ -1,254 +1,162 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tabs</title>
-    <link rel="stylesheet" href="Tab/Style/style.css" />
-    <script src="Script/jquery-3.7.0.min.js"></script>
+    <title>Guitar Tabs</title>
+    <link href="Image/icon.png" rel="icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/98d921e819.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery-3.7.0.min.js"></script>
   </head>
   <body>
-    <h4>Bing Slamet - Nurlela</h4>
+    <div class="header_wrap">
+      <div class="num_rows">
+        <div class="form-group">
+          <select class="form-control" name="state" id="maxRows">
+            <option value="25">Show 25 Song</option>
+            <option value="50">Show 50 Song</option>
+            <option value="100">Show 100 Song</option>
+            <option value="150">Show 150 Song</option>
+            <option value="200">Show 200 Song</option>
+            <option value="350">Show All Song</option>
+          </select>
+        </div>
+      </div>
+      <div class="tb_search">
+        <input type="text" id="search_input_all" onkeyup="FilterkeyWord_all_table()" placeholder="Search Artist or Title...." class="form-control" />
+      </div>
+    </div>
+    <table class="table table-responsive table-striped table-hover" id="table-id">
+      <thead class="table-dark">
+        <tr>
+          <th>No</th>
+          <th>Artist</th>
+          <th>Title</th>
+          <th>Tabs</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
 
-    <div id="transposebutton"></div>
-    <div class="transposebutton" id="tabs-nav">
-      <button class="button active" href="#onC">C</button>
-      <button class="button" href="#onC#">C#</button>
-      <button class="button" href="#onD">D</button>
-      <button class="button" href="#onD#">D#</button>
-      <button class="button" href="#onE">E</button>
-      <button class="button" href="#onF">F</button>
-      <button class="button" href="#onF#">F#</button>
-      <button class="button" href="#onG">G</button>
-      <button class="button" href="#onG#">G#</button>
-      <button class="button" href="#onA">A</button>
-      <button class="button" href="#onBb">Bb</button>
-      <button class="button" href="#onB">B</button>
+    <div class="d-flex justify-content-center mt-3">
+      <div id="pagination-container"></div>
     </div>
 
-    <section id="onA">
-      <pre class="chords showTip">Intro 	: AM7 </pre>
-      <pre class="tabs">
-e|---------------2----|---------2--------|------------------|-----------------------|
-B|-----5-4-5-4-5---3--|-2---2-3---5-3-2--|-----2---3-2------|-----------------------|
-G|-2------------------|---4--------------|-4-2---4-----4-2--|-----------------------|
-D|--------------------|------------------|------------------|-9-8-6-----------------|
-A|--------------------|------------------|------------------|-------9-7-6-----------|
-E|--------------------|------------------|------------------|-------------9-7-------|
-	                                                                       (4X)
-e|----------------------------------------------------------------------------------|
-B|----------------------------------------------------------------------------------|
-G|----------------------------------------------------------------------------------|
-D|----------------------------------------------------------------------------------|
-A|-5h7-5h7-5h7----------------------------------------------------------------------|
-E|-------------5--------------------------------------------------------------------|</pre
-      >
-      <pre class="chords showTip">
-Verse 	: AM7 Bm7-EM7-AM7 F#aug Bm7-EM7-AM7 
-Verse2
-Reff	: AM GM7 AM7 (2X)
-	  Bm7-EM7-AM7 F#aug  Bm7-EM7-AM7 (2X)
-Verse3
-Intr	: AM GM7 AM7 (2X)
-	  Bm7-EM7-AM7 F#aug  Bm7-EM7-AM7 (2X)</pre
-      >
-      <pre class="tabs">
-									         (2X)
-e|------------------|-------0-2-0--|-2-3-0-2---0------------------------------------|
-B|-----0-2-3-2-0----|-0-2-3--------|---------3--------------------------------------|
-G|-2-------------2--|--------------|------------------------------------------------|
-D|------------------|--------------|------------------------------------------------|
-A|------------------|--------------|------------------------------------------------|
-E|------------------|--------------|------------------------------------------------|
-                                                  (2X)|
-e|-------------0--|----------------|------------------|-2-0-------------------------|
-B|-3---2-0-2-3----|-2---0---0-2-3--|-0---------0-2----|-------2---------------------|
-G|----------------|-------2--------|-----2-1-2-----2--|-----2-----------------------|
-D|----------------|----------------|------------------|-----------------------------|
-A|----------------|----------------|------------------|-----------------------------|
-E|----------------|----------------|------------------|-----------------------------|</pre
-      >
-      <pre class="chords showTip">
-Verse1, Verse2, Reff, Verse3
-Outro	: AM7</pre
-      >
-    </section>
-
-    <section id="onB">
-      <pre class="chords showTip">Intro 	: BM7 </pre>
-      <pre class="tabs">
-e|---------------4----|---------4--------|------------------|-----------------------|
-B|-----7-6-7-6-7---5--|-4---4-5---7-5-4--|-----4---5-4------|-----------------------|
-G|-4------------------|---6--------------|-6-4---6-----6-4--|-4-3-1-----------------|
-D|--------------------|------------------|------------------|-------4-2-1-----------|
-A|--------------------|------------------|------------------|-------------4-2-------|
-E|--------------------|------------------|------------------|-----------------------|
-	                                                                       (4X)
-e|----------------------------------------------------------------------------------|
-B|----------------------------------------------------------------------------------|
-G|----------------------------------------------------------------------------------|
-D|-2h4-2h4-2h4----------------------------------------------------------------------|
-A|-------------2--------------------------------------------------------------------|
-E|----------------------------------------------------------------------------------|</pre
-      >
-      <pre class="chords showTip">
-Verse 	: BM7 C#m7-F#M7-BM7 G#aug C#m7-F#M7-BM7 
-Verse2
-Reff	: BM AM7 BM7 (2X)
-	  C#m7-F#M7-BM7 G#aug  C#m7-F#M7-BM7 (2X)
-Verse3
-Intr	: BM AM7 BM7 (2X)
-	  C#m7-F#M7-BM7 G#aug  C#m7-F#M7-BM7 (2X)</pre
-      >
-      <pre class="tabs">
-									         (2X)
-e|------------------|-------2-4-2--|-4-5-2-4---2------------------------------------|
-B|-----2-4-5-4-2----|-2-4-5--------|---------5--------------------------------------|
-G|-4-------------4--|--------------|------------------------------------------------|
-D|------------------|--------------|------------------------------------------------|
-A|------------------|--------------|------------------------------------------------|
-E|------------------|--------------|------------------------------------------------|
-                                                  (2X)|
-e|-------------2--|----------------|------------------|-4-2-------------------------|
-B|-5---4-2-4-5----|-4---2---2-4-5--|-2---------2-4----|-------4---------------------|
-G|----------------|-------4--------|-----4-3-4-----4--|-----4-----------------------|
-D|----------------|----------------|------------------|-----------------------------|
-A|----------------|----------------|------------------|-----------------------------|
-E|----------------|----------------|------------------|-----------------------------|</pre
-      >
-      <pre class="chords showTip">
-Verse1, Verse2, Reff, Verse3
-Outro	: BM7</pre
-      >
-    </section>
-
-    <section class="active" id="onC">
-      <pre class="chords showTip">Intro 	: CM7 </pre>
-      <pre class="tabs">
-e|---------------5----|---------5--------|------------------|-----------------------|
-B|-----8-7-8-7-8---6--|-5---5-6---8-6-5--|-----5---6-5------|-----------------------|
-G|-5------------------|---7--------------|-7-5---7-----7-5--|-5-4-2-----------------|
-D|--------------------|------------------|------------------|-------5-3-2-----------|
-A|--------------------|------------------|------------------|-------------5-3-------|
-E|--------------------|------------------|------------------|-----------------------|
-	                                                                       (4X)
-e|----------------------------------------------------------------------------------|
-B|----------------------------------------------------------------------------------|
-G|----------------------------------------------------------------------------------|
-D|-3h5-3h5-3h5----------------------------------------------------------------------|
-A|-------------3--------------------------------------------------------------------|
-E|----------------------------------------------------------------------------------|
-</pre
-      >
-      <pre class="chords showTip">
-Verse 	: CM7 Dm7-GM7-CM7 Aaug Dm7-GM7-CM7 
-Verse2
-Reff	: CM BbM7 CM7 (2X)
-	  Dm7-GM7-CM7 Aaug  Dm7-GM7-CM7 (2X)
-Verse3
-Intr	: CM BbM7 CM7 (2X)
-	  Dm7-GM7-CM7 Aaug  Dm7-GM7-CM7 (2X)
-      </pre>
-      <pre class="tabs">
-									         (2X)
-e|------------------|-------3-5-3--|-5-6-3-5---3------------------------------------|
-B|-----3-5-6-5-3----|-3-5-6--------|---------6--------------------------------------|
-G|-5-------------5--|--------------|------------------------------------------------|
-D|------------------|--------------|------------------------------------------------|
-A|------------------|--------------|------------------------------------------------|
-E|------------------|--------------|------------------------------------------------|
-                                                  (2X)|
-e|-------------3--|----------------|------------------|-5-3-------------------------|
-B|-6---5-3-5-6----|-5---3---3-5-6--|-3---------3-5----|-------5---------------------|
-G|----------------|-------5--------|-----5-4-5-----5--|-----5-----------------------|
-D|----------------|----------------|------------------|-----------------------------|
-A|----------------|----------------|------------------|-----------------------------|
-E|----------------|----------------|------------------|-----------------------------|
-</pre
-      >
-      <pre class="chords showTip">
-Verse1, Verse2, Reff, Verse3
-Outro	: CM7
-</pre
-      >
-    </section>
-
-    <section id="onD">
-      <pre class="chords showTip">Intro 	: DM7 </pre>
-      <pre class="tabs">
-e|------------------7----|---------7---------|------------------|-------------------|
-B|-----10-9-10-9-10---8--|-7---7-8---10-8-7--|-----7---8-7------|-------------------|
-G|-7---------------------|---9---------------|-9-7---9-----9-7--|-7-6-4-------------|
-D|-----------------------|-------------------|------------------|-------7-5-4-------|
-A|-----------------------|-------------------|------------------|-------------7-5---|
-E|-----------------------|-------------------|------------------|-------------------|
-	                                                                       (4X)
-e|----------------------------------------------------------------------------------|
-B|----------------------------------------------------------------------------------|
-G|----------------------------------------------------------------------------------|
-D|-5h7-5h7-5h7----------------------------------------------------------------------|
-A|-------------5--------------------------------------------------------------------|
-E|----------------------------------------------------------------------------------|
-</pre
-      >
-      <pre class="chords showTip">
-Verse 	: DM7 Em7-AM7-DM7 Baug Em7-AM7-DM7 
-Verse2
-Reff	: DM CM7 DM7 (2X)
-	  Em7-AM7-DM7 Baug  Em7-AM7-DM7 (2X)
-Verse3
-Intr	: DM CM7 DM7 (2X)
-	  Em7-AM7-DM7 Baug  Em7-AM7-DM7 (2X)
-      </pre>
-      <pre class="tabs">
-									         (2X)
-e|------------------|-------5-7-5--|-7-8-5-7---5------------------------------------|
-B|-----5-7-8-7-5----|-5-7-8--------|---------8--------------------------------------|
-G|-7-------------7--|--------------|------------------------------------------------|
-D|------------------|--------------|------------------------------------------------|
-A|------------------|--------------|------------------------------------------------|
-E|------------------|--------------|------------------------------------------------|
-                                                  (2X)|
-e|-------------5--|----------------|------------------|-7-5-------------------------|
-B|-8---7-5-7-8----|-7---5---5-7-8--|-5---------5-7----|-------7---------------------|
-G|----------------|-------7--------|-----7-6-7-----7--|-----7-----------------------|
-D|----------------|----------------|------------------|-----------------------------|
-A|----------------|----------------|------------------|-----------------------------|
-E|----------------|----------------|------------------|-----------------------------|
-</pre
-      >
-      <pre class="chords showTip">
-Verse1, Verse2, Reff, Verse3
-Outro	: DM7
-</pre
-      >
-    </section>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
     <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        const buttons = document.querySelectorAll('#tabs-nav .button');
-        const sections = document.querySelectorAll('section');
+      $(document).ready(function () {
+        let tableData = [];
+        let pageSize = 15;
+        let currentPage = 1;
 
-        buttons.forEach((button) => {
-          button.addEventListener('click', function (event) {
-            event.preventDefault();
-
-            buttons.forEach((button) => {
-              button.classList.remove('active');
-            });
-
-            button.classList.add('active');
-
-            sections.forEach((section) => {
-              section.classList.remove('active');
-            });
-
-            const targetId = button.getAttribute('href').substring(1);
-            const targetSection = document.getElementById(targetId);
-            if (targetSection) {
-              targetSection.classList.add('active');
-            }
+        // Load data from JSON file
+        $.getJSON('data2.json')
+          .done((data) => {
+            tableData = data;
+            updateTable();
+            renderPagination();
+          })
+          .fail(() => {
+            console.error('Failed to load data2.json');
+            $('#table-id tbody').html('<tr><td colspan="5">Error loading data</td></tr>');
           });
+
+        // Update table content
+        function updateTable() {
+          const searchInput = $('#search_input_all').val().toLowerCase();
+          const filteredData = tableData.filter((item) => item.artist.toLowerCase().includes(searchInput) || item.song.toLowerCase().includes(searchInput));
+
+          const startIndex = (currentPage - 1) * pageSize;
+          const paginatedData = filteredData.slice(startIndex, startIndex + pageSize);
+
+          const tableBody = $('#table-id tbody');
+          tableBody.empty();
+
+          if (paginatedData.length === 0) {
+            tableBody.append('<tr><td colspan="5">No data found</td></tr>');
+            return;
+          }
+
+          paginatedData.forEach((item, index) => {
+            const chordsUrl = `tabs-layout.html?artist=${encodeURIComponent(item.artist.trim())}&song=${encodeURIComponent(item.song.trim())}&tabs=${encodeURIComponent(item.tabs.trim())}`;
+
+            const row = `
+          <tr>
+            <td>${startIndex + index + 1}</td>
+            <td>${item.artist}</td>
+            <td>${item.song}</td>
+            <td>
+              <a href="${chordsUrl}" 
+                class="btn-lyric ${item.tabs ? '' : 'disabled'}" 
+                target="${item.tabs ? '_blank' : ''}" 
+                aria-label="${item.tabs ? 'View tabs' : 'Tabs not available'}">Tabs</a>
+            </td>
+          </tr>`;
+            tableBody.append(row);
+          });
+        }
+
+        // Render pagination
+        function renderPagination() {
+          const filteredData = tableData.filter((item) => item.artist.toLowerCase().includes($('#search_input_all').val().toLowerCase()) || item.song.toLowerCase().includes($('#search_input_all').val().toLowerCase()));
+
+          const totalData = filteredData.length;
+          const totalPages = Math.ceil(totalData / pageSize);
+
+          const startIndex = (currentPage - 1) * pageSize + 1;
+          const endIndex = Math.min(startIndex + pageSize - 1, totalData);
+
+          const paginationContainer = $('#pagination-container');
+          paginationContainer.empty();
+
+          const previousButton = $('<button>')
+            .addClass('btn-pagination')
+            .text('Previous')
+            .prop('disabled', currentPage === 1)
+            .on('click', () => {
+              if (currentPage > 1) {
+                currentPage--;
+                updateTable();
+                renderPagination();
+              }
+            });
+
+          const nextButton = $('<button>')
+            .addClass('btn-pagination')
+            .text('Next')
+            .prop('disabled', currentPage === totalPages)
+            .on('click', () => {
+              if (currentPage < totalPages) {
+                currentPage++;
+                updateTable();
+                renderPagination();
+              }
+            });
+
+          const paginationInfo = $('<span>').addClass('text-pagination').text(`Showing ${startIndex} to ${endIndex} of ${totalData} entries`);
+
+          paginationContainer.append(previousButton, paginationInfo, nextButton);
+        }
+
+        // Rows per page selector
+        $('#maxRows').on('change', function () {
+          pageSize = parseInt($(this).val(), 10);
+          currentPage = 1;
+          updateTable();
+          renderPagination();
+        });
+
+        // Search input
+        $('#search_input_all').on('input', function () {
+          currentPage = 1;
+          updateTable();
+          renderPagination();
         });
       });
     </script>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="page-title">Chords Viewer</title>
+    <link href="Image/icon.png" rel="icon" />
+    <link rel="stylesheet" href="tabs-layout.css" />
+    <script src="jquery-3.7.0.min.js"></script>
+  </head>
+  <body>
+    <!-- Main Content -->
+    <main role="main">
+      <!-- Chords Container -->
+      <section class="lyric-container">
+        <h2 id="chord-title">Loading...</h2>
+        <div id="transposebutton"></div>
+        <div id="chord-content" aria-live="polite">
+          <p>Loading tabs...</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="tabs-script.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        // Get URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const artist = urlParams.get('artist') || 'Unknown Artist';
+        const song = urlParams.get('song') || 'Unknown Song';
+        const tabsFile = urlParams.get('tabs')?.trim();
+
+        // Update page title and header
+        $('#page-title').text(`${artist} - ${song}`);
+        $('#chord-title').text(`${artist} - ${song}`);
+
+        // Load tabs content
+        if (tabsFile) {
+          $('#chord-content').html('<p>Loading tabs...</p>'); // Placeholder
+          $.ajax({
+            url: tabsFile,
+            method: 'GET',
+            dataType: 'html',
+            success: function (data) {
+              $('#chord-content').html(data);
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+              console.error('Failed to load tabs:', tabsFile, textStatus, errorThrown);
+              $('#chord-content').html(`
+                <p style="color: red;">
+                  Failed to load tabs file.<br>
+                  <strong>File:</strong> ${tabsFile}<br>
+                  <strong>Status:</strong> ${jqXHR.status} (${textStatus})
+                </p>
+              `);
+            },
+          });
+        } else {
+          console.error('Tabs file URL is missing.');
+          $('#chord-content').html('<p style="color: red;">No tabs file specified.</p>');
+        }
+      });
+    </script>
+  </body>
+</html>
