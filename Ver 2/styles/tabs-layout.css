@@ -1,0 +1,224 @@
+body {
+  background-color: #f8f6f0 rgb(248, 246, 240);
+  margin: 0;
+  padding: 0;
+}
+.chords {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  font-weight: bold;
+  margin: 1em 0;
+  font-size: 2.5vw;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+}
+.tabs {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  font-weight: bold;
+  margin: 1em 0;
+  font-size: 1.9vw;
+  padding-left: 1.5vw;
+}
+h4 {
+  text-align: center;
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+  font-size: 3vw;
+}
+
+/* ============transposebutton============ */
+.transposebutton {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2vw;
+  color: #fff;
+  border-style: solid;
+  border-radius: 5px;
+  background: #85929e;
+  padding: 0vw;
+  flex-wrap: wrap;
+}
+
+.transposebutton a,
+.transposebutton button {
+  flex: 1 1 auto;
+  margin: 0.5vw;
+}
+
+.button {
+  border-radius: 8px;
+  width: 1vw;
+  height: 3vw;
+  font-size: 2vw;
+  font-weight: bolder;
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+.button.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.lyrics {
+  display: none;
+  background-color: #d9d9d9;
+  border-radius: 8px;
+  font-family: monospace;
+  white-space: pre;
+  font-weight: bold;
+  margin: 1em 0;
+  font-size: 1.9vw;
+  padding-left: 1.5vw;
+}
+
+.toggle-container {
+  display: inline-block;
+  position: relative;
+  width: 3.5rem;
+  height: 1.75rem;
+  margin: 0 0.625rem;
+}
+
+.toggle-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 2rem;
+}
+
+.toggle-slider:before {
+  position: absolute;
+  content: '';
+  height: 1.75rem;
+  width: 1.75rem;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .toggle-slider {
+  background-color: #0a3091;
+}
+
+input:focus + .toggle-slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .toggle-slider:before {
+  transform: translateX(1.75rem);
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+/* Responsivitas */
+@media (max-width: 768px) {
+  .toggle-container {
+    width: 3rem;
+    height: 1.5rem;
+  }
+
+  .toggle-slider:before {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  input:checked + .toggle-slider:before {
+    transform: translateX(1.5rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .toggle-container {
+    width: 2.5rem;
+    height: 1.25rem;
+  }
+
+  .toggle-slider:before {
+    height: 1.25rem;
+    width: 1.25rem;
+  }
+
+  input:checked + .toggle-slider:before {
+    transform: translateX(1.25rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .transposebutton {
+    font-size: 4vw;
+  }
+
+  .button {
+    width: 2vw;
+    height: 5vw;
+    font-size: 3vw;
+  }
+}
+
+section {
+  display: none;
+}
+
+section.active {
+  display: block;
+}
+/* 
+========================visibility button===================== */
+
+#chords-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.chords-gallery {
+  margin: 0px;
+  width: calc(25% - 20px);
+}
+
+.chords-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1200px) {
+  .chords-gallery {
+    width: calc(25% - 20px);
+  }
+}
+
+@media (max-width: 900px) {
+  .chords-gallery {
+    width: calc(25% - 20px);
+  }
+}
+
+@media (max-width: 600px) {
+  .chords-gallery {
+    width: calc(27% - 20px);
+  }
+}
+
+@media (max-width: 400px) {
+  .chords-gallery {
+    width: 27%;
+  }
+}

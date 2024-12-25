@@ -1,0 +1,14 @@
+project-root/
+│
+├── index.html           # File utama menampilkan da tabel
+├── tabs-layout.html     # File untuk menampilkan file tab
+├── tabs-layout.css      # File CSS untuk styling tabs-layout.html
+├── style.css            # File CSS untuk styling index.html
+├── script.js            # File javascript untuk index.html
+├── tabs-script.js       # File javascript untuk tabs-layout.html
+├── data.json            # File data tabel yang akan ditangkap index.html
+├── Tab/
+│   └── artist-song.html   # File tab lagu
+├── images/
+│   └── icon.png         # Ikon untuk halaman (jika ada gambar lain, simpan di folder ini)
+└── README.md            # Dokumentasi proyek (opsional, untuk menjelaskan proyek)
