@@ -1,5 +1,28 @@
 // tabs-script.js
 
+//load components/transpose-button.html
+function loadComponent(componentPath, targetElementId) {
+  fetch(componentPath)
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`Failed to load component from ${componentPath}`);
+      }
+      return response.text();
+    })
+    .then((html) => {
+      document.getElementById(targetElementId).innerHTML = html;
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+}
+
+// Event listener saat DOM siap
+document.addEventListener('DOMContentLoaded', () => {
+  // Muat komponen transpose-button dari folder components
+  loadComponent('https://gtabs.vercel.app/layout2/components/transpose-button.html', 'transpose-container');
+});
+
 // Function to transpose chords
 function transposeChords(step) {
   const chordsElements = document.querySelectorAll('.chords.showTip');

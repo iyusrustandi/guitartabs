@@ -4,43 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title id="page-title">Guitar Tabs</title>
-    <link href="assets/images/icon.png" rel="icon" />
-    <link rel="stylesheet" href="styles/tabs-layout.css" />
+    <link href="https://gtabs.vercel.app/layout2/images/icon.png" rel="icon" />
+    <link rel="stylesheet" href="https://gtabs.vercel.app/layout2/styles/tabs-layout.css" />
   </head>
   <body>
     <div class="container">
       <h4><span id="artist"></span> - <span id="song"></span></h4>
-      <div class="transposebutton">
-        <a>Chords</a>
-        <button class="button" id="transposeminus">➖</button>
-        <button class="button" id="transposeplus">➕</button>
-        <a>Tabs </a>
-        <button class="button" onclick="decreaseTab()">➖</button>
-        <button class="button" onclick="increaseTab()">➕</button>
-        <a>Lyrics</a>
-        <label class="toggle-container">
-          <input type="checkbox" id="toggleLyrics" />
-          <span class="toggle-slider"></span>
-        </label>
-      </div>
-      <div class="transposebutton" id="tabs-nav">
-        <button class="button" href="#onC">C</button>
-        <button class="button" href="#onC#">C#</button>
-        <button class="button" href="#onD">D</button>
-        <button class="button" href="#onD#">D#</button>
-        <button class="button" href="#onE">E</button>
-        <button class="button" href="#onF">F</button>
-        <button class="button" href="#onF#">F#</button>
-        <button class="button" href="#onG">G</button>
-        <button class="button" href="#onG#">G#</button>
-        <button class="button" href="#onA">A</button>
-        <button class="button" href="#onBb">Bb</button>
-        <button class="button" href="#onB">B</button>
-      </div>
+      <div id="transpose-container"></div>
+
       <div id="tabs-content" class="tabs-output">
         <p>Loading tabs...</p>
       </div>
     </div>
-    <script src="scripts/tabs-script.js"></script>
+    <script src="https://gtabs.vercel.app/layout2/scripts/tabs-script.js"></script>
   </body>
 </html>

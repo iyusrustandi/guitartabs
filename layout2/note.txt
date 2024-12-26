@@ -12,3 +12,15 @@ project-root/
 ├── images/
 │   └── icon.png         # Ikon untuk halaman (jika ada gambar lain, simpan di folder ini)
 └── README.md            # Dokumentasi proyek (opsional, untuk menjelaskan proyek)
+
+project/
+├── index.html
+├── components/
+│   └── transpose-button.html
+├── transpose-button.html
+├── styles/
+│   └── tabs-layout.css
+├── scripts/
+│   └── tabs-script.js
+└── assets/
+    └── images/
