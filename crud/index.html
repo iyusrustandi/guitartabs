@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD Tabs Manager</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <h1>CRUD Tabs Manager</h1>
+      </header>
+
+      <!-- Table Section -->
+      <div class="table-container">
+        <button id="addNewButton" class="btn-add">Add New Tab</button>
+        <table>
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Artist</th>
+              <th>Song</th>
+              <th>Note</th>
+              <th>Tabs</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Add Form Modal -->
+    <div id="formModal" class="modal hidden">
+      <div class="modal-content">
+        <button id="closeModal" class="close-btn">X</button>
+        <!-- Form Component will be loaded here -->
+        <div id="formComponent"></div>
+      </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

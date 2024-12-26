@@ -1,0 +1,41 @@
+<!-- Form Add New -->
+<link rel="stylesheet" href="../styles/form.css" />
+
+<form id="addTabForm" class="form-container">
+  <label for="artist">Artist:</label>
+  <input type="text" id="artist" name="artist" required />
+
+  <label for="song">Song:</label>
+  <input type="text" id="song" name="song" required />
+
+  <label for="tabs">Tabs:</label>
+  <textarea id="tabs" name="tabs" rows="5" required></textarea>
+
+  <label for="note">Note:</label>
+  <select id="note" name="note" required>
+    <option value="C">C</option>
+    <option value="C#">C#</option>
+    <option value="D">D</option>
+    <option value="D#">D#</option>
+    <option value="E">E</option>
+    <option value="F">F</option>
+    <option value="F#">F#</option>
+    <option value="G">G</option>
+    <option value="G#">G#</option>
+    <option value="A">A</option>
+    <option value="Bb">Bb</option>
+    <option value="B">B</option>
+  </select>
+
+  <label class="checkbox-container">
+    <input type="checkbox" id="setActive" name="setActive" />
+    Set as active tab
+  </label>
+
+  <button type="submit" class="btn-submit">Add Tab</button>
+</form>
+
+<!-- Tabs Container -->
+<div class="tabs-container" id="tabsContainer"></div>
+
+<script src="../scripts/form.js"></script>
