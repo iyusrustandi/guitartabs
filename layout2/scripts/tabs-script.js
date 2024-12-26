@@ -7,8 +7,8 @@ const transposeButtonHTML = `
     <button class="button" id="transposeminus">➖</button>
     <button class="button" id="transposeplus">➕</button>
     <a>Tabs </a>
-    <button class="button" onclick="decreaseTab()">➖</button>
-    <button class="button" onclick="increaseTab()">➕</button>
+    <button class="button" data-action="decreaseTab">➖</button>
+    <button class="button" data-action="increaseTab">➕</button>
     <a>Lyrics</a>
     <label class="toggle-container">
       <input type="checkbox" id="toggleLyrics" />
@@ -16,18 +16,18 @@ const transposeButtonHTML = `
     </label>
   </div>
   <div class="transposebutton" id="tabs-nav">
-    <button class="button" href="#onC">C</button>
-    <button class="button" href="#onC#">C#</button>
-    <button class="button" href="#onD">D</button>
-    <button class="button" href="#onD#">D#</button>
-    <button class="button" href="#onE">E</button>
-    <button class="button" href="#onF">F</button>
-    <button class="button" href="#onF#">F#</button>
-    <button class="button" href="#onG">G</button>
-    <button class="button" href="#onG#">G#</button>
-    <button class="button" href="#onA">A</button>
-    <button class="button" href="#onBb">Bb</button>
-    <button class="button" href="#onB">B</button>
+    <button class="button" data-target="onC">C</button>
+    <button class="button" data-target="onC#">C#</button>
+    <button class="button" data-target="onD">D</button>
+    <button class="button" data-target="onD#">D#</button>
+    <button class="button" data-target="onE">E</button>
+    <button class="button" data-target="onF">F</button>
+    <button class="button" data-target="onF#">F#</button>
+    <button class="button" data-target="onG">G</button>
+    <button class="button" data-target="onG#">G#</button>
+    <button class="button" data-target="onA">A</button>
+    <button class="button" data-target="onBb">Bb</button>
+    <button class="button" data-target="onB">B</button>
   </div>
 `;
 
@@ -41,26 +41,7 @@ function injectTransposeButton(targetElementId) {
   }
 }
 
-// Event listener untuk DOMContentLoaded
-document.addEventListener('DOMContentLoaded', () => {
-  injectTransposeButton('transpose-container'); // Menyisipkan ke elemen dengan ID 'transpose-container'
-
-  // Tambahkan event listener untuk tombol transpose
-  document.getElementById('transposeminus').addEventListener('click', () => transposeChords(-1));
-  document.getElementById('transposeplus').addEventListener('click', () => transposeChords(1));
-
-  document.querySelectorAll('.button[onclick="decreaseTab()"]').forEach((button) => {
-    button.addEventListener('click', () => transposeTabs(-1));
-  });
-
-  document.querySelectorAll('.button[onclick="increaseTab()"]').forEach((button) => {
-    button.addEventListener('click', () => transposeTabs(1));
-  });
-
-  document.getElementById('toggleLyrics').addEventListener('change', toggleLyrics);
-});
-
-// Function to transpose chords
+// Fungsi untuk transpose chords
 function transposeChords(step) {
   const chordsElements = document.querySelectorAll('.chords.showTip');
   chordsElements.forEach((element) => {
@@ -70,7 +51,7 @@ function transposeChords(step) {
   });
 }
 
-// Helper function to transpose individual chords
+// Helper function untuk transpose chord individual
 function transposeChord(chord, step) {
   const notes = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
   const flatNotes = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
@@ -86,7 +67,7 @@ function transposeChord(chord, step) {
   return notes[index] + modifier;
 }
 
-// Function to transpose tab numbers
+// Fungsi untuk transpose tab numbers
 function transposeTabs(step) {
   const tabsElements = document.querySelectorAll('.tabs');
   tabsElements.forEach((element) => {
@@ -96,7 +77,7 @@ function transposeTabs(step) {
   });
 }
 
-// Function to toggle lyrics visibility
+// Fungsi untuk toggle visibility lirik
 function toggleLyrics() {
   const lyricsElements = document.querySelectorAll('.lyrics');
   lyricsElements.forEach((element) => {
@@ -104,53 +85,7 @@ function toggleLyrics() {
   });
 }
 
-// Event listeners for transpose buttons
-document.getElementById('transposeminus').addEventListener('click', () => transposeChords(-1));
-document.getElementById('transposeplus').addEventListener('click', () => transposeChords(1));
-
-document.querySelectorAll('.button[onclick="decreaseTab()"]').forEach((button) => {
-  button.addEventListener('click', () => transposeTabs(-1));
-});
-
-document.querySelectorAll('.button[onclick="increaseTab()"]').forEach((button) => {
-  button.addEventListener('click', () => transposeTabs(1));
-});
-
-document.getElementById('toggleLyrics').addEventListener('change', toggleLyrics);
-
-// Initialize lyrics as hidden by default
-window.addEventListener('DOMContentLoaded', () => {
-  toggleLyrics();
-
-  // Update page title based on query parameters
-  const params = new URLSearchParams(window.location.search);
-  const artist = params.get('artist');
-  const song = params.get('song');
-
-  document.getElementById('artist').textContent = artist || 'Unknown Artist';
-  document.getElementById('song').textContent = song || 'Unknown Song';
-
-  updatePageTitle(artist, song);
-
-  // Load tabs if provided in URL
-  const tabs = params.get('tabs');
-  if (tabs) {
-    loadTabs(tabs);
-  } else {
-    document.getElementById('tabs-content').innerHTML = '<p>No tabs available.</p>';
-  }
-
-  // Add event listener for navigation buttons
-  document.querySelectorAll('#tabs-nav .button').forEach((button) => {
-    button.addEventListener('click', (event) => {
-      event.preventDefault(); // Avoid default navigation
-      const targetId = button.getAttribute('href').substring(1);
-      activateSection(targetId);
-    });
-  });
-});
-
-// Helper functions for page updates and tab loading
+// Fungsi untuk update title berdasarkan artist dan lagu
 function updatePageTitle(artist, song) {
   if (artist && song) {
     document.title = `${artist} - ${song} | Guitar Tabs`;
@@ -163,6 +98,96 @@ function updatePageTitle(artist, song) {
   }
 }
 
+// Fungsi untuk navigasi section
+function activateSection(id) {
+  // Hapus class active dari semua section
+  document.querySelectorAll('section').forEach((section) => section.classList.remove('active'));
+
+  // Tambahkan class active ke section target
+  const targetSection = document.getElementById(id);
+  if (targetSection) {
+    targetSection.classList.add('active');
+  }
+
+  // Sinkronisasi tombol
+  syncActiveButton(id);
+}
+
+function syncActiveButton(activeSectionId) {
+  // Hapus class active dari semua tombol
+  document.querySelectorAll('#tabs-nav .button').forEach((button) => {
+    button.classList.remove('active');
+  });
+
+  // Tambahkan class active ke tombol yang sesuai
+  const activeButton = document.querySelector(`#tabs-nav .button[data-target="${activeSectionId}"]`);
+  if (activeButton) {
+    activeButton.classList.add('active');
+  }
+}
+
+// Event listener untuk tombol
+document.querySelectorAll('#tabs-nav .button').forEach((button) => {
+  button.addEventListener('click', () => {
+    const targetId = button.getAttribute('data-target');
+    activateSection(targetId);
+  });
+});
+
+// Event listener utama untuk DOMContentLoaded
+document.addEventListener('DOMContentLoaded', () => {
+  injectTransposeButton('transpose-container');
+
+  // Event listener untuk tombol transpose
+  const transposeMinusButton = document.getElementById('transposeminus');
+  const transposePlusButton = document.getElementById('transposeplus');
+  const toggleLyricsCheckbox = document.getElementById('toggleLyrics');
+
+  if (transposeMinusButton) {
+    transposeMinusButton.addEventListener('click', () => transposeChords(-1));
+  }
+
+  if (transposePlusButton) {
+    transposePlusButton.addEventListener('click', () => transposeChords(1));
+  }
+
+  if (toggleLyricsCheckbox) {
+    toggleLyricsCheckbox.addEventListener('change', toggleLyrics);
+  }
+
+  // Event listener untuk tombol tab transpose
+  document.querySelectorAll('.button[data-action="decreaseTab"]').forEach((button) => {
+    button.addEventListener('click', () => transposeTabs(-1));
+  });
+
+  document.querySelectorAll('.button[data-action="increaseTab"]').forEach((button) => {
+    button.addEventListener('click', () => transposeTabs(1));
+  });
+
+  // Event listener untuk navigasi tab
+  document.querySelectorAll('#tabs-nav .button').forEach((button) => {
+    button.addEventListener('click', (event) => {
+      event.preventDefault();
+      const targetId = button.getAttribute('data-target');
+      activateSection(targetId);
+    });
+  });
+
+  // Inisialisasi lirik tersembunyi
+  toggleLyrics();
+
+  // Update judul halaman berdasarkan parameter
+  const params = new URLSearchParams(window.location.search);
+  const artist = params.get('artist');
+  const song = params.get('song');
+
+  document.getElementById('artist').textContent = artist || 'Unknown Artist';
+  document.getElementById('song').textContent = song || 'Unknown Song';
+
+  updatePageTitle(artist, song);
+});
+
+// Fungsi untuk memuat tabs dari path
 function loadTabs(tabsPath) {
   const tabsContent = document.getElementById('tabs-content');
 
@@ -173,29 +198,29 @@ function loadTabs(tabsPath) {
     })
     .then((html) => {
       tabsContent.innerHTML = html;
-      syncActiveButton(); // Sync active button after content is loaded
+      syncActiveButton();
     })
     .catch(() => {
       tabsContent.innerHTML = '<p>Error: Tabs file could not be loaded.</p>';
     });
 }
 
-function activateSection(id) {
-  document.querySelectorAll('#tabs-nav .button').forEach((btn) => btn.classList.remove('active'));
-  document.querySelectorAll('section').forEach((section) => section.classList.remove('active'));
+// Ambil parameter dari URL
+const params = new URLSearchParams(window.location.search);
+const artist = params.get('artist') || 'Unknown Artist';
+const song = params.get('song') || 'Unknown Song';
 
-  const targetButton = document.querySelector(`#tabs-nav .button[href="#${id}"]`);
-  const targetSection = document.getElementById(id);
+// Tampilkan nama artist dan song di halaman
+document.getElementById('artist').textContent = artist;
+document.getElementById('song').textContent = song;
 
-  if (targetButton) targetButton.classList.add('active');
-  if (targetSection) targetSection.classList.add('active');
-}
+// Update title halaman
+document.title = `${artist} - ${song} | Guitar Tabs`;
 
-function syncActiveButton() {
-  const activeSection = document.querySelector('section.active');
-  if (activeSection) {
-    const activeId = activeSection.id;
-    const activeButton = document.querySelector(`#tabs-nav .button[href="#${activeId}"]`);
-    if (activeButton) activeButton.classList.add('active');
-  }
+// Load tabs jika ada dalam URL
+const tabs = params.get('tabs');
+if (tabs) {
+  loadTabs(tabs);
+} else {
+  document.getElementById('tabs-content').innerHTML = '<p>No tabs available.</p>';
 }
