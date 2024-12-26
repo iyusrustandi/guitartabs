@@ -1,26 +1,63 @@
 // tabs-script.js
 
-//load components/transpose-button.html
-function loadComponent(componentPath, targetElementId) {
-  fetch(componentPath)
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error(`Failed to load component from ${componentPath}`);
-      }
-      return response.text();
-    })
-    .then((html) => {
-      document.getElementById(targetElementId).innerHTML = html;
-    })
-    .catch((error) => {
-      console.error(error);
-    });
+// Isi HTML dari transpose-button.html sebagai string
+const transposeButtonHTML = `
+  <div class="transposebutton">
+    <a>Chords</a>
+    <button class="button" id="transposeminus">➖</button>
+    <button class="button" id="transposeplus">➕</button>
+    <a>Tabs </a>
+    <button class="button" onclick="decreaseTab()">➖</button>
+    <button class="button" onclick="increaseTab()">➕</button>
+    <a>Lyrics</a>
+    <label class="toggle-container">
+      <input type="checkbox" id="toggleLyrics" />
+      <span class="toggle-slider"></span>
+    </label>
+  </div>
+  <div class="transposebutton" id="tabs-nav">
+    <button class="button" href="#onC">C</button>
+    <button class="button" href="#onC#">C#</button>
+    <button class="button" href="#onD">D</button>
+    <button class="button" href="#onD#">D#</button>
+    <button class="button" href="#onE">E</button>
+    <button class="button" href="#onF">F</button>
+    <button class="button" href="#onF#">F#</button>
+    <button class="button" href="#onG">G</button>
+    <button class="button" href="#onG#">G#</button>
+    <button class="button" href="#onA">A</button>
+    <button class="button" href="#onBb">Bb</button>
+    <button class="button" href="#onB">B</button>
+  </div>
+`;
+
+// Fungsi untuk menyisipkan HTML ke dalam elemen target
+function injectTransposeButton(targetElementId) {
+  const targetElement = document.getElementById(targetElementId);
+  if (targetElement) {
+    targetElement.innerHTML = transposeButtonHTML;
+  } else {
+    console.error(`Element with ID '${targetElementId}' not found.`);
+  }
 }
 
-// Event listener saat DOM siap
+// Event listener untuk DOMContentLoaded
 document.addEventListener('DOMContentLoaded', () => {
-  // Muat komponen transpose-button dari folder components
-  loadComponent('https://gtabs.vercel.app/layout2/components/transpose-button.html', 'transpose-container');
+  injectTransposeButton('transpose-container'); // Menyisipkan ke elemen dengan ID 'transpose-container'
+
+  // Tambahkan event listener untuk tombol transpose
+  document.getElementById('transposeminus').addEventListener('click', () => transposeChords(-1));
+  document.getElementById('transposeplus').addEventListener('click', () => transposeChords(1));
+
+  document.querySelectorAll('.button[onclick="decreaseTab()"]').forEach((button) => {
+    button.addEventListener('click', () => transposeTabs(-1));
+  });
+
+  document.querySelectorAll('.button[onclick="increaseTab()"]').forEach((button) => {
+    button.addEventListener('click', () => transposeTabs(1));
+  });
+
+  document.getElementById('toggleLyrics').addEventListener('change', toggleLyrics);
 });
 
 // Function to transpose chords
