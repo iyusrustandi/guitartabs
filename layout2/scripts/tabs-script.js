@@ -76,6 +76,15 @@ function updatePageTitle(artist, song) {
   document.title = `${artist || 'Unknown Artist'} - ${song || 'Unknown Song'} | Guitar Tabs`;
 }
 
+function initializeArtistAndSong(params) {
+  const artist = params.get('artist');
+  const song = params.get('song');
+
+  document.getElementById('artist').textContent = artist || 'Unknown Artist';
+  document.getElementById('song').textContent = song || 'Unknown Song';
+  updatePageTitle(artist, song);
+}
+
 // --- Section Navigation Functions ---
 function updateButtonStyles(activeSectionId) {
   const buttons = document.querySelectorAll('.button');
@@ -134,12 +143,7 @@ document.addEventListener('DOMContentLoaded', function () {
   toggleLyrics();
 
   const params = new URLSearchParams(window.location.search);
-  const artist = params.get('artist');
-  const song = params.get('song');
-
-  document.getElementById('artist').textContent = artist || 'Unknown Artist';
-  document.getElementById('song').textContent = song || 'Unknown Song';
-  updatePageTitle(artist, song);
+  initializeArtistAndSong(params);
 
   const tabs = params.get('tabs');
   if (tabs) loadTabs(tabs);

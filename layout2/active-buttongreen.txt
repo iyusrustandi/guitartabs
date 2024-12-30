@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transpose Buttons</title>
+    <style>
+        .button {
+            background-color: white; /* Default button color */
+            border: 1px solid #ccc;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .button.active {
+            background-color: green; /* Active button color */
+            color: white; /* Text color for active button */
+        }
+
+        section {
+            display: none; /* Hide all sections by default */
+            height: 100px; /* Just for visibility */
+            border: 1px solid #ccc;
+            margin: 10px 0;
+        }
+
+        .active {
+            display: block; /* Show only the active section */
+        }
+    </style>
+</head>
+<body>
+    <div class="transposebutton" id="tabs-nav">
+        <button class="button" data-target="onC">C</button>
+        <button class="button" data-target="onC#">C#</button>
+        <button class="button" data-target="onD">D</button>
+        <button class="button" data-target="onD#">D#</button>
+        <button class="button" data-target="onE">E</button>
+        <button class="button" data-target="onF">F</button>
+        <button class="button" data-target="onF#">F#</button>
+        <button class="button" data-target="onG">G</button>
+        <button class="button" data-target="onG#">G#</button>
+        <button class="button" data-target="onA">A</button>
+        <button class="button" data-target="onBb">Bb</button>
+        <button class="button" data-target="onB">B</button>
+    </div>
+
+    <section class="active" id="onC">Section C</section>
+    <section id="onC#">Section C#</section>
+    <section id="onD">Section D</section>
+    <section id="onD#">Section D#</section>
+    <section id="onE">Section E</section>
+    <section id="onF">Section F</section>
+    <section id="onF#">Section F#</section>
+    <section id="onG">Section G</section>
+    <section id="onG#">Section G#</section>
+    <section id="onA">Section A</section>
+    <section id="onBb">Section Bb</section>
+    <section id="onB">Section B</section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const buttons = document.querySelectorAll('.button');
+            const sections = document.querySelectorAll('section');
+
+            // Function to update button styles based on the active section
+            function updateButtonStyles(activeSectionId) {
+                buttons.forEach(button => {
+                    const targetId = button.getAttribute('data-target');
+                    if (targetId === activeSectionId) {
+                        button.classList.add('active'); // Add active class to the button
+                    } else {
+                        button.classList.remove('active'); // Remove active class from the button
+                    }
+                });
+            }
+
+            // Function to show the active section and hide others
+            function showActiveSection(activeSectionId) {
+                sections.forEach(section => {
+                    if (section.id === activeSectionId) {
+                        section.classList.add('active');
+                        section.style.display = 'block'; // Show the active section
+                    } else {
+                        section.classList.remove('active');
+                        section.style.display = 'none'; // Hide other sections
+                    }
+                });
+            }
+
+            // Initialize the page by showing the active section and updating button styles
+            const initialActiveSectionId = document.querySelector('.active').id;
+            showActiveSection(initialActiveSectionId);
+            updateButtonStyles(initialActiveSectionId);
+
+            // Add click event listeners to buttons
+            buttons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const targetId = button.getAttribute('data-target');
+                    showActiveSection(targetId); // Show the selected section
+                    updateButtonStyles(targetId); // Update button styles
+                });
+            });
+        });
+    </script>
+</body>
