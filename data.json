@@ -1,5 +1,30 @@
 [
   {
+    "artist": "The Beatles ",
+    "song": "I Saw Her Satnding There",
+    "tabs": "https://gtabs.vercel.app/Tab/the-beatles-i-saw-her-standing-there.html"
+  },
+  {
+    "artist": "Melly Goeslaw ft. Ari Lasso ",
+    "song": "Jika",
+    "tabs": "https://gtabs.vercel.app/Tab/melly-goeslaw-ari-lasso-jika.html"
+  },
+  {
+    "artist": "Mulan Jameela ",
+    "song": "Jatuh Cinta Lagi",
+    "tabs": "https://gtabs.vercel.app/Tab/mulan-jameela-jatuh-cinta-lagi.html"
+  },
+  {
+    "artist": "Wali ",
+    "song": "Bukan Bang Toyib",
+    "tabs": "https://gtabs.vercel.app/Tab/wali-bukan-bang-toyib.html"
+  },
+  {
+    "artist": "Instrumental ",
+    "song": "Apuse",
+    "tabs": "https://gtabs.vercel.app/Tab/instrumental-apuse.html"
+  },
+  {
     "artist": "Latiquee Production ",
     "song": "Sajojo (Reggae Cover)",
     "tabs": "https://gtabs.vercel.app/Tab/latiquee-production-sajojo-cover.html"
