@@ -1,5 +1,20 @@
 [
   {
+    "artist": "The Lantis ",
+    "song": "Lampu Merah",
+    "tabs": "https://gtabs.vercel.app/Tab/the-lantis-lampu-merah.html"
+  },
+  {
+    "artist": "West Papua ",
+    "song": "Apuse",
+    "tabs": "https://gtabs.vercel.app/Tab/west-papua-apuse.html"
+  },
+  {
+    "artist": "Hen in Cloud ",
+    "song": "Yamko Rambe Yamko (Reggae)",
+    "tabs": "https://gtabs.vercel.app/Tab/hen-in-cloud-yamko-rambe-yamko.html"
+  },
+  {
     "artist": "Indra and Ageung ",
     "song": "Yamko Rambe Yamko (Cover)",
     "tabs": "https://gtabs.vercel.app/Tab/indra-and-ageung-yamko-rambe-yamko.html"
