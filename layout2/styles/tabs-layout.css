@@ -39,14 +39,13 @@ h4 {
   border-style: solid;
   border-radius: 5px;
   background: #85929e;
-  padding: 0vw;
   flex-wrap: wrap;
 }
 
 .transposebutton a,
 .transposebutton button {
   flex: 1 1 auto;
-  margin: 0.5vw;
+  margin: 2px;
 }
 
 .button {
@@ -124,6 +123,28 @@ input:checked + .toggle-slider:before {
 
 input[type='checkbox'] {
   display: none;
+}
+
+.loading-animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.loading-animation img {
+  width: 50px; /* Sesuaikan ukuran gambar */
+  height: 50px;
+  animation: rotate-loading 2.2s linear infinite;
+}
+
+@keyframes rotate-loading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* Responsivitas */
