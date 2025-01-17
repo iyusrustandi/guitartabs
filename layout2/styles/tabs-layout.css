@@ -22,11 +22,13 @@ body {
   font-size: 1.9vw;
   padding-left: 1.5vw;
 }
-h4 {
+.title {
   text-align: center;
   color: rgb(255, 0, 0);
-  text-decoration: underline;
   font-size: 3vw;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 /* ============transposebutton============ */
@@ -75,54 +77,6 @@ h4 {
   margin: 1em 0;
   font-size: 1.9vw;
   padding-left: 1.5vw;
-}
-
-.toggle-container {
-  display: inline-block;
-  position: relative;
-  width: 3.5rem;
-  height: 1.75rem;
-  margin: 0 0.625rem;
-}
-
-.toggle-slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  transition: 0.4s;
-  border-radius: 2rem;
-}
-
-.toggle-slider:before {
-  position: absolute;
-  content: '';
-  height: 1.75rem;
-  width: 1.75rem;
-  left: 0;
-  bottom: 0;
-  background-color: white;
-  transition: 0.4s;
-  border-radius: 50%;
-}
-
-input:checked + .toggle-slider {
-  background-color: #0a3091;
-}
-
-input:focus + .toggle-slider {
-  box-shadow: 0 0 1px #2196f3;
-}
-
-input:checked + .toggle-slider:before {
-  transform: translateX(1.75rem);
-}
-
-input[type='checkbox'] {
-  display: none;
 }
 
 .loading-animation {
