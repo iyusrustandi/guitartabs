@@ -86,19 +86,10 @@ function updatePageTitle(artist, song) {
 function initializeArtistAndSong(params) {
   const artist = params.get('artist');
   const song = params.get('song');
-  const file = params.get('file');
 
   document.getElementById('artist').textContent = artist || 'Unknown Artist';
   document.getElementById('song').textContent = song || 'Unknown Song';
   updatePageTitle(artist, song);
-
-  if (file) {
-    const audioSource = document.getElementById('audio-source');
-    audioSource.src = file;
-    document.getElementById('audio-player').load();
-  } else {
-    document.getElementById('audio-player').style.display = 'none';
-  }
 }
 
 // --- Section Navigation Functions ---
