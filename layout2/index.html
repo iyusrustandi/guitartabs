@@ -48,22 +48,21 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script>
-      //assets/scripts/script.js
       $(document).ready(function () {
         let tableData = [];
         let pageSize = 15;
         let currentPage = 1;
 
         // Load data from JSON file
-        // Load data from JSON file
-        $.getJSON('/layout2/api/data.json', function (data) {
-          tableData = data;
-          updateTable();
-          renderPagination();
-
-          // Hide the loading overlay once the content is loaded
-          $('.loading-overlay').hide();
-        });
+        $.getJSON('/layout2/api/data.json')
+          .done(function (data) {
+            tableData = data;
+            updateTable();
+            renderPagination();
+          })
+          .fail(function () {
+            alert('Failed to load data. Please try again later.');
+          });
 
         // Update table content
         function updateTable() {

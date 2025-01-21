@@ -1,4 +1,4 @@
-// --- Transpose Button Functions ---
+//tabs-script.js
 const transposeButtonHTML = `
   <div class="transposebutton">
     <a>Chords</a>
@@ -46,16 +46,20 @@ function transposeChords(step) {
 }
 
 function transposeChord(chord, step) {
-  const notes = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+  const notes = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'Bb', 'B'];
   const flatNotes = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
+
+  if (!/^[A-G](#|b)?$/.test(chord)) return chord; // Cek format valid
+
   const scale = chord.includes('b') ? flatNotes : notes;
-  const baseNote = chord[0] + (chord[1] === '#' || chord[1] === 'b' ? chord[1] : '');
+  const baseNote = chord.slice(0, chord.length > 1 && (chord[1] === '#' || chord[1] === 'b') ? 2 : 1);
   const modifier = chord.slice(baseNote.length);
 
   let index = scale.indexOf(baseNote);
   if (index === -1) return chord;
   index = (index + step + scale.length) % scale.length;
-  return notes[index] + modifier;
+
+  return scale[index] + modifier;
 }
 
 function transposeTabs(step) {
@@ -73,16 +77,28 @@ function toggleLyrics() {
 
 // --- Page Title Functions ---
 function updatePageTitle(artist, song) {
-  document.title = `${artist || 'Unknown Artist'} - ${song || 'Unknown Song'} | Guitar Tabs`;
+  const safeArtist = artist ? artist.replace(/</g, '&lt;').replace(/>/g, '&gt;') : 'Unknown Artist';
+  const safeSong = song ? song.replace(/</g, '&lt;').replace(/>/g, '&gt;') : 'Unknown Song';
+
+  document.title = `${safeArtist} - ${safeSong} | Guitar Tabs`;
 }
 
 function initializeArtistAndSong(params) {
   const artist = params.get('artist');
   const song = params.get('song');
+  const file = params.get('file');
 
   document.getElementById('artist').textContent = artist || 'Unknown Artist';
   document.getElementById('song').textContent = song || 'Unknown Song';
   updatePageTitle(artist, song);
+
+  if (file) {
+    const audioSource = document.getElementById('audio-source');
+    audioSource.src = file;
+    document.getElementById('audio-player').load();
+  } else {
+    document.getElementById('audio-player').style.display = 'none';
+  }
 }
 
 // --- Section Navigation Functions ---
