@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="page-title">Guitar Tabs</title>
+    <link href="https://gtabs.vercel.app/images/icon.png" rel="icon" />
+    <link rel="stylesheet" href="https://gtabs.vercel.app/styles/tabs-layout.css" />
+    <!-- <link rel="stylesheet" href="styles/tabs-layout.css" /> -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="title"><span id="artist"></span> - <span id="song"></span></div>
+      <div class="audio-player" id="audio-container"></div>
+      <div id="transpose-container"></div>
+
+      <div id="tabs-content" class="tabs-output">
+        <div class="loading-animation">
+          <img src="https://gtabs.vercel.app/images/loading.png" alt="Loading..." />
+        </div>
+      </div>
+    </div>
+    <script src="https://gtabs.vercel.app/scripts/tabs-script.js"></script>
+    <!-- <script src="scripts/tabs-script.js"></script> -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const params = new URLSearchParams(window.location.search);
+        const artist = params.get('artist') || 'Unknown Artist';
+        const song = params.get('song') || 'Unknown Song';
+        const file = params.get('file');
+
+        document.getElementById('artist').textContent = artist;
+        document.getElementById('song').textContent = song;
+
+        if (file && file.trim() !== '') {
+          document.getElementById('audio-container').innerHTML = `
+            <audio controls>
+              <source src="${file}" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          `;
+        } else {
+          document.getElementById('audio-container').innerHTML = '<div class="no-audio">No Audio</div>';
+        }
+      });
+    </script>
+  </body>
+</html>

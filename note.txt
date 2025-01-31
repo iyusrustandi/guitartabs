@@ -1,0 +1,47 @@
+project-root/
+│
+├── index.html           # File utama menampilkan da tabel
+├── tabs-layout.html     # File untuk menampilkan file tab
+├── tabs-layout.css      # File CSS untuk styling tabs-layout.html
+├── style.css            # File CSS untuk styling index.html
+├── script.js            # File javascript untuk index.html
+├── tabs-script.js       # File javascript untuk tabs-layout.html
+├── data.json            # File data tabel yang akan ditangkap index.html
+├── Tab/
+│   └── artist-song.html   # File tab lagu
+├── images/
+│   └── icon.png         # Ikon untuk halaman (jika ada gambar lain, simpan di folder ini)
+└── README.md            # Dokumentasi proyek (opsional, untuk menjelaskan proyek)
+
+project/
+├── index.html
+├── components/
+│   └── transpose-button.html
+├── transpose-button.html
+├── styles/
+│   └── tabs-layout.css
+├── scripts/
+│   └── tabs-script.js
+└── assets/
+    └── images/
+
+
+How to embed mp3 from dropbox
+
+1. copy link
+2. change the 'dl=0' at the end of the link to 'raw=1'
+
+ <td>
+               ${
+                 item.file
+                   ? `
+                <div class="audio-player">
+                  <audio controls>
+                      <source src="${item.file}" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                  </audio>
+                </div>
+                `
+                   : '<span class="no-audio">No Audio</span>'
+               }
+            </td>
