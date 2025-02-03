@@ -25,11 +25,12 @@ project/
 └── assets/
     └── images/
 
-
+dropbox account backupsatu001
 How to embed mp3 from dropbox
 
 1. copy link
 2. change the 'dl=0' at the end of the link to 'raw=1'
+3. "file": "https://www.dropbox.com/scl/fi/6i13ssfderc2gt2rg1r26/Wijaya-80-Terakhir-Kali.mp3?rlkey=moip5vjo1ipiva8xkak0pgr6z&st=3d1kcj6r&raw=1"
 
  <td>
                ${
