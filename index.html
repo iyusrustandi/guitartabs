@@ -70,7 +70,7 @@
         let currentPage = 1;
 
         // Load data from JSON file
-        $.getJSON('/api/data.json')
+        $.getJSON('https://gtabs.vercel.app/api/data.json')
           .done(function (data) {
             tableData = data;
             updateTable();
