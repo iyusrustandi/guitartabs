@@ -32,6 +32,10 @@ body {
   padding-bottom: 8px;
 }
 
+.audio-loading {
+  font-size: 2vw;
+}
+
 /* ============transposebutton============ */
 .transposebutton {
   display: flex;
