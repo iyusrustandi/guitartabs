@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title id="page-title">Guitar Tabs</title>
     <link href="https://gtabs.vercel.app/images/icon.png" rel="icon" />
-    <link rel="stylesheet" href="https://gtabs.vercel.app/styles/tabs-layout.css" />
+    <link rel="stylesheet" href="https://gtabs.vercel.appstyles/tabs-layout.css" />
   </head>
   <body>
     <div class="container">
@@ -14,13 +14,9 @@
       <div class="audio-player" id="audio-container"></div>
       <div id="transpose-container"></div>
 
-      <div id="tabs-content" class="tabs-output">
-        <div class="loading-animation">
-          <img src="https://gtabs.vercel.app/images/loading.png" alt="Loading..." />
-        </div>
-      </div>
+      <div id="tabs-content" class="tabs-output"></div>
     </div>
-    <script src="https://gtabs.vercel.app/scripts/tabs-script.js"></script>
+    <script src="https://gtabs.vercel.appscripts/tabs-script.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function () {
         const params = new URLSearchParams(window.location.search);
@@ -34,7 +30,7 @@
         if (file && file.trim() !== '') {
           const audioContainer = document.getElementById('audio-container');
           audioContainer.innerHTML = `
-            <div class="audio-loading">Loading audio...</div>
+            <div class="audio-loading">Loading audio ...</div>
             <audio controls id="audio-player">
               <source src="${file}" type="audio/mpeg">
               Your browser does not support the audio element.

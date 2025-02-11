@@ -20,35 +20,14 @@
     "tabs": "https://gtabs.vercel.app/tabs/rio-clappy-bunga-abadi.html"
   },
   {
-    "artist": "Rio Clappy ",
-    "song": "Bunga Abadi",
-    "tabs": "https://gtabs.vercel.app/tabs/rio-clappy-bunga-abadi.html"
-  },
-  {
     "artist": "Tenxi, Naykilla & Jemsii ",
     "song": "Garam dan Madu",
-    "tabs": "https://gtabs.vercel.app/tabs/tenxi-naykilla-jemsii-garam-dan-madu.html",
-    "file": "-",
-    "tracks": {
-      "vocals": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/vocals.mp3",
-      "piano": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/piano.mp3",
-      "bass": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/bass.mp3",
-      "drums": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/drums.mp3",
-      "other": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/other.mp3"
-    }
+    "tabs": "https://gtabs.vercel.app/tabs/tenxi-naykilla-jemsii-garam-dan-madu.html"
   },
   {
     "artist": "Sheila On 7",
     "song": "Shepia",
-    "tabs": "https://gtabs.vercel.app/tabs/sheila-on-7-shepia.html",
-    "file": "-",
-    "tracks": {
-      "vocals": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/vocals.mp3",
-      "piano": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/piano.mp3",
-      "bass": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/bass.mp3",
-      "drums": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/drums.mp3",
-      "other": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/other.mp3"
-    }
+    "tabs": "https://gtabs.vercel.app/tabs/sheila-on-7-shepia.html"
   },
   {
     "artist": "Ada Band",

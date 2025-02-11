@@ -164,7 +164,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function loadTabs(tabsPath) {
   const tabsContent = document.getElementById('tabs-content');
-  tabsContent.innerHTML = '<p>Loading tabs...</p>'; // Indikasi loading
+
+  // Menampilkan animasi loading
+  tabsContent.innerHTML = `
+    <div class="loading-animation">
+      <img src="https://gtabs.vercel.app/images/loading.png" alt="Loading..." />
+    </div>
+  `;
 
   fetch(tabsPath)
     .then((response) => {
