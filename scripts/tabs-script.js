@@ -1,4 +1,4 @@
-//tabs-script.js
+//scripts/tabs-script.js
 const transposeButtonHTML = `
   <div class="transposebutton">
     <a>Chords</a>
@@ -49,7 +49,7 @@ function transposeChord(chord, step) {
   const notes = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'Bb', 'B'];
   const flatNotes = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
 
-  if (!/^[A-G](#|b)?$/.test(chord)) return chord; // Cek format valid
+  if (!/^[A-G](#|b)?$/.test(chord)) return chord;
 
   const scale = chord.includes('b') ? flatNotes : notes;
   const baseNote = chord.slice(0, chord.length > 1 && (chord[1] === '#' || chord[1] === 'b') ? 2 : 1);
@@ -84,11 +84,11 @@ function updatePageTitle(artist, song) {
 }
 
 function initializeArtistAndSong(params) {
-  const artist = params.get('artist');
-  const song = params.get('song');
+  const artist = params.get('artist') || 'Unknown Artist';
+  const song = params.get('song') || 'Unknown Song';
 
-  document.getElementById('artist').textContent = artist || 'Unknown Artist';
-  document.getElementById('song').textContent = song || 'Unknown Song';
+  document.getElementById('artist').textContent = artist;
+  document.getElementById('song').textContent = song;
   updatePageTitle(artist, song);
 }
 
@@ -156,20 +156,28 @@ document.addEventListener('DOMContentLoaded', function () {
   if (tabs) loadTabs(tabs);
 
   // Initialize the page by showing the active section and updating button styles
-  const initialActiveSectionId = document.querySelector('.active').id;
-  activateSection(initialActiveSectionId);
+  const initialActiveSection = document.querySelector('.active');
+  if (initialActiveSection) {
+    activateSection(initialActiveSection.id);
+  }
 });
 
 function loadTabs(tabsPath) {
   const tabsContent = document.getElementById('tabs-content');
+  tabsContent.innerHTML = '<p>Loading tabs...</p>'; // Indikasi loading
+
   fetch(tabsPath)
-    .then((response) => (response.ok ? response.text() : Promise.reject('File not found')))
+    .then((response) => {
+      if (!response.ok) throw new Error('Tabs file not found');
+      return response.text();
+    })
     .then((html) => {
       tabsContent.innerHTML = html;
-      const initialActiveSectionId = document.querySelector('.active').id;
-      updateButtonStyles(initialActiveSectionId);
+      const initialActiveSection = document.querySelector('.active')?.id;
+      if (initialActiveSection) updateButtonStyles(initialActiveSection);
     })
-    .catch(() => {
-      tabsContent.innerHTML = '<p>Error: Tabs file could not be loaded.</p>';
+    .catch((error) => {
+      console.error(error);
+      tabsContent.innerHTML = '<p style="color: red;">Error: Unable to load guitar tabs.</p>';
     });
 }

@@ -1,15 +1,93 @@
 [
   {
-    "artist": "Haddad Alwi ",
+    "artist": "Opick ",
+    "song": "Tombo Ati",
+    "tabs": "https://gtabs.vercel.app/tabs/opick-tombo-ati.html"
+  },
+  {
+    "artist": "Ungu ",
+    "song": "Jika Itu Yang Terbaik",
+    "tabs": "https://gtabs.vercel.app/tabs/ungu-jika-itu-yang-terbaik.html"
+  },
+  {
+    "artist": "Ada Band ",
+    "song": "Pemain Cinta",
+    "tabs": "https://gtabs.vercel.app/tabs/ada-band-pemain-cinta.html"
+  },
+  {
+    "artist": "Rio Clappy ",
+    "song": "Bunga Abadi",
+    "tabs": "https://gtabs.vercel.app/tabs/rio-clappy-bunga-abadi.html"
+  },
+  {
+    "artist": "Rio Clappy ",
+    "song": "Bunga Abadi",
+    "tabs": "https://gtabs.vercel.app/tabs/rio-clappy-bunga-abadi.html"
+  },
+  {
+    "artist": "Tenxi, Naykilla & Jemsii ",
+    "song": "Garam dan Madu",
+    "tabs": "https://gtabs.vercel.app/tabs/tenxi-naykilla-jemsii-garam-dan-madu.html",
+    "file": "-",
+    "tracks": {
+      "vocals": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/vocals.mp3",
+      "piano": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/piano.mp3",
+      "bass": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/bass.mp3",
+      "drums": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/drums.mp3",
+      "other": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/other.mp3"
+    }
+  },
+  {
+    "artist": "Sheila On 7",
+    "song": "Shepia",
+    "tabs": "https://gtabs.vercel.app/tabs/sheila-on-7-shepia.html",
+    "file": "-",
+    "tracks": {
+      "vocals": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/vocals.mp3",
+      "piano": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/piano.mp3",
+      "bass": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/bass.mp3",
+      "drums": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/drums.mp3",
+      "other": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/other.mp3"
+    }
+  },
+  {
+    "artist": "Ada Band",
+    "song": "Nyawa Hidupku",
+    "tabs": "https://gtabs.vercel.app/tabs/ada-band-nyawa-hidupku.html",
+    "file": "-",
+    "tracks": {
+      "vocals": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/vocals.mp3",
+      "piano": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/piano.mp3",
+      "bass": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/bass.mp3",
+      "drums": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/drums.mp3",
+      "other": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/other.mp3"
+    }
+  },
+  {
+    "artist": "Haddad Alwi",
     "song": "Al-I'tiroof",
     "tabs": "https://gtabs.vercel.app/tabs/haddad-alwi-al-itiroof.html",
-    "file": "https://www.dropbox.com/scl/fi/6h6zq9rexrzn42kekv7hi/Haddad-Alwi-Al-I-tiroof.mp3?rlkey=bpsansvo9vd386atw4euhit2b&st=p9vbxfpa&raw=1"
+    "file": "https://www.dropbox.com/scl/fi/6h6zq9rexrzn42kekv7hi/Haddad-Alwi-Al-I-tiroof.mp3?rlkey=bpsansvo9vd386atw4euhit2b&st=d2s30jk1&raw=1",
+    "tracks": {
+      "vocals": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/vocals.mp3",
+      "piano": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/piano.mp3",
+      "bass": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/bass.mp3",
+      "drums": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/drums.mp3",
+      "other": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/other.mp3"
+    }
   },
   {
     "artist": "Humood ",
     "song": "Kun Anta",
     "tabs": "https://gtabs.vercel.app/tabs/humood-kun-anta.html",
-    "file": "https://www.dropbox.com/scl/fi/f48xaernhe4mimi87sp8f/Humood-Kun-Anta.mp3?rlkey=e3z11iyowkqvh2jit3h72b3m5&st=kvs5t9sq&raw=1"
+    "file": "https://www.dropbox.com/scl/fi/f48xaernhe4mimi87sp8f/Humood-Kun-Anta.mp3?rlkey=e3z11iyowkqvh2jit3h72b3m5&st=kvs5t9sq&raw=1",
+    "tracks": {
+      "vocals": "https://www.dropbox.com/scl/fi/mmpuxqoex3rc4llv6nlug/vocals.mp3?rlkey=psxr94ta2czhl5kci83x79siu&st=r64g544r&raw=1",
+      "piano": "https://www.dropbox.com/scl/fi/0xnm6akr2lnq7f1fvshjn/piano.mp3?rlkey=sj7bzep16yqlvw6pceoc6lh71&st=2v18vhhq&raw=1",
+      "bass": "https://www.dropbox.com/scl/fi/4as86eylvkvp1r2zogqwa/bass.mp3?rlkey=hizndd0m53nmd0y6t8q0czh8z&st=jfangcii&raw=1",
+      "drums": "https://www.dropbox.com/scl/fi/zzavjz9sq4a46mvv0izo2/drums.mp3?rlkey=9mkkieiud2t7pwul3l2hvnqtj&st=r51kssix&raw=1",
+      "other": "https://www.dropbox.com/scl/fi/hbvasthoo6l77flij39c2/other.mp3?rlkey=1t2wpcfwwoz8tjss6n3wupr7l&st=0t47kzoj&raw=1"
+    }
   },
   {
     "artist": "Slank ",

@@ -1,3 +1,4 @@
+<!-- tabs-layout.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,7 +7,6 @@
     <title id="page-title">Guitar Tabs</title>
     <link href="https://gtabs.vercel.app/images/icon.png" rel="icon" />
     <link rel="stylesheet" href="https://gtabs.vercel.app/styles/tabs-layout.css" />
-    <!-- <link rel="stylesheet" href="styles/tabs-layout.css" /> -->
   </head>
   <body>
     <div class="container">
@@ -21,7 +21,6 @@
       </div>
     </div>
     <script src="https://gtabs.vercel.app/scripts/tabs-script.js"></script>
-    <!-- <script src="scripts/tabs-script.js"></script> -->
     <script>
       document.addEventListener('DOMContentLoaded', function () {
         const params = new URLSearchParams(window.location.search);
@@ -33,14 +32,22 @@
         document.getElementById('song').textContent = song;
 
         if (file && file.trim() !== '') {
-          document.getElementById('audio-container').innerHTML = `
-            <audio controls>
+          const audioContainer = document.getElementById('audio-container');
+          audioContainer.innerHTML = `
+            <div class="audio-loading">Loading audio...</div>
+            <audio controls id="audio-player">
               <source src="${file}" type="audio/mpeg">
               Your browser does not support the audio element.
             </audio>
           `;
-        } else {
-          document.getElementById('audio-container').innerHTML = '<div class="no-audio">No Audio</div>';
+          const audioElement = document.getElementById('audio-player');
+          audioElement.addEventListener('canplay', function () {
+            document.querySelector('.audio-loading').style.display = 'none';
+          });
+
+          audioElement.onerror = function () {
+            audioContainer.innerHTML = '<div class="no-audio">Audio not available</div>';
+          };
         }
       });
     </script>
