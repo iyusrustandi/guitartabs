@@ -1,5 +1,10 @@
 [
   {
+    "artist": "The Beatles ",
+    "song": "The Long And Winding Road",
+    "tabs": "https://gtabs.vercel.app/tabs/the-beatles-the-long-and-winding-road.html"
+  },
+  {
     "artist": "Opick ",
     "song": "Tombo Ati",
     "tabs": "https://gtabs.vercel.app/tabs/opick-tombo-ati.html"
