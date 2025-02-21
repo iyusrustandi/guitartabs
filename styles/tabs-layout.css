@@ -19,9 +19,7 @@ body {
 .tabs {
   display: block;
   font-family: monospace;
-  overflow-x: auto;
-  white-space: pre-wrap;
-  word-wrap: break-word;
+  white-space: pre;
   font-weight: bold;
   margin: 1em 0;
   font-size: 1.9vw;
@@ -82,9 +80,7 @@ body {
   border-color: green;
   border-radius: 4px;
   font-family: monospace;
-  overflow-x: auto;
-  white-space: pre-wrap;
-  word-wrap: break-word;
+  white-space: pre;
   font-weight: bold;
   margin: 1em 0;
   font-size: 1.9vw;
