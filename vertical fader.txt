@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Volume Fader</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #2c3e50, #4ca1af);
+            font-family: Arial, sans-serif;
+        }
+        .mixer-container {
+            display: flex;
+            gap: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .fader-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            width: 60px;
+            font-weight: bold;
+            color: #ecf0f1;
+        }
+        .controls span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 25px;
+            height: 25px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        .volume-label {
+            font-size: 1.5em;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .fader {
+            writing-mode: bt-lr;
+            appearance: slider-vertical;
+            width: 25px;
+            height: 180px;
+            background: linear-gradient(to top, #27ae60, #f1c40f, #e74c3c);
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .fader::-webkit-slider-thumb {
+            appearance: none;
+            width: 25px;
+            height: 25px;
+            background: white;
+            border-radius: 50%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        .track-label {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mixer-container">
+        <div class="fader-container">
+            <div class="controls">
+                <span>S</span>
+                <span>M</span>
+            </div>
+            <input type="range" class="fader" min="0" max="100" value="50">
+            <div class="volume-label">50</div>
+            <div class="track-label">Vocal</div>
+        </div>
+        <div class="fader-container">
+            <div class="controls">
+                <span>S</span>
+                <span>M</span>
+            </div>
+            <input type="range" class="fader" min="0" max="100" value="50">
+            <div class="volume-label">50</div>
+            <div class="track-label">Drum</div>
+        </div>
+        <div class="fader-container">
+            <div class="controls">
+                <span>S</span>
+                <span>M</span>
+            </div>
+            <input type="range" class="fader" min="0" max="100" value="50">
+            <div class="volume-label">50</div>
+            <div class="track-label">Guitar</div>
+        </div>
+        <div class="fader-container">
+            <div class="controls">
+                <span>S</span>
+                <span>M</span>
+            </div>
+            <input type="range" class="fader" min="0" max="100" value="50">
+            <div class="volume-label">50</div>
+            <div class="track-label">Bass</div>
+        </div>
+        <div class="fader-container">
+            <div class="controls">
+                <span>S</span>
+                <span>M</span>
+            </div>
+            <input type="range" class="fader" min="0" max="100" value="50">
+            <div class="volume-label">50</div>
+            <div class="track-label">Music</div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll(".fader").forEach((fader) => {
+            fader.addEventListener("input", function() {
+                this.nextElementSibling.textContent = this.value;
+            });
+        });
+    </script>
+</body>
+</html>
