@@ -1,7 +1,15 @@
 body {
-  background-color: #f8f6f0;
+  background-image: url('https://gtabs.vercel.app//images/background.png');
   margin: 0;
   padding: 0;
+}
+
+.container {
+  background-color: #f8f6f0;
+  margin: auto;
+  border-radius: 4px;
+  border: 1px solid #888;
+  width: 50%;
 }
 
 .chords {
@@ -12,23 +20,38 @@ body {
   word-wrap: break-word;
   font-weight: bold;
   margin: 1em 0;
-  font-size: 2.5vw;
+  font-size: 1.4vw;
   padding-left: 1.5vw;
   padding-right: 1.5vw;
 }
+
 .tabs {
   display: block;
   font-family: monospace;
   white-space: pre;
   font-weight: bold;
   margin: 1em 0;
-  font-size: 1.9vw;
+  font-size: 1vw;
   padding-left: 1.5vw;
 }
+
+.lyrics {
+  display: none;
+  border-style: solid;
+  border-color: green;
+  border-radius: 4px;
+  font-family: monospace;
+  white-space: pre;
+  font-weight: bold;
+  margin: 1em 0;
+  font-size: 1.4vw;
+  padding-left: 1.5vw;
+}
+
 .title {
   text-align: center;
   color: rgb(255, 0, 0);
-  font-size: 3vw;
+  font-size: 2vw;
   font-weight: bold;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -58,10 +81,10 @@ body {
 }
 
 .button {
-  border-radius: 8px;
+  border-radius: 4px;
   width: 1vw;
-  height: 3vw;
-  font-size: 2vw;
+  height: 2vw;
+  font-size: 1.5vw;
   font-weight: bolder;
   background-color: #f0f0f0;
   color: #333;
@@ -72,19 +95,6 @@ body {
 .button.active {
   background-color: #4caf50;
   color: white;
-}
-
-.lyrics {
-  display: none;
-  border-style: solid;
-  border-color: green;
-  border-radius: 4px;
-  font-family: monospace;
-  white-space: pre;
-  font-weight: bold;
-  margin: 1em 0;
-  font-size: 1.9vw;
-  padding-left: 1.5vw;
 }
 
 .loading-animation {
@@ -109,23 +119,6 @@ body {
   }
 }
 
-/* Responsivitas */
-@media (max-width: 768px) {
-  .toggle-container {
-    width: 3rem;
-    height: 1.5rem;
-  }
-
-  .toggle-slider:before {
-    height: 1.5rem;
-    width: 1.5rem;
-  }
-
-  input:checked + .toggle-slider:before {
-    transform: translateX(1.5rem);
-  }
-}
-
 @media (max-width: 480px) {
   .toggle-container {
     width: 2.5rem;
@@ -143,14 +136,49 @@ body {
 }
 
 @media (max-width: 768px) {
+  .container {
+    width: 100%;
+    border: 1px;
+  }
+
+  .title {
+    font-size: 3vw;
+  }
+
+  .chords {
+    font-size: 2.5vw;
+  }
+
+  .tabs {
+    font-size: 1.9vw;
+  }
+
+  .lyrics {
+    font-size: 2.5vw;
+  }
+
   .transposebutton {
     font-size: 3.5vw;
   }
 
   .button {
     width: 2vw;
-    height: 4vw;
+    height: 5vw;
     font-size: 3vw;
+  }
+
+  .toggle-container {
+    width: 3rem;
+    height: 1.5rem;
+  }
+
+  .toggle-slider:before {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  input:checked + .toggle-slider:before {
+    transform: translateX(1.5rem);
   }
 }
 
