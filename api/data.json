@@ -1,6 +1,16 @@
 [
   {
     "artist": "Ungu ",
+    "song": "Bulan Baik",
+    "tabs": "https://gtabs.vercel.app/tabs/ungu-bulan-baik.html"
+  },
+  {
+    "artist": "Noah ",
+    "song": "Suara Dalam Kepala",
+    "tabs": "https://gtabs.vercel.app/tabs/noah-suara-dalam-kepala.html"
+  },
+  {
+    "artist": "Ungu ",
     "song": "Percaya Padaku",
     "tabs": "https://gtabs.vercel.app/tabs/ungu-percaya-padaku.html"
   },
@@ -3462,7 +3472,7 @@
   {
     "artist": "Peterpan ",
     "song": " Walau Habis Terang",
-    "tabs": "https://gtabs.vercel.app/tabs/peterpan-walau-habis-terang.html"
+    "tabs": "https://gtabs.vercel.app/tabs/noah-walau-habis-terang.html"
   },
   {
     "artist": "Peterpan ",

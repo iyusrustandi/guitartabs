@@ -1,18 +1,31 @@
 //scripts/tabs-script.js
 const transposeButtonHTML = `
-  <div class="transposebutton">
+<div class="transposebutton">
     <a>Chords</a>
-    <button class="button" id="transposeminus">➖</button>
-    <button class="button" id="transposeplus">➕</button>
-    <a>Tabs </a>
-    <button class="button" data-action="decreaseTab">➖</button>
-    <button class="button" data-action="increaseTab">➕</button>
+    <button class="button" id="transposeminus">
+        <img src="https://gtabs.vercel.app/images/minus-solid.svg" alt="Minus">
+    </button>
+    <button class="button" id="transposeplus">
+        <img src="https://gtabs.vercel.app/images/plus-solid.svg" alt="Plus">
+    </button>
+    <a>Tabs</a>
+    <button class="button" data-action="decreaseTab">
+        <img src="https://gtabs.vercel.app/images/minus-solid.svg" alt="Minus">
+    </button>
+    <button class="button" data-action="increaseTab">
+        <img src="https://gtabs.vercel.app/images/plus-solid.svg" alt="Plus">
+    </button>
     <a>Lyrics</a>
     <label class="toggle-container">
-      <input type="checkbox" id="toggleLyrics" />
-      <span class="toggle-slider"></span>
+        <input type="checkbox" id="lyrics" />
+        <span class="toggle-slider"></span>
     </label>
-  </div>
+     <a>Lyrics Tab</a>
+    <label class="toggle-container">
+        <input type="checkbox" id="lyricsTabs" />
+        <span class="toggle-slider"></span>
+    </label>
+</div>
   <div class="transposebutton" id="tabs-nav">
     <button class="button" data-target="onC">C</button>
     <button class="button" data-target="onC#">C#</button>
@@ -62,16 +75,29 @@ function transposeChord(chord, step) {
   return scale[index] + modifier;
 }
 
+// Fungsi untuk transpose tabs juga berlaku untuk lyricsTabs
 function transposeTabs(step) {
-  document.querySelectorAll('.tabs').forEach((element) => {
+  document.querySelectorAll('.tabs, .lyricsTabs').forEach((element) => {
     element.textContent = element.textContent.replace(/\d+/g, (number) => Math.max(0, parseInt(number, 10) + step));
   });
 }
 
-// --- Lyrics Functions ---
-function toggleLyrics() {
-  document.querySelectorAll('.lyrics').forEach((element) => {
-    element.style.display = element.style.display === 'none' ? 'block' : 'none';
+// Fungsi untuk toggle lyrics dan lyricsTabs
+function toggleLyrics(id) {
+  document.querySelectorAll(`.${id}`).forEach((element) => {
+    element.classList.toggle('show');
+  });
+}
+
+// Fungsi untuk menangani checkbox lyrics dan lyricsTabs
+function setupToggleCheckbox(checkboxId, className) {
+  const checkbox = document.getElementById(checkboxId);
+  if (!checkbox) {
+    console.error(`Checkbox with ID '${checkboxId}' not found.`);
+    return;
+  }
+  checkbox.addEventListener('change', function () {
+    toggleLyrics(className);
   });
 }
 
@@ -129,7 +155,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   document.getElementById('transposeminus')?.addEventListener('click', () => transposeChords(-1));
   document.getElementById('transposeplus')?.addEventListener('click', () => transposeChords(1));
-  document.getElementById('toggleLyrics')?.addEventListener('change', toggleLyrics);
 
   document.querySelectorAll('.button[data-action="decreaseTab"]').forEach((button) => {
     button.addEventListener('click', () => transposeTabs(-1));
@@ -147,8 +172,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  toggleLyrics();
-
   const params = new URLSearchParams(window.location.search);
   initializeArtistAndSong(params);
 
@@ -160,6 +183,15 @@ document.addEventListener('DOMContentLoaded', function () {
   if (initialActiveSection) {
     activateSection(initialActiveSection.id);
   }
+
+  // Setup toggle untuk lyrics dan lyricsTabs
+  setupToggleCheckbox('lyrics', 'lyrics');
+  setupToggleCheckbox('lyricsTabs', 'lyricsTabs');
+
+  // Default: Lyrics dan LyricsTabs tetap tersembunyi
+  document.querySelectorAll('.lyrics, .lyricsTabs').forEach((element) => {
+    element.classList.remove('show');
+  });
 });
 
 function loadTabs(tabsPath) {
