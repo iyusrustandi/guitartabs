@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* ====== CONTAINER UTAMA ====== */
+      #multitrack-container {
+        background: #f8f8f8;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        margin: 20px auto;
+        max-width: 900px;
+        font-family: Arial, sans-serif;
+      }
+
+      /* ====== MASTER CONTROLS ====== */
+      .master-controls {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 15px;
+        background: #e1e1e1;
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+      }
+
+      .master-controls .buttons {
+        display: flex;
+        gap: 10px;
+      }
+
+      .master-controls button {
+        padding: 8px 15px;
+        cursor: pointer;
+        background: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+
+      .master-progress {
+        width: 100%;
+      }
+
+      /* ====== CONTAINER AUDIO ====== */
+      .audio-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background: #fff;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        margin-bottom: 15px;
+      }
+
+      .audio-track {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 8px;
+        background: #f9f9f9;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .audio-track label {
+        font-weight: bold;
+        min-width: 120px;
+      }
+
+      /* Audio player full-width */
+      .audio-track audio {
+        flex-grow: 1;
+      }
+
+      /* ====== CONTAINER CONTROL (MIXER) ====== */
+      .fader-container {
+        display: flex;
+        gap: 10px;
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding: 10px;
+        background: #f1f1f1;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        margin-bottom: 15px;
+      }
+
+      /* Setiap strip kontrol dalam satu kolom vertikal */
+      .fader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        width: 80px;
+        background: #fff;
+        border: 1px solid #ddd;
+        padding: 8px;
+        border-radius: 5px;
+      }
+
+      /* S & M buttons */
+      .fader .buttons {
+        display: flex;
+        gap: 5px;
+      }
+
+      .fader button {
+        width: 30px;
+        height: 30px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        color: white;
+      }
+
+      .fader .solo-btn {
+        background: #2196f3;
+      }
+
+      .fader .solo-btn.active {
+        background: #1565c0;
+      }
+
+      .fader .mute-btn {
+        background: #f44336;
+      }
+
+      .fader .mute-btn.active {
+        background: #b71c1c;
+      }
+
+      /* Panning Control */
+      .fader select {
+        width: 100%;
+        padding: 3px;
+        font-size: 12px;
+      }
+
+      /* Vertical Volume Fader */
+      .fader .volume-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+      }
+
+      .fader .volume-wrapper label {
+        font-size: 10px;
+        font-weight: bold;
+      }
+
+      .fader input[type='range'] {
+        writing-mode: bt-lr; /* Biar slider vertikal */
+        -webkit-appearance: slider-vertical;
+        appearance: slider-vertical;
+        height: 100px;
+        width: 10px;
+      }
+
+      /* Nama track di bawah */
+      .fader .track-name {
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;
+      }
+
+      /* ====== RESPONSIVE ====== */
+      @media (max-width: 768px) {
+        .fader-container {
+          flex-wrap: nowrap;
+          overflow-x: auto;
+        }
+
+        .fader {
+          width: 70px;
+        }
+
+        .fader input[type='range'] {
+          height: 80px;
+        }
+
+        .audio-track {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .audio-track audio {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="multitrack-container">
+      <div class="audio-container">
+        <div class="audio-track">
+          <label class="track-name">Track 1</label>
+          <audio src="track1.mp3" controls></audio>
+        </div>
+      </div>
+      <div class="audio-container">
+        <div class="audio-track">
+          <label class="track-name">Track 2</label>
+          <audio src="track2.mp3" controls></audio>
+        </div>
+      </div>
+
+      <div class="fader-container">
+        <div class="fader">
+          <div class="buttons">
+            <button class="solo-btn">S</button>
+            <button class="mute-btn">M</button>
+          </div>
+          <select>
+            <option>L</option>
+            <option>C</option>
+            <option>R</option>
+          </select>
+          <div class="volume-wrapper">
+            <label>Vol</label>
+            <input type="range" min="0" max="1" step="0.01" />
+          </div>
+          <div class="track-name">Track 1</div>
+        </div>
+
+        <div class="fader">
+          <div class="buttons">
+            <button class="solo-btn">S</button>
+            <button class="mute-btn">M</button>
+          </div>
+          <select>
+            <option>L</option>
+            <option>C</option>
+            <option>R</option>
+          </select>
+          <div class="volume-wrapper">
+            <label>Vol</label>
+            <input type="range" min="0" max="1" step="0.01" />
+          </div>
+          <div class="track-name">Track 2</div>
+        </div>
+      </div>
+
+      <div class="master-controls">
+        <div class="buttons">
+          <button id="play">Play</button>
+          <button id="pause">Pause</button>
+          <button id="stop">Stop</button>
+        </div>
+        <input type="range" id="masterVolume" min="0" max="1" step="0.01" />
+        <progress id="masterProgress" value="0" max="100"></progress>
+      </div>
+    </div>
+  </body>
+</html>

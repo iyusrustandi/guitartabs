@@ -1,5 +1,20 @@
 [
   {
+    "artist": "Ada Band ",
+    "song": "Jalan Cahaya",
+    "tabs": "https://gtabs.vercel.app/tabs/ada-band-jalan-cahaya.html"
+  },
+  {
+    "artist": "Blink 182 ",
+    "song": "Stay Together For The Kids",
+    "tabs": "https://gtabs.vercel.app/tabs/blink-182-stay-together-for-the-kids.html"
+  },
+  {
+    "artist": "Green Day ",
+    "song": "American Idiot",
+    "tabs": "https://gtabs.vercel.app/tabs/green-day-american-idiot.html"
+  },
+  {
     "artist": "Ungu ",
     "song": "Bulan Baik",
     "tabs": "https://gtabs.vercel.app/tabs/ungu-bulan-baik.html"
@@ -1216,7 +1231,17 @@
   {
     "artist": "Dewa 19 ",
     "song": " Satu",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-satu.html"
+    "tabs": "https://gtabs.vercel.app/tabs/dewa-satu.html",
+    "tracks": {
+      "musicr": "https://www.dropbox.com/scl/fi/vmg10wazzff0prhw8pthp/MusicR.mp3?rlkey=ab0n9xaxq5u058barz9up73fu&st=ty4dtgqj&raw=1",
+      "musicl": "https://www.dropbox.com/scl/fi/0jqckbz8udcmztceroj9n/MusicL.mp3?rlkey=wp87o3fmpa4ru7jyspt4uganp&st=roo4ercl&raw=1",
+      "guitarr": "https://www.dropbox.com/scl/fi/ekqs75e9grk97lrc3spx0/GuitarR.mp3?rlkey=sp07w1wbeada8z8tfe26pirbn&st=1fvfahe9&raw=1",
+      "guitarl": "https://www.dropbox.com/scl/fi/x0vmzz429bfbawh7g0sle/GuitarL.mp3?rlkey=6qoevnfwqdg807zm5gu30olxt&st=zaet8ry7&raw=1",
+      "drums": "https://www.dropbox.com/scl/fi/igisqab3sgii6aeyo3byk/Drums.mp3?rlkey=177upz9ma3w6jjkzu09duhhck&st=e6gbsarc&raw=1",
+      "vocals": "https://www.dropbox.com/scl/fi/d3f4sfzm20vsdhd487n1g/Vocals.mp3?rlkey=nvrjwk3ha5kqai2da4rvu67pn&st=qsjw3pba&raw=1",
+      "samples": "https://www.dropbox.com/scl/fi/as95rhofr2dm8g8sghgjg/Samples.mp3?rlkey=itbmzw452cdxcsik7451bih6r&st=kt0fboqg&raw=1",
+      "bass": "https://www.dropbox.com/scl/fi/uy2roe1qz9qdtshstfp6n/Bass.mp3?rlkey=nz71nh5ytc9qz9frpmy1q933a&st=3uo112u7&raw=1"
+    }
   },
   {
     "artist": "Ungu ",

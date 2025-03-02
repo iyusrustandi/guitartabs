@@ -7,126 +7,33 @@
     <title id="page-title">Guitar Tabs</title>
     <link href="https://gtabs.vercel.app/images/icon.png" rel="icon" />
     <link rel="stylesheet" href="styles/tabs-layout.css" />
+    <link rel="stylesheet" href="styles/multitrack.css" />
     <script src="https://unpkg.com/wavesurfer.js@7"></script>
-    <style>
-      #multitrack-container {
-        display: none;
-        padding: 10px;
-        border: 1px solid #ccc;
-        margin-top: 10px;
-        background: #dddee2;
-        border-radius: 8px;
-      }
-
-      #multitrack-container h2 {
-        font-size: 18px;
-        margin-bottom: 10px;
-        text-align: center;
-        color: #333;
-      }
-
-      .audio-wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: center; /* Pusatkan audio-container */
-        gap: 100px; /* Beri jarak antar elemen */
-        margin-top: 10px;
-      }
-      #multitrack-button {
-        order: -1; /* Pindahkan button ke kiri */
-        margin-right: auto; /* Dorong button ke kiri */
-      }
-
-      .master-controls button {
-        padding: 5px 10px;
-        font-size: 14px;
-        cursor: pointer;
-      }
-
-      .progress-container {
-        width: 100%;
-        margin-bottom: 15px;
-      }
-
-      #master-progress {
-        width: 100%;
-        cursor: pointer;
-      }
-
-      .track {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        margin-bottom: 10px;
-      }
-
-      .track label {
-        min-width: 80px;
-        font-weight: bold;
-      }
-
-      .waveform {
-        width: 100%;
-        height: 50px;
-        background-color: #eee;
-        border-radius: 5px;
-        margin-top: 5px;
-      }
-
-      .hidden {
-        display: none;
-      }
-
-      #loading-screen {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.7);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        font-size: 18px;
-        flex-direction: column;
-        display: none;
-      }
-
-      .loading-content img {
-        width: 50px;
-        height: 50px;
-        animation: spin 1s linear infinite;
-      }
-
-      @keyframes spin {
-        from {
-          transform: rotate(0deg);
-        }
-        to {
-          transform: rotate(360deg);
-        }
-      }
-    </style>
   </head>
   <body>
     <div class="container">
       <div class="title"><span id="artist"></span> - <span id="song"></span></div>
+
       <div class="audio-wrapper">
-        <button id="multitrack-button" class="button">Multitrack</button>
+        <button id="multitrack-button" class="button">Show Multitrack</button>
         <div class="audio-player" id="audio-container"></div>
       </div>
 
-      <!-- Container Multitrack Player -->
-      <div id="multitrack-container" style="display: none">
-        <h2>Multitrack Player</h2>
-        <div id="multitrack-tracks">
-          <!-- Konten player akan diisi melalui JavaScript -->
+      <!-- Loading screen (initially hidden, handled by multitrack.js) -->
+      <div id="loading-screen" style="display: none">
+        <div class="loading-content">
+          <img src="https://gtabs.vercel.app/images/loading.png" alt="Loading..." />
+          <p>Loading audio....</p>
         </div>
       </div>
 
+      <!-- Multitrack player container (dynamic content from multitrack.js) -->
+      <div id="multitrack-container" style="display: none"></div>
+
+      <!-- Transpose Container (untouched) -->
       <div id="transpose-container"></div>
 
+      <!-- Tabs Content (untouched) -->
       <div id="tabs-content" class="tabs-output">
         <div class="loading-animation" style="display: none">
           <img src="https://gtabs.vercel.app/images/loading.png" alt="Loading..." />
@@ -135,187 +42,14 @@
       </div>
     </div>
 
-    <script src="scripts/tabs-script.js"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        const params = new URLSearchParams(window.location.search);
-        const artist = params.get('artist') || 'Unknown Artist';
-        const song = params.get('song') || 'Unknown Song';
-        const file = params.get('file');
-
-        document.getElementById('artist').textContent = artist;
-        document.getElementById('song').textContent = song;
-
-        if (file && file.trim() !== '') {
-          const audioContainer = document.getElementById('audio-container');
-          audioContainer.innerHTML = `
-            <div class="audio-loading">Loading audio...</div>
-            <audio controls id="audio-player">
-              <source src="${file}" type="audio/mpeg">
-              Your browser does not support the audio element.
-            </audio>
-          `;
-          const audioElement = document.getElementById('audio-player');
-          audioElement.addEventListener('canplay', function () {
-            document.querySelector('.audio-loading').style.display = 'none';
-          });
-
-          audioElement.onerror = function () {
-            audioContainer.innerHTML = '<div class="no-audio">Audio not available</div>';
-          };
-        }
-      });
-    </script>
-
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        const multitrackButton = document.getElementById('multitrack-button');
-        const multitrackContainer = document.getElementById('multitrack-container');
-        const loadingScreen = document.createElement('div');
-        loadingScreen.id = 'loading-screen';
-        loadingScreen.innerHTML = `
-        <div class="loading-content">
-            <img src="images/loading.png" alt="Loading..." />
-            <p>Loading audio....</p>
-        </div>
-    `;
-        document.body.appendChild(loadingScreen);
-
-        const songDataUrl = '/api/data.json';
-        const params = new URLSearchParams(window.location.search);
-        const artist = params.get('artist');
-        const song = params.get('song');
-
-        let audioTracks = {};
-        let isDragging = false;
-
-        function loadMultitrackData(artist, song) {
-          loadingScreen.style.display = 'flex'; // Tampilkan loading
-          fetch(songDataUrl)
-            .then((response) => response.json())
-            .then((data) => {
-              const songData = data.find((item) => item.artist.toLowerCase().trim() === artist.toLowerCase().trim() && item.song.toLowerCase().trim() === song.toLowerCase().trim());
-
-              if (songData && songData.tracks) {
-                generateMultitrackPlayer(songData.tracks);
-              } else {
-                multitrackContainer.innerHTML = "<p style='color:red;'>Multitrack data not available.</p>";
-              }
-            })
-            .catch((error) => console.error('Error loading multitrack data:', error))
-            .finally(() => {
-              setTimeout(() => {
-                loadingScreen.style.display = 'none'; // Sembunyikan loading setelah data dimuat
-              }, 500);
-            });
-        }
-
-        function generateMultitrackPlayer(tracks) {
-          audioTracks = {};
-          multitrackContainer.innerHTML = `
-            <div class="master-controls">
-                <button id="play-all">▶️ Play</button>
-                <button id="pause-all">⏸️ Pause</button>
-                <button id="stop-all">⏹️ Stop</button>
-                <label>Master Volume: <input type="range" id="master-volume" min="0" max="1" step="0.01" value="1"></label>
-            </div>
-            <div class="progress-container">
-                <input type="range" id="master-progress" min="0" max="100" value="0" step="0.1">
-            </div>
-            <div class="track-list">
-                ${Object.entries(tracks)
-                  .map(
-                    ([instrument, file]) => `
-                    <div class="track">
-                        <label>${instrument.toUpperCase()}</label>
-                        <label>Volume: <input type="range" class="track-volume" data-track="${instrument}" min="0" max="1" step="0.01" value="1"></label>
-                        <audio id="audio-${instrument}" src="${file}" controls></audio>
-                    </div>
-                `
-                  )
-                  .join('')}
-            </div>
-        `;
-
-          Object.entries(tracks).forEach(([instrument, file]) => {
-            audioTracks[instrument] = document.getElementById(`audio-${instrument}`);
-          });
-
-          const masterProgress = document.getElementById('master-progress');
-
-          function syncProgress() {
-            const anyTrack = Object.values(audioTracks)[0];
-            if (anyTrack && !isDragging) {
-              const progress = (anyTrack.currentTime / anyTrack.duration) * 100 || 0;
-              masterProgress.value = progress;
-            }
-          }
-
-          function setAllTracksTime(time) {
-            Object.values(audioTracks).forEach((audio) => {
-              audio.currentTime = time;
-            });
-          }
-
-          document.getElementById('play-all').addEventListener('click', () => {
-            Object.values(audioTracks).forEach((audio) => audio.play());
-          });
-
-          document.getElementById('pause-all').addEventListener('click', () => {
-            Object.values(audioTracks).forEach((audio) => audio.pause());
-          });
-
-          document.getElementById('stop-all').addEventListener('click', () => {
-            Object.values(audioTracks).forEach((audio) => {
-              audio.pause();
-              audio.currentTime = 0;
-            });
-            masterProgress.value = 0;
-          });
-
-          document.getElementById('master-volume').addEventListener('input', (e) => {
-            const volume = e.target.value;
-            Object.values(audioTracks).forEach((audio) => {
-              audio.volume = volume;
-            });
-          });
-
-          document.querySelectorAll('.track-volume').forEach((slider) => {
-            slider.addEventListener('input', (e) => {
-              const track = e.target.dataset.track;
-              if (audioTracks[track]) {
-                audioTracks[track].volume = e.target.value;
-              }
-            });
-          });
-
-          Object.values(audioTracks).forEach((audio) => {
-            audio.addEventListener('timeupdate', syncProgress);
-          });
-
-          masterProgress.addEventListener('input', (e) => {
-            isDragging = true;
-            const anyTrack = Object.values(audioTracks)[0];
-            if (anyTrack) {
-              const newTime = (e.target.value / 100) * anyTrack.duration;
-              setAllTracksTime(newTime);
-            }
-          });
-
-          masterProgress.addEventListener('change', () => {
-            isDragging = false;
-          });
-        }
-
-        multitrackButton.addEventListener('click', () => {
-          if (multitrackContainer.style.display === 'none') {
-            loadMultitrackData(artist, song);
-            multitrackContainer.style.display = 'block';
-          } else {
-            multitrackContainer.style.display = 'none';
-          }
-        });
-      });
-    </script>
+    <!-- <script src="scripts/tabs-script.js"></script> -->
+    <script src="scripts/multitrack.js"></script>
+    <script src="/scripts/loading-audio.js"></script>
+    <script src="/scripts/main.js"></script>
+    <script src="/scripts/transpose-button.js"></script>
+    <script src="/scripts/loading-animation.js"></script>
+    <script src="/scripts/lyrics-toggle.js"></script>
+    <script src="/scripts/navigation-section.js"></script>
+    <script src="/scripts/page-title.js"></script>
   </body>
 </html>

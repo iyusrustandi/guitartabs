@@ -16,36 +16,13 @@
 
       <div id="tabs-content" class="tabs-output"></div>
     </div>
-    <script src="https://gtabs.vercel.app/scripts/tabs-script.js"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        const params = new URLSearchParams(window.location.search);
-        const artist = params.get('artist') || 'Unknown Artist';
-        const song = params.get('song') || 'Unknown Song';
-        const file = params.get('file');
-
-        document.getElementById('artist').textContent = artist;
-        document.getElementById('song').textContent = song;
-
-        if (file && file.trim() !== '') {
-          const audioContainer = document.getElementById('audio-container');
-          audioContainer.innerHTML = `
-            <div class="audio-loading">Loading audio ...</div>
-            <audio controls id="audio-player">
-              <source src="${file}" type="audio/mpeg">
-              Your browser does not support the audio element.
-            </audio>
-          `;
-          const audioElement = document.getElementById('audio-player');
-          audioElement.addEventListener('canplay', function () {
-            document.querySelector('.audio-loading').style.display = 'none';
-          });
-
-          audioElement.onerror = function () {
-            audioContainer.innerHTML = '<div class="no-audio">Audio not available</div>';
-          };
-        }
-      });
-    </script>
+    <!-- <script src="https://gtabs.vercel.app/scripts/tabs-script.js"></script> -->
+    <script src="https://gtabs.vercel.app/scripts/loading-audio.js"></script>
+    <script src="https://gtabs.vercel.app/scripts/main.js"></script>
+    <script src="https://gtabs.vercel.app/scripts/transpose-button.js"></script>
+    <script src="https://gtabs.vercel.app/scripts/loading-animation.js"></script>
+    <script src="https://gtabs.vercel.app/scripts/lyrics-toggle.js"></script>
+    <script src="https://gtabs.vercel.app/scripts/navigation-section.js"></script>
+    <script src="https://gtabs.vercel.app/scripts/page-title.js"></script>
   </body>
 </html>
