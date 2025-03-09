@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f0f0;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+}
+
+#dropArea {
+  border: 2px dashed #aaa;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#outputContainer {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  max-width: 800px;
+  margin: 10px auto;
+  white-space: pre-wrap;
+  overflow: auto;
+}
+
+pre.chords {
+  background-color: #e8f5e9;
+  padding: 5px;
+  border-left: 4px solid #4caf50;
+  font-family: monospace;
+  margin: 10px 0;
+}
+
+pre.tabs {
+  background-color: #f1f8ff;
+  padding: 5px;
+  border-left: 4px solid #2196f3;
+  font-family: monospace;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  margin: 5px;
+}

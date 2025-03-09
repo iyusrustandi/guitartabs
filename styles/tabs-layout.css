@@ -27,6 +27,7 @@ body {
   overflow-x: auto;
   white-space: pre-wrap;
   word-wrap: break-word;
+  line-height: 1.5;
   font-weight: bold;
   margin: 1em 0;
   font-size: 1.4vw;
