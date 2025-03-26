@@ -9,14 +9,26 @@
   </head>
   <body>
     <div class="container">
-      <h1>Guitar Tab Converter</h1>
-      <textarea id="input" placeholder="Masukkan tab di sini..."></textarea>
-      <div>
-        <button onclick="convertTabs()">Convert</button>
-        <button onclick="copyHtml()">Copy HTML</button>
+      <div class="header">
+        <h1>🎸 Guitar Tab Converter Pro</h1>
+        <p>Convert plain text tabs to formatted HTML</p>
       </div>
+
+      <div class="input-section">
+        <textarea id="input" placeholder="Paste your guitar tabs here...&#10;&#10;Example:&#10;Intro : E C#m (2X)&#10;e|----------|-----------------------|&#10;B|---5-4-5--|-5/7-5-7-----9-7-9-----|"></textarea>
+
+        <div class="button-group">
+          <button class="btn btn-primary" onclick="convertTabs()">
+            <span class="loader" id="loader"></span>
+            <span>Convert Tabs</span>
+          </button>
+          <button class="btn btn-secondary" onclick="copyHtml()">Copy HTML</button>
+        </div>
+      </div>
+
       <div id="output"></div>
     </div>
-    <script src="script.js"></script>
+
+    <script src="script2.js"></script>
   </body>
 </html>
