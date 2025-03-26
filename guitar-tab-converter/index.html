@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guitar Tab Converter</title>
+    <link href="https://gtabs.vercel.app/images/icon.png" rel="icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Guitar Tab Converter</h1>
+      <textarea id="input" placeholder="Masukkan tab di sini..."></textarea>
+      <div>
+        <button onclick="convertTabs()">Convert</button>
+        <button onclick="copyHtml()">Copy HTML</button>
+      </div>
+      <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
