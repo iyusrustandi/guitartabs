@@ -48,3 +48,119 @@ How to embed mp3 from dropbox
             </td>
 
 
+=================================================================
+layout chord lyrics 
+
+<pre class="chords showTip">Intro	: F#m D A E (2X)</pre>
+  <pre class="tabs">
+e|------------14-12--|----10-9-----------|------------14-12--|----10-9---10-12-12---|
+B|-10-9----10--------|-10------12-10-12--|-10-9----10--------|-10-------------------|
+G|------11-----------|-------------------|------11-----------|----------------------|
+D|-------------------|-------------------|-------------------|----------------------|
+A|-------------------|-------------------|-------------------|----------------------|
+E|-------------------|-------------------|-------------------|----------------------|</pre
+  >
+  <pre class="chords showTip">F#m       D        A      E</pre>
+  <pre class="lyrics">Lekuk indah hadirkan pesona</pre>
+  <pre class="chords showTip">F#m     D         A         E</pre>
+  <pre class="lyrics">Kemuliaan bagi yang memandang</pre>
+  <pre class="chords showTip">F#m   D         A       E </pre>
+  <pre class="lyrics">Setiamu simbol keanggunan</pre>
+  <pre class="chords showTip">       Bm             C#</pre>
+  <pre class="lyrics">khas perawan yang kau miliki</pre>
+
+  <pre class="chords showTip">F#m  D        A      E</pre>
+  <pre class="lyrics">Akulah pengagum ragamu</pre>
+  <pre class="chords showTip">F#m     D       A     E</pre>
+  <pre class="lyrics">Tak ingin kumenyakitimu</pre>
+  <pre class="chords showTip">F#m    D       A         E </pre>
+  <pre class="lyrics">Lindungi dari sengat dunia</pre>
+  <pre class="chords showTip">         Bm      C#</pre>
+  <pre class="lyrics">yang mengancam nodai</pre>
+  <pre class="chords showTip">  Bm       C#</pre>
+  <pre class="lyrics">Sucinya lahirmu</pre>
+
+  <b>Reff</b><br />
+  <pre class="chords showTip">   F#m      D        A       E</pre>
+  <pre class="lyrics">Karena wanita ingin dimengerti</pre>
+  <pre class="chords showTip">      F#m        D      A       E</pre>
+  <pre class="lyrics">Lewat tutur lembut dan laku agung</pre>
+  <pre class="chords showTip">   F#m      D        A       E</pre>
+  <pre class="lyrics">Karena wanita ingin dimengerti</pre>
+  <pre class="chords showTip">      Bm         Bm         C#</pre>
+  <pre class="lyrics">Manjakan dia dengan kasih sayang</pre>
+
+  <pre class="chords showTip">F#m     D         A      E</pre>
+  <pre class="lyrics">Ingin kuajak engkau menari</pre>
+  <pre class="chords showTip">F#m        D       A       E</pre>
+  <pre class="lyrics">Bermandi hangat cahaya bulan</pre>
+  <pre class="chords showTip">F#m       D      A      E</pre>
+  <pre class="lyrics">Sebagai tanda kebahagiaan</pre>
+  <pre class="chords showTip">      Bm        C#</pre>
+  <pre class="lyrics">Bagi semesta cinta kita</pre>
+
+  <b>Reff</b><br />
+  <pre class="chords showTip">   F#m      D        A       E</pre>
+  <pre class="lyrics">Karena wanita ingin dimengerti</pre>
+  <pre class="chords showTip">      F#m        D      A       E</pre>
+  <pre class="lyrics">Lewat tutur lembut dan laku agung</pre>
+  <pre class="chords showTip">   F#m      D        A       E</pre>
+  <pre class="lyrics">Karena wanita ingin dimengerti</pre>
+  <pre class="chords showTip">      Bm         Bm         C#</pre>
+  <pre class="lyrics">Manjakan dia dengan kasih sayang</pre>
+
+  <pre class="chords showTip">D            E      A G#m  F#m  E</pre>
+  <pre class="lyrics">Bintang terang itulah dirimu</pre>
+  <pre class="chords showTip">D         C#         F#m</pre>
+  <pre class="lyrics">Janganlah redup dan mati</pre>
+  <pre class="chords showTip">Bm     E       A G#m  F#m  E</pre>
+  <pre class="lyrics">Aku dibelakangmu memeluk</pre>
+  <pre class="chords showTip">Bm     C#</pre>
+  <pre class="lyrics">Dan menjagamu</pre>
+
+  <pre class="chords showTip">
+Interlude : F#m D A E (4X) 
+            Bm C#</pre
+  >
+  <pre class="tabs">
+e|------------------------------------|----------------9-9-----|----12----12--------|
+B|---10-9-10---9----------------------|---10-9-10---12-----12--|-10----10----9------|
+G|-9-------------11-9/11-9-7-6-----9--|-9----------------------|--------------------|
+D|-----------------------------9-7----|------------------------|--------------------|
+A|------------------------------------|------------------------|--------------------|
+E|------------------------------------|------------------------|--------------------|
+
+e|--------------------------|------------------------|-------------13b------19b-----|
+B|---10-9-10---9------------|------------------------|----14b---12-------15---------|
+G|-9-------------11-9/11-9--|-7-9-7-6----------9/11--|-11---------------------------|
+D|--------------------------|---------9/11-9-7-------|------------------------------|
+A|--------------------------|------------------------|------------------------------|
+E|--------------------------|------------------------|------------------------------|
+
+e|-14----16----17-------------------------------------------------------------------|
+B|-17b---18b---20b------------------------------------------------------------------|
+G|----------------------------------------------------------------------------------|
+D|----------------------------------------------------------------------------------|
+A|----------------------------------------------------------------------------------|
+E|----------------------------------------------------------------------------------|</pre
+  >
+  <b>Reff</b><br />
+  <pre class="chords showTip">   F#m      D        A       E</pre>
+  <pre class="lyrics">Karena wanita ingin dimengerti</pre>
+  <pre class="chords showTip">      F#m        D      A       E</pre>
+  <pre class="lyrics">Lewat tutur lembut dan laku agung</pre>
+  <pre class="chords showTip">   F#m      D        A       E</pre>
+  <pre class="lyrics">Karena wanita ingin dimengerti</pre>
+  <pre class="chords showTip">      Bm         Bm         C#</pre>
+  <pre class="lyrics">Manjakan dia dengan kasih sayang</pre>
+
+  <pre class="chords showTip">   F#m      D        A       E</pre>
+  <pre class="lyrics">Karena wanita ingin dimengerti</pre>
+  <pre class="chords showTip">      F#m        D      A       E</pre>
+  <pre class="lyrics">Lewat tutur lembut dan laku agung</pre>
+  <pre class="chords showTip">   F#m      D        A       E</pre>
+  <pre class="lyrics">Karena wanita ingin dimengerti</pre>
+  <pre class="chords showTip">      Bm         Bm         C#</pre>
+  <pre class="lyrics">Manjakan dia dengan kasih sayang</pre>
+
+  <pre class="chords showTip">Coda : F#m D A E (6X)</pre>
