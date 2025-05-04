@@ -164,3 +164,5 @@ E|------------------------------------------------------------------------------
   <pre class="lyrics">Manjakan dia dengan kasih sayang</pre>
 
   <pre class="chords showTip">Coda : F#m D A E (6X)</pre>
+
+  
