@@ -29,7 +29,7 @@ body {
   word-wrap: break-word;
   line-height: 1.5;
   font-weight: bold;
-  margin: 1em 0;
+  margin: 0.2em 0;
   font-size: 1.4vw;
   padding-left: 1.5vw;
   padding-right: 1.5vw;
@@ -51,7 +51,7 @@ body {
   text-decoration-color: red;
   white-space: pre;
   font-weight: bold;
-  margin: 1em 0;
+  margin: 0.2em 0;
   font-size: 1vw;
   padding-left: 1.5vw;
 }
@@ -63,7 +63,7 @@ body {
   font-family: monospace;
   white-space: pre;
   font-weight: bold;
-  margin: 1em 0;
+  margin: 0.2em 0;
   font-size: 1vw;
   padding-left: 1.5vw;
 }
@@ -153,6 +153,44 @@ body {
   opacity: 1;
 }
 
+/* ============mobile============ */
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    border: 1px;
+  }
+
+  .title {
+    font-size: 3vw;
+  }
+
+  .chords,
+  .lyrics {
+    font-size: 2.5vw;
+  }
+
+  .tabs,
+  .lyricsTabs {
+    font-size: 1.94vw;
+  }
+
+  .transposebutton {
+    font-size: 3vw;
+  }
+
+  .button {
+    width: 3vw;
+    height: 5vw;
+    font-size: 3vw;
+  }
+
+  .button img {
+    width: 3vw;
+    height: 5vw;
+  }
+}
+
+/* ============tablet============ */
 @media (max-width: 768px) {
   .container {
     width: 100%;
@@ -163,20 +201,14 @@ body {
     font-size: 3vw;
   }
 
-  .chords {
-    font-size: 2.5vw;
-  }
-
-  .tabs {
-    font-size: 1.9vw;
-  }
-
-  .lyricsTabs {
-    font-size: 1.9vw;
-  }
-
+  .chords,
   .lyrics {
-    font-size: 2.5vw;
+    font-size: 2vw;
+  }
+
+  .tabs,
+  .lyricsTabs {
+    font-size: 1.94vw;
   }
 
   .transposebutton {
