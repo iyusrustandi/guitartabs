@@ -46,14 +46,19 @@ body {
 }
 
 .lyrics {
+  display: block;
+  width: 50%;
   font-family: monospace;
-  text-decoration: underline;
-  text-decoration-color: red;
+  color: #fff;
+  background-color: #000000;
+  /* text-decoration: underline;
+  text-decoration-color: red; */
   white-space: pre;
   font-weight: bold;
   margin: 0.2em 0;
   font-size: 1vw;
   padding-left: 1.5vw;
+  border-radius: 5px;
 }
 
 .lyricsTabs {
