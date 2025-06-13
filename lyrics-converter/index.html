@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <title>Konverter Chord & Lirik</title>
+    <link href="https://gtabs.vercel.app/images/icon.png" rel="icon" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f5f5f5;
+        margin: 0;
+        padding: 2rem;
+      }
+
+      h1 {
+        margin-top: 0;
+      }
+
+      textarea {
+        width: 100%;
+        min-height: 200px;
+        padding: 1rem;
+        font-family: monospace;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        resize: vertical;
+      }
+
+      button {
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-right: 0.5rem;
+        border: none;
+        background-color: #1d72b8;
+        color: white;
+        border-radius: 4px;
+      }
+
+      button:hover {
+        background-color: #145a8d;
+      }
+      #output {
+        width: 100%;
+        min-height: 200px;
+        padding: 1rem;
+        font-family: monospace;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        resize: vertical;
+      }
+
+      /* Style hasil konversi */
+      pre.lyrics {
+        font-family: monospace;
+        white-space: pre;
+        margin: 0 0 1rem;
+      }
+      span.lyrics-song {
+        color: #c5275f;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Konverter Plain Text → HTML Chord & Lirik</h1>
+
+    <textarea id="input" placeholder="Tempelkan teks chord dan lirik di sini...&#10;Contoh:&#10;Intro : G D/F# Am7 Cadd9 Cm6&#10;G                 D/F#&#10; dari kejauhan tergambar&#10;..."></textarea>
+
+    <!-- Tombol konversi dan copy -->
+    <div style="margin-bottom: 1rem">
+      <button id="convert">Konversi</button>
+      <button id="copy">Copy</button>
+    </div>
+
+    <h2>Hasil HTML</h2>
+    <code id="output"></code>
+
+    <script>
+      function escapeHtml(str) {
+        return str.replace(
+          /[&<>"']/g,
+          (m) =>
+            ({
+              '&': '&amp;',
+              '<': '&lt;',
+              '>': '&gt;',
+              '"': '&quot;',
+              "'": '&#039;',
+            }[m])
+        );
+      }
+
+      document.getElementById('convert').addEventListener('click', () => {
+        const rawLines = document.getElementById('input').value.split(/\r?\n/);
+        const lines = rawLines.map((line) => line.trim()).filter((line) => line !== '');
+        let result = `<pre class="lyrics">\n`;
+
+        for (let i = 0; i < lines.length; i += 2) {
+          const chordLine = lines[i] || '';
+          const lyricLine = lines[i + 1] || '';
+
+          result += `${escapeHtml(chordLine)}\n`;
+          result += `<span class="lyrics-song">${escapeHtml(lyricLine)}</span>\n`;
+        }
+
+        result += `</pre>`;
+        document.getElementById('output').textContent = result;
+      });
+
+      document.getElementById('copy').addEventListener('click', () => {
+        const text = document.getElementById('output').textContent;
+        if (!text.trim()) return alert('Belum ada hasil yang bisa dicopy.');
+        navigator.clipboard
+          .writeText(text)
+          .then(() => alert('Hasil berhasil dicopy ke clipboard!'))
+          .catch(() => alert('Gagal menyalin ke clipboard.'));
+      });
+    </script>
+  </body>
+</html>

@@ -51,11 +51,11 @@ body {
 
 .lyrics {
   display: block;
-  background-color: #000;
-  color: #fff;
+  /* background-color: #000;
   width: 75%;
-  border-radius: 5px;
+  border-radius: 5px; */
   font-family: monospace;
+  color: #ea0505;
   /* text-decoration: underline;
   text-decoration-color: red; */
   white-space: pre-wrap;
@@ -64,6 +64,10 @@ body {
   margin: 1em 0;
   font-size: 1vw;
   padding-left: 1.5vw;
+}
+
+.lyrics-song {
+  color: #000;
 }
 
 .lyricsTabs {
