@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chord / Lyrics Tag Converter</title>
+    <style>
+      /* ===== Tampilan dasar ===== */
+      body {
+        margin: 0;
+        padding: 2rem;
+        font-family: system-ui, sans-serif;
+        background: #edf1f9 url('../images/background.png') center/cover fixed;
+        color: #334155;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+      }
+      h1 {
+        margin: 0;
+        font-size: 1.5rem;
+        text-align: center;
+      }
+      textarea {
+        width: 100%;
+        min-height: 240px;
+        resize: vertical;
+        border: 2px solid #cbd5e1;
+        border-radius: 0.8rem;
+        padding: 1rem;
+        font-family: monospace;
+      }
+      button {
+        padding: 0.6rem 1.4rem;
+        border: none;
+        border-radius: 0.8rem;
+        background: #2563eb;
+        color: #fff;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      button:hover {
+        opacity: 0.85;
+      }
+      .grid {
+        display: grid;
+        gap: 1.5rem;
+      }
+      .box {
+        background: #fff;
+        border: 2px dashed #cbd5e1;
+        border-radius: 0.8rem;
+        padding: 1rem;
+        overflow: auto;
+        font-family: monospace;
+        white-space: pre-wrap;
+      }
+      /* ===== Warna pratinjau ===== */
+      .chords {
+        color: #c2410c;
+      }
+      .lyrics {
+        color: #334155;
+      }
+      .tabs {
+        color: #0f766e;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Raw Text → Tagged HTML Converter</h1>
+
+    <textarea id="input" placeholder="Tempelkan teks mentah di sini …"></textarea>
+
+    <div style="display: flex; gap: 1rem; align-items: center">
+      <button id="convertBtn">Convert</button>
+      <button id="copyBtn">Copy</button>
+    </div>
+
+    <div class="grid">
+      <div>
+        <h2>HTML Output (salin apa adanya)</h2>
+        <div id="output" class="box"></div>
+      </div>
+      <div>
+        <h2>Live Preview</h2>
+        <div id="preview" class="box"></div>
+      </div>
+    </div>
+
+    <script>
+      /* ========= Util ========= */
+      const $ = (id) => document.getElementById(id);
+      const esc = (s) => s.replace(/[&<>"']/g, (m) => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;'}[m]));
+      const wrapPre = (html, cls, raw = false) => `<pre class="${cls}">${raw ? html : esc(html)}</pre>`;
+
+      /* ========= Regex ========= */
+      const tabRx = /^[EBGDAe]\|/;
+      const chordRx = RegExp(`^\\s*(?:[A-G][#b]?(?:m7?|maj7?|sus\\d?|dim7?|add\\d?|aug)?` + `(?:\\/[A-G][#b]?)?)(?:\\s+[A-G][#b]?(?:m7?|maj7?|sus\\d?|dim7?|add\\d?|aug)?` + `(?:\\/[A-G][#b]?)?)*\\s*(?:\\(\\d+x?\\))?\\s*$`, 'i');
+      const sectionWord = /^(Intro|Verse|Reff|Pre|Intr|End)\b/i;
+
+      /* ========= Konversi ========= */
+      function convert(raw) {
+        const lines = raw.split(/\r?\n/);
+        const out = [];
+        let i = 0;
+
+        while (i < lines.length) {
+          let line = lines[i];
+          if (!line.trim()) {
+            i++;
+            continue;
+          }
+
+          const trim = line.trim();
+
+          /* ---- TAB (termasuk 'End' sebelum TAB) ---- */
+          if (tabRx.test(trim) || (trim.toLowerCase() === 'end' && i + 1 < lines.length && tabRx.test(lines[i + 1].trim()))) {
+            const tabBlock = [line];
+            i++;
+            while (i < lines.length && (tabRx.test(lines[i].trim()) || !lines[i].trim())) {
+              tabBlock.push(lines[i]);
+              i++;
+            }
+            out.push(wrapPre(tabBlock.join('\n'), 'tabs'));
+            continue;
+          }
+
+          /* ---- SECTION dengan/ tanpa ':' ---- */
+          if (sectionWord.test(trim)) {
+            const hasColon = trim.includes(':');
+
+            if (hasColon) {
+              // tampilkan dua blok (+ gabung baris chord di bawahnya)
+              const chordLines = [line];
+              let j = i + 1;
+              while (j < lines.length && lines[j].trim() && chordRx.test(lines[j])) {
+                chordLines.push(lines[j]);
+                j++;
+              }
+              out.push(wrapPre(chordLines.join('\n'), 'chords showTip'));
+
+              const idx = line.indexOf(':');
+              const label = esc(line.slice(0, idx + 1));
+              const rest = esc(line.slice(idx + 1));
+              out.push(wrapPre(`<span class="lyrics-song">${label}</span>${rest}`, 'lyrics', true));
+              i = j;
+              continue;
+            } else {
+              // hanya lirik (Reff sendirian, dll.)
+              out.push(wrapPre(`<span class="lyrics-song">${esc(trim)}</span>`, 'lyrics', true));
+              i++;
+              continue;
+            }
+          }
+
+          /* ---- CHORD line ---- */
+          if (chordRx.test(trim)) {
+            const next = lines[i + 1] ?? '';
+            if (next && !chordRx.test(next) && !tabRx.test(next.trim()) && !sectionWord.test(next.trim()) && next.trim()) {
+              out.push(wrapPre(`${esc(line)}\n<span class="lyrics-song">${esc(next)}</span>`, 'lyrics', true));
+              i += 2;
+              continue;
+            } else {
+              out.push(wrapPre(line, 'chords showTip'));
+              i++;
+              continue;
+            }
+          }
+
+          /* ---- Lirik biasa ---- */
+          out.push(wrapPre(`<span class="lyrics-song">${esc(line)}</span>`, 'lyrics', true));
+          i++;
+        }
+        return out.join('\n');
+      }
+
+      /* ========= UI ========= */
+      $('convertBtn').addEventListener('click', () => {
+        const html = convert($('input').value);
+        $('output').textContent = html;
+        $('preview').innerHTML = html;
+      });
+
+      $('copyBtn').addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText($('output').textContent);
+          const btn = $('copyBtn'),
+            old = btn.textContent;
+          btn.textContent = 'Copied!';
+          btn.disabled = true;
+          setTimeout(() => {
+            btn.textContent = old;
+            btn.disabled = false;
+          }, 1500);
+        } catch {
+          alert('Gagal menyalin ke clipboard.');
+        }
+      });
+    </script>
+  </body>
+</html>
