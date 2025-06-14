@@ -51,9 +51,9 @@ body {
 
 .lyrics {
   display: block;
-  /* background-color: #000;
+  background-color: #d4d1d1;
   width: 75%;
-  border-radius: 5px; */
+  border-radius: 5px;
   font-family: monospace;
   color: #ea0505;
   /* text-decoration: underline;
