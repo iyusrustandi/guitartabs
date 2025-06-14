@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chord Tag Formatter</title>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background: #f9f9f9;
+        padding: 2rem;
+        max-width: 700px;
+        margin: auto;
+        color: #333;
+      }
+
+      h2 {
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+
+      textarea {
+        width: 100%;
+        height: 140px;
+        font-family: monospace;
+        padding: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        resize: vertical;
+        background-color: #fff;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+      }
+
+      .controls {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+
+      .controls button {
+        background-color: #007bff;
+        border: none;
+        color: white;
+        padding: 0.5rem 1.2rem;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: 500;
+        transition: background 0.2s ease;
+      }
+
+      .controls button:hover {
+        background-color: #0056b3;
+      }
+
+      #output {
+        margin-top: 1.5rem;
+        white-space: pre-wrap;
+        background: #fefefe;
+        padding: 1rem;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+      }
+
+      pre {
+        margin: 0 0 0.5rem;
+        padding: 0.75rem 1rem;
+        font-family: 'Fira Code', monospace;
+        background-color: #f4f4f4;
+        border-left: 4px solid #999;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        border-radius: 6px;
+      }
+
+      .chords {
+        background-color: #fef5d4;
+        border-left-color: #ffc107;
+      }
+
+      .lyrics {
+        background-color: #d4f0ff;
+        border-left-color: #17a2b8;
+      }
+
+      .lyrics-song {
+        font-weight: 600;
+        color: #222;
+      }
+
+      .showTip {
+        cursor: help;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Format Tag Chord</h2>
+
+    <textarea id="input" placeholder="Masukkan baris chord di sini..."></textarea>
+
+    <div class="controls">
+      <button id="convertBtn">Konversi</button>
+      <button id="copyBtn">Copy</button>
+    </div>
+
+    <div id="output"></div>
+
+    <script>
+      function convertRawText(text) {
+        return text
+          .split(/\n/)
+          .filter((line) => line.trim())
+          .map((line) => {
+            const [, label, content] = line.match(/^(.+?):\s*(.+)$/) || [];
+            if (!label) return '';
+            return `
+<pre class="chords showTip">${label} : ${content}</pre>
+<pre class="lyrics"><span class="lyrics-song">${label} :</span> ${content}</pre>`;
+          })
+          .join('\n');
+      }
+
+      const convertBtn = document.getElementById('convertBtn');
+      const copyBtn = document.getElementById('copyBtn');
+      const outputDiv = document.getElementById('output');
+
+      convertBtn.addEventListener('click', () => {
+        const inp = document.getElementById('input').value;
+        outputDiv.innerHTML = convertRawText(inp);
+      });
+
+      copyBtn.addEventListener('click', () => {
+        const tempEl = document.createElement('textarea');
+        tempEl.value = outputDiv.innerHTML;
+        document.body.appendChild(tempEl);
+        tempEl.select();
+        document.execCommand('copy');
+        document.body.removeChild(tempEl);
+        copyBtn.textContent = 'HTML Disalin!';
+        setTimeout(() => (copyBtn.textContent = 'Copy'), 2000);
+      });
+    </script>
+  </body>
+</html>
