@@ -132,25 +132,52 @@
         );
       }
 
-      // Regex chord akurat untuk inline wrapping
       const chordRegex = /\b[A-G](#|b)?(m|maj|min|dim|aug|sus[24]?|add\d*)?(\d*)?(\/[A-G](#|b)?)?\b/g;
 
       document.getElementById('convert').addEventListener('click', () => {
         const rawLines = document.getElementById('input').value.split(/\r?\n/);
-        let result = `<pre class="lyrics">\n`;
+        let result = '';
+        let isInReff = false;
 
-        for (let line of rawLines) {
-          if (line.trim() === '') {
+        for (let i = 0; i < rawLines.length; i++) {
+          const line = rawLines[i];
+          const trimmed = line.trim();
+
+          // Deteksi awal reff
+          if (/^Reff\b/i.test(trimmed)) {
+            if (isInReff) result += '</pre>\n'; // tutup jika reff sebelumnya belum ditutup
+            result += `<pre class="lyrics" id="reff">\n`;
+            result += escapeHtml(line) + '\n';
+            isInReff = true;
+            continue;
+          }
+
+          // Deteksi akhir reff saat baris kosong
+          if (trimmed === '' && isInReff) {
+            result += '\n</pre>\n';
+            isInReff = false;
+            continue;
+          }
+
+          if (trimmed === '') {
             result += '\n';
             continue;
           }
 
-          const escapedLine = escapeHtml(line);
-          const processedLine = escapedLine.replace(chordRegex, (match) => `<span class="chord">${match}</span>`);
-          result += processedLine + '\n';
+          const escaped = escapeHtml(line);
+          const processed = escaped.replace(chordRegex, (match) => `<span class="chord">${match}</span>`);
+          result += processed + '\n';
         }
 
-        result += `</pre>`;
+        if (isInReff) {
+          result += '</pre>\n'; // pastikan ditutup
+        }
+
+        // Jika tidak ada bagian Reff, bungkus sisanya dalam <pre class="lyrics">
+        if (!result.includes('<pre class="lyrics"')) {
+          result = `<pre class="lyrics">\n${result}</pre>`;
+        }
+
         document.getElementById('output').textContent = result;
       });
     </script>

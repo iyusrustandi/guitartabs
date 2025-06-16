@@ -51,7 +51,7 @@ body {
 
 .lyrics {
   display: block;
-  background-color: #d4d1d1;
+  background-color: #ece5e5;
   width: 75%;
   border-radius: 5px;
   font-family: monospace;
@@ -64,6 +64,10 @@ body {
   margin: 1em 0;
   font-size: 1vw;
   padding-left: 1.5vw;
+}
+
+#reff {
+  padding-left: 5vw;
 }
 
 .chord {
