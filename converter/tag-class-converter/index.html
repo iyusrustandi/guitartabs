@@ -66,29 +66,29 @@
       }
 
       pre {
-        margin: 0 0 0.5rem;
-        padding: 0.75rem 1rem;
-        font-family: 'Fira Code', monospace;
-        background-color: #f4f4f4;
-        border-left: 4px solid #999;
-        font-size: 0.9rem;
-        line-height: 1.5;
-        border-radius: 6px;
+        margin: 0 0 0.75rem;
+        padding: 1rem;
+        font-family: 'Courier New', monospace;
+        border-radius: 12px;
+        font-size: 0.95rem;
+        line-height: 1.6;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        border: 1px solid #e0e0e0;
       }
 
       .chords {
-        background-color: #fef5d4;
-        border-left-color: #ffc107;
+        background-color: #fff9e6;
+        color: #5c3d00;
       }
 
       .lyrics {
-        background-color: #d4f0ff;
-        border-left-color: #17a2b8;
+        background-color: #e6f5ff;
+        color: #004d66;
       }
 
-      .lyrics-song {
-        font-weight: 600;
-        color: #222;
+      .chord {
+        font-weight: bold;
+        color: #0077b6;
       }
 
       .showTip {
@@ -114,11 +114,26 @@
           .split(/\n/)
           .filter((line) => line.trim())
           .map((line) => {
-            const [, label, content] = line.match(/^(.+?):\s*(.+)$/) || [];
-            if (!label) return '';
-            return `
-<pre class="chords showTip">${label} : ${content}</pre>
-<pre class="lyrics"><span class="lyrics-song">${label} :</span> ${content}</pre>`;
+            const match = line.match(/^(.+?):\s*(.+)$/);
+            if (!match) return '';
+
+            const label = match[1].trim();
+            const content = match[2].trim();
+
+            // Bagian pertama: baris chord utuh
+            const chordLine = `<pre class="chords showTip">${label}\t : ${content}</pre>`;
+
+            // Pisahkan berdasarkan spasi, lalu bungkus hanya chord yang valid
+            const parts = content
+              .split(/\s+/)
+              .map((word) => {
+                return /^[A-G][#b]?[^a-z]*$/.test(word) && !word.match(/^\(.+\)$/) ? `<span class="chord">${word}</span>` : word;
+              })
+              .join(' ');
+
+            const lyricLine = `<pre class="lyrics">${label}\t : ${parts}</pre>`;
+
+            return `${chordLine}\n${lyricLine}`;
           })
           .join('\n');
       }
