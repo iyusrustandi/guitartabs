@@ -55,7 +55,7 @@ body {
   width: 75%;
   border-radius: 5px;
   font-family: monospace;
-  color: #ea0505;
+  color: #000;
   /* text-decoration: underline;
   text-decoration-color: red; */
   white-space: pre-wrap;
@@ -66,8 +66,8 @@ body {
   padding-left: 1.5vw;
 }
 
-.lyrics-song {
-  color: #000;
+.chord {
+  color: #ea0505;
 }
 
 .lyricsTabs {
