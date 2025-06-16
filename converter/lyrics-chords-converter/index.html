@@ -132,7 +132,7 @@
         );
       }
 
-      const chordRegex = /\b[A-G](#|b)?(m|maj|min|dim|aug|sus[24]?|add\d*)?(\d*)?(\/[A-G](#|b)?)?\b/g;
+      const chordRegex = /\b[A-G](?:#|b)?(?:m|maj|min|dim|aug|sus[24]?|add\d*|\d*)?(?:\/[A-G](?:#|b)?)?\b/g;
 
       document.getElementById('convert').addEventListener('click', () => {
         const rawLines = document.getElementById('input').value.split(/\r?\n/);
