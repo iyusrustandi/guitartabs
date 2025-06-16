@@ -29,6 +29,103 @@
       <div id="output"></div>
     </div>
 
-    <script src="https://gtabs.vercel.app/converter/guitar-tab-converter/script2.js"></script>
+    <script>
+      async function convertTabs() {
+        const input = document.getElementById('input').value;
+        const lines = input.split('\n');
+        let outputHtml = '';
+        let currentBlock = [];
+        let blockType = null;
+
+        const loader = document.getElementById('loader');
+        const convertBtn = document.querySelector('.btn-primary');
+
+        try {
+          loader.style.display = 'inline-block';
+          convertBtn.disabled = true;
+          await new Promise((resolve) => setTimeout(resolve, 300));
+
+          function flushBlock() {
+            if (currentBlock.length === 0) return;
+
+            const content = currentBlock.join('\n').trim();
+            if (blockType === 'tab') {
+              outputHtml += `<pre class="tabs">\n${content}\n</pre>\n\n`;
+            } else if (blockType === 'chord') {
+              const formatted = currentBlock
+                .map((line) =>
+                  line
+                    .replace(/\s{2,}/g, '\t')
+                    .replace(/:(\S)/, ': $1')
+                    .replace(/\t+/g, '\t')
+                )
+                .join('\n');
+              outputHtml += `<pre class="chords showTip">\n${formatted}\n</pre>\n\n`;
+            }
+            currentBlock = [];
+          }
+
+          for (let i = 0; i < lines.length; i++) {
+            const line = lines[i];
+            const trimmed = line.trim();
+
+            const isTabLine = /^[eBGDABE]\|/.test(trimmed);
+            const isChordLine = /^([A-G][#b]?m?(maj7)?[0-9]?\s*[-/]?\s*)+$/i.test(trimmed) || /:/.test(trimmed);
+
+            if (trimmed === '') {
+              flushBlock();
+              blockType = null;
+              continue;
+            }
+
+            if (isTabLine) {
+              if (blockType !== 'tab') flushBlock();
+              currentBlock.push(line);
+              blockType = 'tab';
+            } else if (isChordLine) {
+              if (blockType !== 'chord') flushBlock();
+              currentBlock.push(line);
+              blockType = 'chord';
+            } else {
+              flushBlock();
+              blockType = null;
+            }
+          }
+
+          flushBlock();
+
+          document.getElementById('output').innerHTML = outputHtml;
+        } finally {
+          loader.style.display = 'none';
+          convertBtn.disabled = false;
+        }
+      }
+
+      async function copyHtml() {
+        const output = document.getElementById('output').innerHTML;
+        try {
+          await navigator.clipboard.writeText(output);
+          showToast('HTML copied to clipboard!');
+        } catch (err) {
+          showToast('Failed to copy HTML', true);
+        }
+      }
+
+      function showToast(message, isError = false) {
+        const toast = document.createElement('div');
+        toast.textContent = message;
+        toast.style.position = 'fixed';
+        toast.style.bottom = '20px';
+        toast.style.right = '20px';
+        toast.style.padding = '12px 24px';
+        toast.style.background = isError ? '#e74c3c' : '#2ecc71';
+        toast.style.color = 'white';
+        toast.style.borderRadius = '8px';
+        toast.style.boxShadow = '0 4px 12px rgba(0,0,0,0.2)';
+        toast.style.zIndex = '1000';
+        document.body.appendChild(toast);
+        setTimeout(() => toast.remove(), 3000);
+      }
+    </script>
   </body>
 </html>
