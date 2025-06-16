@@ -62,6 +62,44 @@
         color: #c5275f;
         font-weight: bold;
       }
+
+      #copy {
+        padding: 8px 16px;
+        border: none;
+        background-color: #3b82f6;
+        color: white;
+        border-radius: 4px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      #copy.copied {
+        background-color: #10b981; /* hijau */
+      }
+
+      #copy.shake {
+        animation: shake 0.3s;
+        background-color: #ef4444; /* merah */
+      }
+
+      @keyframes shake {
+        0% {
+          transform: translateX(0);
+        }
+        25% {
+          transform: translateX(-4px);
+        }
+        50% {
+          transform: translateX(4px);
+        }
+        75% {
+          transform: translateX(-4px);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
     </style>
   </head>
 
@@ -115,14 +153,42 @@
         result += `</pre>`;
         document.getElementById('output').textContent = result;
       });
+    </script>
 
+    <script>
       document.getElementById('copy').addEventListener('click', () => {
+        const btn = document.getElementById('copy');
         const text = document.getElementById('output').textContent;
-        if (!text.trim()) return alert('Belum ada hasil yang bisa dicopy.');
+
+        if (!text.trim()) {
+          btn.textContent = 'Nothing to copy!';
+          btn.classList.add('shake');
+          setTimeout(() => {
+            btn.textContent = 'Copy';
+            btn.classList.remove('shake');
+          }, 1500);
+          return;
+        }
+
         navigator.clipboard
           .writeText(text)
-          .then(() => alert('Hasil berhasil dicopy ke clipboard!'))
-          .catch(() => alert('Gagal menyalin ke clipboard.'));
+          .then(() => {
+            btn.textContent = 'Copied!';
+            btn.classList.add('copied');
+
+            setTimeout(() => {
+              btn.textContent = 'Copy';
+              btn.classList.remove('copied');
+            }, 2000);
+          })
+          .catch(() => {
+            btn.textContent = 'Failed!';
+            btn.classList.add('shake');
+            setTimeout(() => {
+              btn.textContent = 'Copy';
+              btn.classList.remove('shake');
+            }, 2000);
+          });
       });
     </script>
   </body>
