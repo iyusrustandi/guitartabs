@@ -110,32 +110,53 @@
 
     <script>
       function convertRawText(text) {
-        return text
-          .split(/\n/)
-          .filter((line) => line.trim())
-          .map((line) => {
-            const match = line.match(/^(.+?):\s*(.+)$/);
-            if (!match) return '';
+        const lines = text.split(/\n/);
+        const blocks = [];
+        let currentLabel = '';
+        let currentLines = [];
 
-            const label = match[1].trim();
-            const content = match[2].trim();
+        lines.forEach((line) => {
+          if (!line.trim()) return;
 
-            // Bagian pertama: baris chord utuh
-            const chordLine = `<pre class="chords showTip">${label}\t : ${content}</pre>`;
+          const match = line.match(/^(.+?):\s*(.+)$/);
+          if (match) {
+            // Simpan blok sebelumnya
+            if (currentLabel && currentLines.length > 0) {
+              blocks.push({label: currentLabel, content: currentLines});
+            }
+            currentLabel = match[1].trim();
+            currentLines = [match[2]];
+          } else {
+            currentLines.push(line);
+          }
+        });
 
-            // Pisahkan berdasarkan spasi, lalu bungkus hanya chord yang valid
-            const parts = content
+        // Simpan blok terakhir
+        if (currentLabel && currentLines.length > 0) {
+          blocks.push({label: currentLabel, content: currentLines});
+        }
+
+        const results = blocks.map(({label, content}) => {
+          const chordPre = `<pre class="chords showTip">\n${label}\t : ${content[0]}\n${content.slice(1).join('\n')}\n</pre>`;
+
+          const lyricLines = content.map((line, idx) => {
+            // Tambahkan label hanya di baris pertama
+            const labelPrefix = idx === 0 ? `${label}\t : ` : '         ';
+            const parts = line
               .split(/\s+/)
               .map((word) => {
-                return /^[A-G][#b]?[^a-z]*$/.test(word) && !word.match(/^\(.+\)$/) ? `<span class="chord">${word}</span>` : word;
+                return /^[A-G][#b]?(m|maj|min|sus|dim|aug|add)?\d*(\/[A-G][#b]?)?$/.test(word) && !word.match(/^\(.+\)$/) ? `<span class="chord">${word}</span>` : word;
               })
               .join(' ');
+            return `${labelPrefix}${parts}`;
+          });
 
-            const lyricLine = `<pre class="lyrics">${label}\t : ${parts}</pre>`;
+          const lyricPre = `<pre class="lyrics">\n${lyricLines.join('\n')}\n</pre>`;
 
-            return `${chordLine}\n${lyricLine}`;
-          })
-          .join('\n');
+          return `${chordPre}\n${lyricPre}`;
+        });
+
+        return results.join('\n');
       }
 
       const convertBtn = document.getElementById('convertBtn');
