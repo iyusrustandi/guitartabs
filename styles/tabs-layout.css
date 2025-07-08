@@ -23,7 +23,10 @@ body {
 
 .chords {
   display: block;
-  font-family: monospace;
+  /* font-family: monospace; */
+  font-family: 'Oxygen Mono', monospace;
+  /* font-weight: 400;
+  font-style: normal; */
   overflow-x: auto;
   white-space: pre-wrap;
   word-wrap: break-word;
@@ -41,7 +44,7 @@ body {
 
 .tabs {
   display: block;
-  font-family: monospace;
+  font-family: 'Oxygen Mono', monospace;
   white-space: pre;
   font-weight: bold;
   margin: 1em 0;
@@ -54,7 +57,7 @@ body {
   background-color: #ece5e5;
   width: 75%;
   border-radius: 5px;
-  font-family: monospace;
+  font-family: 'Oxygen Mono', monospace;
   color: #000;
   /* text-decoration: underline;
   text-decoration-color: red; */

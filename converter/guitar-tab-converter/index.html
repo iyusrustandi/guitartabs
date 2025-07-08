@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Guitar Tab Converter</title>
     <link href="https://gtabs.vercel.app/images/icon.png" rel="icon" />
-    <link rel="stylesheet" href="https://gtabs.vercel.app/converter/guitar-tab-converter/style.css" />
+    <link rel="stylesheet" href="/converter/guitar-tab-converter/style.css" />
   </head>
   <body>
     <div class="container">
@@ -60,7 +60,7 @@
                     .replace(/\t+/g, '\t')
                 )
                 .join('\n');
-              outputHtml += `<pre class="chords showTip">\n${formatted}\n</pre>\n\n`;
+              outputHtml += `<pre class="chords">\n${formatted}\n</pre>\n\n`;
             }
             currentBlock = [];
           }

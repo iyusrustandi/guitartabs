@@ -54,7 +54,7 @@ function injectTransposeButton(targetElementId) {
 
 // --- Transpose Functions ---
 function transposeChords(step) {
-  document.querySelectorAll('.chords.showTip').forEach((element) => {
+  document.querySelectorAll('.chords, .chord').forEach((element) => {
     element.textContent = element.textContent.replace(/[A-G](#|b)?/g, (chord) => transposeChord(chord, step));
   });
 }

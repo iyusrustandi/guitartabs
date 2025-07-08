@@ -1,0 +1,4 @@
+- Upload file .txt berisi lirik dan chord.
+- Klik Convert, hasil langsung muncul.
+- Klik Download HTML buat simpan hasil.
+
