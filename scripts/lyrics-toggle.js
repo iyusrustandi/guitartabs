@@ -36,14 +36,16 @@ function setupToggleCheckbox(checkboxId, className) {
   checkbox.addEventListener('change', function () {
     const show = checkbox.checked;
 
-    // Toggle class on lyrics / lyricsTabs
+    // Toggle visibility untuk target class (lyrics / lyricsTabs)
     document.querySelectorAll(`.${className}`).forEach((element) => {
       element.classList.toggle('show', show);
     });
 
-    // Toggle visibility of .chords
-    document.querySelectorAll('.chords').forEach((element) => {
-      element.classList.toggle('hide', show);
-    });
+    // Toggle visibility .chords hanya jika className === 'lyrics'
+    if (className === 'lyrics') {
+      document.querySelectorAll('.chords').forEach((element) => {
+        element.classList.toggle('hide', show);
+      });
+    }
   });
 }
