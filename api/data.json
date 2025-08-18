@@ -1,5 +1,35 @@
 [
   {
+    "artist": "Ismail Marzuki ",
+    "song": "Gugur Bunga",
+    "tabs": "https://gtabs.vercel.app/tabs/ismail-marzuki-gugur-bunga.html"
+  },
+  {
+    "artist": "Sartono ",
+    "song": "Hymne Guru",
+    "tabs": "https://gtabs.vercel.app/tabs/sartono-hymne-guru.html"
+  },
+  {
+    "artist": "WR Soepratman ",
+    "song": "Ibu Kita Kartini",
+    "tabs": "https://gtabs.vercel.app/tabs/wr-soepratman-ibu-kita-kartini.html"
+  },
+  {
+    "artist": "Ismail Marzuki ",
+    "song": "Kulihat Ibu Pertiwi",
+    "tabs": "https://gtabs.vercel.app/tabs/ismail-marzuki-kulihat-ibu-pertiwi.html"
+  },
+  {
+    "artist": "WR Soepratman ",
+    "song": "Indonesia Raya",
+    "tabs": "https://gtabs.vercel.app/tabs/wr-soepratman-indonesia-raya.html"
+  },
+  {
+    "artist": "Barasuara ",
+    "song": "Terbuang Dalam Waktu",
+    "tabs": "https://gtabs.vercel.app/tabs/barasuara-terbuang-dalam-waktu.html"
+  },
+  {
     "artist": "Ari Lasso ",
     "song": "Jalanku Tak Panjang",
     "tabs": "https://gtabs.vercel.app/tabs/ari-lasso-jalanku-tak-panjang.html"
@@ -1241,6 +1271,11 @@
     "artist": "T2",
     "song": " Lelaki Cadangan",
     "tabs": "https://gtabs.vercel.app/tabs/t2-lelaki-cadangan.html"
+  },
+  {
+    "artist": "T2",
+    "song": " Ok",
+    "tabs": "https://gtabs.vercel.app/tabs/t2-ok.html"
   },
   {
     "artist": "Rony Parulian dan Andi Rianto",

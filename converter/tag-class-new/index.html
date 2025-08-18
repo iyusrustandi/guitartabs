@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guitar Tab Formatter</title>
+    <link href="/images/icon.png" rel="icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>🎸 Guitar Tab Formatter</h1>
+        <p>Convert your guitar tabs into beautifully formatted HTML with CSS classes</p>
+      </div>
+
+      <div class="main-content">
+        <div class="input-section">
+          <div class="section-title">📝 Input Your Guitar Tab</div>
+          <textarea
+            id="inputArea"
+            class="input-area"
+            placeholder="Paste your guitar tab here...
+
+Example:
+Intro : E A 
+
+e|----------------|------------------|
+B|-----7---9---7--|-------7---9---7--|
+G|---9------------|---9--------------|
+D|-9-----9---9----|-9---9---9---9----|
+A|----------------|------------------|
+E|----------------|------------------|
+
+Verse : G#m F# G#m B F# G#m (2X)
+	  G#m B C#m D#
+
+e|----------------|-----------------------------------------------------------------|
+B|----------------|---------4-------------------------------------------------------|
+G|-----------6-4--|-----4-------6p4---------6-4-------------------------------------|
+D|---4-5-6-6------|-4h6---6---------6-4-6-6-----------------------------------------|
+A|-6--------------|-----------------------------------------------------------------|
+E|----------------|-----------------------------------------------------------------|
+
+e|------------------|---------4-----------------------------------------------------|
+B|-------------7-5--|-----5-------7p5---------7-5-----------------------------------|
+G|-----4-5-6-6------|-4h6---6---------6-4-6-6---------------------------------------|
+D|-6----------------|---------------------------------------------------------------|
+A|------------------|---------------------------------------------------------------|
+E|------------------|---------------------------------------------------------------|"
+          ></textarea>
+          <button class="format-btn" onclick="formatTab()">🎵 Format Tab</button>
+          <button class="copy-btn" onclick="copyOutput()">📋 Copy Output HTML</button>
+        </div>
+
+        <div class="output-section">
+          <div class="section-title">💻 HTML Output</div>
+          <div id="outputArea" class="output-area">
+            <p style="color: #7f8c8d; text-align: center; margin-top: 50px">Your formatted HTML will appear here...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-section">
+        <div class="preview-title">🎭 Live Preview</div>
+        <div id="previewArea">
+          <p style="color: #7f8c8d; text-align: center">Preview will show here when you format your tab...</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
