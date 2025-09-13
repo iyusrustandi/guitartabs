@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chord Chart Formatter</title>
-    <link href="/images/icon.png" rel="icon" />
+    <link href="https://gtabs.vercel.app/images/icon.png" rel="icon" />
     <style>
       * {
         margin: 0;
@@ -112,25 +112,6 @@
         box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
       }
 
-      .copy-btn {
-        padding: 12px 25px;
-        background: linear-gradient(45deg, #27ae60, #2ecc71);
-        color: white;
-        border: none;
-        border-radius: 8px;
-        font-size: 1.1em;
-        font-weight: bold;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-      }
-
-      .copy-btn:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 5px 15px rgba(39, 174, 96, 0.4);
-      }
-
       .clear-btn {
         padding: 12px 25px;
         background: linear-gradient(45deg, #95a5a6, #7f8c8d);
@@ -175,6 +156,25 @@
         font-size: 12px;
         background: white;
         resize: vertical;
+      }
+
+      .copy-btn {
+        background: linear-gradient(45deg, #27ae60, #2ecc71);
+        padding: 12px 25px;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1em;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .copy-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(39, 174, 96, 0.4);
       }
 
       /* Chord styling for preview */
@@ -289,15 +289,14 @@ Outro : GM7 CM7 Bm7 Am7 Em Dadd11"
 
       <div class="button-group">
         <button class="format-btn" onclick="formatChords()">🎼 Format Chords</button>
-        <button class="copy-btn" onclick="copyToClipboard()">📋 Copy HTML</button>
         <button class="clear-btn" onclick="clearAll()">🗑️ Clear All</button>
+        <button class="copy-btn" onclick="copyToClipboard()">📋 Copy HTML</button>
       </div>
 
       <div class="main-content full-width">
         <div class="input-section">
           <div class="section-title">HTML Code</div>
           <textarea class="html-output" id="outputHTML" readonly></textarea>
-
           <div id="copySuccess" class="success-message">HTML copied successfully!</div>
         </div>
       </div>
@@ -361,12 +360,11 @@ Outro : GM7 CM7 Bm7 Am7 Em Dadd11"
       }
 
       function processChords(text) {
-        // Common chord patterns - more comprehensive list
-        const chordPattern = /\b([A-G](?:#|b)?(?:maj|min|m|M|\+|-|dim|aug|sus|add)?[0-9]*(?:\/[A-G](?:#|b)?)?)\b/g;
+        // Fixed chord pattern - removed word boundaries that interfere with # and b
+        const chordPattern = /(?:^|\s)([A-G][#b]?(?:maj|min|m|M|\+|-|dim|aug|sus|add)?[0-9]*(?:\/[A-G][#b]?)?)(?=\s|$|[^A-Za-z0-9#b])/g;
 
         return text.replace(chordPattern, (match, chord) => {
-          // Don't replace if it's part of a word (basic check)
-          return `<span class="chord">${chord}</span>`;
+          return match.replace(chord, `<span class="chord">${chord}</span>`);
         });
       }
 
@@ -392,6 +390,26 @@ Outro : GM7 CM7 Bm7 Am7 Em Dadd11"
           alert('Failed to copy. Please select the text manually and copy.');
         }
       }
+    </script>
+    <script>
+      // Auto-format on input change
+      document.addEventListener('DOMContentLoaded', function () {
+        const inputText = document.getElementById('inputText');
+
+        // Add event listener for real-time formatting
+        inputText.addEventListener('input', function () {
+          const input = this.value;
+          if (input.trim()) {
+            const formattedHTML = processLyrics(input);
+            document.getElementById('outputHTML').value = formattedHTML;
+            document.getElementById('previewContainer').innerHTML = formattedHTML;
+          } else {
+            // Clear outputs when input is empty
+            document.getElementById('outputHTML').value = '';
+            document.getElementById('previewContainer').innerHTML = '<div class="empty-state">Your formatted chords will appear here</div>';
+          }
+        });
+      });
     </script>
   </body>
 </html>
