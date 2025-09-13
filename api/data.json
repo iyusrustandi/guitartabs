@@ -1,5 +1,60 @@
 [
   {
+    "artist": " Acha Septriasa Feat Irwansyah ",
+    "song": "My Heart",
+    "tabs": "/tabs/acha-septriasa-feat-irwansyah-my-heart.html"
+  },
+  {
+    "artist": "Rama ",
+    "song": "Bertahan",
+    "tabs": "/tabs/rama-bertahan.html"
+  },
+  {
+    "artist": "D'Morgen ",
+    "song": "Hati yang Tersakiti",
+    "tabs": "/tabs/d-morgen-hati-yang-tersakiti.html"
+  },
+  {
+    "artist": "Hijau Daun ",
+    "song": "Sampai Kau Bicara",
+    "tabs": "/tabs/hijau-daun-sampai-kau-bicara.html"
+  },
+  {
+    "artist": "Hijau Daun ",
+    "song": "Suara (Ku Berharap)",
+    "tabs": "/tabs/hijau-daun-suara-ku-berharap.html"
+  },
+  {
+    "artist": "Hijau Daun ",
+    "song": "Cobalah",
+    "tabs": "/tabs/hijau-daun-cobalah.html"
+  },
+  {
+    "artist": "La Luna ",
+    "song": "Lara Hati",
+    "tabs": "/tabs/la-luna-lara-hati.html"
+  },
+  {
+    "artist": "La Luna ",
+    "song": "Selepas Kau Pergi",
+    "tabs": "/tabs/la-luna-selepas-kau-pergi.html"
+  },
+  {
+    "artist": "Numata ",
+    "song": "Begini Begitu",
+    "tabs": "/tabs/numata-begini-begitu.html"
+  },
+  {
+    "artist": "Roulette ",
+    "song": "Aku Jatuh Cinta",
+    "tabs": "/tabs/roullete-aku-jatuh-cinta.html"
+  },
+  {
+    "artist": "Numata ",
+    "song": "Raja Jatuh Cinta",
+    "tabs": "/tabs/numata-raja-jatuh-cinta.html"
+  },
+  {
     "artist": "Silet Open Up ",
     "song": "Tabola Bale",
     "tabs": "https://gtabs.vercel.app/tabs/silet-open-up-tabola-bale.html"
@@ -7,357 +62,357 @@
   {
     "artist": "Sindentosca ",
     "song": "Kepompong",
-    "tabs": "https://gtabs.vercel.app/tabs/sindentosca-kepompong.html"
+    "tabs": "/tabs/sindentosca-kepompong.html"
   },
   {
     "artist": "Ismail Marzuki ",
     "song": "Gugur Bunga",
-    "tabs": "https://gtabs.vercel.app/tabs/ismail-marzuki-gugur-bunga.html"
+    "tabs": "/tabs/ismail-marzuki-gugur-bunga.html"
   },
   {
     "artist": "Sartono ",
     "song": "Hymne Guru",
-    "tabs": "https://gtabs.vercel.app/tabs/sartono-hymne-guru.html"
+    "tabs": "/tabs/sartono-hymne-guru.html"
   },
   {
     "artist": "WR Soepratman ",
     "song": "Ibu Kita Kartini",
-    "tabs": "https://gtabs.vercel.app/tabs/wr-soepratman-ibu-kita-kartini.html"
+    "tabs": "/tabs/wr-soepratman-ibu-kita-kartini.html"
   },
   {
     "artist": "Ismail Marzuki ",
     "song": "Kulihat Ibu Pertiwi",
-    "tabs": "https://gtabs.vercel.app/tabs/ismail-marzuki-kulihat-ibu-pertiwi.html"
+    "tabs": "/tabs/ismail-marzuki-kulihat-ibu-pertiwi.html"
   },
   {
     "artist": "WR Soepratman ",
     "song": "Indonesia Raya",
-    "tabs": "https://gtabs.vercel.app/tabs/wr-soepratman-indonesia-raya.html"
+    "tabs": "/tabs/wr-soepratman-indonesia-raya.html"
   },
   {
     "artist": "Barasuara ",
     "song": "Terbuang Dalam Waktu",
-    "tabs": "https://gtabs.vercel.app/tabs/barasuara-terbuang-dalam-waktu.html"
+    "tabs": "/tabs/barasuara-terbuang-dalam-waktu.html"
   },
   {
     "artist": "Ari Lasso ",
     "song": "Jalanku Tak Panjang",
-    "tabs": "https://gtabs.vercel.app/tabs/ari-lasso-jalanku-tak-panjang.html"
+    "tabs": "/tabs/ari-lasso-jalanku-tak-panjang.html"
   },
   {
     "artist": "Ratih Purwasih Reggae (Sembarania) ",
     "song": "Kau Tercipta Bukan Untukku",
-    "tabs": "https://gtabs.vercel.app/tabs/ratih-purwasih-kau-tercipta-reggae-sembarania-bukan-untukku.html"
+    "tabs": "/tabs/ratih-purwasih-kau-tercipta-reggae-sembarania-bukan-untukku.html"
   },
   {
     "artist": "Rhoma Irama ",
     "song": "Begadang 2",
-    "tabs": "https://gtabs.vercel.app/tabs/rhoma-irama-begadang-2.html"
+    "tabs": "/tabs/rhoma-irama-begadang-2.html"
   },
   {
     "artist": "Rhoma Irama ",
     "song": "Begadang",
-    "tabs": "https://gtabs.vercel.app/tabs/rhoma-irama-begadang.html"
+    "tabs": "/tabs/rhoma-irama-begadang.html"
   },
   {
     "artist": "Rhoma Irama ",
     "song": "Darah Muda",
-    "tabs": "https://gtabs.vercel.app/tabs/rhoma-irama-darah-muda.html"
+    "tabs": "/tabs/rhoma-irama-darah-muda.html"
   },
   {
     "artist": "Rhoma Irama ",
     "song": "Santai",
-    "tabs": "https://gtabs.vercel.app/tabs/rhoma-irama-santai.html"
+    "tabs": "/tabs/rhoma-irama-santai.html"
   },
   {
     "artist": "Rhoma Irama ",
     "song": "Kata Pujangga",
-    "tabs": "https://gtabs.vercel.app/tabs/rhoma-irama-kata-pujangga.html"
+    "tabs": "/tabs/rhoma-irama-kata-pujangga.html"
   },
   {
     "artist": "Ratih Purwasih ",
     "song": "Kau Tercipta Bukan Untukku",
-    "tabs": "https://gtabs.vercel.app/tabs/ratih-purwasih-kau-tercipta-bukan-untukku.html"
+    "tabs": "/tabs/ratih-purwasih-kau-tercipta-bukan-untukku.html"
   },
   {
     "artist": "Ikke Nurjanah ",
     "song": "Memandangmu",
-    "tabs": "https://gtabs.vercel.app/tabs/ikke-nurjanah-memandangmu.html"
+    "tabs": "/tabs/ikke-nurjanah-memandangmu.html"
   },
   {
     "artist": "Ikke Nurjanah ",
     "song": "Terlena",
-    "tabs": "https://gtabs.vercel.app/tabs/ikke-nurjanah-terlena.html"
+    "tabs": "/tabs/ikke-nurjanah-terlena.html"
   },
   {
     "artist": "Rhoma Irama ",
     "song": "Syahdu",
-    "tabs": "https://gtabs.vercel.app/tabs/rhoma-irama-syahdu.html"
+    "tabs": "/tabs/rhoma-irama-syahdu.html"
   },
   {
     "artist": "Agnes Monica ",
     "song": "Matahariku",
-    "tabs": "https://gtabs.vercel.app/tabs/agnes-monica-matahariku.html"
+    "tabs": "/tabs/agnes-monica-matahariku.html"
   },
   {
     "artist": "James Blunt ",
     "song": "Youre Beautiful",
-    "tabs": "https://gtabs.vercel.app/tabs/james-blunt-youre-beautiful.html"
+    "tabs": "/tabs/james-blunt-youre-beautiful.html"
   },
   {
     "artist": "Ebiet G Ade ",
     "song": "Nyanyian Rindu",
-    "tabs": "https://gtabs.vercel.app/tabs/ebiet-g-ade-nyanyian-rindu.html"
+    "tabs": "/tabs/ebiet-g-ade-nyanyian-rindu.html"
   },
   {
     "artist": "Ebiet G Ade feat. Adera & Segara ",
     "song": "Elegi Esok Pagi",
-    "tabs": "https://gtabs.vercel.app/tabs/ebiet-g-ade-feat-adera-segara-elegi-esok-pagi.html"
+    "tabs": "/tabs/ebiet-g-ade-feat-adera-segara-elegi-esok-pagi.html"
   },
   {
     "artist": "Fourtwnty ",
     "song": "Mangu",
-    "tabs": "https://gtabs.vercel.app/tabs/fourtwnty-mangu.html"
+    "tabs": "/tabs/fourtwnty-mangu.html"
   },
   {
     "artist": "Slank ",
     "song": "Balikin",
-    "tabs": "https://gtabs.vercel.app/tabs/slank-balikin.html"
+    "tabs": "/tabs/slank-balikin.html"
   },
   {
     "artist": "Slank ",
     "song": "I Miss You But I Hate You",
-    "tabs": "https://gtabs.vercel.app/tabs/slank-i-miss-you-but-i-hate-you.html"
+    "tabs": "/tabs/slank-i-miss-you-but-i-hate-you.html"
   },
   {
     "artist": "Slank ",
     "song": "Orkes Sakit Hati (RoadShow)",
-    "tabs": "https://gtabs.vercel.app/tabs/slank-orkes-sakit-hati-roadshow.html"
+    "tabs": "/tabs/slank-orkes-sakit-hati-roadshow.html"
   },
   {
     "artist": "Raim Laode ",
     "song": "Lesung Pipi",
-    "tabs": "https://gtabs.vercel.app/tabs/raim-laode-lesung-pipi.html"
+    "tabs": "/tabs/raim-laode-lesung-pipi.html"
   },
   {
     "artist": "Sartika Aritonang ",
     "song": "Mardua Holong",
-    "tabs": "https://gtabs.vercel.app/tabs/sartika-aritonang-mardua-holong.html"
+    "tabs": "/tabs/sartika-aritonang-mardua-holong.html"
   },
   {
     "artist": "Batas Senja ",
     "song": "Kita Usahakan Lagi",
-    "tabs": "https://gtabs.vercel.app/tabs/batas-senja-kita-usahakan-lagi.html"
+    "tabs": "/tabs/batas-senja-kita-usahakan-lagi.html"
   },
   {
     "artist": "Ariel Noah ",
     "song": "Selalu Ada di Nadimu",
-    "tabs": "https://gtabs.vercel.app/tabs/ariel-noah-selalu-ada-di-nadimu.html"
+    "tabs": "/tabs/ariel-noah-selalu-ada-di-nadimu.html"
   },
   {
     "artist": "Zivilia ",
     "song": "Aishiteru",
-    "tabs": "https://gtabs.vercel.app/tabs/zivilia-aishiteru.html"
+    "tabs": "/tabs/zivilia-aishiteru.html"
   },
   {
     "artist": "Republik ",
     "song": "Sandiwara Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/republik-sandiwara-cinta.html"
+    "tabs": "/tabs/republik-sandiwara-cinta.html"
   },
   {
     "artist": "Christine Panjaitan ",
     "song": " Katakan Sejujurnya",
-    "tabs": "https://gtabs.vercel.app/tabs/christine-panjaitan-katakan-sejujurnya.html"
+    "tabs": "/tabs/christine-panjaitan-katakan-sejujurnya.html"
   },
   {
     "artist": "Peterpan ",
     "song": "Kukatan Dengan Indah",
-    "tabs": "https://gtabs.vercel.app/tabs/peterpan-kukatan-dengan-indah.html"
+    "tabs": "/tabs/peterpan-kukatan-dengan-indah.html"
   },
   {
     "artist": "Jun Munthe ",
     "song": "Pulut Roham",
-    "tabs": "https://gtabs.vercel.app/tabs/jun-munthe-pulut-roham.html"
+    "tabs": "/tabs/jun-munthe-pulut-roham.html"
   },
   {
     "artist": "Guns N Roses ",
     "song": "Estranged",
-    "tabs": "https://gtabs.vercel.app/tabs/guns-n-roses-estranged.html"
+    "tabs": "/tabs/guns-n-roses-estranged.html"
   },
   {
     "artist": "Bimbo ",
     "song": "Sehabis Ramadhan",
-    "tabs": "https://gtabs.vercel.app/tabs/bimbo-sehabis-ramadhan.html"
+    "tabs": "/tabs/bimbo-sehabis-ramadhan.html"
   },
   {
     "artist": "Rumor ",
     "song": "Butiran Debu",
-    "tabs": "https://gtabs.vercel.app/tabs/rumor-butiran-debu.html"
+    "tabs": "/tabs/rumor-butiran-debu.html"
   },
   {
     "artist": "Pongki Barata ",
     "song": "Aku Milikmu",
-    "tabs": "https://gtabs.vercel.app/tabs/pongki-barata-aku-milikmu.html"
+    "tabs": "/tabs/pongki-barata-aku-milikmu.html"
   },
   {
     "artist": "Kla Project ",
     "song": "Yogyakarta",
-    "tabs": "https://gtabs.vercel.app/tabs/kla-project-yogyakarta.html"
+    "tabs": "/tabs/kla-project-yogyakarta.html"
   },
   {
     "artist": "Kenny Rogers ",
     "song": "Lady",
-    "tabs": "https://gtabs.vercel.app/tabs/kenny-rogers-lady.html"
+    "tabs": "/tabs/kenny-rogers-lady.html"
   },
   {
     "artist": "Padi ",
     "song": "Sobat",
-    "tabs": "https://gtabs.vercel.app/tabs/padi-sobat.html"
+    "tabs": "/tabs/padi-sobat.html"
   },
   {
     "artist": "Letto ",
     "song": "Sebelum Cahaya",
-    "tabs": "https://gtabs.vercel.app/tabs/letto-sebelum-cahaya.html"
+    "tabs": "/tabs/letto-sebelum-cahaya.html"
   },
   {
     "artist": "Ungu ",
     "song": "Para Pencarimu",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-para-pencarimu.html"
+    "tabs": "/tabs/ungu-para-pencarimu.html"
   },
   {
     "artist": "Ada Band ",
     "song": "Jalan Cahaya",
-    "tabs": "https://gtabs.vercel.app/tabs/ada-band-jalan-cahaya.html"
+    "tabs": "/tabs/ada-band-jalan-cahaya.html"
   },
   {
     "artist": "Blink 182 ",
     "song": "Stay Together For The Kids",
-    "tabs": "https://gtabs.vercel.app/tabs/blink-182-stay-together-for-the-kids.html"
+    "tabs": "/tabs/blink-182-stay-together-for-the-kids.html"
   },
   {
     "artist": "Green Day ",
     "song": "American Idiot",
-    "tabs": "https://gtabs.vercel.app/tabs/green-day-american-idiot.html"
+    "tabs": "/tabs/green-day-american-idiot.html"
   },
   {
     "artist": "Ungu ",
     "song": "Bulan Baik",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-bulan-baik.html"
+    "tabs": "/tabs/ungu-bulan-baik.html"
   },
   {
     "artist": "Noah ",
     "song": "Suara Dalam Kepala",
-    "tabs": "https://gtabs.vercel.app/tabs/noah-suara-dalam-kepala.html"
+    "tabs": "/tabs/noah-suara-dalam-kepala.html"
   },
   {
     "artist": "Ungu ",
     "song": "Percaya Padaku",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-percaya-padaku.html"
+    "tabs": "/tabs/ungu-percaya-padaku.html"
   },
   {
     "artist": "Sum 41 ",
     "song": "Still Waiting",
-    "tabs": "https://gtabs.vercel.app/tabs/sum-41-still-waiting.html"
+    "tabs": "/tabs/sum-41-still-waiting.html"
   },
   {
     "artist": "Green Day ",
     "song": "Boulevard of Broken Dreams",
-    "tabs": "https://gtabs.vercel.app/tabs/green-day-boulevard-of-broken-dreams.html"
+    "tabs": "/tabs/green-day-boulevard-of-broken-dreams.html"
   },
   {
     "artist": "Green Day ",
     "song": "Basket Case",
-    "tabs": "https://gtabs.vercel.app/tabs/green-day-basket-case.html"
+    "tabs": "/tabs/green-day-basket-case.html"
   },
   {
     "artist": "Chrisye & Ahmad Dhani ",
     "song": "Jika Surga & Neraka Tak Pernah Ada",
-    "tabs": "https://gtabs.vercel.app/tabs/chrisye-ahmad-dhani-jika-surga-dan-neraka-tak-pernah-ada.html"
+    "tabs": "/tabs/chrisye-ahmad-dhani-jika-surga-dan-neraka-tak-pernah-ada.html"
   },
   {
     "artist": "Radja ",
     "song": "Benci Bilang Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/radja-benci-bilang-cinta.html"
+    "tabs": "/tabs/radja-benci-bilang-cinta.html"
   },
   {
     "artist": "Noah ",
     "song": "Topeng (Live at Amterdam)",
-    "tabs": "https://gtabs.vercel.app/tabs/noah-topeng-live-at-amsterdam.html"
+    "tabs": "/tabs/noah-topeng-live-at-amsterdam.html"
   },
   {
     "artist": "Noah ",
     "song": "Topeng",
-    "tabs": "https://gtabs.vercel.app/tabs/noah-topeng.html"
+    "tabs": "/tabs/noah-topeng.html"
   },
   {
     "artist": "Noah ",
     "song": "Sally Sendiri",
-    "tabs": "https://gtabs.vercel.app/tabs/noah-sally-sendiri.html"
+    "tabs": "/tabs/noah-sally-sendiri.html"
   },
   {
     "artist": "Ahmad Dhani ",
     "song": "Satu",
-    "tabs": "https://gtabs.vercel.app/tabs/ahmad-dhani-satu.html"
+    "tabs": "/tabs/ahmad-dhani-satu.html"
   },
   {
     "artist": "Ungu ",
     "song": "Do'a",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-doa.html"
+    "tabs": "/tabs/ungu-doa.html"
   },
   {
     "artist": "Abu Al Ghazali ",
     "song": "Jika Cinta Allah",
-    "tabs": "https://gtabs.vercel.app/tabs/abu-al-ghazali-jika-cinta-allah.html"
+    "tabs": "/tabs/abu-al-ghazali-jika-cinta-allah.html"
   },
   {
     "artist": "Opick feat. Amanda ",
     "song": "Alhamdulillah",
-    "tabs": "https://gtabs.vercel.app/tabs/opick-feat-amanda-alhamdulillah.html"
+    "tabs": "/tabs/opick-feat-amanda-alhamdulillah.html"
   },
   {
     "artist": "Dere ",
     "song": "Kota",
-    "tabs": "https://gtabs.vercel.app/tabs/dere-kota.html"
+    "tabs": "/tabs/dere-kota.html"
   },
   {
     "artist": "The Beatles ",
     "song": "The Long And Winding Road",
-    "tabs": "https://gtabs.vercel.app/tabs/the-beatles-the-long-and-winding-road.html"
+    "tabs": "/tabs/the-beatles-the-long-and-winding-road.html"
   },
   {
     "artist": "Opick ",
     "song": "Tombo Ati",
-    "tabs": "https://gtabs.vercel.app/tabs/opick-tombo-ati.html"
+    "tabs": "/tabs/opick-tombo-ati.html"
   },
   {
     "artist": "Ungu ",
     "song": "Jika Itu Yang Terbaik",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-jika-itu-yang-terbaik.html"
+    "tabs": "/tabs/ungu-jika-itu-yang-terbaik.html"
   },
   {
     "artist": "Ada Band ",
     "song": "Pemain Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/ada-band-pemain-cinta.html"
+    "tabs": "/tabs/ada-band-pemain-cinta.html"
   },
   {
     "artist": "Rio Clappy ",
     "song": "Bunga Abadi",
-    "tabs": "https://gtabs.vercel.app/tabs/rio-clappy-bunga-abadi.html"
+    "tabs": "/tabs/rio-clappy-bunga-abadi.html"
   },
   {
     "artist": "Tenxi, Naykilla & Jemsii ",
     "song": "Garam dan Madu",
-    "tabs": "https://gtabs.vercel.app/tabs/tenxi-naykilla-jemsii-garam-dan-madu.html"
+    "tabs": "/tabs/tenxi-naykilla-jemsii-garam-dan-madu.html"
   },
   {
     "artist": "Sheila On 7",
     "song": "Shepia",
-    "tabs": "https://gtabs.vercel.app/tabs/sheila-on-7-shepia.html"
+    "tabs": "/tabs/sheila-on-7-shepia.html"
   },
   {
     "artist": "Ada Band",
     "song": "Nyawa Hidupku",
-    "tabs": "https://gtabs.vercel.app/tabs/ada-band-nyawa-hidupku.html",
+    "tabs": "/tabs/ada-band-nyawa-hidupku.html",
     "file": "-",
     "tracks": {
       "vocals": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/vocals.mp3",
@@ -370,7 +425,7 @@
   {
     "artist": "Haddad Alwi",
     "song": "Al-I'tiroof",
-    "tabs": "https://gtabs.vercel.app/tabs/haddad-alwi-al-itiroof.html",
+    "tabs": "/tabs/haddad-alwi-al-itiroof.html",
     "file": "https://www.dropbox.com/scl/fi/6h6zq9rexrzn42kekv7hi/Haddad-Alwi-Al-I-tiroof.mp3?rlkey=bpsansvo9vd386atw4euhit2b&st=d2s30jk1&raw=1",
     "tracks": {
       "vocals": "/songs/New-Syclon-Hidupku-Sepi-Tanpamu/vocals.mp3",
@@ -383,7 +438,7 @@
   {
     "artist": "Humood ",
     "song": "Kun Anta",
-    "tabs": "https://gtabs.vercel.app/tabs/humood-kun-anta.html",
+    "tabs": "/tabs/humood-kun-anta.html",
     "file": "https://www.dropbox.com/scl/fi/f48xaernhe4mimi87sp8f/Humood-Kun-Anta.mp3?rlkey=e3z11iyowkqvh2jit3h72b3m5&st=kvs5t9sq&raw=1",
     "tracks": {
       "vocals": "https://www.dropbox.com/scl/fi/mmpuxqoex3rc4llv6nlug/vocals.mp3?rlkey=psxr94ta2czhl5kci83x79siu&st=r64g544r&raw=1",
@@ -396,1083 +451,1083 @@
   {
     "artist": "Slank ",
     "song": "Orkes Sakit Hati",
-    "tabs": "https://gtabs.vercel.app/tabs/slank-orkes-sakit-hati.html"
+    "tabs": "/tabs/slank-orkes-sakit-hati.html"
   },
   {
     "artist": "Wali ",
     "song": "Tobat Maksiat",
-    "tabs": "https://gtabs.vercel.app/tabs/wali-tobat-maksiat.html"
+    "tabs": "/tabs/wali-tobat-maksiat.html"
   },
   {
     "artist": "Maher Zein ",
     "song": "Thank You Allah",
-    "tabs": "https://gtabs.vercel.app/tabs/maher-zein-thank-you-allah.html"
+    "tabs": "/tabs/maher-zein-thank-you-allah.html"
   },
   {
     "artist": "Maher Zein ",
     "song": "Rahmatun Lil'Alameen",
-    "tabs": "https://gtabs.vercel.app/tabs/maher-zein-rahmatun-lil-alameen.html",
+    "tabs": "/tabs/maher-zein-rahmatun-lil-alameen.html",
     "file": "https://www.dropbox.com/scl/fi/g2xqdltammoawak7idesd/Maher-Zain-Rahmatun-Lil-Alameen.mp3?rlkey=46oa0rabneg7gui3emrkdxxo4&st=637hb9vr&raw=1"
   },
   {
     "artist": "Uje ",
     "song": "Bidadari Surga",
-    "tabs": "https://gtabs.vercel.app/tabs/uje-bidadari-surga.html",
+    "tabs": "/tabs/uje-bidadari-surga.html",
     "file": "https://www.dropbox.com/scl/fi/ys11n2m7d8usy9p1zphp8/Ustadz-Jefri-Al-Buchori-Uje-Bidadari-Surga.mp3?rlkey=48bkp2gvpygtntbt6wqiht9a4&st=39enkdc5&raw=1"
   },
   {
     "artist": "Wijaya 80 ",
     "song": "Terakhir Kali",
-    "tabs": "https://gtabs.vercel.app/tabs/wijaya-80-terakhir-kali.html",
+    "tabs": "/tabs/wijaya-80-terakhir-kali.html",
     "file": "https://www.dropbox.com/scl/fi/6i13ssfderc2gt2rg1r26/Wijaya-80-Terakhir-Kali.mp3?rlkey=moip5vjo1ipiva8xkak0pgr6z&st=3d1kcj6r&raw=1"
   },
   {
     "artist": "The Lantis ",
     "song": "Lampu Merah",
-    "tabs": "https://gtabs.vercel.app/tabs/the-lantis-lampu-merah.html"
+    "tabs": "/tabs/the-lantis-lampu-merah.html"
   },
   {
     "artist": "West Papua ",
     "song": "Apuse",
-    "tabs": "https://gtabs.vercel.app/tabs/west-papua-apuse.html"
+    "tabs": "/tabs/west-papua-apuse.html"
   },
   {
     "artist": "Hen in Cloud ",
     "song": "Yamko Rambe Yamko (Reggae)",
-    "tabs": "https://gtabs.vercel.app/tabs/hen-in-cloud-yamko-rambe-yamko.html"
+    "tabs": "/tabs/hen-in-cloud-yamko-rambe-yamko.html"
   },
   {
     "artist": "Indra and Ageung ",
     "song": "Yamko Rambe Yamko (Cover)",
-    "tabs": "https://gtabs.vercel.app/tabs/indra-and-ageung-yamko-rambe-yamko.html"
+    "tabs": "/tabs/indra-and-ageung-yamko-rambe-yamko.html"
   },
   {
     "artist": "The Beatles ",
     "song": "I Saw Her Satnding There",
-    "tabs": "https://gtabs.vercel.app/tabs/the-beatles-i-saw-her-standing-there.html"
+    "tabs": "/tabs/the-beatles-i-saw-her-standing-there.html"
   },
   {
     "artist": "Melly Goeslaw ft. Ari Lasso ",
     "song": "Jika",
-    "tabs": "https://gtabs.vercel.app/tabs/melly-goeslaw-ari-lasso-jika.html"
+    "tabs": "/tabs/melly-goeslaw-ari-lasso-jika.html"
   },
   {
     "artist": "Mulan Jameela ",
     "song": "Jatuh Cinta Lagi",
-    "tabs": "https://gtabs.vercel.app/tabs/mulan-jameela-jatuh-cinta-lagi.html"
+    "tabs": "/tabs/mulan-jameela-jatuh-cinta-lagi.html"
   },
   {
     "artist": "Wali ",
     "song": "Bukan Bang Toyib",
-    "tabs": "https://gtabs.vercel.app/tabs/wali-bukan-bang-toyib.html"
+    "tabs": "/tabs/wali-bukan-bang-toyib.html"
   },
   {
     "artist": "Instrumental ",
     "song": "Apuse",
-    "tabs": "https://gtabs.vercel.app/tabs/instrumental-apuse.html"
+    "tabs": "/tabs/instrumental-apuse.html"
   },
   {
     "artist": "Latiquee Production ",
     "song": "Sajojo (Reggae Cover)",
-    "tabs": "https://gtabs.vercel.app/tabs/latiquee-production-sajojo-cover.html"
+    "tabs": "/tabs/latiquee-production-sajojo-cover.html"
   },
   {
     "artist": "Glenn Fredly ",
     "song": "Rame-Rame (Cover By Sekawan Band)",
-    "tabs": "https://gtabs.vercel.app/tabs/glenn-fredly-rame-rame-cover-by-sekawan-band.html"
+    "tabs": "/tabs/glenn-fredly-rame-rame-cover-by-sekawan-band.html"
   },
   {
     "artist": "Muse ",
     "song": "Unintended",
-    "tabs": "https://gtabs.vercel.app/tabs/muse-unintended.html"
+    "tabs": "/tabs/muse-unintended.html"
   },
   {
     "artist": "Edo kondologit ",
     "song": "Aku Papua",
-    "tabs": "https://gtabs.vercel.app/tabs/edo-kondologit-aku-papua.html"
+    "tabs": "/tabs/edo-kondologit-aku-papua.html"
   },
   {
     "artist": "The Lantis ",
     "song": "Bunga Maaf",
-    "tabs": "https://gtabs.vercel.app/tabs/the-lantis-bunga-maaf.html"
+    "tabs": "/tabs/the-lantis-bunga-maaf.html"
   },
   {
     "artist": "Penny Tai ",
     "song": " Ni Yao De Ai",
-    "tabs": "https://gtabs.vercel.app/tabs/penny-tai-ni-yao-de-ai.html"
+    "tabs": "/tabs/penny-tai-ni-yao-de-ai.html"
   },
   {
     "artist": "Iwan Fals ",
     "song": " Yang Terlupakan (1989) ",
-    "tabs": "https://gtabs.vercel.app/tabs/iwan-fals-yang-terlupakan-1989.html"
+    "tabs": "/tabs/iwan-fals-yang-terlupakan-1989.html"
   },
   {
     "artist": "Iwan Fals ",
     "song": " Yang Terlupakan (1981) ",
-    "tabs": "https://gtabs.vercel.app/tabs/iwan-fals-yang-terlupakan-1981.html"
+    "tabs": "/tabs/iwan-fals-yang-terlupakan-1981.html"
   },
   {
     "artist": "Slank ",
     "song": " Mawar Merah ",
-    "tabs": "https://gtabs.vercel.app/tabs/slank-mawar-merah.html"
+    "tabs": "/tabs/slank-mawar-merah.html"
   },
   {
     "artist": "George Baker ",
     "song": "Baby Blue ",
-    "tabs": "https://gtabs.vercel.app/tabs/george-baker-baby-blue.html"
+    "tabs": "/tabs/george-baker-baby-blue.html"
   },
   {
     "artist": "Sheila On7 ",
     "song": "Hari Bersamanya ",
-    "tabs": "https://gtabs.vercel.app/tabs/sheila-on-7-hari-bersamanya.html"
+    "tabs": "/tabs/sheila-on-7-hari-bersamanya.html"
   },
   {
     "artist": "Sheila On7 ",
     "song": "Sebuah Kisah Klasik ",
-    "tabs": "https://gtabs.vercel.app/tabs/sheila-on-7-sebuah-kisah-klasik.html"
+    "tabs": "/tabs/sheila-on-7-sebuah-kisah-klasik.html"
   },
   {
     "artist": "Ada Band ",
     "song": "Haruskah Kumati ",
-    "tabs": "https://gtabs.vercel.app/tabs/adaband-haruskah-kumati.html"
+    "tabs": "/tabs/adaband-haruskah-kumati.html"
   },
   {
     "artist": "Andmesh ",
     "song": "Hanya Rindu ",
-    "tabs": "https://gtabs.vercel.app/tabs/andmesh-hanya-rindu.html"
+    "tabs": "/tabs/andmesh-hanya-rindu.html"
   },
   {
     "artist": "Andmesh ",
     "song": "Cinta Luar Biasa ",
-    "tabs": "https://gtabs.vercel.app/tabs/andmesh-cinta-luar-biasa.html"
+    "tabs": "/tabs/andmesh-cinta-luar-biasa.html"
   },
   {
     "artist": "The Groove ",
     "song": "Dahulu ",
-    "tabs": "https://gtabs.vercel.app/tabs/the-groove-dahulu.html"
+    "tabs": "/tabs/the-groove-dahulu.html"
   },
   {
     "artist": "Ungu ",
     "song": "Terbaik ",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-terbaik.html"
+    "tabs": "/tabs/ungu-terbaik.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": "Elang ",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-elang.html"
+    "tabs": "/tabs/dewa-19-elang.html"
   },
   {
     "artist": "Padi ",
     "song": "Mahadewi",
-    "tabs": "https://gtabs.vercel.app/tabs/padi-mahadewi.html"
+    "tabs": "/tabs/padi-mahadewi.html"
   },
   {
     "artist": "Kotak ",
     "song": "Pelan Pelan Saja",
-    "tabs": "https://gtabs.vercel.app/tabs/kotak-pelan-pelan-saja.html"
+    "tabs": "/tabs/kotak-pelan-pelan-saja.html"
   },
   {
     "artist": "/Rif ",
     "song": "Loe Toe Ye",
-    "tabs": "https://gtabs.vercel.app/tabs/rif-loe-toe-ye.html"
+    "tabs": "/tabs/rif-loe-toe-ye.html"
   },
   {
     "artist": "Elliot James Reay ",
     "song": "I Think The Call This Love",
-    "tabs": "https://gtabs.vercel.app/tabs/elliot-james-reay-i-think-the-call-this-love.html"
+    "tabs": "/tabs/elliot-james-reay-i-think-the-call-this-love.html"
   },
   {
     "artist": "D'Masiv ",
     "song": "Sudahi Perih Ini",
-    "tabs": "https://gtabs.vercel.app/tabs/dmasiv-sudahi-perih-ini.html"
+    "tabs": "/tabs/dmasiv-sudahi-perih-ini.html"
   },
   {
     "artist": "Once ",
     "song": "Symphony Yang Indah",
-    "tabs": "https://gtabs.vercel.app/tabs/once-symphony-yang-indah.html"
+    "tabs": "/tabs/once-symphony-yang-indah.html"
   },
   {
     "artist": "Radja ",
     "song": "Cinderella",
-    "tabs": "https://gtabs.vercel.app/tabs/radja-cinderella.html"
+    "tabs": "/tabs/radja-cinderella.html"
   },
   {
     "artist": "Bruno Mars Ft. Rose ",
     "song": "APT",
-    "tabs": "https://gtabs.vercel.app/tabs/bruno-mars-rose-apt.html"
+    "tabs": "/tabs/bruno-mars-rose-apt.html"
   },
   {
     "artist": "Bernadya ",
     "song": "Satu Bulan",
-    "tabs": "https://gtabs.vercel.app/tabs/bernadya-satu-bulan.html"
+    "tabs": "/tabs/bernadya-satu-bulan.html"
   },
   {
     "artist": "Metallica ",
     "song": "Nothing Else Matter",
-    "tabs": "https://gtabs.vercel.app/tabs/metallica-nothing-lse-matters.html"
+    "tabs": "/tabs/metallica-nothing-lse-matters.html"
   },
   {
     "artist": "No Name ",
     "song": "OST Aroma Indosiar",
-    "tabs": "https://gtabs.vercel.app/tabs/no-name-ost-aroma-indosiar.html"
+    "tabs": "/tabs/no-name-ost-aroma-indosiar.html"
   },
   {
     "artist": "Guns N Roses ",
     "song": "Knockin On Heaven's Door",
-    "tabs": "https://gtabs.vercel.app/tabs/gnr-knockin-on-heavens-door.html"
+    "tabs": "/tabs/gnr-knockin-on-heavens-door.html"
   },
   {
     "artist": "Dewa 19 ft Ello ",
     "song": "Tak Kan Ada Cinta Yang Lain",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-ello-tak-kan-ada-cinta-yang-lain.html"
+    "tabs": "/tabs/dewa-19-ello-tak-kan-ada-cinta-yang-lain.html"
   },
   {
     "artist": "T-Five ",
     "song": "Kau",
-    "tabs": "https://gtabs.vercel.app/tabs/t-five-kau.html"
+    "tabs": "/tabs/t-five-kau.html"
   },
   {
     "artist": "Bad English ",
     "song": "When I See Youre Smile",
-    "tabs": "https://gtabs.vercel.app/tabs/bad-english-when-i-see-your-smile.html"
+    "tabs": "/tabs/bad-english-when-i-see-your-smile.html"
   },
   {
     "artist": "God Bless ",
     "song": "Rumah Kita",
-    "tabs": "https://gtabs.vercel.app/tabs/god-bless-rumah-kita.html"
+    "tabs": "/tabs/god-bless-rumah-kita.html"
   },
   {
     "artist": "George Benson ",
     "song": "Nothing's Gonna Change My Love For You",
-    "tabs": "https://gtabs.vercel.app/tabs/george-benson-nothings-gonna-change.html"
+    "tabs": "/tabs/george-benson-nothings-gonna-change.html"
   },
   {
     "artist": "Nazareth ",
     "song": "Love Hurts ",
-    "tabs": "https://gtabs.vercel.app/tabs/nazareth-love-hurts.html"
+    "tabs": "/tabs/nazareth-love-hurts.html"
   },
   {
     "artist": "Shades Apart ",
     "song": "Stranger By The Day ",
-    "tabs": "https://gtabs.vercel.app/tabs/shades-apart-stranger-by-the-day.html"
+    "tabs": "/tabs/shades-apart-stranger-by-the-day.html"
   },
   {
     "artist": "Goo Goo Dolls ",
     "song": "Iris ",
-    "tabs": "https://gtabs.vercel.app/tabs/goo-goo-dolls-iris.html"
+    "tabs": "/tabs/goo-goo-dolls-iris.html"
   },
   {
     "artist": "3 Doors Down ",
     "song": "Here Without You ",
-    "tabs": "https://gtabs.vercel.app/tabs/3-doors-down-here-without-you.html"
+    "tabs": "/tabs/3-doors-down-here-without-you.html"
   },
   {
     "artist": "Lenka ",
     "song": "Trouble Is A Friend ",
-    "tabs": "https://gtabs.vercel.app/tabs/lenka-trouble-is-a-friend.html"
+    "tabs": "/tabs/lenka-trouble-is-a-friend.html"
   },
   {
     "artist": "M2M ",
     "song": "The Day You Went Away ",
-    "tabs": "https://gtabs.vercel.app/tabs/m2m-the-day-you-went-away.html"
+    "tabs": "/tabs/m2m-the-day-you-went-away.html"
   },
   {
     "artist": "Deep Purple ",
     "song": "Smoke On The Water ",
-    "tabs": "https://gtabs.vercel.app/tabs/deep-purple-smoke-on-the-water.html"
+    "tabs": "/tabs/deep-purple-smoke-on-the-water.html"
   },
   {
     "artist": "Scorpions ",
     "song": "Wind Of Change ",
-    "tabs": "https://gtabs.vercel.app/tabs/scorpions-wind-of-change.html"
+    "tabs": "/tabs/scorpions-wind-of-change.html"
   },
   {
     "artist": "Naif ",
     "song": "Karena Kamu Cuma Satu ",
-    "tabs": "https://gtabs.vercel.app/tabs/naif-karena-kamu-cuma-satu.html"
+    "tabs": "/tabs/naif-karena-kamu-cuma-satu.html"
   },
   {
     "artist": "Naif ",
     "song": "Buta Hati ",
-    "tabs": "https://gtabs.vercel.app/tabs/naif-buta-hati.html"
+    "tabs": "/tabs/naif-buta-hati.html"
   },
   {
     "artist": "Juicy Lucy ",
     "song": "Sialan ",
-    "tabs": "https://gtabs.vercel.app/tabs/juicy-lucy-sialan.html"
+    "tabs": "/tabs/juicy-lucy-sialan.html"
   },
   {
     "artist": "Bruno Mars Ft. Lady Gaga ",
     "song": "Die With A Smile ",
-    "tabs": "https://gtabs.vercel.app/tabs/bruno-mars-lady-gaga-die-with-a-smile.html"
+    "tabs": "/tabs/bruno-mars-lady-gaga-die-with-a-smile.html"
   },
   {
     "artist": "Bernadya ",
     "song": "Kini Mereka Tahu ",
-    "tabs": "https://gtabs.vercel.app/tabs/bernadya-kini-mereka-tahu.html"
+    "tabs": "/tabs/bernadya-kini-mereka-tahu.html"
   },
   {
     "artist": "Blasterjaxx, Timmy Trumpet ",
     "song": "Narco ",
-    "tabs": "https://gtabs.vercel.app/tabs/blasterjaxx-timmy-trumper-narco.html"
+    "tabs": "/tabs/blasterjaxx-timmy-trumper-narco.html"
   },
   {
     "artist": "Oslan Husein ",
     "song": "Kambanglah Bungo ",
-    "tabs": "https://gtabs.vercel.app/tabs/oslan-husein-kambanglah-bungo.html"
+    "tabs": "/tabs/oslan-husein-kambanglah-bungo.html"
   },
   {
     "artist": "Muchsin Alatas ",
     "song": "Kesunyian Jiwa ",
-    "tabs": "https://gtabs.vercel.app/tabs/muchsin-alatas-kesunyian-jiwa.html"
+    "tabs": "/tabs/muchsin-alatas-kesunyian-jiwa.html"
   },
   {
     "artist": "Om PMR ",
     "song": "Judul Judulan ",
-    "tabs": "https://gtabs.vercel.app/tabs/om-pmr-judul-judulan.html"
+    "tabs": "/tabs/om-pmr-judul-judulan.html"
   },
   {
     "artist": "Roy Orbison ",
     "song": "Pretty Woman ",
-    "tabs": "https://gtabs.vercel.app/tabs/roy-orbison-pretty-woman.html"
+    "tabs": "/tabs/roy-orbison-pretty-woman.html"
   },
   {
     "artist": "Koes Plus ",
     "song": "Kolam Susu ",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-kolam-susu.html"
+    "tabs": "/tabs/koes-plus-kolam-susu.html"
   },
   {
     "artist": "Eric Clapton ",
     "song": "Tears In Heaven ",
-    "tabs": "https://gtabs.vercel.app/tabs/eric-clapton-tears-in-heaven.html"
+    "tabs": "/tabs/eric-clapton-tears-in-heaven.html"
   },
   {
     "artist": "Ruth Sahanya ",
     "song": "Keliru ",
-    "tabs": "https://gtabs.vercel.app/tabs/ruth-sahanaya-keliru.html"
+    "tabs": "/tabs/ruth-sahanaya-keliru.html"
   },
   {
     "artist": "The Beatles ",
     "song": "Don't Let Me Down ",
-    "tabs": "https://gtabs.vercel.app/tabs/the-beatles-dont-let-me-down.html"
+    "tabs": "/tabs/the-beatles-dont-let-me-down.html"
   },
   {
     "artist": "The Beatles ",
     "song": "Day Tripper ",
-    "tabs": "https://gtabs.vercel.app/tabs/the-beatles-day-tripper.html"
+    "tabs": "/tabs/the-beatles-day-tripper.html"
   },
   {
     "artist": "Sixpence None The Richer ",
     "song": "Kiss Me ",
-    "tabs": "https://gtabs.vercel.app/tabs/sixpence-none-the-richer-kiss-me.html"
+    "tabs": "/tabs/sixpence-none-the-richer-kiss-me.html"
   },
   {
     "artist": "Aerosmith ",
     "song": "I Don't Want To Miss A Thing ",
-    "tabs": "https://gtabs.vercel.app/tabs/aerosmith-i-dont-want-to-miss-a-thing.html"
+    "tabs": "/tabs/aerosmith-i-dont-want-to-miss-a-thing.html"
   },
   {
     "artist": "Queen ",
     "song": "Crazy Little Thing Called Love ",
-    "tabs": "https://gtabs.vercel.app/tabs/queen-crazy-little-thing-called-love.html"
+    "tabs": "/tabs/queen-crazy-little-thing-called-love.html"
   },
   {
     "artist": "The Cranberries ",
     "song": "Zombie ",
-    "tabs": "https://gtabs.vercel.app/tabs/the-cranberries-zombie.html"
+    "tabs": "/tabs/the-cranberries-zombie.html"
   },
   {
     "artist": "The Beatles ",
     "song": "Here, There and Everywhere ",
-    "tabs": "https://gtabs.vercel.app/tabs/the-beatles-here-there-and-everywhere.html"
+    "tabs": "/tabs/the-beatles-here-there-and-everywhere.html"
   },
   {
     "artist": "Michael Buble ",
     "song": "Help Me Make It Through The Night ",
-    "tabs": "https://gtabs.vercel.app/tabs/michael-buble-help-me-make-it-through-the-night.html"
+    "tabs": "/tabs/michael-buble-help-me-make-it-through-the-night.html"
   },
   {
     "artist": "Panbers ",
     "song": "Tak Kusangka ",
-    "tabs": "https://gtabs.vercel.app/tabs/panbers-tak-kusangka.html"
+    "tabs": "/tabs/panbers-tak-kusangka.html"
   },
   {
     "artist": "Koes Plus ",
     "song": "Hidup Yang Sepi ",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-hidup-yang-sepi.html"
+    "tabs": "/tabs/koes-plus-hidup-yang-sepi.html"
   },
   {
     "artist": "Koes Plus ",
     "song": "Cintamu Tlah Berlalu ",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-cintamu-tlah-berlalu.html"
+    "tabs": "/tabs/koes-plus-cintamu-tlah-berlalu.html"
   },
   {
     "artist": "Bee Gees ",
     "song": "I Started A Joke ",
-    "tabs": "https://gtabs.vercel.app/tabs/bee-gees-i-started-a-joke.html"
+    "tabs": "/tabs/bee-gees-i-started-a-joke.html"
   },
   {
     "artist": "Broery Ft. Dewi Yull ",
     "song": "Rindu Yang Terlarang ",
-    "tabs": "https://gtabs.vercel.app/tabs/broery-rindu-yang-terlarang.html"
+    "tabs": "/tabs/broery-rindu-yang-terlarang.html"
   },
   {
     "artist": "Panbers ",
     "song": "Hidup Terkekang ",
-    "tabs": "https://gtabs.vercel.app/tabs/panbers-hidup-terkekang.html"
+    "tabs": "/tabs/panbers-hidup-terkekang.html"
   },
   {
     "artist": "Procol Harum ",
     "song": "A Whiter Shade of Pale ",
-    "tabs": "https://gtabs.vercel.app/tabs/procol-harum-a-whiter-shade-of-pale.html"
+    "tabs": "/tabs/procol-harum-a-whiter-shade-of-pale.html"
   },
   {
     "artist": "Rod Stewart ",
     "song": "I Don't Want To Talk About It ",
-    "tabs": "https://gtabs.vercel.app/tabs/rod-stewart-i-dont-want-to-talk-about-it.html"
+    "tabs": "/tabs/rod-stewart-i-dont-want-to-talk-about-it.html"
   },
   {
     "artist": "The Beatles ",
     "song": "Yesterday",
-    "tabs": "https://gtabs.vercel.app/tabs/the-beatles-yesterday.html"
+    "tabs": "/tabs/the-beatles-yesterday.html"
   },
   {
     "artist": "The Beatles ",
     "song": "Oh Darling",
-    "tabs": "https://gtabs.vercel.app/tabs/the-beatles-oh-darling.html"
+    "tabs": "/tabs/the-beatles-oh-darling.html"
   },
   {
     "artist": "Titi Ft Diana Nasution ",
     "song": "Jangan Biarkan",
-    "tabs": "https://gtabs.vercel.app/tabs/titi-dj-diana-nasution-jangan-biarkan.html"
+    "tabs": "/tabs/titi-dj-diana-nasution-jangan-biarkan.html"
   },
   {
     "artist": "Shaun Riley ",
     "song": "Die With A Smile",
-    "tabs": "https://gtabs.vercel.app/tabs/shaun-riley-die-with-a-smile.html"
+    "tabs": "/tabs/shaun-riley-die-with-a-smile.html"
   },
   {
     "artist": "Diana Nasution ",
     "song": "Jangan Biarkan",
-    "tabs": "https://gtabs.vercel.app/tabs/diana-nasution-jangan-biarkan.html"
+    "tabs": "/tabs/diana-nasution-jangan-biarkan.html"
   },
   {
     "artist": "Agustinus Teddy",
     "song": "Jingle Dunia Fantasi",
-    "tabs": "https://gtabs.vercel.app/tabs/agustinus-teddy-jingle-dunia-fantasi.html"
+    "tabs": "/tabs/agustinus-teddy-jingle-dunia-fantasi.html"
   },
   {
     "artist": "Rockwell",
     "song": "Knife",
-    "tabs": "https://gtabs.vercel.app/tabs/rockwell-knife.html"
+    "tabs": "/tabs/rockwell-knife.html"
   },
   {
     "artist": "Farid Hardja",
     "song": "Karmila",
-    "tabs": "https://gtabs.vercel.app/tabs/farid-hardja-karmila.html"
+    "tabs": "/tabs/farid-hardja-karmila.html"
   },
   {
     "artist": "Kahitna ",
     "song": "Cerita Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/kahitna-cerita-cinta.html"
+    "tabs": "/tabs/kahitna-cerita-cinta.html"
   },
   {
     "artist": "No Name ",
     "song": "Miaw Miaw Miaw",
-    "tabs": "https://gtabs.vercel.app/tabs/no-name-miaw-miaw-miaw.html"
+    "tabs": "/tabs/no-name-miaw-miaw-miaw.html"
   },
   {
     "artist": "Elvis Presley ",
     "song": "Can't Help Falling In Love",
-    "tabs": "https://gtabs.vercel.app/tabs/elvis-presley-cant-help-falling-in-love.html"
+    "tabs": "/tabs/elvis-presley-cant-help-falling-in-love.html"
   },
   {
     "artist": "Jamal Mirdad ",
     "song": "Yang Penting Happy",
-    "tabs": "https://gtabs.vercel.app/tabs/jamal-mirdad-yang-penting-happy.html"
+    "tabs": "/tabs/jamal-mirdad-yang-penting-happy.html"
   },
   {
     "artist": "The Mercy's ",
     "song": "Kisah Seorang Pramuria",
-    "tabs": "https://gtabs.vercel.app/tabs/the-mercys-kisah-seorang-pramuria.html"
+    "tabs": "/tabs/the-mercys-kisah-seorang-pramuria.html"
   },
   {
     "artist": "The Beatles ",
     "song": "Ticket To Ride",
-    "tabs": "https://gtabs.vercel.app/tabs/the-beatles-ticket-to-ride.html"
+    "tabs": "/tabs/the-beatles-ticket-to-ride.html"
   },
   {
     "artist": "Ebiet G Ade ",
     "song": "Elegi Esok Pagi",
-    "tabs": "https://gtabs.vercel.app/tabs/ebiet-g-ade-elegi-esok-pagi.html"
+    "tabs": "/tabs/ebiet-g-ade-elegi-esok-pagi.html"
   },
   {
     "artist": "Ebiet G Ade ",
     "song": "Cintaku Kanda Direrumputan",
-    "tabs": "https://gtabs.vercel.app/tabs/ebiet-g-ade-cintaku-kandas-direrumputan.html"
+    "tabs": "/tabs/ebiet-g-ade-cintaku-kandas-direrumputan.html"
   },
   {
     "artist": "Vita Alvia ",
     "song": "Kopi Dangdut",
-    "tabs": "https://gtabs.vercel.app/tabs/vita-alvia-kopi-dangdut.html"
+    "tabs": "/tabs/vita-alvia-kopi-dangdut.html"
   },
   {
     "artist": "Yovie And Nuno ",
     "song": "Janji Suci",
-    "tabs": "https://gtabs.vercel.app/tabs/yovie-and-nuno-janji-suci.html"
+    "tabs": "/tabs/yovie-and-nuno-janji-suci.html"
   },
   {
     "artist": "Lionel Richie ",
     "song": "Endless Love",
-    "tabs": "https://gtabs.vercel.app/tabs/lionel-richie-endless-love.html"
+    "tabs": "/tabs/lionel-richie-endless-love.html"
   },
   {
     "artist": "Christina Perri ",
     "song": "A Thousand Years",
-    "tabs": "https://gtabs.vercel.app/tabs/christina-perri-a-thousand-years.html"
+    "tabs": "/tabs/christina-perri-a-thousand-years.html"
   },
   {
     "artist": "Andra And The Backbone ",
     "song": "Sempurna",
-    "tabs": "https://gtabs.vercel.app/tabs/aatb-sempurna.html"
+    "tabs": "/tabs/aatb-sempurna.html"
   },
   {
     "artist": "Westlife ",
     "song": "Beatiful In White",
-    "tabs": "https://gtabs.vercel.app/tabs/westlife-beautiful-in-white.html"
+    "tabs": "/tabs/westlife-beautiful-in-white.html"
   },
   {
     "artist": "Tommy Page ",
     "song": "A Shoulder To Cry On",
-    "tabs": "https://gtabs.vercel.app/tabs/tommy-page-a-shoulder-to-cry-on.html"
+    "tabs": "/tabs/tommy-page-a-shoulder-to-cry-on.html"
   },
   {
     "artist": "ME ",
     "song": "Inikah Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/me-inikah-cinta.html"
+    "tabs": "/tabs/me-inikah-cinta.html"
   },
   {
     "artist": "Bernadya ",
     "song": "Untungnya Hidup Harus Tetap Berjalan",
-    "tabs": "https://gtabs.vercel.app/tabs/bernadya-untungnya-hidup-harus-tetap-berjalan.html"
+    "tabs": "/tabs/bernadya-untungnya-hidup-harus-tetap-berjalan.html"
   },
   {
     "artist": "Cut Yanthi ",
     "song": " Bolelebo",
-    "tabs": "https://gtabs.vercel.app/tabs/cut-yanthi-bolelebo.html"
+    "tabs": "/tabs/cut-yanthi-bolelebo.html"
   },
   {
     "artist": "Alfred Gare & PAX Group ",
     "song": " Ikan Nae Di Pante",
-    "tabs": "https://gtabs.vercel.app/tabs/alfred-gare-ikan-nae-di-pante.html"
+    "tabs": "/tabs/alfred-gare-ikan-nae-di-pante.html"
   },
   {
     "artist": "Batu Nisan ",
     "song": " Keabadian Yang Nyata",
-    "tabs": "https://gtabs.vercel.app/tabs/batu-nisan-keabadian-yang-nyata.html"
+    "tabs": "/tabs/batu-nisan-keabadian-yang-nyata.html"
   },
   {
     "artist": "Anastasya ",
     "song": " Detik Terakhir",
-    "tabs": "https://gtabs.vercel.app/tabs/anastasya-detik-terakhir.html"
+    "tabs": "/tabs/anastasya-detik-terakhir.html"
   },
   {
     "artist": "Asoka ",
     "song": " Terbaik dan Terindah",
-    "tabs": "https://gtabs.vercel.app/tabs/asoka-terbaik-dan-terindah.html"
+    "tabs": "/tabs/asoka-terbaik-dan-terindah.html"
   },
   {
     "artist": "Gombloh ",
     "song": " Kugadaikan Cintaku",
-    "tabs": "https://gtabs.vercel.app/tabs/gombloh-kugadaikan-cintaku.html"
+    "tabs": "/tabs/gombloh-kugadaikan-cintaku.html"
   },
   {
     "artist": "Eagles ",
     "song": " Hotel California",
-    "tabs": "https://gtabs.vercel.app/tabs/eagles-hotel-california.html"
+    "tabs": "/tabs/eagles-hotel-california.html"
   },
   {
     "artist": "Eagles ",
     "song": " Hotel California (Unplugged)",
-    "tabs": "https://gtabs.vercel.app/tabs/eagles-hotel-california-unplugged.html"
+    "tabs": "/tabs/eagles-hotel-california-unplugged.html"
   },
   {
     "artist": "Avenged Sevenfold ",
     "song": " Dear God",
-    "tabs": "https://gtabs.vercel.app/tabs/avenged-sevenfold-dear-god.html"
+    "tabs": "/tabs/avenged-sevenfold-dear-god.html"
   },
   {
     "artist": "Avenged Sevenfold ",
     "song": " Seize The Day",
-    "tabs": "https://gtabs.vercel.app/tabs/avenged-sevenfold-seize-the-day.html"
+    "tabs": "/tabs/avenged-sevenfold-seize-the-day.html"
   },
   {
     "artist": "Koes Plus",
     "song": " Dara Manisku",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-dara-manisku.html"
+    "tabs": "/tabs/koes-plus-dara-manisku.html"
   },
   {
     "artist": "Panbers",
     "song": " Terlambat Sudah",
-    "tabs": "https://gtabs.vercel.app/tabs/panbers-terlambat-sudah.html"
+    "tabs": "/tabs/panbers-terlambat-sudah.html"
   },
   {
     "artist": "Chrisye",
     "song": " Kala Surya Tenggelam",
-    "tabs": "https://gtabs.vercel.app/tabs/chrisye-kala-surya-tenggelam.html"
+    "tabs": "/tabs/chrisye-kala-surya-tenggelam.html"
   },
 
   {
     "artist": "Chrisye",
     "song": " Juwita",
-    "tabs": "https://gtabs.vercel.app/tabs/chrisye-juwita.html"
+    "tabs": "/tabs/chrisye-juwita.html"
   },
   {
     "artist": "Ermy Kulit",
     "song": " Kasih",
-    "tabs": "https://gtabs.vercel.app/tabs/ermy-kulit-kasih.html"
+    "tabs": "/tabs/ermy-kulit-kasih.html"
   },
   {
     "artist": "Ernie Djohan",
     "song": " Teluk Bayur",
-    "tabs": "https://gtabs.vercel.app/tabs/ernie-djohan-teluk-bayur.html"
+    "tabs": "/tabs/ernie-djohan-teluk-bayur.html"
   },
   {
     "artist": "Uci Bing Slamet",
     "song": " Bukit Berbunga",
-    "tabs": "https://gtabs.vercel.app/tabs/uci-bing-slamet-bukit-berbunga.html"
+    "tabs": "/tabs/uci-bing-slamet-bukit-berbunga.html"
   },
   {
     "artist": "Ungu ",
     "song": " Demi Waktu",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-demi-waktu.html"
+    "tabs": "/tabs/ungu-demi-waktu.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Pangeran Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-pangeran-cinta.html"
+    "tabs": "/tabs/dewa-19-pangeran-cinta.html"
   },
   {
     "artist": "Vagetoz ",
     "song": " Penyesalanku",
-    "tabs": "https://gtabs.vercel.app/tabs/vagetoz-penyesalanku.html"
+    "tabs": "/tabs/vagetoz-penyesalanku.html"
   },
   {
     "artist": "Cassandra",
     "song": " Cinta Terbaik",
-    "tabs": "https://gtabs.vercel.app/tabs/cassandra-cinta-terbaik.html"
+    "tabs": "/tabs/cassandra-cinta-terbaik.html"
   },
   {
     "artist": "Angkasa",
     "song": "Luka",
-    "tabs": "https://gtabs.vercel.app/tabs/angkasa-luka.html"
+    "tabs": "/tabs/angkasa-luka.html"
   },
   {
     "artist": "Afgan ",
     "song": "Terlalu Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/afgan-terlalu-cinta.html"
+    "tabs": "/tabs/afgan-terlalu-cinta.html"
   },
   {
     "artist": "Barry L & The Rhythm Service ",
     "song": "Sesaat Kau Hadir",
-    "tabs": "https://gtabs.vercel.app/tabs/barry-likumahuwa-sesaat-kau-hadir.html"
+    "tabs": "/tabs/barry-likumahuwa-sesaat-kau-hadir.html"
   },
   {
     "artist": "No Name ",
     "song": "Romance de Amor",
-    "tabs": "https://gtabs.vercel.app/tabs/no-name-romance-de-amor.html"
+    "tabs": "/tabs/no-name-romance-de-amor.html"
   },
   {
     "artist": "Alfian ",
     "song": "Semalam Di Cianjur",
-    "tabs": "https://gtabs.vercel.app/tabs/alfian-semalam-dicianjur.html"
+    "tabs": "/tabs/alfian-semalam-dicianjur.html"
   },
   {
     "artist": "Ada Band ",
     "song": "Setengah Hati",
-    "tabs": "https://gtabs.vercel.app/tabs/ada-band-setengah-hati.html"
+    "tabs": "/tabs/ada-band-setengah-hati.html"
   },
   {
     "artist": "Last Child ",
     "song": "Seluruh Nafas Ini",
-    "tabs": "https://gtabs.vercel.app/tabs/last-child-seluruh-nafas-ini.html"
+    "tabs": "/tabs/last-child-seluruh-nafas-ini.html"
   },
   {
     "artist": "Fiersa Besari ",
     "song": "Waktu Yang Salah",
-    "tabs": "https://gtabs.vercel.app/tabs/fiersa-besari-waktu-yang-salah.html"
+    "tabs": "/tabs/fiersa-besari-waktu-yang-salah.html"
   },
   {
     "artist": "Vierra ",
     "song": "Seandainya",
-    "tabs": "https://gtabs.vercel.app/tabs/vierra-seandainya.html"
+    "tabs": "/tabs/vierra-seandainya.html"
   },
   {
     "artist": "Mahalini ",
     "song": "Sial",
-    "tabs": "https://gtabs.vercel.app/tabs/mahalini-sial.html"
+    "tabs": "/tabs/mahalini-sial.html"
   },
   {
     "artist": "Mahalini ",
     "song": "Bohongi Hati",
-    "tabs": "https://gtabs.vercel.app/tabs/mahalini-bohongi-hati.html"
+    "tabs": "/tabs/mahalini-bohongi-hati.html"
   },
   {
     "artist": "Mahalini ",
     "song": "Melawan Restu",
-    "tabs": "https://gtabs.vercel.app/tabs/mahalini-melawan-restu.html"
+    "tabs": "/tabs/mahalini-melawan-restu.html"
   },
   {
     "artist": "Glenn Fredly ",
     "song": "Terserah",
-    "tabs": "https://gtabs.vercel.app/tabs/glenn-fredly-terserah.html"
+    "tabs": "/tabs/glenn-fredly-terserah.html"
   },
   {
     "artist": "Samsons ",
     "song": "Tak Bisa Memiliki",
-    "tabs": "https://gtabs.vercel.app/tabs/samsons-tak-bisa-memiliki.html"
+    "tabs": "/tabs/samsons-tak-bisa-memiliki.html"
   },
   {
     "artist": "Koes Plus",
     "song": "Jemu",
-    "tabs": "https://gtabs.vercel.app/tabs/Koes-plus-jemu.html"
+    "tabs": "/tabs/Koes-plus-jemu.html"
   },
   {
     "artist": "Ebiet G Ade",
     "song": "Berita Kepada Kawan",
-    "tabs": "https://gtabs.vercel.app/tabs/ebiet-g-ade-berita-kepada-kawan.html"
+    "tabs": "/tabs/ebiet-g-ade-berita-kepada-kawan.html"
   },
   {
     "artist": "Soundtrack",
     "song": "Soundtrack Ice cream",
-    "tabs": "https://gtabs.vercel.app/tabs/soundtrack.html"
+    "tabs": "/tabs/soundtrack.html"
   },
   {
     "artist": "Michael Buble",
     "song": "Sway",
-    "tabs": "https://gtabs.vercel.app/tabs/michael-buble-sway.html"
+    "tabs": "/tabs/michael-buble-sway.html"
   },
   {
     "artist": "Michael Buble",
     "song": "Home",
-    "tabs": "https://gtabs.vercel.app/tabs/michael-buble-home.html"
+    "tabs": "/tabs/michael-buble-home.html"
   },
   {
     "artist": "Elvis Presler",
     "song": "It's Now Or Never",
-    "tabs": "https://gtabs.vercel.app/tabs/elvis-presley-its-now-or-never.html"
+    "tabs": "/tabs/elvis-presley-its-now-or-never.html"
   },
   {
     "artist": "Bilal Indrajaya",
     "song": "Niscaya",
-    "tabs": "https://gtabs.vercel.app/tabs/bilal-indrajaya-niscaya.html"
+    "tabs": "/tabs/bilal-indrajaya-niscaya.html"
   },
   {
     "artist": "Bob Tutupoli ",
     "song": "Widuri",
-    "tabs": "https://gtabs.vercel.app/tabs/bob-tutupoli-widuri.html"
+    "tabs": "/tabs/bob-tutupoli-widuri.html"
   },
   {
     "artist": "Ello ",
     "song": "Pergi Untuk Kembali",
-    "tabs": "https://gtabs.vercel.app/tabs/ello-pergi-untuk-kembali.html"
+    "tabs": "/tabs/ello-pergi-untuk-kembali.html"
   },
   {
     "artist": "Ello ",
     "song": "Masih Ada",
-    "tabs": "https://gtabs.vercel.app/tabs/ello-masih-ada.html"
+    "tabs": "/tabs/ello-masih-ada.html"
   },
   {
     "artist": "Dewa 19 ft Ello ",
     "song": "Kau Yang Kusayang",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-ft-ello-kau-yang-kusayang.html"
+    "tabs": "/tabs/dewa-19-ft-ello-kau-yang-kusayang.html"
   },
   {
     "artist": "Ada Band ",
     "song": "Pemujamu",
-    "tabs": "https://gtabs.vercel.app/tabs/ada-band-pemujamu.html"
+    "tabs": "/tabs/ada-band-pemujamu.html"
   },
   {
     "artist": "Naff ",
     "song": "Akhirnya Kumenemukanmu",
-    "tabs": "https://gtabs.vercel.app/tabs/naff-akhirnya-kumenemukanmu.html"
+    "tabs": "/tabs/naff-akhirnya-kumenemukanmu.html"
   },
   {
     "artist": "Peterpan ",
     "song": "Semua Tentang Kita",
-    "tabs": "https://gtabs.vercel.app/tabs/peterpan-semua-tentang-kita.html"
+    "tabs": "/tabs/peterpan-semua-tentang-kita.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": "Lagu Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-lagu-cinta.html"
+    "tabs": "/tabs/dewa-19-lagu-cinta.html"
   },
   {
     "artist": "Mr.Big ",
     "song": "wild World",
-    "tabs": "https://gtabs.vercel.app/tabs/mr-big-wild-world.html"
+    "tabs": "/tabs/mr-big-wild-world.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Kupu-Kupu Malam",
-    "tabs": "https://gtabs.vercel.app/tabs/peterpan-kupu-kupu-malam.html"
+    "tabs": "/tabs/peterpan-kupu-kupu-malam.html"
   },
   {
     "artist": "Noah ",
     "song": " Kupu-Kupu Malam",
-    "tabs": "https://gtabs.vercel.app/tabs/noah-kupu-kupu-malam.html"
+    "tabs": "/tabs/noah-kupu-kupu-malam.html"
   },
   {
     "artist": "Tantowi Yahya ",
     "song": " Polo Pakita",
-    "tabs": "https://gtabs.vercel.app/tabs/tantowi-yahya-polo-pkita.html"
+    "tabs": "/tabs/tantowi-yahya-polo-pkita.html"
   },
   {
     "artist": "CCR ",
     "song": " Proud Mary",
-    "tabs": "https://gtabs.vercel.app/tabs/ccr-proud-mary.html"
+    "tabs": "/tabs/ccr-proud-mary.html"
   },
   {
     "artist": "Slam ",
     "song": " Gerimis Mengundang",
-    "tabs": "https://gtabs.vercel.app/tabs/slam-gerimis-mengundang.html"
+    "tabs": "/tabs/slam-gerimis-mengundang.html"
   },
   {
     "artist": "Eddy Silitonga ",
     "song": " Alusi Au",
-    "tabs": "https://gtabs.vercel.app/tabs/eddy-silitonga-alusi-au.html"
+    "tabs": "/tabs/eddy-silitonga-alusi-au.html"
   },
   {
     "artist": "Element ",
     "song": " Maaf Dari Surga",
-    "tabs": "https://gtabs.vercel.app/tabs/element-maaf-dari-surga.html"
+    "tabs": "/tabs/element-maaf-dari-surga.html"
   },
   {
     "artist": "Element ",
     "song": " Cinta Sejati",
-    "tabs": "https://gtabs.vercel.app/tabs/element-cinta-sejati.html"
+    "tabs": "/tabs/element-cinta-sejati.html"
   },
   {
     "artist": "Iklim ",
     "song": " Suci Dalam Debu",
-    "tabs": "https://gtabs.vercel.app/tabs/iklim-suci-dalam-debu.html"
+    "tabs": "/tabs/iklim-suci-dalam-debu.html"
   },
   {
     "artist": "Pas Band ",
     "song": " Kesepian Kita",
-    "tabs": "https://gtabs.vercel.app/tabs/pas-band-kesepian-kita.html"
+    "tabs": "/tabs/pas-band-kesepian-kita.html"
   },
   {
     "artist": "The Lucky-Laki ",
     "song": " Bukan Superman",
-    "tabs": "https://gtabs.vercel.app/tabs/the-lucky-laki-bukan-superman.html"
+    "tabs": "/tabs/the-lucky-laki-bukan-superman.html"
   },
   {
     "artist": "Maliq & D’Essentials ",
     "song": " Kita Bikin Romantis",
-    "tabs": "https://gtabs.vercel.app/tabs/maliq-dessentials-kita-bikin-romantis.html"
+    "tabs": "/tabs/maliq-dessentials-kita-bikin-romantis.html"
   },
   {
     "artist": "Samsons",
     "song": " Di Ujung Jalan",
-    "tabs": "https://gtabs.vercel.app/tabs/samsons-di-ujung-jalan.html"
+    "tabs": "/tabs/samsons-di-ujung-jalan.html"
   },
   {
     "artist": "T2",
     "song": " Lelaki Cadangan",
-    "tabs": "https://gtabs.vercel.app/tabs/t2-lelaki-cadangan.html"
+    "tabs": "/tabs/t2-lelaki-cadangan.html"
   },
   {
     "artist": "T2",
     "song": " Ok",
-    "tabs": "https://gtabs.vercel.app/tabs/t2-ok.html"
+    "tabs": "/tabs/t2-ok.html"
   },
   {
     "artist": "Rony Parulian dan Andi Rianto",
     "song": " Sepenuh Hati",
-    "tabs": "https://gtabs.vercel.app/tabs/rony-parulian-sepenuh-hati.html"
+    "tabs": "/tabs/rony-parulian-sepenuh-hati.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Cobalah Mengerti",
-    "tabs": "https://gtabs.vercel.app/tabs/peterpan-cobalah-mengerti.html"
+    "tabs": "/tabs/peterpan-cobalah-mengerti.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Dilema Besar",
-    "tabs": "https://gtabs.vercel.app/tabs/peterpan-dilema-besar.html"
+    "tabs": "/tabs/peterpan-dilema-besar.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Laki-Laki Bukan Pengecut",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-laki-laki-bukan-pengecut.html"
+    "tabs": "/tabs/dewa-19-laki-laki-bukan-pengecut.html"
   },
   {
     "artist": "Drive ",
     "song": " Bersama Bintang",
-    "tabs": "https://gtabs.vercel.app/tabs/drive-bersama-bintang.html"
+    "tabs": "/tabs/drive-bersama-bintang.html"
   },
   {
     "artist": "The Mercy's ",
     "song": " Ayah",
-    "tabs": "https://gtabs.vercel.app/tabs/the-mercys-ayah.html"
+    "tabs": "/tabs/the-mercys-ayah.html"
   },
   {
     "artist": "Koil ",
     "song": " Semoga Kau Sembuh II",
-    "tabs": "https://gtabs.vercel.app/tabs/koil-semoga-kau-sembuh-ii.html"
+    "tabs": "/tabs/koil-semoga-kau-sembuh-ii.html"
   },
   {
     "artist": "Letto ",
     "song": " Sandaran Hati",
-    "tabs": "https://gtabs.vercel.app/tabs/letto-sandaran-hati.html"
+    "tabs": "/tabs/letto-sandaran-hati.html"
   },
   {
     "artist": "Ismail Marzuki ",
     "song": " Hari Lebaran",
-    "tabs": "https://gtabs.vercel.app/tabs/ismail-marzuki-hari-lebaran.html"
+    "tabs": "/tabs/ismail-marzuki-hari-lebaran.html"
   },
   {
     "artist": "ST12 ",
     "song": " Terlalu",
-    "tabs": "https://gtabs.vercel.app/tabs/st12-terlalu.html"
+    "tabs": "/tabs/st12-terlalu.html"
   },
   {
     "artist": "ST12 ",
     "song": " Tak Dapat Apa-Apa",
-    "tabs": "https://gtabs.vercel.app/tabs/st12-tak-dapat-apa-apa.html"
+    "tabs": "/tabs/st12-tak-dapat-apa-apa.html"
   },
   {
     "artist": "Armada ",
     "song": " Buka Hatimu",
-    "tabs": "https://gtabs.vercel.app/tabs/armada-buka-hatimu.html"
+    "tabs": "/tabs/armada-buka-hatimu.html"
   },
   {
     "artist": "ST12 ",
     "song": " Isabella",
-    "tabs": "https://gtabs.vercel.app/tabs/st12-isabella.html"
+    "tabs": "/tabs/st12-isabella.html"
   },
   {
     "artist": "ST12 ",
     "song": " Aku Terjatuh",
-    "tabs": "https://gtabs.vercel.app/tabs/st12-aku-terjatuh.html"
+    "tabs": "/tabs/st12-aku-terjatuh.html"
   },
   {
     "artist": "Ita Purnamasari ",
     "song": " Cintaku Padamu",
-    "tabs": "https://gtabs.vercel.app/tabs/ita-purnamasari-cintaku-padamu.html"
+    "tabs": "/tabs/ita-purnamasari-cintaku-padamu.html"
   },
   {
     "artist": "Salju ",
     "song": " Hina Dimatamu",
-    "tabs": "https://gtabs.vercel.app/tabs/salju-hina-dimatamu.html"
+    "tabs": "/tabs/salju-hina-dimatamu.html"
   },
   {
     "artist": "Salju ",
     "song": " Kukatakan Aku Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/salju-kukatakan-aku-cinta.html"
+    "tabs": "/tabs/salju-kukatakan-aku-cinta.html"
   },
   {
     "artist": "Salju ",
     "song": " Pergi Tinggalkan Diriku",
-    "tabs": "https://gtabs.vercel.app/tabs/salju-pergi-tinggalkan-diriku.html"
+    "tabs": "/tabs/salju-pergi-tinggalkan-diriku.html"
   },
   {
     "artist": "Salju ",
     "song": " Selamat Tinggal",
-    "tabs": "https://gtabs.vercel.app/tabs/salju-selamat-tinggal.html"
+    "tabs": "/tabs/salju-selamat-tinggal.html"
   },
   {
     "artist": "Salju ",
     "song": " Tak Mampu Hiudp Tanpamu",
-    "tabs": "https://gtabs.vercel.app/tabs/salju-tak-mampu-hidup-tanpamu.html"
+    "tabs": "/tabs/salju-tak-mampu-hidup-tanpamu.html"
   },
   {
     "artist": "Salju ",
     "song": " Tak Sadarkah",
-    "tabs": "https://gtabs.vercel.app/tabs/salju-tak-sadarkah.html"
+    "tabs": "/tabs/salju-tak-sadarkah.html"
   },
   {
     "artist": "Bimbo ",
     "song": " Mawar Asuhan Rembulan",
-    "tabs": "https://gtabs.vercel.app/tabs/bimbo-mawar-asuhan-rembulan.html",
+    "tabs": "/tabs/bimbo-mawar-asuhan-rembulan.html",
     "file": "https://www.dropbox.com/scl/fi/mhbap53c6xe6eb3tyw7da/Bimbo-Mawar-Asuhan-Rembulan.mp3?rlkey=1qdmuua1f74lujylvihn3vfum&st=45uol33w&raw=1"
   },
   {
     "artist": "Budi Doremi ",
     "song": " Ramadhan Penuh Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/budi-doremi-ramadhan-penuh-cinta.html",
+    "tabs": "/tabs/budi-doremi-ramadhan-penuh-cinta.html",
     "file": "https://www.dropbox.com/scl/fi/paee0wkbri8izv7yzb4ld/Budi-Doremi-Ramadhan-Penuh-Cinta.mp3?rlkey=j6xrpeq6ykicjfkrokkllpjc9&st=p0tnimu1&raw=1"
   },
   {
     "artist": "Five Minutes ",
     "song": " Bertahan",
-    "tabs": "https://gtabs.vercel.app/tabs/five-minutes-bertahan.html"
+    "tabs": "/tabs/five-minutes-bertahan.html"
   },
   {
     "artist": "Andra And The Backbone ",
     "song": " Tunggu Aku",
-    "tabs": "https://gtabs.vercel.app/tabs/aatb-tunggu-aku.html"
+    "tabs": "/tabs/aatb-tunggu-aku.html"
   },
   {
     "artist": "Andra And The Backbone ",
     "song": " Hitamku",
-    "tabs": "https://gtabs.vercel.app/tabs/aatb-hitamku.html"
+    "tabs": "/tabs/aatb-hitamku.html"
   },
   {
     "artist": "Andra And The Backbone ",
     "song": " Lagi Dan Lagi",
-    "tabs": "https://gtabs.vercel.app/tabs/aatb-ladi-dan-lagi.html"
+    "tabs": "/tabs/aatb-ladi-dan-lagi.html"
   },
   {
     "artist": "Andra And The Backbone ",
     "song": " Deja Vu",
-    "tabs": "https://gtabs.vercel.app/tabs/aatb-deja-vu.html"
+    "tabs": "/tabs/aatb-deja-vu.html"
   },
   {
     "artist": "Andra And The Backbone ",
     "song": " Jalanku Bukan Jalanmu",
-    "tabs": "https://gtabs.vercel.app/tabs/aatb-jalanku-bukan-jalanmu.html"
+    "tabs": "/tabs/aatb-jalanku-bukan-jalanmu.html"
   },
   {
     "artist": "Gigi ",
     "song": " Perdamaian",
-    "tabs": "https://gtabs.vercel.app/tabs/gigi-perdamaian.html"
+    "tabs": "/tabs/gigi-perdamaian.html"
   },
   {
     "artist": "Gigi ",
     "song": " Pintu Sorga",
-    "tabs": "https://gtabs.vercel.app/tabs/gigi-pintu-sorga.html"
+    "tabs": "/tabs/gigi-pintu-sorga.html"
   },
   {
     "artist": "Gigi ",
     "song": " Ya Ya Ya",
-    "tabs": "https://gtabs.vercel.app/tabs/gigi-ya-ya-ya.html"
+    "tabs": "/tabs/gigi-ya-ya-ya.html"
   },
   {
     "artist": " Rani ",
     "song": " Setangkai Anggrek Bulan",
-    "tabs": "https://gtabs.vercel.app/tabs/rani-setangkai-anggrek-bulan.html"
+    "tabs": "/tabs/rani-setangkai-anggrek-bulan.html"
   },
   {
     "artist": "Broery Marantika ",
     "song": " Hati Yang Terluka",
-    "tabs": "https://gtabs.vercel.app/tabs/broery-hati-yang-terluka.html"
+    "tabs": "/tabs/broery-hati-yang-terluka.html"
   },
   {
     "artist": "Ungu ",
     "song": " Bayang Semu",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-bayang-semu.html"
+    "tabs": "/tabs/ungu-bayang-semu.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Persembahan Dari Surga",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-persembahan-dari-surga.html"
+    "tabs": "/tabs/dewa-persembahan-dari-surga.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Satu",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-satu.html",
+    "tabs": "/tabs/dewa-satu.html",
     "tracks": {
       "musicr": "https://www.dropbox.com/scl/fi/vmg10wazzff0prhw8pthp/MusicR.mp3?rlkey=ab0n9xaxq5u058barz9up73fu&st=ty4dtgqj&raw=1",
       "musicl": "https://www.dropbox.com/scl/fi/0jqckbz8udcmztceroj9n/MusicL.mp3?rlkey=wp87o3fmpa4ru7jyspt4uganp&st=roo4ercl&raw=1",
@@ -1487,3071 +1542,3071 @@
   {
     "artist": "Ungu ",
     "song": " Dia Maha Sempurna ",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-dia-maha-sempurna.html"
+    "tabs": "/tabs/ungu-dia-maha-sempurna.html"
   },
   {
     "artist": "Radja ",
     "song": " Jujur",
-    "tabs": "https://gtabs.vercel.app/tabs/radja-jujur.html"
+    "tabs": "/tabs/radja-jujur.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Ayah",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-ayah.html"
+    "tabs": "/tabs/koes-plus-ayah.html"
   },
   {
     "artist": "Thomas Arya ",
     "song": " Bunga",
-    "tabs": "https://gtabs.vercel.app/tabs/thomas-arya-bunga.html"
+    "tabs": "/tabs/thomas-arya-bunga.html"
   },
   {
     "artist": "Romeo ",
     "song": " Bunga Terakhir",
-    "tabs": "https://gtabs.vercel.app/tabs/romeo-bunga-terakhir.html"
+    "tabs": "/tabs/romeo-bunga-terakhir.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Perempuan Paling Cantik",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-perempuan-paling-cantik.html"
+    "tabs": "/tabs/dewa-19-perempuan-paling-cantik.html"
   },
   {
     "artist": "Ungu ",
     "song": " Baik Dan Burukmu",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-baik-dan-burukmu.html"
+    "tabs": "/tabs/ungu-baik-dan-burukmu.html"
   },
   {
     "artist": " Rhoma Irama ",
     "song": " Terajana",
-    "tabs": "https://gtabs.vercel.app/tabs/rhoma-irama-terajana.html"
+    "tabs": "/tabs/rhoma-irama-terajana.html"
   },
   {
     "artist": "Nining Meida ",
     "song": " Mojang Priangan",
-    "tabs": "https://gtabs.vercel.app/tabs/nining-meida-mojang-priangan.html"
+    "tabs": "/tabs/nining-meida-mojang-priangan.html"
   },
   {
     "artist": "Nini Carlina ",
     "song": " Gantengnya Pacarku",
-    "tabs": "https://gtabs.vercel.app/tabs/nini-carlina-gantengnya-pacarku.html"
+    "tabs": "/tabs/nini-carlina-gantengnya-pacarku.html"
   },
   {
     "artist": "Titiek Nur",
     "song": " Sebotol Minuman",
-    "tabs": "https://gtabs.vercel.app/tabs/titiek-nur-sebotol-minuman.html"
+    "tabs": "/tabs/titiek-nur-sebotol-minuman.html"
   },
   {
     "artist": "The Virgin ",
     "song": " Belahan Jiwa",
-    "tabs": "https://gtabs.vercel.app/tabs/the-virgin-belahan-jiwa.html"
+    "tabs": "/tabs/the-virgin-belahan-jiwa.html"
   },
   {
     "artist": "Carpark North ",
     "song": " Transparent and Glasslike",
-    "tabs": "https://gtabs.vercel.app/tabs/carpark-north-transparent-and-glasslike.html"
+    "tabs": "/tabs/carpark-north-transparent-and-glasslike.html"
   },
   {
     "artist": "Oasis ",
     "song": " Stand By Me",
-    "tabs": "https://gtabs.vercel.app/tabs/oasis-stand-by-me.html"
+    "tabs": "/tabs/oasis-stand-by-me.html"
   },
   {
     "artist": "Ungu ",
     "song": " Suara Hati",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-suara-hati.html"
+    "tabs": "/tabs/ungu-suara-hati.html"
   },
   {
     "artist": "Nidji ",
     "song": " Biarlah",
-    "tabs": "https://gtabs.vercel.app/tabs/nidji-biarlah.html"
+    "tabs": "/tabs/nidji-biarlah.html"
   },
   {
     "artist": " Netral ",
     "song": " Sorry",
-    "tabs": "https://gtabs.vercel.app/tabs/netral-sorry.html"
+    "tabs": "/tabs/netral-sorry.html"
   },
   {
     "artist": "Koil ",
     "song": " Kenyataan Dalam Dunia Fantasi",
-    "tabs": "https://gtabs.vercel.app/tabs/koil-kenyataan-dalam-dunia-fantasi.html"
+    "tabs": "/tabs/koil-kenyataan-dalam-dunia-fantasi.html"
   },
   {
     "artist": "Kangen Band ",
     "song": " Tentang Aku Kau Dan Dia",
-    "tabs": "https://gtabs.vercel.app/tabs/kangen-band-tentang-aku-kau-dan-dia.html"
+    "tabs": "/tabs/kangen-band-tentang-aku-kau-dan-dia.html"
   },
   {
     "artist": "Slank ",
     "song": " Pandangan Pertama",
-    "tabs": "https://gtabs.vercel.app/tabs/slank-pandangan-pertama.html"
+    "tabs": "/tabs/slank-pandangan-pertama.html"
   },
   {
     "artist": "The Rock ",
     "song": " Kamu-Kamulah Surgaku",
-    "tabs": "https://gtabs.vercel.app/tabs/the-rock-kamu-kamulah-surgaku.html"
+    "tabs": "/tabs/the-rock-kamu-kamulah-surgaku.html"
   },
   {
     "artist": " RAN ",
     "song": " Pandangan Pertama",
-    "tabs": "https://gtabs.vercel.app/tabs/ran-pandangan-pertama.html"
+    "tabs": "/tabs/ran-pandangan-pertama.html"
   },
   {
     "artist": " Led Zeppelin ",
     "song": " Black Dog",
-    "tabs": "https://gtabs.vercel.app/tabs/led-zeppelin-black-dog.html"
+    "tabs": "/tabs/led-zeppelin-black-dog.html"
   },
   {
     "artist": " Led Zeppelin ",
     "song": " Stairaway To Heaven",
-    "tabs": "https://gtabs.vercel.app/tabs/led-zeppelin-stairaway-to-heaven.html"
+    "tabs": "/tabs/led-zeppelin-stairaway-to-heaven.html"
   },
   {
     "artist": " Chris Manusama, Bram, Dianne ",
     "song": " Kidung",
-    "tabs": "https://gtabs.vercel.app/tabs/chris-manusama-kidung.html"
+    "tabs": "/tabs/chris-manusama-kidung.html"
   },
   {
     "artist": " Jamrud ",
     "song": " Selamat Ulang Tahun",
-    "tabs": "https://gtabs.vercel.app/tabs/jamrud-selamat-ulang-tahun.html"
+    "tabs": "/tabs/jamrud-selamat-ulang-tahun.html"
   },
   {
     "artist": " Netral ",
     "song": " Garuda Di Dadaku",
-    "tabs": "https://gtabs.vercel.app/tabs/netral-garuda-di-dadaku.html"
+    "tabs": "/tabs/netral-garuda-di-dadaku.html"
   },
   {
     "artist": " New Syclon ",
     "song": " Hidupku Sepi Tanpamu",
-    "tabs": "https://gtabs.vercel.app/tabs/new-syclon-hidupku-sepi-tanpamu.html"
+    "tabs": "/tabs/new-syclon-hidupku-sepi-tanpamu.html"
   },
   {
     "artist": " The Orion ",
     "song": " Maafkan Aku",
-    "tabs": "https://gtabs.vercel.app/tabs/the-orion-maafkan-aku.html"
+    "tabs": "/tabs/the-orion-maafkan-aku.html"
   },
   {
     "artist": " Ungu ",
     "song": " Aku Bukan Pilihan Hatimu",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-abph.html"
+    "tabs": "/tabs/ungu-abph.html"
   },
   {
     "artist": " Ungu ",
     "song": " Cinta Gila",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-cinta-gila.html"
+    "tabs": "/tabs/ungu-cinta-gila.html"
   },
   {
     "artist": " Rhoma Irama ",
     "song": " Perjuangan Dan Doa",
-    "tabs": "https://gtabs.vercel.app/tabs/rhoma-irama-perjuangan-dan-doa.html"
+    "tabs": "/tabs/rhoma-irama-perjuangan-dan-doa.html"
   },
   {
     "artist": " Plat Band ",
     "song": " ABG Tua",
-    "tabs": "https://gtabs.vercel.app/tabs/plat-band-abg-tua.html"
+    "tabs": "/tabs/plat-band-abg-tua.html"
   },
   {
     "artist": "Five Minutes ",
     "song": " Galau",
-    "tabs": "https://gtabs.vercel.app/tabs/five-minutes-galau.html"
+    "tabs": "/tabs/five-minutes-galau.html"
   },
   {
     "artist": "Gary Moore ",
     "song": " Still Got The Blues",
-    "tabs": "https://gtabs.vercel.app/tabs/gary-moore-still-got-the-blues.html"
+    "tabs": "/tabs/gary-moore-still-got-the-blues.html"
   },
   {
     "artist": "Kobe ",
     "song": " Positive Thinking",
-    "tabs": "https://gtabs.vercel.app/tabs/kobe-positive-thinking.html"
+    "tabs": "/tabs/kobe-positive-thinking.html"
   },
   {
     "artist": "The Titans ",
     "song": " Bila",
-    "tabs": "https://gtabs.vercel.app/tabs/the-titans-bila.html"
+    "tabs": "/tabs/the-titans-bila.html"
   },
   {
     "artist": "The Titans ",
     "song": " Jangan Sakiti",
-    "tabs": "https://gtabs.vercel.app/tabs/the-titans-jangan-sakiti.html"
+    "tabs": "/tabs/the-titans-jangan-sakiti.html"
   },
   {
     "artist": "The Titans ",
     "song": " Rasa Ini",
-    "tabs": "https://gtabs.vercel.app/tabs/the-titans-rasa-ini.html"
+    "tabs": "/tabs/the-titans-rasa-ini.html"
   },
   {
     "artist": "ST12 ",
     "song": " Biarkan Jatuh Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/st12-biarkan-jatuh-cinta.html"
+    "tabs": "/tabs/st12-biarkan-jatuh-cinta.html"
   },
   {
     "artist": "Guns N Roses ",
     "song": " November Rain",
-    "tabs": "https://gtabs.vercel.app/tabs/gnr-november-rain.html"
+    "tabs": "/tabs/gnr-november-rain.html"
   },
   {
     "artist": "Guns N Roses ",
     "song": " Sweet Child O Mine",
-    "tabs": "https://gtabs.vercel.app/tabs/gnr-sweet-child-o-mine.html"
+    "tabs": "/tabs/gnr-sweet-child-o-mine.html"
   },
   {
     "artist": "Ungu ",
     "song": " Seperti Bintang",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-seperti-bintang.html"
+    "tabs": "/tabs/ungu-seperti-bintang.html"
   },
   {
     "artist": "Zigaz ",
     "song": " Sahabat Jadi Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/zigaz-sahabat-jadi-cinta.html"
+    "tabs": "/tabs/zigaz-sahabat-jadi-cinta.html"
   },
   {
     "artist": "Vagetoz ",
     "song": " Betapa Aku Mencintaimu",
-    "tabs": "https://gtabs.vercel.app/tabs/vagetoz-betapa-aku-mencintaimu.html"
+    "tabs": "/tabs/vagetoz-betapa-aku-mencintaimu.html"
   },
   {
     "artist": "Merpati ",
     "song": " Tak Selamanya Selingkuh Itu Indah",
-    "tabs": "https://gtabs.vercel.app/tabs/merpati-tak-selamanya-selingkuh-itu-indah.html"
+    "tabs": "/tabs/merpati-tak-selamanya-selingkuh-itu-indah.html"
   },
 
   {
     "artist": "Republik ",
     "song": " Aku Dan Perasaan Ini",
-    "tabs": "https://gtabs.vercel.app/tabs/republik-aku-dan-perasaan-ini.html"
+    "tabs": "/tabs/republik-aku-dan-perasaan-ini.html"
   },
   {
     "artist": "Republik ",
     "song": " Aku Takut",
-    "tabs": "https://gtabs.vercel.app/tabs/republik-aku-takut.html"
+    "tabs": "/tabs/republik-aku-takut.html"
   },
   {
     "artist": "Republik ",
     "song": " Selimut Tetangga",
-    "tabs": "https://gtabs.vercel.app/tabs/republik-selimut-tetangga.html"
+    "tabs": "/tabs/republik-selimut-tetangga.html"
   },
   {
     "artist": "Republik ",
     "song": " Tiada Guna Lagi",
-    "tabs": "https://gtabs.vercel.app/tabs/republik-tiada-guna-lagi.html"
+    "tabs": "/tabs/republik-tiada-guna-lagi.html"
   },
   {
     "artist": "Republik ",
     "song": " Tlah Kuberikan",
-    "tabs": "https://gtabs.vercel.app/tabs/republik-tlah-kuberikan.html"
+    "tabs": "/tabs/republik-tlah-kuberikan.html"
   },
   {
     "artist": "Nano ",
     "song": " Sampai Kumati",
-    "tabs": "https://gtabs.vercel.app/tabs/nano-sampai-kumati.html"
+    "tabs": "/tabs/nano-sampai-kumati.html"
   },
   {
     "artist": "Nano ",
     "song": " Sebatas Mimpi",
-    "tabs": "https://gtabs.vercel.app/tabs/nano-sebatas-mimpi.html"
+    "tabs": "/tabs/nano-sebatas-mimpi.html"
   },
   {
     "artist": "Nano ",
     "song": " Separuhku",
-    "tabs": "https://gtabs.vercel.app/tabs/nano-separuhku.html"
+    "tabs": "/tabs/nano-separuhku.html"
   },
   {
     "artist": "Funky Kopral ",
     "song": " Mawarku",
-    "tabs": "https://gtabs.vercel.app/tabs/funky-kopral-mawarku.html"
+    "tabs": "/tabs/funky-kopral-mawarku.html"
   },
   {
     "artist": "Tipe X ",
     "song": " Mawar Hitam",
-    "tabs": "https://gtabs.vercel.app/tabs/tipe-x-mawar-hitam.html"
+    "tabs": "/tabs/tipe-x-mawar-hitam.html"
   },
   {
     "artist": "Tipe X ",
     "song": " Salam Rindu",
-    "tabs": "https://gtabs.vercel.app/tabs/tipe-x-salam-rindu.html"
+    "tabs": "/tabs/tipe-x-salam-rindu.html"
   },
   {
     "artist": "Tipe X ",
     "song": " Selamat Jalan",
-    "tabs": "https://gtabs.vercel.app/tabs/tipe-x-selamat-jalan.html"
+    "tabs": "/tabs/tipe-x-selamat-jalan.html"
   },
   {
     "artist": "UKS ",
     "song": " Disana Menunggu Disini Menanti",
-    "tabs": "https://gtabs.vercel.app/tabs/uks-disana-menunggu-disini-menanti.html"
+    "tabs": "/tabs/uks-disana-menunggu-disini-menanti.html"
   },
   {
     "artist": "Sufian Suhaimi ",
     "song": " Dimatamu",
-    "tabs": "https://gtabs.vercel.app/tabs/sufian-suhaimi-dimatamu.html"
+    "tabs": "/tabs/sufian-suhaimi-dimatamu.html"
   },
   {
     "artist": "Radja ",
     "song": " Yakin",
-    "tabs": "https://gtabs.vercel.app/tabs/radja-yakin.html"
+    "tabs": "/tabs/radja-yakin.html"
   },
   {
     "artist": "Vina Panduwinata ",
     "song": " Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/vina-panduwinata-cinta.html"
+    "tabs": "/tabs/vina-panduwinata-cinta.html"
   },
   {
     "artist": "Bonjovi ",
     "song": " You Give Love A Bad Name",
-    "tabs": "https://gtabs.vercel.app/tabs/bonjovi-you-give-love-a-bad-name.html"
+    "tabs": "/tabs/bonjovi-you-give-love-a-bad-name.html"
   },
   {
     "artist": "Creed ",
     "song": " My Sacrifice",
-    "tabs": "https://gtabs.vercel.app/tabs/creed-my-sacrifice.html"
+    "tabs": "/tabs/creed-my-sacrifice.html"
   },
   {
     "artist": "Creed ",
     "song": " One Last Breath",
-    "tabs": "https://gtabs.vercel.app/tabs/creed-one-last-breath.html"
+    "tabs": "/tabs/creed-one-last-breath.html"
   },
   {
     "artist": "Maroon 5 ",
     "song": " She Will Beloved",
-    "tabs": "https://gtabs.vercel.app/tabs/maroon-5-she-will-beloved.html"
+    "tabs": "/tabs/maroon-5-she-will-beloved.html"
   },
   {
     "artist": "Maroon 5 ",
     "song": " This Love",
-    "tabs": "https://gtabs.vercel.app/tabs/maroon-5-this-love.html"
+    "tabs": "/tabs/maroon-5-this-love.html"
   },
   {
     "artist": "J-Rocks ",
     "song": " Berharap Kau Kembali",
-    "tabs": "https://gtabs.vercel.app/tabs/jrocks-berharap-kau-kembali.html"
+    "tabs": "/tabs/jrocks-berharap-kau-kembali.html"
   },
   {
     "artist": "J-Rocks ",
     "song": " Tersesal",
-    "tabs": "https://gtabs.vercel.app/tabs/jrocks-tersesal.html"
+    "tabs": "/tabs/jrocks-tersesal.html"
   },
   {
     "artist": "D'Masiv ",
     "song": " Jangan Menyerah",
-    "tabs": "https://gtabs.vercel.app/tabs/dmasiv-jangan-menyerah.html"
+    "tabs": "/tabs/dmasiv-jangan-menyerah.html"
   },
   {
     "artist": "D'Masiv ",
     "song": " Merindukanmu",
-    "tabs": "https://gtabs.vercel.app/tabs/dmasiv-merindukanmu.html"
+    "tabs": "/tabs/dmasiv-merindukanmu.html"
   },
   {
     "artist": "Tetty Kadi ",
     "song": " Layu Sebelum Berkembang",
-    "tabs": "https://gtabs.vercel.app/tabs/tetty-kadi-layu-sebelum-berkembang.html"
+    "tabs": "/tabs/tetty-kadi-layu-sebelum-berkembang.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Kisah Cintaku",
-    "tabs": "https://gtabs.vercel.app/tabs/peterpan-kisah-cintaku.html"
+    "tabs": "/tabs/peterpan-kisah-cintaku.html"
   },
   {
     "artist": "The Beatles ",
     "song": " Come Together",
-    "tabs": "https://gtabs.vercel.app/tabs/the-beatles-come-together.html"
+    "tabs": "/tabs/the-beatles-come-together.html"
   },
   {
     "artist": "Chrisye ",
     "song": " Anak Sekolah",
-    "tabs": "https://gtabs.vercel.app/tabs/chrisye-anak-sekolah.html"
+    "tabs": "/tabs/chrisye-anak-sekolah.html"
   },
   {
     "artist": "Chrisye ",
     "song": " Cintaku",
-    "tabs": "https://gtabs.vercel.app/tabs/chrisye-cintaku.html"
+    "tabs": "/tabs/chrisye-cintaku.html"
   },
   {
     "artist": "Chrisye ",
     "song": " Kala Cinta Menggoda",
-    "tabs": "https://gtabs.vercel.app/tabs/chrisye-kala-cinta-menggoda.html"
+    "tabs": "/tabs/chrisye-kala-cinta-menggoda.html"
   },
   {
     "artist": "Ungu ",
     "song": " Berikan Aku Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-berikan-aku-cinta.html"
+    "tabs": "/tabs/ungu-berikan-aku-cinta.html"
   },
   {
     "artist": "Europe ",
     "song": " The Final Countdown",
-    "tabs": "https://gtabs.vercel.app/tabs/europe-the-final-countdown.html"
+    "tabs": "/tabs/europe-the-final-countdown.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Di Belakangku",
-    "tabs": "https://gtabs.vercel.app/tabs/peterpan-dibelakangku.html"
+    "tabs": "/tabs/peterpan-dibelakangku.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Jauh Mimpiku",
-    "tabs": "https://gtabs.vercel.app/tabs/peterpan-jauh-mimpiku.html"
+    "tabs": "/tabs/peterpan-jauh-mimpiku.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Langit Tak Mendengar",
-    "tabs": "https://gtabs.vercel.app/tabs/peterpan-langit-tak-mendengar.html"
+    "tabs": "/tabs/peterpan-langit-tak-mendengar.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Membebaniku",
-    "tabs": "https://gtabs.vercel.app/tabs/peterpan-membebaniku.html"
+    "tabs": "/tabs/peterpan-membebaniku.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Tak Bisakah",
-    "tabs": "https://gtabs.vercel.app/tabs/peterpan-tak-bisakah.html"
+    "tabs": "/tabs/peterpan-tak-bisakah.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Bujangan",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-bujangan.html"
+    "tabs": "/tabs/koes-plus-bujangan.html"
   },
   {
     "artist": "2D ",
     "song": " Masih Ada",
-    "tabs": "https://gtabs.vercel.app/tabs/2d-masih-ada.html"
+    "tabs": "/tabs/2d-masih-ada.html"
   },
   {
     "artist": "4 Non Blondes ",
     "song": " What's Up",
-    "tabs": "https://gtabs.vercel.app/tabs/4non-blondes-whats-up.html",
+    "tabs": "/tabs/4non-blondes-whats-up.html",
     "file": "https://www.dropbox.com/scl/fi/g511813044vjm3l6x09pa/4-Non-Blondes-What-s-Up.mp3?rlkey=a9w4ucgikk0m410lb5uonap7a&st=ybr7ohym&raw=1"
   },
   {
     "artist": "Ada Band ",
     "song": " Karena Wanita",
-    "tabs": "https://gtabs.vercel.app/tabs/ada-band-karena-wanita.html"
+    "tabs": "/tabs/ada-band-karena-wanita.html"
   },
   {
     "artist": "Ada Band ",
     "song": " Kau Auraku",
-    "tabs": "https://gtabs.vercel.app/tabs/ada-band-kau-auraku.html"
+    "tabs": "/tabs/ada-band-kau-auraku.html"
   },
   {
     "artist": "Ada Band ",
     "song": " Manusia Bodoh",
-    "tabs": "https://gtabs.vercel.app/tabs/ada-band-manusia-bodoh.html"
+    "tabs": "/tabs/ada-band-manusia-bodoh.html"
   },
   {
     "artist": "Ada Band ",
     "song": " Masih Sahabatku Kekasihku",
-    "tabs": "https://gtabs.vercel.app/tabs/ada-band-masih-sahabatku-kekasihku.html"
+    "tabs": "/tabs/ada-band-masih-sahabatku-kekasihku.html"
   },
   {
     "artist": "Ada Band ",
     "song": " Surga Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/ada-band-surga-cinta.html"
+    "tabs": "/tabs/ada-band-surga-cinta.html"
   },
   {
     "artist": "Ada Band ",
     "song": " Yang Terbaik Untukmu",
-    "tabs": "https://gtabs.vercel.app/tabs/ada-band-terbaik-bagimu.html"
+    "tabs": "/tabs/ada-band-terbaik-bagimu.html"
   },
   {
     "artist": "Adera ",
     "song": " Lebih Indah",
-    "tabs": "https://gtabs.vercel.app/tabs/adera-lebih-indah.html"
+    "tabs": "/tabs/adera-lebih-indah.html"
   },
   {
     "artist": "Afgan ",
     "song": " Padamu Ku Bersujud",
-    "tabs": "https://gtabs.vercel.app/tabs/afgan-padamu-kubersujud.html",
+    "tabs": "/tabs/afgan-padamu-kubersujud.html",
     "file": "https://www.dropbox.com/scl/fi/2x5744whv019dy00d44ap/Afgan-PadaMu-Ku-Bersujud.mp3?rlkey=ayk2tnud3tu0pm5v9g925cgc6&st=hfuc8x61&raw=1"
   },
   {
     "artist": "Alan Walker x Emma Steinbakken",
     "song": "Not You",
-    "tabs": "https://gtabs.vercel.app/tabs/alan-walker-not-you.html"
+    "tabs": "/tabs/alan-walker-not-you.html"
   },
   {
     "artist": "Ahmad Band ",
     "song": " Bidadari Di Kesunyian",
-    "tabs": "https://gtabs.vercel.app/tabs/ahmad-band-bidadari-di-kesunyian.html"
+    "tabs": "/tabs/ahmad-band-bidadari-di-kesunyian.html"
   },
   {
     "artist": "Ahmad Band ",
     "song": " Kuldesak",
-    "tabs": "https://gtabs.vercel.app/tabs/ahmad-band-kuldesak.html"
+    "tabs": "/tabs/ahmad-band-kuldesak.html"
   },
   {
     "artist": "Ahmad Band ",
     "song": " Sudah",
-    "tabs": "https://gtabs.vercel.app/tabs/ahmad-dhani-sudah.html"
+    "tabs": "/tabs/ahmad-dhani-sudah.html"
   },
   {
     "artist": "AirSupply ",
     "song": " Goodbye",
-    "tabs": "https://gtabs.vercel.app/tabs/air-supply-goodbye.html"
+    "tabs": "/tabs/air-supply-goodbye.html"
   },
   {
     "artist": "Andi Meriam Matalata ",
     "song": " Bimbang",
-    "tabs": "https://gtabs.vercel.app/tabs/andi-meriem-matalata-bimbang.html"
+    "tabs": "/tabs/andi-meriem-matalata-bimbang.html"
   },
   {
     "artist": "Andi Meriam Matalata ",
     "song": " Hasrat",
-    "tabs": "https://gtabs.vercel.app/tabs/andi-meriem-matalata-hasrat.html"
+    "tabs": "/tabs/andi-meriem-matalata-hasrat.html"
   },
   {
     "artist": "Andy Williams ",
     "song": " Where Do I Begin",
-    "tabs": "https://gtabs.vercel.app/tabs/andy-williams-where-do-i-begin.html"
+    "tabs": "/tabs/andy-williams-where-do-i-begin.html"
   },
   {
     "artist": "Andra And The Backbone ",
     "song": " Main Hati",
-    "tabs": "https://gtabs.vercel.app/tabs/aatb-main-hati.html"
+    "tabs": "/tabs/aatb-main-hati.html"
   },
   {
     "artist": "Andra And The Backbone ",
     "song": " Musnah",
-    "tabs": "https://gtabs.vercel.app/tabs/aatb-musnah.html"
+    "tabs": "/tabs/aatb-musnah.html"
   },
   {
     "artist": "Andra And The Backbone ",
     "song": " Surrender",
-    "tabs": "https://gtabs.vercel.app/tabs/aatb-surrender.html"
+    "tabs": "/tabs/aatb-surrender.html"
   },
   {
     "artist": "Anggi Marito ",
     "song": " Tak Segampang Itu",
-    "tabs": "https://gtabs.vercel.app/tabs/anggi-marito-tak-segampang-itu.html"
+    "tabs": "/tabs/anggi-marito-tak-segampang-itu.html"
   },
   {
     "artist": "Angkasa ",
     "song": " Cemburu Buta",
-    "tabs": "https://gtabs.vercel.app/tabs/angkasa-cemburu-buta.html"
+    "tabs": "/tabs/angkasa-cemburu-buta.html"
   },
   {
     "artist": "Angkasa ",
     "song": " Jangan Pernah Selingkuh",
-    "tabs": "https://gtabs.vercel.app/tabs/angkasa-jangan-pernah-selingkuh.html"
+    "tabs": "/tabs/angkasa-jangan-pernah-selingkuh.html"
   },
   {
     "artist": "Anima ",
     "song": " Bintang",
-    "tabs": "https://gtabs.vercel.app/tabs/anima-bintang.html"
+    "tabs": "/tabs/anima-bintang.html"
   },
   {
     "artist": "Anji ",
     "song": " Dia",
-    "tabs": "https://gtabs.vercel.app/tabs/anji-dia.html"
+    "tabs": "/tabs/anji-dia.html"
   },
   {
     "artist": "Anji ",
     "song": " Menunggu Kamu",
-    "tabs": "https://gtabs.vercel.app/tabs/anji-menunggu-kamu.html"
+    "tabs": "/tabs/anji-menunggu-kamu.html"
   },
   {
     "artist": "Ari Lasso ",
     "song": " Arti Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/ari-lasso-arti-cinta.html"
+    "tabs": "/tabs/ari-lasso-arti-cinta.html"
   },
   {
     "artist": "Ari Lasso ",
     "song": " Hampa",
-    "tabs": "https://gtabs.vercel.app/tabs/ari-lasso-hampa.html"
+    "tabs": "/tabs/ari-lasso-hampa.html"
   },
   {
     "artist": "Ari Wibowo ",
     "song": " Singkong Dan Keju",
-    "tabs": "https://gtabs.vercel.app/tabs/ari-wibowo-singkong-dan-keju.html"
+    "tabs": "/tabs/ari-wibowo-singkong-dan-keju.html"
   },
   {
     "artist": "Ari Wibowo ",
     "song": " Madu Dan Racun",
-    "tabs": "https://gtabs.vercel.app/tabs/ari-wibowo-madu-dan-racun.html"
+    "tabs": "/tabs/ari-wibowo-madu-dan-racun.html"
   },
   {
     "artist": "Armada ",
     "song": "Asal Kau Bahagia",
-    "tabs": "https://gtabs.vercel.app/tabs/armada-asal-kau-bahagia.html"
+    "tabs": "/tabs/armada-asal-kau-bahagia.html"
   },
   {
     "artist": "Armada ",
     "song": " Hargai Aku",
-    "tabs": "https://gtabs.vercel.app/tabs/armada-hargai-aku.html"
+    "tabs": "/tabs/armada-hargai-aku.html"
   },
   {
     "artist": "Armada ",
     "song": " Harusnya Aku",
-    "tabs": "https://gtabs.vercel.app/tabs/armada-harusnya-aku.html"
+    "tabs": "/tabs/armada-harusnya-aku.html"
   },
   {
     "artist": "Armada ",
     "song": " Katakan Sejujurnya",
-    "tabs": "https://gtabs.vercel.app/tabs/armada-katakan-sejujurnya.html"
+    "tabs": "/tabs/armada-katakan-sejujurnya.html"
   },
   {
     "artist": "Armada ",
     "song": " Mau Dibawa Kemana",
-    "tabs": "https://gtabs.vercel.app/tabs/armada-mau-dibawa-kemana.html"
+    "tabs": "/tabs/armada-mau-dibawa-kemana.html"
   },
   {
     "artist": "Armada ",
     "song": " Pemilik Hati",
-    "tabs": "https://gtabs.vercel.app/tabs/armada-pemilik-hati.html"
+    "tabs": "/tabs/armada-pemilik-hati.html"
   },
   {
     "artist": "Armada ",
     "song": " Penantian",
-    "tabs": "https://gtabs.vercel.app/tabs/armada-penantian.html"
+    "tabs": "/tabs/armada-penantian.html"
   },
   {
     "artist": "Armada ",
     "song": " Pergi Pagi Pulang Pagi",
-    "tabs": "https://gtabs.vercel.app/tabs/armada-pergi-pagi-pulang-pagi.html"
+    "tabs": "/tabs/armada-pergi-pagi-pulang-pagi.html"
   },
   {
     "artist": "Avenged Sevenfold ",
     "song": " So Far Away",
-    "tabs": "https://gtabs.vercel.app/tabs/avenged-sevenfold-so-far-away.html"
+    "tabs": "/tabs/avenged-sevenfold-so-far-away.html"
   },
   {
     "artist": "BCL ",
     "song": " Aku Dan Dirimu",
-    "tabs": "https://gtabs.vercel.app/tabs/bcl-aku-dan-dirimu.html"
+    "tabs": "/tabs/bcl-aku-dan-dirimu.html"
   },
   {
     "artist": "BCL ",
     "song": " Karena Kucinta Kau",
-    "tabs": "https://gtabs.vercel.app/tabs/bcl-karena-kucinta-kau.html"
+    "tabs": "/tabs/bcl-karena-kucinta-kau.html"
   },
   {
     "artist": "Bee Gees ",
     "song": " Don't Forget To Remember",
-    "tabs": "https://gtabs.vercel.app/tabs/bee-gees-dont-forget-to-remember.html"
+    "tabs": "/tabs/bee-gees-dont-forget-to-remember.html"
   },
   {
     "artist": "Bee Gees ",
     "song": " To Love Somebody",
-    "tabs": "https://gtabs.vercel.app/tabs/bee-gees-to-love-somebody.html"
+    "tabs": "/tabs/bee-gees-to-love-somebody.html"
   },
   {
     "artist": "Bee Gees ",
     "song": " Words",
-    "tabs": "https://gtabs.vercel.app/tabs/bee-gees-words.html"
+    "tabs": "/tabs/bee-gees-words.html"
   },
 
   {
     "artist": "Betharia Sonata ",
     "song": " Hati Yang Luka",
-    "tabs": "https://gtabs.vercel.app/tabs/betharia-sonata-hati-yang-luka.html"
+    "tabs": "/tabs/betharia-sonata-hati-yang-luka.html"
   },
   {
     "artist": "Bimbo ",
     "song": " Bermata Tapi Tak Melihat",
-    "tabs": "https://gtabs.vercel.app/tabs/bimbo-bermata-tak-melihat.html",
+    "tabs": "/tabs/bimbo-bermata-tak-melihat.html",
     "file": "https://www.dropbox.com/scl/fi/wz766ok5zrc8cisvo4hn2/Bimbo-Bermata-Tapi-Tak-Melihat.mp3?rlkey=kw9rzkoxw3rrotrpl4m4u54ez&st=ewjueqlo&raw=1"
   },
   {
     "artist": "Bimbo ",
     "song": " Ada Anak Bertanya",
-    "tabs": "https://gtabs.vercel.app/tabs/bimbo-anak-bertanya.html",
+    "tabs": "/tabs/bimbo-anak-bertanya.html",
     "file": "https://www.dropbox.com/scl/fi/jvdvx5w8voqnm29o1e6ub/Bimbo-Ada-Anak-Bertanya-Kepada-Bapaknya.mp3?rlkey=ptmftj1ips4v4gm4a2bddw93b&st=tiskks9p&raw=1"
   },
   {
     "artist": "Bimbo ",
     "song": " Flamboyan",
-    "tabs": "https://gtabs.vercel.app/tabs/bimbo-flamboyan.html",
+    "tabs": "/tabs/bimbo-flamboyan.html",
     "file": "https://www.dropbox.com/scl/fi/y8c3nfb39aas9yxzr8ni5/Bimbo-Flamboyan.mp3?rlkey=2yxqd810gp2sxtvqp4tmt178a&st=bav8ui24&raw=1"
   },
   {
     "artist": "Bimbo ",
     "song": " Jumpa Untuk Berpisah",
-    "tabs": "https://gtabs.vercel.app/tabs/bimbo-jumpa-tuk-berpisah.html",
+    "tabs": "/tabs/bimbo-jumpa-tuk-berpisah.html",
     "file": "https://www.dropbox.com/scl/fi/xd8qvifjip7ml3rwr1ljz/Bimbo-Jumpa-Untuk-Berpisah.mp3?rlkey=orx77aga2z4bx1kzw70vietr5&st=ry518gwo&raw=1"
   },
   {
     "artist": "Bimbo ",
     "song": " Rindu Rasul",
-    "tabs": "https://gtabs.vercel.app/tabs/bimbo-rindu-rasul.html",
+    "tabs": "/tabs/bimbo-rindu-rasul.html",
     "file": "https://www.dropbox.com/scl/fi/rkzqkcyk68ktxxzi9ugcy/Bimbo-Rindu-Kami-Padamu.mp3?rlkey=38ytwfzb6xikt6de9soobg8vf&st=jx1k75ty&raw=1"
   },
   {
     "artist": "Bimbo ",
     "song": " Sajadah Panjang",
-    "tabs": "https://gtabs.vercel.app/tabs/bimbo-sajadah-panjang.html",
+    "tabs": "/tabs/bimbo-sajadah-panjang.html",
     "file": "https://www.dropbox.com/scl/fi/6ikz5eer694gqzchobsiu/Bimbo-Sajadah-Panjang.mp3?rlkey=reco0z4wjfj40k5qul2r24l5i&st=1at9ul6h&raw=1"
   },
   {
     "artist": "Bimbo ",
     "song": " Semalam Di Malaysia",
-    "tabs": "https://gtabs.vercel.app/tabs/bimbo-semalam-di-malaysia.html",
+    "tabs": "/tabs/bimbo-semalam-di-malaysia.html",
     "file": "https://www.dropbox.com/scl/fi/zetlb2enxjxara7stg7cn/Bimbo-Semalam-di-Malaysia-1975.mp3?rlkey=eoecmt9hlybd38jf9tmjwc465&st=kiifvzm1&raw=1"
   },
   {
     "artist": "Bimbo ",
     "song": " Sendiri",
-    "tabs": "https://gtabs.vercel.app/tabs/bimbo-sendiri.html",
+    "tabs": "/tabs/bimbo-sendiri.html",
     "file": "https://www.dropbox.com/scl/fi/c79tl7rm4izntukewcasp/Bimbo-Sendiri.mp3?rlkey=6dzq330lrk2opxlxe3eumpceh&st=4tq4ewo2&raw=1"
   },
   {
     "artist": "Bimbo ",
     "song": " Tuhan",
-    "tabs": "https://gtabs.vercel.app/tabs/bimbo-tuhan.html",
+    "tabs": "/tabs/bimbo-tuhan.html",
     "file": "https://www.dropbox.com/scl/fi/p39d4ov46pnbni0odughe/Bimbo-Tuhan-1977.mp3?rlkey=0jflyn27und2n7xbom1sy3y6z&st=vht8igm0&raw=1"
   },
   {
     "artist": "Bing Slamet ",
     "song": " Nurlela",
-    "tabs": "https://gtabs.vercel.app/tabs/bing-slamet-nurlela.html",
+    "tabs": "/tabs/bing-slamet-nurlela.html",
     "file": "https://www.dropbox.com/scl/fi/cx8h7aeyiuce8etdmgfpr/Bing-Slamet-Nurlela.mp3?rlkey=xetfw8ytqm5ckv3hsbegzohbm&st=ew7b9og8&raw=1"
   },
   {
     "artist": "Black Brothers ",
     "song": " Hari Kiamat",
-    "tabs": "https://gtabs.vercel.app/tabs/black-brothers-hari-kiamat.html",
+    "tabs": "/tabs/black-brothers-hari-kiamat.html",
     "file": "https://www.dropbox.com/scl/fi/p05n2yregjhfpnjpq5kbm/Black-Brothers-Hari-Kiamat.mp3?rlkey=ltk0kgeyke0qz4im2r2nvx19w&st=ghwche88&raw=1"
   },
   {
     "artist": "Black Brothers ",
     "song": " Hilang",
-    "tabs": "https://gtabs.vercel.app/tabs/black-brothers-hilang.html",
+    "tabs": "/tabs/black-brothers-hilang.html",
     "file": "https://www.dropbox.com/scl/fi/26eas57pg2e0zebny49nm/Black-Brothers-Hilang.mp3?rlkey=7c34wkgdwmd5kqnhi9fp8a9kt&st=j9egrvs6&raw=1"
   },
   {
     "artist": "Black Brothers ",
     "song": " Terjalin Kembali",
-    "tabs": "https://gtabs.vercel.app/tabs/black-brothers-terjalin-kembali.html",
+    "tabs": "/tabs/black-brothers-terjalin-kembali.html",
     "file": "https://www.dropbox.com/scl/fi/dpg7vl9m917qsgvrour8o/Black-Brothers-Terjalin-kembali.mp3?rlkey=jsjyb3vcpa9t955030fwtzgyb&st=r7rsxecb&raw=1"
   },
   {
     "artist": "Blackout ",
     "song": " Selalu Ada",
-    "tabs": "https://gtabs.vercel.app/tabs/blackout-selalu-ada.html"
+    "tabs": "/tabs/blackout-selalu-ada.html"
   },
   {
     "artist": "Blue ",
     "song": " Sorry Seem To Be The Hardest Word",
-    "tabs": "https://gtabs.vercel.app/tabs/blue-sorry-seem-to-be.html"
+    "tabs": "/tabs/blue-sorry-seem-to-be.html"
   },
   {
     "artist": "Bonjovi ",
     "song": " Always",
-    "tabs": "https://gtabs.vercel.app/tabs/bonjovi-always.html"
+    "tabs": "/tabs/bonjovi-always.html"
   },
   {
     "artist": "Bonjovi ",
     "song": " Bed Of Roses",
-    "tabs": "https://gtabs.vercel.app/tabs/bonjovi-bed-of-roses.html"
+    "tabs": "/tabs/bonjovi-bed-of-roses.html"
   },
   {
     "artist": "Bonjovi ",
     "song": " I'll Be There For You",
-    "tabs": "https://gtabs.vercel.app/tabs/bonjovi-ill-be-there-for-you.html"
+    "tabs": "/tabs/bonjovi-ill-be-there-for-you.html"
   },
   {
     "artist": "Bonjovi ",
     "song": " It's My Life",
-    "tabs": "https://gtabs.vercel.app/tabs/bonjovi-its-my-life.html"
+    "tabs": "/tabs/bonjovi-its-my-life.html"
   },
   {
     "artist": "Bonjovi ",
     "song": " Never Say Goodbye",
-    "tabs": "https://gtabs.vercel.app/tabs/bonjovi-never-say-goodbye.html"
+    "tabs": "/tabs/bonjovi-never-say-goodbye.html"
   },
   {
     "artist": "Boomerang ",
     "song": " Pelangi",
-    "tabs": "https://gtabs.vercel.app/tabs/boomerang-pelangi.html"
+    "tabs": "/tabs/boomerang-pelangi.html"
   },
   {
     "artist": "Boy Shandy ",
     "song": " Rayuan Maut",
-    "tabs": "https://gtabs.vercel.app/tabs/boy-shandy-rayuan-maut.html",
+    "tabs": "/tabs/boy-shandy-rayuan-maut.html",
     "file": "https://www.dropbox.com/scl/fi/2r7xvee44c50ngx1bh77e/Boy-Shandy-Rayuan-Maut.mp3?rlkey=qc8r08upfk3yrjfibk7ewr574&st=wga6phe3&raw=1"
   },
   {
     "artist": "Bragi ",
     "song": " Janji",
-    "tabs": "https://gtabs.vercel.app/tabs/bragi-janji.html"
+    "tabs": "/tabs/bragi-janji.html"
   },
   {
     "artist": "Broery Marantika ",
     "song": " Angin Malam",
-    "tabs": "https://gtabs.vercel.app/tabs/broery-angin-malam.html"
+    "tabs": "/tabs/broery-angin-malam.html"
   },
   {
     "artist": "Broery Marantika ",
     "song": " Biarkan Bulan Bicara",
-    "tabs": "https://gtabs.vercel.app/tabs/broery-biarkan-bulan-bicara.html"
+    "tabs": "/tabs/broery-biarkan-bulan-bicara.html"
   },
   {
     "artist": "Broery Marantika ",
     "song": " Duri Dan Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/broery-duri-dan-cinta.html"
+    "tabs": "/tabs/broery-duri-dan-cinta.html"
   },
   {
     "artist": "Broery Marantika ",
     "song": " Gubahanku",
-    "tabs": "https://gtabs.vercel.app/tabs/broery-gubahanku.html"
+    "tabs": "/tabs/broery-gubahanku.html"
   },
   {
     "artist": "Broery Marantika ",
     "song": " Jangan Ada Dusta",
-    "tabs": "https://gtabs.vercel.app/tabs/broery-jangan-ada-dusta.html"
+    "tabs": "/tabs/broery-jangan-ada-dusta.html"
   },
   {
     "artist": "Broery Feat Dewi Yull ",
     "song": " Kharisma Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/broery-kharisma-cinta.html"
+    "tabs": "/tabs/broery-kharisma-cinta.html"
   },
   {
     "artist": "Broery Marantika ",
     "song": " Mungkinkah",
-    "tabs": "https://gtabs.vercel.app/tabs/broery-mungkinkah.html"
+    "tabs": "/tabs/broery-mungkinkah.html"
   },
   {
     "artist": "Broery Marantika ",
     "song": " Pamit",
-    "tabs": "https://gtabs.vercel.app/tabs/broery-pamit.html"
+    "tabs": "/tabs/broery-pamit.html"
   },
   {
     "artist": "Broery Pesulima ",
     "song": " Jangan Ditanya",
-    "tabs": "https://gtabs.vercel.app/tabs/broery-jangan-ditanya.html"
+    "tabs": "/tabs/broery-jangan-ditanya.html"
   },
   {
     "artist": "Budi Doremi ",
     "song": " Mesin Waktu",
-    "tabs": "https://gtabs.vercel.app/tabs/budi-doremi-mesin-waktu.html"
+    "tabs": "/tabs/budi-doremi-mesin-waktu.html"
   },
   {
     "artist": "Cake ",
     "song": " I Will Survive",
-    "tabs": "https://gtabs.vercel.app/tabs/cake-i-will-survive.html"
+    "tabs": "/tabs/cake-i-will-survive.html"
   },
   {
     "artist": "CCR ",
     "song": " Cotton Fields",
-    "tabs": "https://gtabs.vercel.app/tabs/ccr-cotton-fields.html"
+    "tabs": "/tabs/ccr-cotton-fields.html"
   },
   {
     "artist": "CCR ",
     "song": " Wrote Song For Everyone",
-    "tabs": "https://gtabs.vercel.app/tabs/ccr-wrote-song-for-everyone.html"
+    "tabs": "/tabs/ccr-wrote-song-for-everyone.html"
   },
   {
     "artist": "Chakra Khan ",
     "song": " Kekasih Bayangan",
-    "tabs": "https://gtabs.vercel.app/tabs/chakra-khan-kekasih-bayangan.html"
+    "tabs": "/tabs/chakra-khan-kekasih-bayangan.html"
   },
   {
     "artist": "Christine Panjaitan ",
     "song": " Tangan Tak Sampai",
-    "tabs": "https://gtabs.vercel.app/tabs/christine-panjaitan-tangan-tak-sampai.html"
+    "tabs": "/tabs/christine-panjaitan-tangan-tak-sampai.html"
   },
   {
     "artist": "Cici Paramida ",
     "song": " Wulan Merindu",
-    "tabs": "https://gtabs.vercel.app/tabs/cici-paramida-wulan-merindu.html"
+    "tabs": "/tabs/cici-paramida-wulan-merindu.html"
   },
   {
     "artist": "Cliff Richard ",
     "song": " Congratulations",
-    "tabs": "https://gtabs.vercel.app/tabs/cliff-richard-congratulations.html"
+    "tabs": "/tabs/cliff-richard-congratulations.html"
   },
   {
     "artist": "Cokelat ",
     "song": " Bendera",
-    "tabs": "https://gtabs.vercel.app/tabs/cokelat-bendera.html"
+    "tabs": "/tabs/cokelat-bendera.html"
   },
   {
     "artist": "Cokelat ",
     "song": " Jauh",
-    "tabs": "https://gtabs.vercel.app/tabs/cokelat-jauh.html"
+    "tabs": "/tabs/cokelat-jauh.html"
   },
   {
     "artist": "Cokelat ",
     "song": " Karma",
-    "tabs": "https://gtabs.vercel.app/tabs/cokelat-karma.html"
+    "tabs": "/tabs/cokelat-karma.html"
   },
   {
     "artist": "Cokelat ",
     "song": " Kupilih Dia",
-    "tabs": "https://gtabs.vercel.app/tabs/cokelat-kupilih-dia.html"
+    "tabs": "/tabs/cokelat-kupilih-dia.html"
   },
   {
     "artist": "Cokelat ",
     "song": " Luka Lama",
-    "tabs": "https://gtabs.vercel.app/tabs/cokelat-luka-lama.html"
+    "tabs": "/tabs/cokelat-luka-lama.html"
   },
   {
     "artist": "Cokelat ",
     "song": " Salah",
-    "tabs": "https://gtabs.vercel.app/tabs/cokelat-salah.html"
+    "tabs": "/tabs/cokelat-salah.html"
   },
   {
     "artist": "Cokelat ",
     "song": " Segitiga",
-    "tabs": "https://gtabs.vercel.app/tabs/cokelat-segitiga.html"
+    "tabs": "/tabs/cokelat-segitiga.html"
   },
   {
     "artist": "D'Bagindas ",
     "song": " CINTA",
-    "tabs": "https://gtabs.vercel.app/tabs/dbagindas-cinta.html"
+    "tabs": "/tabs/dbagindas-cinta.html"
   },
   {
     "artist": "D'Bagindas ",
     "song": " Empat Mata",
-    "tabs": "https://gtabs.vercel.app/tabs/dbagindas-empat-mata.html"
+    "tabs": "/tabs/dbagindas-empat-mata.html"
   },
   {
     "artist": "D'Bagindas ",
     "song": " Maafkan",
-    "tabs": "https://gtabs.vercel.app/tabs/dbagindas-maafkan.html"
+    "tabs": "/tabs/dbagindas-maafkan.html"
   },
   {
     "artist": "D'Bagindas ",
     "song": " Suka Sama Kamu",
-    "tabs": "https://gtabs.vercel.app/tabs/dbagindas-suka-sama-kamu.html"
+    "tabs": "/tabs/dbagindas-suka-sama-kamu.html"
   },
   {
     "artist": "D'lloyd ",
     "song": " Apa Salah Dan Dosaku",
-    "tabs": "https://gtabs.vercel.app/tabs/dlloyd-apa-salah-dan-dosaku.html"
+    "tabs": "/tabs/dlloyd-apa-salah-dan-dosaku.html"
   },
   {
     "artist": "D'lloyd ",
     "song": " Bunga Nirwana",
-    "tabs": "https://gtabs.vercel.app/tabs/dlloyd-bunga-nirwana.html"
+    "tabs": "/tabs/dlloyd-bunga-nirwana.html"
   },
   {
     "artist": "D'lloyd ",
     "song": " Cinta Hampa",
-    "tabs": "https://gtabs.vercel.app/tabs/dlloyd-cinta-hampa.html"
+    "tabs": "/tabs/dlloyd-cinta-hampa.html"
   },
   {
     "artist": "D'lloyd ",
     "song": " Curi-Curi",
-    "tabs": "https://gtabs.vercel.app/tabs/dlloyd-curi-curi.html"
+    "tabs": "/tabs/dlloyd-curi-curi.html"
   },
   {
     "artist": "D'lloyd ",
     "song": " Diam Diam Jatuh Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/dlloyd-diam-diam-jatuh-cinta.html"
+    "tabs": "/tabs/dlloyd-diam-diam-jatuh-cinta.html"
   },
   {
     "artist": "D'lloyd ",
     "song": " Hidup Dibui",
-    "tabs": "https://gtabs.vercel.app/tabs/dlloyd-hidup-dibui.html"
+    "tabs": "/tabs/dlloyd-hidup-dibui.html"
   },
   {
     "artist": "D'lloyd ",
     "song": " Keagungan Tuhan",
-    "tabs": "https://gtabs.vercel.app/tabs/dlloyd-keagungan-tuhan.html"
+    "tabs": "/tabs/dlloyd-keagungan-tuhan.html"
   },
   {
     "artist": "D'lloyd ",
     "song": " Lorong Yang Gelap",
-    "tabs": "https://gtabs.vercel.app/tabs/dlloyd-lorong-yang-gelap.html"
+    "tabs": "/tabs/dlloyd-lorong-yang-gelap.html"
   },
   {
     "artist": "D'lloyd ",
     "song": " Mengapa Harus Jumpa",
-    "tabs": "https://gtabs.vercel.app/tabs/dlloyd-mengapa-harus-jumpa.html"
+    "tabs": "/tabs/dlloyd-mengapa-harus-jumpa.html"
   },
   {
     "artist": "D'lloyd ",
     "song": " Oh Tak Mungkin",
-    "tabs": "https://gtabs.vercel.app/tabs/dlloyd-oh-tak-mungkin.html"
+    "tabs": "/tabs/dlloyd-oh-tak-mungkin.html"
   },
   {
     "artist": "D'lloyd ",
     "song": " Semalam Di Malaysia",
-    "tabs": "https://gtabs.vercel.app/tabs/dlloyd-semalam-di-malaysia.html"
+    "tabs": "/tabs/dlloyd-semalam-di-malaysia.html"
   },
   {
     "artist": "D'lloyd ",
     "song": " Titik Noda",
-    "tabs": "https://gtabs.vercel.app/tabs/dlloyd-titik-noda.html"
+    "tabs": "/tabs/dlloyd-titik-noda.html"
   },
   {
     "artist": "D'Masiv ",
     "song": " Cinta Ini Membunuhku",
-    "tabs": "https://gtabs.vercel.app/tabs/dmasiv-cinta-ini-membunuhku.html"
+    "tabs": "/tabs/dmasiv-cinta-ini-membunuhku.html"
   },
   {
     "artist": "D'Masiv ",
     "song": " Cinta Sampai Disini",
-    "tabs": "https://gtabs.vercel.app/tabs/dmasiv-cinta-sampai-disini.html"
+    "tabs": "/tabs/dmasiv-cinta-sampai-disini.html"
   },
   {
     "artist": "D'Masiv ",
     "song": " Diantara Kalian",
-    "tabs": "https://gtabs.vercel.app/tabs/dmasiv-diantara-kalian.html"
+    "tabs": "/tabs/dmasiv-diantara-kalian.html"
   },
   {
     "artist": "D'Masiv ",
     "song": " Pergilah Kasih",
-    "tabs": "https://gtabs.vercel.app/tabs/dmasiv-pergila-kasih.html"
+    "tabs": "/tabs/dmasiv-pergila-kasih.html"
   },
   {
     "artist": "Dan Byrd ",
     "song": " Boulevard",
-    "tabs": "https://gtabs.vercel.app/tabs/dan-byrd-boulevard.html"
+    "tabs": "/tabs/dan-byrd-boulevard.html"
   },
   {
     "artist": "Daniel Sahuleka ",
     "song": " Don't Sleep Away",
-    "tabs": "https://gtabs.vercel.app/tabs/daniel-sahuleka-dont-sleepaway.html"
+    "tabs": "/tabs/daniel-sahuleka-dont-sleepaway.html"
   },
   {
     "artist": "Deddy Dores ",
     "song": " Hilangnya Seorang Gadis",
-    "tabs": "https://gtabs.vercel.app/tabs/deddy-dores-hilangnya-seorang-gadis.html"
+    "tabs": "/tabs/deddy-dores-hilangnya-seorang-gadis.html"
   },
   {
     "artist": "Deddy Dores ",
     "song": " Jangan pisahkan",
-    "tabs": "https://gtabs.vercel.app/tabs/deddy-dores-jangan-pisahkan.html"
+    "tabs": "/tabs/deddy-dores-jangan-pisahkan.html"
   },
   {
     "artist": "Deep Purple ",
     "song": " Soldier Of Fortune",
-    "tabs": "https://gtabs.vercel.app/tabs/deep-purple-soldier-of-fortune.html"
+    "tabs": "/tabs/deep-purple-soldier-of-fortune.html"
   },
   {
     "artist": "Deep Purple ",
     "song": " When A Blind Man Cries",
-    "tabs": "https://gtabs.vercel.app/tabs/deep-purple-when-a-blind-man-cries.html"
+    "tabs": "/tabs/deep-purple-when-a-blind-man-cries.html"
   },
   {
     "artist": "Desy Ratnasari ",
     "song": " Tenda Biru",
-    "tabs": "https://gtabs.vercel.app/tabs/desy-ratnasari-tenda-biru.html"
+    "tabs": "/tabs/desy-ratnasari-tenda-biru.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Aku Disini Untukmu",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-aku-disini-untukmu.html"
+    "tabs": "/tabs/dewa-19-aku-disini-untukmu.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Aku Milikmu",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-aku-milikmu.html"
+    "tabs": "/tabs/dewa-19-aku-milikmu.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Angin",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-angin.html"
+    "tabs": "/tabs/dewa-19-angin.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Arjuna",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-arjuna.html"
+    "tabs": "/tabs/dewa-19-arjuna.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Bukan Rahasia",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-bukan-rahasia.html"
+    "tabs": "/tabs/dewa-19-bukan-rahasia.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Cinta Gila",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-cinta-gila.html"
+    "tabs": "/tabs/dewa-19-cinta-gila.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Cukup Siti Nurbaya",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-cuku-siti-nurbaya.html"
+    "tabs": "/tabs/dewa-19-cuku-siti-nurbaya.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Dewi",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-dewi.html"
+    "tabs": "/tabs/dewa-19-dewi.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Dua Sejoli",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-dua-sejoli.html"
+    "tabs": "/tabs/dewa-19-dua-sejoli.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Kangen",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-kangen.html"
+    "tabs": "/tabs/dewa-19-kangen.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Kosong",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-kosong.html"
+    "tabs": "/tabs/dewa-19-kosong.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Larut",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-larut.html"
+    "tabs": "/tabs/dewa-19-larut.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Pupus",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-pupus.html"
+    "tabs": "/tabs/dewa-19-pupus.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Restoe Boemi",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-restoe-boemi.html"
+    "tabs": "/tabs/dewa-19-restoe-boemi.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Risalah Hati",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-risalah-hati.html"
+    "tabs": "/tabs/dewa-19-risalah-hati.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Roman Picisan",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-roman-picisan.html"
+    "tabs": "/tabs/dewa-19-roman-picisan.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Sedang Ingin Bercinta",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-sedang-ingin-bercinta.html"
+    "tabs": "/tabs/dewa-19-sedang-ingin-bercinta.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Selimut Hati",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-selimut-hati.html"
+    "tabs": "/tabs/dewa-19-selimut-hati.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": " Separuh Nafas",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-separuh-nafas.html"
+    "tabs": "/tabs/dewa-19-separuh-nafas.html"
   },
   {
     "artist": "Dewa 19 ",
     "song": "Kirana",
-    "tabs": "https://gtabs.vercel.app/tabs/dewa-19-kirana.html"
+    "tabs": "/tabs/dewa-19-kirana.html"
   },
   {
     "artist": "Dewi-Dewi ",
     "song": "Begitu Salah Begitu Benar",
-    "tabs": "https://gtabs.vercel.app/tabs/dewi-dewi-begitu-salah-begitu-benar.html"
+    "tabs": "/tabs/dewi-dewi-begitu-salah-begitu-benar.html"
   },
   {
     "artist": "Dian Piesesha ",
     "song": " Tak Ingin Sendiri",
-    "tabs": "https://gtabs.vercel.app/tabs/dian-piesesha-tak-ingin-sendiri.html"
+    "tabs": "/tabs/dian-piesesha-tak-ingin-sendiri.html"
   },
   {
     "artist": "Dian Piesesha ",
     "song": " Engkau Segalanya Bagiku",
-    "tabs": "https://gtabs.vercel.app/tabs/dian-piesesha-engkau-segalanya-bagiku.html"
+    "tabs": "/tabs/dian-piesesha-engkau-segalanya-bagiku.html"
   },
   {
     "artist": "Diana Nasution ",
     "song": " Benci Tapi Rindu",
-    "tabs": "https://gtabs.vercel.app/tabs/diana-nasution-benci-tapi-rindu.html"
+    "tabs": "/tabs/diana-nasution-benci-tapi-rindu.html"
   },
   {
     "artist": "Dien Makmur ",
     "song": " Neng Geulis",
-    "tabs": "https://gtabs.vercel.app/tabs/dien-makmur-neng-geulis.html"
+    "tabs": "/tabs/dien-makmur-neng-geulis.html"
   },
   {
     "artist": "Dina Mariana ",
     "song": " Sekedar Bertanya",
-    "tabs": "https://gtabs.vercel.app/tabs/dina-mariana-sekedar-bertanya.html"
+    "tabs": "/tabs/dina-mariana-sekedar-bertanya.html"
   },
   {
     "artist": "Djoker ",
     "song": " Cinta Sebenarnya",
-    "tabs": "https://gtabs.vercel.app/tabs/djoker-cinta-sebenarnya.html"
+    "tabs": "/tabs/djoker-cinta-sebenarnya.html"
   },
   {
     "artist": "Dpaspor ",
     "song": " Rinduku",
-    "tabs": "https://gtabs.vercel.app/tabs/dpaspor-rinduku.html"
+    "tabs": "/tabs/dpaspor-rinduku.html"
   },
   {
     "artist": "Drive ",
     "song": " Melepasmu",
-    "tabs": "https://gtabs.vercel.app/tabs/drive-melepasmu.html"
+    "tabs": "/tabs/drive-melepasmu.html"
   },
   {
     "artist": "Ebiet G Ade ",
     "song": " Camelia 2",
-    "tabs": "https://gtabs.vercel.app/tabs/ebiet-g-ade-camelia-2.html"
+    "tabs": "/tabs/ebiet-g-ade-camelia-2.html"
   },
   {
     "artist": "Ebiet G Ade ",
     "song": " Camelia 4",
-    "tabs": "https://gtabs.vercel.app/tabs/ebiet-g-ade-camelia-4.html"
+    "tabs": "/tabs/ebiet-g-ade-camelia-4.html"
   },
   {
     "artist": "Ebiet G Ade ",
     "song": " Kepadamu Aku Pasrah",
-    "tabs": "https://gtabs.vercel.app/tabs/ebiet-g-ade-kepadamu-aku-pasrah.html",
+    "tabs": "/tabs/ebiet-g-ade-kepadamu-aku-pasrah.html",
     "file": "https://www.dropbox.com/scl/fi/nfwlvnpnbt6mda77bc2o8/Ebiet-G.-Ade-KepadaMu-Aku-Pasrah.mp3?rlkey=rw6kze7csa6jy5k0hvb7nc4hp&st=fwvjikky&raw=1"
   },
   {
     "artist": "Ebiet G Ade ",
     "song": " Titip Rindu Buat Ayah",
-    "tabs": "https://gtabs.vercel.app/tabs/ebiet-g-ade-titip-rindu.html"
+    "tabs": "/tabs/ebiet-g-ade-titip-rindu.html"
   },
   {
     "artist": "El Corona ",
     "song": " Ikan Dalam Kolam",
-    "tabs": "https://gtabs.vercel.app/tabs/el-corona-ikan-dalam-kolam.html"
+    "tabs": "/tabs/el-corona-ikan-dalam-kolam.html"
   },
   {
     "artist": "El Corona ",
     "song": " Pantun Janda",
-    "tabs": "https://gtabs.vercel.app/tabs/el-corona-pantun-janda.html"
+    "tabs": "/tabs/el-corona-pantun-janda.html"
   },
   {
     "artist": "Element ",
     "song": " Cinta Tak Bersyarat",
-    "tabs": "https://gtabs.vercel.app/tabs/element-cinta-tak-bersyarat.html"
+    "tabs": "/tabs/element-cinta-tak-bersyarat.html"
   },
   {
     "artist": "Element ",
     "song": " Rahasia Hati",
-    "tabs": "https://gtabs.vercel.app/tabs/element-rahasia-hati.html"
+    "tabs": "/tabs/element-rahasia-hati.html"
   },
   {
     "artist": "Engelbert Humperdinck ",
     "song": " The Way It Use To Be",
-    "tabs": "https://gtabs.vercel.app/tabs/engelbert-the-way-it-use-to-be.html"
+    "tabs": "/tabs/engelbert-the-way-it-use-to-be.html"
   },
   {
     "artist": "Eric Clapton ",
     "song": " Wonderful Tonight",
-    "tabs": "https://gtabs.vercel.app/tabs/eric-clapton-wonderful-tonight.html"
+    "tabs": "/tabs/eric-clapton-wonderful-tonight.html"
   },
   {
     "artist": "Exist ",
     "song": " Buih Jadi Permadani",
-    "tabs": "https://gtabs.vercel.app/tabs/exist-buih-jadi-permadani.html"
+    "tabs": "/tabs/exist-buih-jadi-permadani.html"
   },
   {
     "artist": "Exist ",
     "song": " Mencari Alasan",
-    "tabs": "https://gtabs.vercel.app/tabs/exist-mencari-alasan.html"
+    "tabs": "/tabs/exist-mencari-alasan.html"
   },
   {
     "artist": "Fahmi Sahab ",
     "song": " Kopi Dangdut",
-    "tabs": "https://gtabs.vercel.app/tabs/fahmi-sahab-kopi-dangdut.html"
+    "tabs": "/tabs/fahmi-sahab-kopi-dangdut.html"
   },
   {
     "artist": "Faith No More",
     "song": " Easy",
-    "tabs": "https://gtabs.vercel.app/tabs/faith-no-more-easy.html"
+    "tabs": "/tabs/faith-no-more-easy.html"
   },
   {
     "artist": "Farid Hardja",
     "song": " Ini Rindu",
-    "tabs": "https://gtabs.vercel.app/tabs/farid-hardja-ini-rindu.html"
+    "tabs": "/tabs/farid-hardja-ini-rindu.html"
   },
   {
     "artist": "Firman ",
     "song": " Kehilangan",
-    "tabs": "https://gtabs.vercel.app/tabs/firman-kehilangan.html"
+    "tabs": "/tabs/firman-kehilangan.html"
   },
   {
     "artist": "Five Minutes ",
     "song": " Selamat Tinggal",
-    "tabs": "https://gtabs.vercel.app/tabs/five-minutes-selamat-tinggal.html"
+    "tabs": "/tabs/five-minutes-selamat-tinggal.html"
   },
   {
     "artist": "Frank Sinatra ",
     "song": " My Way",
-    "tabs": "https://gtabs.vercel.app/tabs/frank-sinatra-my-way.html"
+    "tabs": "/tabs/frank-sinatra-my-way.html"
   },
   {
     "artist": "Ghea Indrawati ",
     "song": " Jiwa Yang Bersedih",
-    "tabs": "https://gtabs.vercel.app/tabs/ghea-indrawati-jiwa-yang-bersedih.html"
+    "tabs": "/tabs/ghea-indrawati-jiwa-yang-bersedih.html"
   },
   {
     "artist": "Geisha ",
     "song": " Jika Cinta Dia",
-    "tabs": "https://gtabs.vercel.app/tabs/geisha-jika-cinta-dia.html"
+    "tabs": "/tabs/geisha-jika-cinta-dia.html"
   },
   {
     "artist": "George Baker ",
     "song": " I’ve Been Away Too Long",
-    "tabs": "https://gtabs.vercel.app/tabs/george-baker-ive-been-away-too-long.html"
+    "tabs": "/tabs/george-baker-ive-been-away-too-long.html"
   },
   {
     "artist": "George Michael ",
     "song": " Chareless Whsiper",
-    "tabs": "https://gtabs.vercel.app/tabs/george-michael-chareless-whisper.html"
+    "tabs": "/tabs/george-michael-chareless-whisper.html"
   },
   {
     "artist": "Gigi ",
     "song": " 11 Januari",
-    "tabs": "https://gtabs.vercel.app/tabs/gigi-11-januari.html"
+    "tabs": "/tabs/gigi-11-januari.html"
   },
   {
     "artist": "Gigi ",
     "song": " Akhirnya",
-    "tabs": "https://gtabs.vercel.app/tabs/gigi-akhirnya.html",
+    "tabs": "/tabs/gigi-akhirnya.html",
     "file": "https://www.dropbox.com/scl/fi/16ytmabe76c3o36sbadxr/Gigi-Akhirnya.mp3?rlkey=rri6rb9ylyv1onqt7bj4p9vtq&st=rrq23x2x&raw=1"
   },
   {
     "artist": "Gigi ",
     "song": " Andai",
-    "tabs": "https://gtabs.vercel.app/tabs/gigi-andai.html"
+    "tabs": "/tabs/gigi-andai.html"
   },
   {
     "artist": "Gigi ",
     "song": " My Facebook",
-    "tabs": "https://gtabs.vercel.app/tabs/gigi-my-facebook.html"
+    "tabs": "/tabs/gigi-my-facebook.html"
   },
   {
     "artist": "Gigi ",
     "song": " Nakal",
-    "tabs": "https://gtabs.vercel.app/tabs/gigi-nakal.html"
+    "tabs": "/tabs/gigi-nakal.html"
   },
   {
     "artist": "Glenn Fredly ",
     "song": " Sekali Ini Saja",
-    "tabs": "https://gtabs.vercel.app/tabs/glenn-fredly-sekali-ini-saja.html"
+    "tabs": "/tabs/glenn-fredly-sekali-ini-saja.html"
   },
   {
     "artist": "Grace Simon ",
     "song": " Lihat Air Mata",
-    "tabs": "https://gtabs.vercel.app/tabs/grace-simon-lihatlah-air-mata.html"
+    "tabs": "/tabs/grace-simon-lihatlah-air-mata.html"
   },
   {
     "artist": "Guns N Roses ",
     "song": " Don't Cry",
-    "tabs": "https://gtabs.vercel.app/tabs/gnr-dont-cry.html"
+    "tabs": "/tabs/gnr-dont-cry.html"
   },
   {
     "artist": "Happy Asmara ",
     "song": " Rungkad",
-    "tabs": "https://gtabs.vercel.app/tabs/happy-asmara-rungkad.html"
+    "tabs": "/tabs/happy-asmara-rungkad.html"
   },
   {
     "artist": "Haddad Alwi ",
     "song": " Astagfirullah",
-    "tabs": "https://gtabs.vercel.app/tabs/haddad-alwi-astagfirullah.html",
+    "tabs": "/tabs/haddad-alwi-astagfirullah.html",
     "file": "https://www.dropbox.com/scl/fi/9f5hbplrz5b7qst3k88lu/Haddad-Alwi-Astaghfirullah.mp3?rlkey=l43dmiyr2ge130asuaob4stb6&st=2w23zmbp&raw=1"
   },
   {
     "artist": "Harvey Malaiholo ",
     "song": " Jerat",
-    "tabs": "https://gtabs.vercel.app/tabs/harvey-malaiholo-jerat.html"
+    "tabs": "/tabs/harvey-malaiholo-jerat.html"
   },
   {
     "artist": "Hello ",
     "song": " Dua Cincin",
-    "tabs": "https://gtabs.vercel.app/tabs/hello-dua-cincin.html"
+    "tabs": "/tabs/hello-dua-cincin.html"
   },
   {
     "artist": "Helloween ",
     "song": " Forever And One",
-    "tabs": "https://gtabs.vercel.app/tabs/helloween-forever-and-one.html"
+    "tabs": "/tabs/helloween-forever-and-one.html"
   },
   {
     "artist": "Hendri Rotinsulu ",
     "song": " Diwajahmu Kulihat Bulan",
-    "tabs": "https://gtabs.vercel.app/tabs/hendri-rotinsulu-diwajahmu-kulihat-bulan.html"
+    "tabs": "/tabs/hendri-rotinsulu-diwajahmu-kulihat-bulan.html"
   },
   {
     "artist": "Hetty Koes Endang ",
     "song": " Dingin",
-    "tabs": "https://gtabs.vercel.app/tabs/hetty-koes-endang-dingin.html"
+    "tabs": "/tabs/hetty-koes-endang-dingin.html"
   },
   {
     "artist": "Hetty Koes Endang ",
     "song": " Esok Malam Kujelang",
-    "tabs": "https://gtabs.vercel.app/tabs/hetty-koes-endang-esok-malam-kujelang.html"
+    "tabs": "/tabs/hetty-koes-endang-esok-malam-kujelang.html"
   },
   {
     "artist": "Hoobastank ",
     "song": " The Reason",
-    "tabs": "https://gtabs.vercel.app/tabs/hoobastank-the-reason.html"
+    "tabs": "/tabs/hoobastank-the-reason.html"
   },
   {
     "artist": "Idgitaf ",
     "song": " Satu-Satu",
-    "tabs": "https://gtabs.vercel.app/tabs/idgitaf-satu-satu.html"
+    "tabs": "/tabs/idgitaf-satu-satu.html"
   },
   {
     "artist": "Iis Dahlia ",
     "song": " Fatwa Pujangga",
-    "tabs": "https://gtabs.vercel.app/tabs/iis-dahlia-fatwa-pujangga.html",
+    "tabs": "/tabs/iis-dahlia-fatwa-pujangga.html",
     "file": "https://www.dropbox.com/scl/fi/q0fyrjp0oz3s5fhw5j4by/Iis-Dahlia-Fatwa-Pujangga.mp3?rlkey=851890yxtm4e9leqezenwny70&st=9qsk1pil&raw=1"
   },
   {
     "artist": "Imam S Arifin ",
     "song": " Jandaku",
-    "tabs": "https://gtabs.vercel.app/tabs/imam-s-arifin-jandaku.html",
+    "tabs": "/tabs/imam-s-arifin-jandaku.html",
     "file": "https://www.dropbox.com/scl/fi/erxatjsgna4wizpwsf0wl/Imam-S-Arifin-Jandaku.mp3?rlkey=t76dwlrgk1bsanf0gxfzx1amn&st=1nyl10ej&raw=1"
   },
   {
     "artist": "Amy Search Ft. Inka Christie ",
     "song": " Cinta Kita",
-    "tabs": "https://gtabs.vercel.app/tabs/inka-christie-cinta-kita.html"
+    "tabs": "/tabs/inka-christie-cinta-kita.html"
   },
   {
     "artist": "Iwan Fals ",
     "song": " Aku Bukan Pilihan",
-    "tabs": "https://gtabs.vercel.app/tabs/iwan-fals-aku-bukan-pilihan.html"
+    "tabs": "/tabs/iwan-fals-aku-bukan-pilihan.html"
   },
   {
     "artist": "Iwan Fals ",
     "song": " Bento",
-    "tabs": "https://gtabs.vercel.app/tabs/iwan-fals-bento.html"
+    "tabs": "/tabs/iwan-fals-bento.html"
   },
   {
     "artist": "Iwan Fals ",
     "song": " Bongkar",
-    "tabs": "https://gtabs.vercel.app/tabs/iwan-fals-bongkar.html"
+    "tabs": "/tabs/iwan-fals-bongkar.html"
   },
   {
     "artist": "Iwan Fals ",
     "song": " Kemesraan",
-    "tabs": "https://gtabs.vercel.app/tabs/iwan-fals-kemesraan.html"
+    "tabs": "/tabs/iwan-fals-kemesraan.html"
   },
   {
     "artist": "Iwan Fals ",
     "song": " Kumenanti Seorang Kekasih",
-    "tabs": "https://gtabs.vercel.app/tabs/iwan-fals-kumenanti-seorang-kekasih.html"
+    "tabs": "/tabs/iwan-fals-kumenanti-seorang-kekasih.html"
   },
   {
     "artist": "Jaja Mihardja ",
     "song": " Cinta Sabun Mandi",
-    "tabs": "https://gtabs.vercel.app/tabs/jaja-mihardja-cinta-sabun-mandi.html"
+    "tabs": "/tabs/jaja-mihardja-cinta-sabun-mandi.html"
   },
   {
     "artist": "Jamrud ",
     "song": " Pelangi Dimatamu",
-    "tabs": "https://gtabs.vercel.app/tabs/jamrud-pelangi-dimatamu.html"
+    "tabs": "/tabs/jamrud-pelangi-dimatamu.html"
   },
   {
     "artist": "Jhonny Iskandar ",
     "song": " Bukan Pengemis Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/jhonny-iskandar-bukan-pengemis-cinta.html",
+    "tabs": "/tabs/jhonny-iskandar-bukan-pengemis-cinta.html",
     "file": "https://www.dropbox.com/scl/fi/w2asjx9rvnc4bvwau58u6/Jhonny-Iskandar-Bukan-Pengemis-Cinta.mp3?rlkey=p5yu60wnf72vq3au37aylxr93&st=a9hrcyl2&raw=1"
   },
   {
     "artist": "Jhonny Iskandar ",
     "song": " Secangkir Kopi",
-    "tabs": "https://gtabs.vercel.app/tabs/jhonny-iskandar-secangkir-kopi.html",
+    "tabs": "/tabs/jhonny-iskandar-secangkir-kopi.html",
     "file": "https://www.dropbox.com/scl/fi/xqtskjldua54fwvb13ndy/Jhonny-Iskandar-Secangkir-Kopi.mp3?rlkey=orfgqalmkhvkly5rrl75l5vai&st=rvlc5x3w&raw=1"
   },
   {
     "artist": "Josh Turner ",
     "song": " Your Man",
-    "tabs": "https://gtabs.vercel.app/tabs/josh-turner-your-man.html"
+    "tabs": "/tabs/josh-turner-your-man.html"
   },
   {
     "artist": "Jose Mari Chan ",
     "song": " Please Be Careful With My Heart",
-    "tabs": "https://gtabs.vercel.app/tabs/jose-mari-chan-please-be-careful.html"
+    "tabs": "/tabs/jose-mari-chan-please-be-careful.html"
   },
   {
     "artist": "Judika ",
     "song": " Aku Yang Tersakiti",
-    "tabs": "https://gtabs.vercel.app/tabs/judika-aku-yang-tersakiti.html"
+    "tabs": "/tabs/judika-aku-yang-tersakiti.html"
   },
   {
     "artist": "Judika ",
     "song": " Cinta Karena Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/judika-cinta-karena-cinta.html"
+    "tabs": "/tabs/judika-cinta-karena-cinta.html"
   },
   {
     "artist": "J-Rocks ",
     "song": " Ceria",
-    "tabs": "https://gtabs.vercel.app/tabs/jrocks-ceria.html"
+    "tabs": "/tabs/jrocks-ceria.html"
   },
   {
     "artist": "J-Rocks ",
     "song": " Falling In Love",
-    "tabs": "https://gtabs.vercel.app/tabs/jrocks-falling-in-love.html"
+    "tabs": "/tabs/jrocks-falling-in-love.html"
   },
   {
     "artist": "J-Rocks ",
     "song": " Lepaskan Diriku",
-    "tabs": "https://gtabs.vercel.app/tabs/jrocks-lepaskan-diriku.html"
+    "tabs": "/tabs/jrocks-lepaskan-diriku.html"
   },
   {
     "artist": "J-Rocks ",
     "song": " Meraih Mimpi",
-    "tabs": "https://gtabs.vercel.app/tabs/jrocks-meraih-mimpi.html"
+    "tabs": "/tabs/jrocks-meraih-mimpi.html"
   },
   {
     "artist": "Kahitna ",
     "song": " Cantik",
-    "tabs": "https://gtabs.vercel.app/tabs/kahitna-cantik.html"
+    "tabs": "/tabs/kahitna-cantik.html"
   },
   {
     "artist": "Kangen Band ",
     "song": " Cinta Yang Sempurna",
-    "tabs": "https://gtabs.vercel.app/tabs/kangen-band-cinta-yang-sempurna.html"
+    "tabs": "/tabs/kangen-band-cinta-yang-sempurna.html"
   },
   {
     "artist": "Kangen Band ",
     "song": " Doy",
-    "tabs": "https://gtabs.vercel.app/tabs/kangen-band-doy.html"
+    "tabs": "/tabs/kangen-band-doy.html"
   },
   {
     "artist": "Kangen Band ",
     "song": " Kehilanganmu Berat Bagiku",
-    "tabs": "https://gtabs.vercel.app/tabs/kangen-band-kehilanganmu-berat-bagiku.html"
+    "tabs": "/tabs/kangen-band-kehilanganmu-berat-bagiku.html"
   },
   {
     "artist": "Kangen Band ",
     "song": " Terbang Bersamaku",
-    "tabs": "https://gtabs.vercel.app/tabs/kangen-band-terbang-bersamaku.html"
+    "tabs": "/tabs/kangen-band-terbang-bersamaku.html"
   },
   {
     "artist": "Kapten ",
     "song": " Lagu Sexy",
-    "tabs": "https://gtabs.vercel.app/tabs/kapten-lagu-sexy.html"
+    "tabs": "/tabs/kapten-lagu-sexy.html"
   },
   {
     "artist": "Kapten ",
     "song": " Malaikat Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/kapten-malaikat-cinta.html"
+    "tabs": "/tabs/kapten-malaikat-cinta.html"
   },
   {
     "artist": "Kerispatih ",
     "song": " Aku Harus Jujur",
-    "tabs": "https://gtabs.vercel.app/tabs/kerispatih-aku-harus-jujur.html"
+    "tabs": "/tabs/kerispatih-aku-harus-jujur.html"
   },
   {
     "artist": "Kerispatih ",
     "song": " Demi Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/kerispatih-demi-cinta.html"
+    "tabs": "/tabs/kerispatih-demi-cinta.html"
   },
   {
     "artist": "Kerispatih ",
     "song": " Tapi Bukan Aku",
-    "tabs": "https://gtabs.vercel.app/tabs/kerispatih-tapi-bukan-aku.html"
+    "tabs": "/tabs/kerispatih-tapi-bukan-aku.html"
   },
   {
     "artist": "Killing Me Inside ",
     "song": " Biarlah",
-    "tabs": "https://gtabs.vercel.app/tabs/killing-me-inside-biarlah.html"
+    "tabs": "/tabs/killing-me-inside-biarlah.html"
   },
   {
     "artist": "Kla Project ",
     "song": " Terpurukku Disini",
-    "tabs": "https://gtabs.vercel.app/tabs/kla-project-terpurukku-disini.html"
+    "tabs": "/tabs/kla-project-terpurukku-disini.html"
   },
   {
     "artist": "Koes Bersaudara ",
     "song": " Haru Dan Bahagia",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-bersaudara-haru-dan-bahagia.html"
+    "tabs": "/tabs/koes-bersaudara-haru-dan-bahagia.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Andaikan Kau Datang",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-andaikan-kau-datang.html"
+    "tabs": "/tabs/koes-plus-andaikan-kau-datang.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Angin Laut",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-angin-laut.html"
+    "tabs": "/tabs/koes-plus-angin-laut.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Bahagia Dan Derita",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-bahagia-dan-derita.html"
+    "tabs": "/tabs/koes-plus-bahagia-dan-derita.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Berjumpa Lagi",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-berjumpa-lagi.html"
+    "tabs": "/tabs/koes-plus-berjumpa-lagi.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Bis Sekolah",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-bis-sekolah.html"
+    "tabs": "/tabs/koes-plus-bis-sekolah.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Buat Apa Susah",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-buat-apa-susah.html"
+    "tabs": "/tabs/koes-plus-buat-apa-susah.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Bunga Di Tepi Jalan",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-bunga-ditepi-jalan.html"
+    "tabs": "/tabs/koes-plus-bunga-ditepi-jalan.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Cinta Mulia",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-cinta-mulia.html"
+    "tabs": "/tabs/koes-plus-cinta-mulia.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Cubit-Cubitan",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-cubit-cubitan.html"
+    "tabs": "/tabs/koes-plus-cubit-cubitan.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Derita",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-derita.html"
+    "tabs": "/tabs/koes-plus-derita.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Desaku",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-desaku.html"
+    "tabs": "/tabs/koes-plus-desaku.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Desember",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-desember.html"
+    "tabs": "/tabs/koes-plus-desember.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Diana",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-diana.html"
+    "tabs": "/tabs/koes-plus-diana.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Doa Suciku",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-doa-suciku.html"
+    "tabs": "/tabs/koes-plus-doa-suciku.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Gadis Manis",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-gadis-manis.html"
+    "tabs": "/tabs/koes-plus-gadis-manis.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Hatiku Beku",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-hatiku-beku.html"
+    "tabs": "/tabs/koes-plus-hatiku-beku.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Hatimu Hatiku",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-hatimu-hatiku.html"
+    "tabs": "/tabs/koes-plus-hatimu-hatiku.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Jangan Cemburu",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-jangan-cemburu.html"
+    "tabs": "/tabs/koes-plus-jangan-cemburu.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Jangan Terulang Lagi",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-jangan-terulang-lagi.html"
+    "tabs": "/tabs/koes-plus-jangan-terulang-lagi.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Kapan-Kapan",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-kapan-kapan.html"
+    "tabs": "/tabs/koes-plus-kapan-kapan.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Kembali Ke Jakarta",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-kembali-kejakarta.html"
+    "tabs": "/tabs/koes-plus-kembali-kejakarta.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Kembali",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-kembali.html"
+    "tabs": "/tabs/koes-plus-kembali.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Keroncong Pertemuan",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-keroncong-pertemuan.html"
+    "tabs": "/tabs/koes-plus-keroncong-pertemuan.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Kisah Sedih Di Hari Minggu",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-kisah-sedih.html"
+    "tabs": "/tabs/koes-plus-kisah-sedih.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Kursi Emas",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-kursi-emas.html"
+    "tabs": "/tabs/koes-plus-kursi-emas.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Layang Layang",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-layang-layang.html"
+    "tabs": "/tabs/koes-plus-layang-layang.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Manis Dan Sayang",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-manis-dan-sayang.html"
+    "tabs": "/tabs/koes-plus-manis-dan-sayang.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Mari Berjoget",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-mari-berjoget.html"
+    "tabs": "/tabs/koes-plus-mari-berjoget.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Mari-Mari",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-mari-mari.html"
+    "tabs": "/tabs/koes-plus-mari-mari.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Mawar Bunga",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-mawar-bunga.html"
+    "tabs": "/tabs/koes-plus-mawar-bunga.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Muda Mudi",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-muda-mudi.html"
+    "tabs": "/tabs/koes-plus-muda-mudi.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Nusantara 2",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-nusantara-2.html"
+    "tabs": "/tabs/koes-plus-nusantara-2.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Nusantara 3",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-nusantara-3.html"
+    "tabs": "/tabs/koes-plus-nusantara-3.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Nusantara 6",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-nusantara-6.html"
+    "tabs": "/tabs/koes-plus-nusantara-6.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Nusantara 7",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-nusantara-7.html"
+    "tabs": "/tabs/koes-plus-nusantara-7.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " O La La",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-o-la-la.html"
+    "tabs": "/tabs/koes-plus-o-la-la.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Oh Kasihan",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-oh-kasihan.html"
+    "tabs": "/tabs/koes-plus-oh-kasihan.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Oh Kau Tahu",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-oh-kau-tahu.html"
+    "tabs": "/tabs/koes-plus-oh-kau-tahu.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Pagi Yang Indah",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-pagi-yang-indah.html"
+    "tabs": "/tabs/koes-plus-pagi-yang-indah.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Pelangi",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-pelangi.html"
+    "tabs": "/tabs/koes-plus-pelangi.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Penyanyi Tua",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-penyanyi-tua.html"
+    "tabs": "/tabs/koes-plus-penyanyi-tua.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Rasa Hatiku",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-rasa-hatiku.html"
+    "tabs": "/tabs/koes-plus-rasa-hatiku.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Remaja ABCD",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-remaja-abcd.html"
+    "tabs": "/tabs/koes-plus-remaja-abcd.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Tak Usah Kau Sesali",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-tak-usah-kau-sesali.html"
+    "tabs": "/tabs/koes-plus-tak-usah-kau-sesali.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Terlambat",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-terlambat.html"
+    "tabs": "/tabs/koes-plus-terlambat.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Termenung Lesu",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-termenung-lesu.html"
+    "tabs": "/tabs/koes-plus-termenung-lesu.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Tiba Tiba Kumenangis",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-tiba-tiba-kumenangis.html"
+    "tabs": "/tabs/koes-plus-tiba-tiba-kumenangis.html"
   },
   {
     "artist": "Koes Plus ",
     "song": " Why Do You Love Me",
-    "tabs": "https://gtabs.vercel.app/tabs/koes-plus-why-do-you-love-me.html"
+    "tabs": "/tabs/koes-plus-why-do-you-love-me.html"
   },
   {
     "artist": "Kotak ",
     "song": " Beraksi",
-    "tabs": "https://gtabs.vercel.app/tabs/kotak-beraksi.html"
+    "tabs": "/tabs/kotak-beraksi.html"
   },
   {
     "artist": "Kotak ",
     "song": " Masih Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/kotak-masih-cinta.html"
+    "tabs": "/tabs/kotak-masih-cinta.html"
   },
   {
     "artist": "Kotak ",
     "song": " Selalu Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/kotak-selalu-cinta.html"
+    "tabs": "/tabs/kotak-selalu-cinta.html"
   },
   {
     "artist": "Kotak ",
     "song": " Tinggalkan Saja",
-    "tabs": "https://gtabs.vercel.app/tabs/kotak-tinggalkan-saja.html"
+    "tabs": "/tabs/kotak-tinggalkan-saja.html"
   },
   {
     "artist": "L'Arcen Ciel ",
     "song": " Hitomi No Jyuunin",
-    "tabs": "https://gtabs.vercel.app/tabs/larcenciel-hitomi-no-jyuunin.html"
+    "tabs": "/tabs/larcenciel-hitomi-no-jyuunin.html"
   },
   {
     "artist": "Lanas dan Gama Group ",
     "song": " Nyanda Mo Balaeng",
-    "tabs": "https://gtabs.vercel.app/tabs/lanas-dan-gama-nyanda-mo-balaeng.html"
+    "tabs": "/tabs/lanas-dan-gama-nyanda-mo-balaeng.html"
   },
   {
     "artist": "Last Child ",
     "song": " Diary Depresiku",
-    "tabs": "https://gtabs.vercel.app/tabs/last-child-diary-depresiku.html"
+    "tabs": "/tabs/last-child-diary-depresiku.html"
   },
   {
     "artist": "Last Child ",
     "song": " Percayalah",
-    "tabs": "https://gtabs.vercel.app/tabs/last-child-percayalah.html",
+    "tabs": "/tabs/last-child-percayalah.html",
     "file": "https://www.dropbox.com/scl/fi/a6hq966koiisdciueecit/Last-Child-Percayalah.mp3?rlkey=pft4fu5xdqs2rpoig9o9vyvd9&st=609az0nu&raw=1"
   },
   {
     "artist": "Lian Manurung ",
     "song": " Sai Anju Ma Au",
-    "tabs": "https://gtabs.vercel.app/tabs/lian-manurung-sai-anju-ma-au.html"
+    "tabs": "/tabs/lian-manurung-sai-anju-ma-au.html"
   },
   {
     "artist": "Lionel Richie ",
     "song": " Hello",
-    "tabs": "https://gtabs.vercel.app/tabs/lionel-richie-hello.html"
+    "tabs": "/tabs/lionel-richie-hello.html"
   },
   {
     "artist": "Lobo ",
     "song": " How Can I Tell Her",
-    "tabs": "https://gtabs.vercel.app/tabs/lobo-how-can-i-tell-her.html"
+    "tabs": "/tabs/lobo-how-can-i-tell-her.html"
   },
   {
     "artist": "Madhellen ",
     "song": " Jiwaku Ver.1",
-    "tabs": "https://gtabs.vercel.app/tabs/madhellen-jiwaku.html"
+    "tabs": "/tabs/madhellen-jiwaku.html"
   },
   {
     "artist": "Madhellen ",
     "song": " Project A (Lelaku Buaya)",
-    "tabs": "https://gtabs.vercel.app/tabs/madhellen-project-a.html"
+    "tabs": "/tabs/madhellen-project-a.html"
   },
   {
     "artist": "Madhellen ",
     "song": " Project C (Haz Fallen)",
-    "tabs": "https://gtabs.vercel.app/tabs/madhellen-project-c.html"
+    "tabs": "/tabs/madhellen-project-c.html"
   },
   {
     "artist": "Madhellen ",
     "song": " Project H (Jiwaku)",
-    "tabs": "https://gtabs.vercel.app/tabs/madhellen-project-h.html"
+    "tabs": "/tabs/madhellen-project-h.html"
   },
   {
     "artist": "Madhellen ",
     "song": " Project I",
-    "tabs": "https://gtabs.vercel.app/tabs/madhellen-project-i.html"
+    "tabs": "/tabs/madhellen-project-i.html"
   },
   {
     "artist": "Mahalini ",
     "song": " Sisa Rasa",
-    "tabs": "https://gtabs.vercel.app/tabs/mahalini-sisa-rasa.html"
+    "tabs": "/tabs/mahalini-sisa-rasa.html"
   },
   {
     "artist": "Maher Zein ",
     "song": " Insyallah",
-    "tabs": "https://gtabs.vercel.app/tabs/maher-zein-insyallah.html",
+    "tabs": "/tabs/maher-zein-insyallah.html",
     "file": "https://www.dropbox.com/scl/fi/7y38l2hyyl1ot3652dset/Maher-Zain-Insha-Allah-Insya-Allah.mp3?rlkey=9hy1tqlzs63zlzydkjvz1rtfw&st=jl60tsgo&raw=1"
   },
   {
     "artist": "Mashabi ",
     "song": " Untuk Bungaku",
-    "tabs": "https://gtabs.vercel.app/tabs/mashabi-untuk-bungau.html"
+    "tabs": "/tabs/mashabi-untuk-bungau.html"
   },
   {
     "artist": "Matta ",
     "song": " Ketahuan",
-    "tabs": "https://gtabs.vercel.app/tabs/matta-ketahuan.html"
+    "tabs": "/tabs/matta-ketahuan.html"
   },
   {
     "artist": "Melky Goeslaw ",
     "song": " Pergi Untuk Kembali",
-    "tabs": "https://gtabs.vercel.app/tabs/melky-goeslaw-pergi-untuk-kembali.html"
+    "tabs": "/tabs/melky-goeslaw-pergi-untuk-kembali.html"
   },
   {
     "artist": "Melly Goeslaw ",
     "song": " Gantung",
-    "tabs": "https://gtabs.vercel.app/tabs/melly-goeslaw-gantung.html"
+    "tabs": "/tabs/melly-goeslaw-gantung.html"
   },
   {
     "artist": "Melly Goeslaw ",
     "song": " Ku Bahagia",
-    "tabs": "https://gtabs.vercel.app/tabs/melly-goeslaw-ku-bahagia.html"
+    "tabs": "/tabs/melly-goeslaw-ku-bahagia.html"
   },
   {
     "artist": "Muchsin Alatas ",
     "song": " Hilang Tak Berkesan",
-    "tabs": "https://gtabs.vercel.app/tabs/muchsin-alatas-hilang-tak-berkesan.html"
+    "tabs": "/tabs/muchsin-alatas-hilang-tak-berkesan.html"
   },
   {
     "artist": "Muchsin Alatas ",
     "song": " Pasrah",
-    "tabs": "https://gtabs.vercel.app/tabs/muchsin-alatas-pasrah.html"
+    "tabs": "/tabs/muchsin-alatas-pasrah.html"
   },
   {
     "artist": "Muchsin Alatas ",
     "song": " Renungkanlah",
-    "tabs": "https://gtabs.vercel.app/tabs/muchsin-alatas-renungkanlah.html"
+    "tabs": "/tabs/muchsin-alatas-renungkanlah.html"
   },
   {
     "artist": "Mulan Jameela ",
     "song": " Makhluk Tuhan Paling Sexy",
-    "tabs": "https://gtabs.vercel.app/tabs/mulan-jameela-makhluk-tuhan.html"
+    "tabs": "/tabs/mulan-jameela-makhluk-tuhan.html"
   },
   {
     "artist": "Mulan Jameela ",
     "song": " Wonder Woman",
-    "tabs": "https://gtabs.vercel.app/tabs/mulan-jameela-wonder-woman.html"
+    "tabs": "/tabs/mulan-jameela-wonder-woman.html"
   },
   {
     "artist": "Murry's Group ",
     "song": " Papiku Mamiku",
-    "tabs": "https://gtabs.vercel.app/tabs/murrys-group-papiku-mamiku.html"
+    "tabs": "/tabs/murrys-group-papiku-mamiku.html"
   },
   {
     "artist": "Mus Mujiono ",
     "song": " Arti Kehidupan",
-    "tabs": "https://gtabs.vercel.app/tabs/mus-mujiono-arti-kehidupan.html"
+    "tabs": "/tabs/mus-mujiono-arti-kehidupan.html"
   },
   {
     "artist": "Mus Mulyadi ",
     "song": " Rek Ayok Rek",
-    "tabs": "https://gtabs.vercel.app/tabs/mus-mulyadi-rek-ayo-rek.html"
+    "tabs": "/tabs/mus-mulyadi-rek-ayo-rek.html"
   },
   {
     "artist": "Muse ",
     "song": " Hysteria",
-    "tabs": "https://gtabs.vercel.app/tabs/muse-hysteria.html"
+    "tabs": "/tabs/muse-hysteria.html"
   },
   {
     "artist": "Naff ",
     "song": " Kau Masih Kekasihku",
-    "tabs": "https://gtabs.vercel.app/tabs/naff-kau-masih-kekasihku.html"
+    "tabs": "/tabs/naff-kau-masih-kekasihku.html"
   },
   {
     "artist": "Naff ",
     "song": " Kenanglah Aku",
-    "tabs": "https://gtabs.vercel.app/tabs/naff-kenanglah-aku.html"
+    "tabs": "/tabs/naff-kenanglah-aku.html"
   },
   {
     "artist": "Naff ",
     "song": " Terendap Laraku",
-    "tabs": "https://gtabs.vercel.app/tabs/naff-terendap-laraku.html"
+    "tabs": "/tabs/naff-terendap-laraku.html"
   },
   {
     "artist": "Naif ",
     "song": " Benci Untuk Mencintai",
-    "tabs": "https://gtabs.vercel.app/tabs/naif-benci-untuk-mencinta.html"
+    "tabs": "/tabs/naif-benci-untuk-mencinta.html"
   },
   {
     "artist": "Nanaku ",
     "song": " parcuma",
-    "tabs": "https://gtabs.vercel.app/tabs/nanaku-parcuma.html"
+    "tabs": "/tabs/nanaku-parcuma.html"
   },
   {
     "artist": "Nanaku ",
     "song": " Sio Mamae",
-    "tabs": "https://gtabs.vercel.app/tabs/nanaku-sio-mamae.html"
+    "tabs": "/tabs/nanaku-sio-mamae.html"
   },
   {
     "artist": "Nassar ",
     "song": " Seperti Mati Lampu",
-    "tabs": "https://gtabs.vercel.app/tabs/nassar-seperti-mati-lampu.html"
+    "tabs": "/tabs/nassar-seperti-mati-lampu.html"
   },
   {
     "artist": "Nidji ",
     "song": " Hapus Aku",
-    "tabs": "https://gtabs.vercel.app/tabs/nidji-hapus-aku.html"
+    "tabs": "/tabs/nidji-hapus-aku.html"
   },
   {
     "artist": "Nidji ",
     "song": " Jangan Lupakan",
-    "tabs": "https://gtabs.vercel.app/tabs/nidji-jangan-lupakan.html"
+    "tabs": "/tabs/nidji-jangan-lupakan.html"
   },
   {
     "artist": "Nike Ardila ",
     "song": " Bintang Kehidupan",
-    "tabs": "https://gtabs.vercel.app/tabs/nike-ardila-bintang-kehidupan.html"
+    "tabs": "/tabs/nike-ardila-bintang-kehidupan.html"
   },
   {
     "artist": "Nineball ",
     "song": " Hingga Akhir Waktu",
-    "tabs": "https://gtabs.vercel.app/tabs/nineball-hingga-akhir-waktu.html"
+    "tabs": "/tabs/nineball-hingga-akhir-waktu.html"
   },
   {
     "artist": "Nirvana ",
     "song": " Come As You Are",
-    "tabs": "https://gtabs.vercel.app/tabs/nirvana-come-as-you-are.html"
+    "tabs": "/tabs/nirvana-come-as-you-are.html"
   },
   {
     "artist": "Nirvana ",
     "song": " In Bloom",
-    "tabs": "https://gtabs.vercel.app/tabs/nirvana-in-bloom.html"
+    "tabs": "/tabs/nirvana-in-bloom.html"
   },
   {
     "artist": "Nirvana ",
     "song": " Lounge Act",
-    "tabs": "https://gtabs.vercel.app/tabs/nirvana-lounge-act.html"
+    "tabs": "/tabs/nirvana-lounge-act.html"
   },
   {
     "artist": "Nirvana ",
     "song": " Rape Me",
-    "tabs": "https://gtabs.vercel.app/tabs/nirvana-rape-me.html"
+    "tabs": "/tabs/nirvana-rape-me.html"
   },
   {
     "artist": "Nirvana ",
     "song": " Smells Like Teen Spirits",
-    "tabs": "https://gtabs.vercel.app/tabs/nirvana-smells-like-teen-spirit.html"
+    "tabs": "/tabs/nirvana-smells-like-teen-spirit.html"
   },
   {
     "artist": "Nirvana ",
     "song": " The Man Who Sold The World",
-    "tabs": "https://gtabs.vercel.app/tabs/nirvana-the-man-who-sold.html"
+    "tabs": "/tabs/nirvana-the-man-who-sold.html"
   },
   {
     "artist": "No Koes ",
     "song": " Layar Tancap",
-    "tabs": "https://gtabs.vercel.app/tabs/no-koes-layar-tancep.html"
+    "tabs": "/tabs/no-koes-layar-tancep.html"
   },
   {
     "artist": "No Name ",
     "song": " Godfather Theme",
-    "tabs": "https://gtabs.vercel.app/tabs/godfather-theme.html"
+    "tabs": "/tabs/godfather-theme.html"
   },
   {
     "artist": "No Name ",
     "song": " Sirih Kuning",
-    "tabs": "https://gtabs.vercel.app/tabs/sirih-kuning.html"
+    "tabs": "/tabs/sirih-kuning.html"
   },
   {
     "artist": "No Name ",
     "song": " Ya Rasulullah",
-    "tabs": "https://gtabs.vercel.app/tabs/no-name-ya-rasulullah.html",
+    "tabs": "/tabs/no-name-ya-rasulullah.html",
     "file": "https://www.dropbox.com/scl/fi/2qzxndydz91mngysphxr9/Ya-Rasulullah-Salamun-Alaik-Versi-Cindai.mp3?rlkey=l80xtlfj207hdx6fsf5bc7d5q&st=2cymbbqa&raw=1"
   },
   {
     "artist": "Noah ",
     "song": " Andaikan Kau Datang",
-    "tabs": "https://gtabs.vercel.app/tabs/noah-andaikan-kau-datang.html"
+    "tabs": "/tabs/noah-andaikan-kau-datang.html"
   },
   {
     "artist": "Noah ",
     "song": " Cinta Bukan Dusta",
-    "tabs": "https://gtabs.vercel.app/tabs/noah-cinta-bukan-dusta.html"
+    "tabs": "/tabs/noah-cinta-bukan-dusta.html"
   },
   {
     "artist": "Noah ",
     "song": " Hidup Untukmu Mati Tanpamu",
-    "tabs": "https://gtabs.vercel.app/tabs/noah-hidup-untukmu-mati-tanpamu.html"
+    "tabs": "/tabs/noah-hidup-untukmu-mati-tanpamu.html"
   },
   {
     "artist": "Noah ",
     "song": " Separuh Aku",
-    "tabs": "https://gtabs.vercel.app/tabs/noah-separuh-aku.html"
+    "tabs": "/tabs/noah-separuh-aku.html"
   },
   {
     "artist": "Noah ",
     "song": " Seperti Kemarin",
-    "tabs": "https://gtabs.vercel.app/tabs/noah-seperti-kemarin.html"
+    "tabs": "/tabs/noah-seperti-kemarin.html"
   },
   {
     "artist": "Noah ",
     "song": " Tak Lagi Sama",
-    "tabs": "https://gtabs.vercel.app/tabs/noah-tak-lagi-sama.html"
+    "tabs": "/tabs/noah-tak-lagi-sama.html"
   },
   {
     "artist": "Novia Kolopaking ",
     "song": " Dengan Menyebut Nama Allah",
-    "tabs": "https://gtabs.vercel.app/tabs/novia-kolopaking-dengan-menyebut-nama-allah.html"
+    "tabs": "/tabs/novia-kolopaking-dengan-menyebut-nama-allah.html"
   },
   {
     "artist": "Nyong Franco ",
     "song": " Gemu Fa Mi Re",
-    "tabs": "https://gtabs.vercel.app/tabs/nyong-franco-gemu-fa-mi-re.html"
+    "tabs": "/tabs/nyong-franco-gemu-fa-mi-re.html"
   },
   {
     "artist": "Oasis ",
     "song": " Don't Look Back In Anger",
-    "tabs": "https://gtabs.vercel.app/tabs/oasis-dont-look-back-in-anger.html"
+    "tabs": "/tabs/oasis-dont-look-back-in-anger.html"
   },
   {
     "artist": "Obbie Messakh ",
     "song": " Kisah Kasih Disekolah",
-    "tabs": "https://gtabs.vercel.app/tabs/obbie-messakh-kisah-kasih-disekolah.html"
+    "tabs": "/tabs/obbie-messakh-kisah-kasih-disekolah.html"
   },
   {
     "artist": "Once ",
     "song": " Kucinta Kau Apa Adanya",
-    "tabs": "https://gtabs.vercel.app/tabs/once-kucinta-kau-apa-adanya.html"
+    "tabs": "/tabs/once-kucinta-kau-apa-adanya.html"
   },
   {
     "artist": "Once ",
     "song": " Dealova",
-    "tabs": "https://gtabs.vercel.app/tabs/once-dealova.html"
+    "tabs": "/tabs/once-dealova.html"
   },
   {
     "artist": "One Ok Rock ",
     "song": " Wherever You Are",
-    "tabs": "https://gtabs.vercel.app/tabs/one-ok-rock-wherever-you-are.html"
+    "tabs": "/tabs/one-ok-rock-wherever-you-are.html"
   },
   {
     "artist": "Opick ",
     "song": " Bila Waktu Tlah Berakhir",
-    "tabs": "https://gtabs.vercel.app/tabs/opick-bila-waktu-tlah-berakhir.html",
+    "tabs": "/tabs/opick-bila-waktu-tlah-berakhir.html",
     "file": "https://www.dropbox.com/scl/fi/els7wcrx94otaqbroa1lv/Opick-Bila-Waktu-Tlah-Berakhir.mp3?rlkey=5x9pecb9rac1nrrjmtozrcq5b&st=6hjjlupn&raw=1"
   },
   {
     "artist": "Opick ",
     "song": " Dealova",
-    "tabs": "https://gtabs.vercel.app/tabs/opick-dealova.html"
+    "tabs": "/tabs/opick-dealova.html"
   },
   {
     "artist": "Opick ",
     "song": " Dealova (Original)",
-    "tabs": "https://gtabs.vercel.app/tabs/opick-dealova-original.html",
+    "tabs": "/tabs/opick-dealova-original.html",
     "file": "https://www.dropbox.com/scl/fi/3tiqagn3r6ghkaba8ptb8/Opick-Dealova.mp3?rlkey=c3gbwuflzzvdhiyymmotdhqud&st=4c2v1dh4&raw=1"
   },
   {
     "artist": "Opick ",
     "song": " Rapuh",
-    "tabs": "https://gtabs.vercel.app/tabs/opick-rapuh.html",
+    "tabs": "/tabs/opick-rapuh.html",
     "file": "https://www.dropbox.com/scl/fi/sck43rg1qlqq3d7rqvrz1/Opick-Rapuh.mp3?rlkey=z93nom1nhnkbskmzjy5ke8egx&st=75f3litv&raw=1"
   },
   {
     "artist": "Padi ",
     "song": " Bayangkanlah",
-    "tabs": "https://gtabs.vercel.app/tabs/padi-bayangkanlah.html"
+    "tabs": "/tabs/padi-bayangkanlah.html"
   },
   {
     "artist": "Padi ",
     "song": " Begitu Indah",
-    "tabs": "https://gtabs.vercel.app/tabs/padi-begitu-indah.html"
+    "tabs": "/tabs/padi-begitu-indah.html"
   },
   {
     "artist": "Padi ",
     "song": " Menanti Sebuah Jawaban",
-    "tabs": "https://gtabs.vercel.app/tabs/padi-menanti-sebuah-jawaban.html"
+    "tabs": "/tabs/padi-menanti-sebuah-jawaban.html"
   },
   {
     "artist": "Padi ",
     "song": " Semua Tak Sama",
-    "tabs": "https://gtabs.vercel.app/tabs/padi-semua-tak-sama.html"
+    "tabs": "/tabs/padi-semua-tak-sama.html"
   },
   {
     "artist": "Padi ",
     "song": " Sesuatu Yang Indah",
-    "tabs": "https://gtabs.vercel.app/tabs/padi-sesuatu-yang-indah.html"
+    "tabs": "/tabs/padi-sesuatu-yang-indah.html"
   },
   {
     "artist": "Panbers ",
     "song": " Akhir Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/panbers-akhir-cinta.html"
+    "tabs": "/tabs/panbers-akhir-cinta.html"
   },
   {
     "artist": "Panbers ",
     "song": " Cinta Dan Permata",
-    "tabs": "https://gtabs.vercel.app/tabs/panbers-cinta-dan-permata.html"
+    "tabs": "/tabs/panbers-cinta-dan-permata.html"
   },
   {
     "artist": "Panbers ",
     "song": " Gereja Tua",
-    "tabs": "https://gtabs.vercel.app/tabs/panbers-gereja-tua.html"
+    "tabs": "/tabs/panbers-gereja-tua.html"
   },
   {
     "artist": "Panbers ",
     "song": " Tiga Malam",
-    "tabs": "https://gtabs.vercel.app/tabs/panbers-tiga-malam.html"
+    "tabs": "/tabs/panbers-tiga-malam.html"
   },
   {
     "artist": "Pance Pondaag ",
     "song": " Demi Kau Dan Si Buah Hati",
-    "tabs": "https://gtabs.vercel.app/tabs/pance-pondaag-demi-kau-dan-sibuah-hati.html"
+    "tabs": "/tabs/pance-pondaag-demi-kau-dan-sibuah-hati.html"
   },
   {
     "artist": "Pance Pondaag ",
     "song": " Kucari Jalan Terbaik",
-    "tabs": "https://gtabs.vercel.app/tabs/pance-pondaag-kucari-jalan-terbaik.html"
+    "tabs": "/tabs/pance-pondaag-kucari-jalan-terbaik.html"
   },
   {
     "artist": "Pas Band ",
     "song": " Jengah",
-    "tabs": "https://gtabs.vercel.app/tabs/pas-band-jengah.html"
+    "tabs": "/tabs/pas-band-jengah.html"
   },
   {
     "artist": "Payung Teduh ",
     "song": " Akad",
-    "tabs": "https://gtabs.vercel.app/tabs/payung-teduh-akad.html"
+    "tabs": "/tabs/payung-teduh-akad.html"
   },
   {
     "artist": "Peter Maffay ",
     "song": " Du",
-    "tabs": "https://gtabs.vercel.app/tabs/peter-maffay-du.html"
+    "tabs": "/tabs/peter-maffay-du.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Ada Apa Denganmu",
-    "tabs": "https://gtabs.vercel.app/tabs/peterpan-ada-apa-denganmu.html"
+    "tabs": "/tabs/peterpan-ada-apa-denganmu.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Bintang Disurga",
-    "tabs": "https://gtabs.vercel.app/tabs/peterpan-bintang-disruga.html"
+    "tabs": "/tabs/peterpan-bintang-disruga.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Menunggumu",
-    "tabs": "https://gtabs.vercel.app/tabs/peterpan-menunggumu.html"
+    "tabs": "/tabs/peterpan-menunggumu.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Menunggu Pagi",
-    "tabs": "https://gtabs.vercel.app/tabs/peterpan-menunggu-pagi.html"
+    "tabs": "/tabs/peterpan-menunggu-pagi.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Mimpi Yang Sempurna",
-    "tabs": "https://gtabs.vercel.app/tabs/peterpan-mimpi-yang-sempurna.html"
+    "tabs": "/tabs/peterpan-mimpi-yang-sempurna.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Mungkin Nanti",
-    "tabs": "https://gtabs.vercel.app/tabs/peterpan-mungkin-nanti.html"
+    "tabs": "/tabs/peterpan-mungkin-nanti.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Walau Habis Terang",
-    "tabs": "https://gtabs.vercel.app/tabs/noah-walau-habis-terang.html"
+    "tabs": "/tabs/noah-walau-habis-terang.html"
   },
   {
     "artist": "Peterpan ",
     "song": " Yang Terdalam",
-    "tabs": "https://gtabs.vercel.app/tabs/peterpan-yang-terdalam.html"
+    "tabs": "/tabs/peterpan-yang-terdalam.html"
   },
   {
     "artist": "Projector Band ",
     "song": " Sudah Kutahu",
-    "tabs": "https://gtabs.vercel.app/tabs/projector-sudah-kutahu.html"
+    "tabs": "/tabs/projector-sudah-kutahu.html"
   },
   {
     "artist": "Pilot ",
     "song": " Sepanjang Hidupku",
-    "tabs": "https://gtabs.vercel.app/tabs/pilot-sepanjang-hidupku.html"
+    "tabs": "/tabs/pilot-sepanjang-hidupku.html"
   },
   {
     "artist": "Putih ",
     "song": " Sampai Mati",
-    "tabs": "https://gtabs.vercel.app/tabs/putih-sampai-mati.html"
+    "tabs": "/tabs/putih-sampai-mati.html"
   },
   {
     "artist": "Radiohead ",
     "song": " Creep",
-    "tabs": "https://gtabs.vercel.app/tabs/radiohead-creep.html"
+    "tabs": "/tabs/radiohead-creep.html"
   },
   {
     "artist": "Radja ",
     "song": " Tulus",
-    "tabs": "https://gtabs.vercel.app/tabs/radja-tulus.html"
+    "tabs": "/tabs/radja-tulus.html"
   },
   {
     "artist": "Raim Laode ",
     "song": " Komang",
-    "tabs": "https://gtabs.vercel.app/tabs/raim-laode-komang.html"
+    "tabs": "/tabs/raim-laode-komang.html"
   },
   {
     "artist": "Rainbow ",
     "song": " Temple Of The King",
-    "tabs": "https://gtabs.vercel.app/tabs/rainbow-temple-of-the-king.html"
+    "tabs": "/tabs/rainbow-temple-of-the-king.html"
   },
   {
     "artist": "Ratu ",
     "song": " Lelaki Buaya Darat",
-    "tabs": "https://gtabs.vercel.app/tabs/ratu-lelaki-buaya-darat.html"
+    "tabs": "/tabs/ratu-lelaki-buaya-darat.html"
   },
   {
     "artist": "Ratu ",
     "song": " Teman Tapi Mesra",
-    "tabs": "https://gtabs.vercel.app/tabs/ratu-teman-tapi-mesra.html"
+    "tabs": "/tabs/ratu-teman-tapi-mesra.html"
   },
   {
     "artist": "Reza Artamevia ",
     "song": " Berharap Tak Berpisah",
-    "tabs": "https://gtabs.vercel.app/tabs/reza-artamveia-berharap-tak-berpisah.html"
+    "tabs": "/tabs/reza-artamveia-berharap-tak-berpisah.html"
   },
   {
     "artist": "RHCP ",
     "song": " Californication",
-    "tabs": "https://gtabs.vercel.app/tabs/rhcp-californication.html"
+    "tabs": "/tabs/rhcp-californication.html"
   },
   {
     "artist": "Richard Cocciante ",
     "song": " Just For You",
-    "tabs": "https://gtabs.vercel.app/tabs/richard-cocciante-just-for-you.html"
+    "tabs": "/tabs/richard-cocciante-just-for-you.html"
   },
   {
     "artist": "Richard Marx ",
     "song": " Right Here Waiting For You",
-    "tabs": "https://gtabs.vercel.app/tabs/richard-marx-right-here-waiting-for-you.html"
+    "tabs": "/tabs/richard-marx-right-here-waiting-for-you.html"
   },
   {
     "artist": "Rod Stewart ",
     "song": " Have I Told You Lately",
-    "tabs": "https://gtabs.vercel.app/tabs/rod-stewart-have-i-told-you-late.html"
+    "tabs": "/tabs/rod-stewart-have-i-told-you-late.html"
   },
   {
     "artist": "Rod Stewart ",
     "song": " Have You Ever Seen The Rain",
-    "tabs": "https://gtabs.vercel.app/tabs/rod-stewart-have-you-ever-seen-the-rain.html"
+    "tabs": "/tabs/rod-stewart-have-you-ever-seen-the-rain.html"
   },
   {
     "artist": "Rossa ",
     "song": " Hati Yang Kau Sakiti",
-    "tabs": "https://gtabs.vercel.app/tabs/rossa-hati-yang-kau-sakiti.html"
+    "tabs": "/tabs/rossa-hati-yang-kau-sakiti.html"
   },
   {
     "artist": "Rossa ",
     "song": " Takkan Berpaling DariMu",
-    "tabs": "https://gtabs.vercel.app/tabs/rosa-takkan-berpaling-darimu.html",
+    "tabs": "/tabs/rosa-takkan-berpaling-darimu.html",
     "file": "https://www.dropbox.com/scl/fi/4lmym0kk8uq7a2d1nmukn/ROSSA-Takkan-Berpaling-Darimu.mp3?rlkey=b1z97ttblstl0pfzn9hwgil8q&st=dvk9d21d&raw=1"
   },
   {
     "artist": "Ruth Sahanya ",
     "song": " Kaulah Segalanya",
-    "tabs": "https://gtabs.vercel.app/tabs/ruth-sahanaya-kaulah-segalanya.html"
+    "tabs": "/tabs/ruth-sahanaya-kaulah-segalanya.html"
   },
   {
     "artist": "Sabyan ",
     "song": " Deen Assalam",
-    "tabs": "https://gtabs.vercel.app/tabs/sabyan-deen-assalam.html",
+    "tabs": "/tabs/sabyan-deen-assalam.html",
     "file": "https://www.dropbox.com/scl/fi/4l9s3bmwmw0i2j4purch3/Sabyan-Deen-Assalam.mp3?rlkey=m0f2qbrqua5t2ir151uqpzj6q&st=36kowcjb&raw=1"
   },
   {
     "artist": "Sabyan ",
     "song": " El Oum",
-    "tabs": "https://gtabs.vercel.app/tabs/sabyan-el-oum.html"
+    "tabs": "/tabs/sabyan-el-oum.html"
   },
   {
     "artist": "Sabyan ",
     "song": " Ya Asyiqol Mustofa",
-    "tabs": "https://gtabs.vercel.app/tabs/sabyan-ya-asyiqol-mustofa.html",
+    "tabs": "/tabs/sabyan-ya-asyiqol-mustofa.html",
     "file": "https://www.dropbox.com/scl/fi/8kva45pk7n5hepojg70gz/Sabyan-Ya-Asyiqol.mp3?rlkey=y1q3galwat532asenamnkni36&st=3x14lc48&raw=1"
   },
   {
     "artist": "Sabyan ",
     "song": " Ya Maulana",
-    "tabs": "https://gtabs.vercel.app/tabs/sabyan-ya-maulana.html",
+    "tabs": "/tabs/sabyan-ya-maulana.html",
     "file": "https://www.dropbox.com/scl/fi/g7xkc8t93emru7sf12tep/Sabyan-Ya-Maulana.mp3?rlkey=7046t7ub540ve8ilyphsf9hmk&st=z9e0q6w4&raw=1"
   },
   {
     "artist": "Salju ",
     "song": " Kasih",
-    "tabs": "https://gtabs.vercel.app/tabs/salju-kasih.html"
+    "tabs": "/tabs/salju-kasih.html"
   },
   {
     "artist": "Samsons ",
     "song": " Akhir Rasa Ini",
-    "tabs": "https://gtabs.vercel.app/tabs/samsons-akhir-rasa-ini.html"
+    "tabs": "/tabs/samsons-akhir-rasa-ini.html"
   },
   {
     "artist": "Samsons ",
     "song": " Kenangan Terindah",
-    "tabs": "https://gtabs.vercel.app/tabs/samons-kenangan-terindah.html"
+    "tabs": "/tabs/samons-kenangan-terindah.html"
   },
   {
     "artist": "Santana ",
     "song": " Black Magic Woman",
-    "tabs": "https://gtabs.vercel.app/tabs/santana-black-magic-woman.html"
+    "tabs": "/tabs/santana-black-magic-woman.html"
   },
   {
     "artist": "Santana ",
     "song": " Corazon",
-    "tabs": "https://gtabs.vercel.app/tabs/santana-corazon.html"
+    "tabs": "/tabs/santana-corazon.html"
   },
   {
     "artist": "Santana ",
     "song": " Smooth",
-    "tabs": "https://gtabs.vercel.app/tabs/santana-smooth.html"
+    "tabs": "/tabs/santana-smooth.html"
   },
   {
     "artist": "Scorpions ",
     "song": " Always Somewhere",
-    "tabs": "https://gtabs.vercel.app/tabs/scorpions-always-somewhere.html"
+    "tabs": "/tabs/scorpions-always-somewhere.html"
   },
   {
     "artist": "Scorpions ",
     "song": " Still Loving You",
-    "tabs": "https://gtabs.vercel.app/tabs/scorpions-still-loving-you.html"
+    "tabs": "/tabs/scorpions-still-loving-you.html"
   },
   {
     "artist": "Scorpions ",
     "song": " When The Smoke Is Going Down",
-    "tabs": "https://gtabs.vercel.app/tabs/scorpions-when-the-smoke-is-going-down.html"
+    "tabs": "/tabs/scorpions-when-the-smoke-is-going-down.html"
   },
   {
     "artist": "Second Civil ",
     "song": " Aku Kau Dan Kenangan",
-    "tabs": "https://gtabs.vercel.app/tabs/second-civil-aku-kau-dan-kenangan.html"
+    "tabs": "/tabs/second-civil-aku-kau-dan-kenangan.html"
   },
   {
     "artist": "See New Project ",
     "song": " Kicir-Kicir",
-    "tabs": "https://gtabs.vercel.app/tabs/see-new-kicir-kicir.html"
+    "tabs": "/tabs/see-new-kicir-kicir.html"
   },
   {
     "artist": "Seventeen ",
     "song": " Hal Terindah",
-    "tabs": "https://gtabs.vercel.app/tabs/seventeen-hal-terindah.html"
+    "tabs": "/tabs/seventeen-hal-terindah.html"
   },
   {
     "artist": "Seventeen ",
     "song": " Jaga Slalu Hatimu",
-    "tabs": "https://gtabs.vercel.app/tabs/seventeen-jaga-slalu-hatimu.html"
+    "tabs": "/tabs/seventeen-jaga-slalu-hatimu.html"
   },
   {
     "artist": "Seventeen ",
     "song": " Kemarin",
-    "tabs": "https://gtabs.vercel.app/tabs/seventeen-kemarin.html"
+    "tabs": "/tabs/seventeen-kemarin.html"
   },
   {
     "artist": "Seventeen ",
     "song": " Menemukanmu",
-    "tabs": "https://gtabs.vercel.app/tabs/seventeen-menemukanmu.html"
+    "tabs": "/tabs/seventeen-menemukanmu.html"
   },
   {
     "artist": "Seventeen ",
     "song": " Ramadhan Yang Indah",
-    "tabs": "https://gtabs.vercel.app/tabs/seventeen-ramadhan-yang-indah.html",
+    "tabs": "/tabs/seventeen-ramadhan-yang-indah.html",
     "file": "https://www.dropbox.com/scl/fi/whpqzn3djxus45g5lgy02/Seventeen-Band-Ramadhan-Yang-Indah.mp3?rlkey=2r5954j5d6nxktdqtoo3mnorr&st=wpi91je7&raw=1"
   },
   {
     "artist": "Sheila on7 ",
     "song": " Dan",
-    "tabs": "https://gtabs.vercel.app/tabs/sheila-on-7-dan.html"
+    "tabs": "/tabs/sheila-on-7-dan.html"
   },
   {
     "artist": "Sheila on7 ",
     "song": " Pejantan Tangguh",
-    "tabs": "https://gtabs.vercel.app/tabs/sheila-on-7-pejantan-tangguh.html"
+    "tabs": "/tabs/sheila-on-7-pejantan-tangguh.html"
   },
   {
     "artist": "Sheila on7 ",
     "song": " Kita",
-    "tabs": "https://gtabs.vercel.app/tabs/sheila-on-7-kita.html"
+    "tabs": "/tabs/sheila-on-7-kita.html"
   },
   {
     "artist": "Sheila on7 ",
     "song": " Seberapa Pantas",
-    "tabs": "https://gtabs.vercel.app/tabs/sheila-on-7-seberapa-pantas.html"
+    "tabs": "/tabs/sheila-on-7-seberapa-pantas.html"
   },
   {
     "artist": "Siti Nordiana & Achik",
     "song": " Memori Berkasih",
-    "tabs": "https://gtabs.vercel.app/tabs/siti-nordiana-memori-berkasih.html"
+    "tabs": "/tabs/siti-nordiana-memori-berkasih.html"
   },
   {
     "artist": "Slank ",
     "song": " Cinta Kita",
-    "tabs": "https://gtabs.vercel.app/tabs/slank-cinta-kita.html"
+    "tabs": "/tabs/slank-cinta-kita.html"
   },
   {
     "artist": "Slank ",
     "song": " Ku TaK Bisa",
-    "tabs": "https://gtabs.vercel.app/tabs/slank-ku-tak-bisa.html"
+    "tabs": "/tabs/slank-ku-tak-bisa.html"
   },
   {
     "artist": "Slank ",
     "song": " Virus",
-    "tabs": "https://gtabs.vercel.app/tabs/slank-virus.html"
+    "tabs": "/tabs/slank-virus.html"
   },
   {
     "artist": "Soegi Bornean ",
     "song": " Asmalibrasi",
-    "tabs": "https://gtabs.vercel.app/tabs/soegi-bornean-asmalibrasi.html"
+    "tabs": "/tabs/soegi-bornean-asmalibrasi.html"
   },
   {
     "artist": "ST12 ",
     "song": " Cari Pacar Lagi",
-    "tabs": "https://gtabs.vercel.app/tabs/st12-cari-pacar-lagi.html"
+    "tabs": "/tabs/st12-cari-pacar-lagi.html"
   },
   {
     "artist": "ST12 ",
     "song": " Cinta Tak Harus Memiliki",
-    "tabs": "https://gtabs.vercel.app/tabs/st12-cinta-tak-harus-memiliki.html"
+    "tabs": "/tabs/st12-cinta-tak-harus-memiliki.html"
   },
   {
     "artist": "ST12 ",
     "song": " Jangan Pernah Berubah",
-    "tabs": "https://gtabs.vercel.app/tabs/st12-jangan-pernah-berubah.html"
+    "tabs": "/tabs/st12-jangan-pernah-berubah.html"
   },
   {
     "artist": "ST12 ",
     "song": " KebesaranMu",
-    "tabs": "https://gtabs.vercel.app/tabs/st12-kebesaranmu.html",
+    "tabs": "/tabs/st12-kebesaranmu.html",
     "file": "https://www.dropbox.com/scl/fi/q151im48yu0jcm92lry37/ST12-KebesaranMU.mp3?rlkey=3tkq10oqj2vv2013mlwfvrdbf&st=s0395dvk&raw=1"
   },
   {
     "artist": "ST12 ",
     "song": " Kepingan Hati",
-    "tabs": "https://gtabs.vercel.app/tabs/st12-kepingan-hati.html",
+    "tabs": "/tabs/st12-kepingan-hati.html",
     "file": "https://www.dropbox.com/scl/fi/kthr5c4rrnqoz0gm5i7uw/ST12-Kepingan-Hati.mp3?rlkey=mnijieq3q071eg2qjzkp20udi&st=xu3c8vm7&raw=1"
   },
   {
     "artist": "ST12 ",
     "song": " P.U.S.P.A",
-    "tabs": "https://gtabs.vercel.app/tabs/st12-puspa.html"
+    "tabs": "/tabs/st12-puspa.html"
   },
   {
     "artist": "ST12 ",
     "song": " Aku Masih Sayang",
-    "tabs": "https://gtabs.vercel.app/tabs/st12-aku-masih-sayang.html"
+    "tabs": "/tabs/st12-aku-masih-sayang.html"
   },
   {
     "artist": "ST12 ",
     "song": " Putri Iklan",
-    "tabs": "https://gtabs.vercel.app/tabs/st12-putri-iklan.html"
+    "tabs": "/tabs/st12-putri-iklan.html"
   },
   {
     "artist": "ST12 ",
     "song": " Rasa Yang Tertinggal",
-    "tabs": "https://gtabs.vercel.app/tabs/st12-rasa-yang-tertinggal.html"
+    "tabs": "/tabs/st12-rasa-yang-tertinggal.html"
   },
   {
     "artist": "ST12 ",
     "song": " Saat Terakhir",
-    "tabs": "https://gtabs.vercel.app/tabs/st12-saat-terakhir.html"
+    "tabs": "/tabs/st12-saat-terakhir.html"
   },
   {
     "artist": "Starlet ",
     "song": " Tergila Padamu",
-    "tabs": "https://gtabs.vercel.app/tabs/starlet-tergila-padamu.html"
+    "tabs": "/tabs/starlet-tergila-padamu.html"
   },
   {
     "artist": "Steelheart ",
     "song": " She's Gone",
-    "tabs": "https://gtabs.vercel.app/tabs/steelheart-shes-gone.html"
+    "tabs": "/tabs/steelheart-shes-gone.html"
   },
   {
     "artist": "Stephen Sanchez ",
     "song": " Until I Found You",
-    "tabs": "https://gtabs.vercel.app/tabs/stephen-sanchez-until-i-found-you.html"
+    "tabs": "/tabs/stephen-sanchez-until-i-found-you.html"
   },
   {
     "artist": "Stinky ",
     "song": " Mungkinkah",
-    "tabs": "https://gtabs.vercel.app/tabs/stinky-mungkinkah.html"
+    "tabs": "/tabs/stinky-mungkinkah.html"
   },
   {
     "artist": "Sule ",
     "song": " Bola Salju",
-    "tabs": "https://gtabs.vercel.app/tabs/sule-bola-salju.html"
+    "tabs": "/tabs/sule-bola-salju.html"
   },
   {
     "artist": "Sule ",
     "song": " Memendam Rasa",
-    "tabs": "https://gtabs.vercel.app/tabs/sule-memendam-rasa.html"
+    "tabs": "/tabs/sule-memendam-rasa.html"
   },
   {
     "artist": "Sule Feat Baby Shima ",
     "song": " Terpisah Jarak Dan Waktu",
-    "tabs": "https://gtabs.vercel.app/tabs/sule-terpisah-jarak.html"
+    "tabs": "/tabs/sule-terpisah-jarak.html"
   },
   {
     "artist": "Sule Ft Doel Sumbang ",
     "song": " Runtah",
-    "tabs": "https://gtabs.vercel.app/tabs/sule-doel-sumbang-runtah.html"
+    "tabs": "/tabs/sule-doel-sumbang-runtah.html"
   },
   {
     "artist": "Tantowi Yahya ",
     "song": " Sebiduk Disungai Musi",
-    "tabs": "https://gtabs.vercel.app/tabs/tantowi-yahya-sebiduk-disungai-musi.html"
+    "tabs": "/tabs/tantowi-yahya-sebiduk-disungai-musi.html"
   },
   {
     "artist": "Tata Janeta ",
     "song": " Korbanmu",
-    "tabs": "https://gtabs.vercel.app/tabs/tata-janeta-korbanmu.html"
+    "tabs": "/tabs/tata-janeta-korbanmu.html"
   },
   {
     "artist": "Tetty Kadi ",
     "song": " Sepanjang Jalan Kenangan",
-    "tabs": "https://gtabs.vercel.app/tabs/tetty-kadi-sepanjang-jalan-kenangan.html"
+    "tabs": "/tabs/tetty-kadi-sepanjang-jalan-kenangan.html"
   },
   {
     "artist": "The Beatles ",
     "song": " And I Love Her",
-    "tabs": "https://gtabs.vercel.app/tabs/the-beatles-and-i-love-her.html"
+    "tabs": "/tabs/the-beatles-and-i-love-her.html"
   },
   {
     "artist": "The Beatles ",
     "song": " Drive My Car",
-    "tabs": "https://gtabs.vercel.app/tabs/the-beatles-drive-my-car.html"
+    "tabs": "/tabs/the-beatles-drive-my-car.html"
   },
   {
     "artist": "The Beatles ",
     "song": " Hey Jude",
-    "tabs": "https://gtabs.vercel.app/tabs/the-beatles-hey-jude.html"
+    "tabs": "/tabs/the-beatles-hey-jude.html"
   },
   {
     "artist": "The Beatles ",
     "song": " I Want To Hold Your Hand",
-    "tabs": "https://gtabs.vercel.app/tabs/the-beatles-i-want-to-hold-youre-hand.html"
+    "tabs": "/tabs/the-beatles-i-want-to-hold-youre-hand.html"
   },
   {
     "artist": "The Beatles ",
     "song": " Let It Be",
-    "tabs": "https://gtabs.vercel.app/tabs/the-beatles-let-it-be.html"
+    "tabs": "/tabs/the-beatles-let-it-be.html"
   },
   {
     "artist": "The Beatles ",
     "song": " Michelle",
-    "tabs": "https://gtabs.vercel.app/tabs/the-beatles-michelle.html"
+    "tabs": "/tabs/the-beatles-michelle.html"
   },
   {
     "artist": "The Beatles ",
     "song": " ob-la-di 0b-la-da",
-    "tabs": "https://gtabs.vercel.app/tabs/the-beatles-ob-la-di-ob-la-da.html"
+    "tabs": "/tabs/the-beatles-ob-la-di-ob-la-da.html"
   },
   {
     "artist": "The Beatles ",
     "song": " Something",
-    "tabs": "https://gtabs.vercel.app/tabs/the-beatles-something.html"
+    "tabs": "/tabs/the-beatles-something.html"
   },
   {
     "artist": "The Beatles ",
     "song": " Till There Was You",
-    "tabs": "https://gtabs.vercel.app/tabs/the-beatles-till-there-was-you.html"
+    "tabs": "/tabs/the-beatles-till-there-was-you.html"
   },
   {
     "artist": "The Changcuters ",
     "song": " I Love u Bibeh",
-    "tabs": "https://gtabs.vercel.app/tabs/the-changcuters-i-love-u-bibeh.html"
+    "tabs": "/tabs/the-changcuters-i-love-u-bibeh.html"
   },
   {
     "artist": "The Changcuters ",
     "song": " Racun Dunia",
-    "tabs": "https://gtabs.vercel.app/tabs/the-changcuters-racun-dunia.html"
+    "tabs": "/tabs/the-changcuters-racun-dunia.html"
   },
   {
     "artist": "The Dance Company ",
     "song": " Papa Rock n Roll",
-    "tabs": "https://gtabs.vercel.app/tabs/tdc-papa-rock-n-roll.html"
+    "tabs": "/tabs/tdc-papa-rock-n-roll.html"
   },
   {
     "artist": "The Fly ",
     "song": " Terbang",
-    "tabs": "https://gtabs.vercel.app/tabs/the-fly-terbang.html"
+    "tabs": "/tabs/the-fly-terbang.html"
   },
   {
     "artist": "The Mercy's ",
     "song": " Baju Baru",
-    "tabs": "https://gtabs.vercel.app/tabs/the-mercys-baju-baru.html"
+    "tabs": "/tabs/the-mercys-baju-baru.html"
   },
   {
     "artist": "The Mercy's ",
     "song": " Biarku Sendiri",
-    "tabs": "https://gtabs.vercel.app/tabs/the-mercys-biarku-sendiri.html"
+    "tabs": "/tabs/the-mercys-biarku-sendiri.html"
   },
   {
     "artist": "The Mercy's ",
     "song": " Bunga Mawar",
-    "tabs": "https://gtabs.vercel.app/tabs/the-mercys-bunga-mawar.html"
+    "tabs": "/tabs/the-mercys-bunga-mawar.html"
   },
   {
     "artist": "The Mercy's ",
     "song": " Dalam Kerinduan",
-    "tabs": "https://gtabs.vercel.app/tabs/the-mercys-dalam-kerinduan.html"
+    "tabs": "/tabs/the-mercys-dalam-kerinduan.html"
   },
   {
     "artist": "The Mercy's ",
     "song": " Hidupku Sunyi",
-    "tabs": "https://gtabs.vercel.app/tabs/the-mercys-hidupku-sunyi.html"
+    "tabs": "/tabs/the-mercys-hidupku-sunyi.html"
   },
   {
     "artist": "The Mercy's ",
     "song": " Jauh Di  Sayang",
-    "tabs": "https://gtabs.vercel.app/tabs/the-mercys-jauh-disayang.html"
+    "tabs": "/tabs/the-mercys-jauh-disayang.html"
   },
   {
     "artist": "The Mercy's ",
     "song": " Pergi Tanpa Berita",
-    "tabs": "https://gtabs.vercel.app/tabs/the-mercys-pergi-tanpa-berita.html"
+    "tabs": "/tabs/the-mercys-pergi-tanpa-berita.html"
   },
   {
     "artist": "The Mercy's ",
     "song": " Tiada Lagi",
-    "tabs": "https://gtabs.vercel.app/tabs/the-mercys-tiada-lagi.html"
+    "tabs": "/tabs/the-mercys-tiada-lagi.html"
   },
   {
     "artist": "The Mercy's ",
     "song": " Usah Kau Harap",
-    "tabs": "https://gtabs.vercel.app/tabs/the-mercys-usah-kau-harap.html"
+    "tabs": "/tabs/the-mercys-usah-kau-harap.html"
   },
   {
     "artist": "The Police ",
     "song": " Every Breath You Take",
-    "tabs": "https://gtabs.vercel.app/tabs/the-police-every-breath.html"
+    "tabs": "/tabs/the-police-every-breath.html"
   },
   {
     "artist": "The Potters ",
     "song": " Arti Cinta Sejati",
-    "tabs": "https://gtabs.vercel.app/tabs/the-potters-arti-cinta-sejati.html"
+    "tabs": "/tabs/the-potters-arti-cinta-sejati.html"
   },
   {
     "artist": "The Potters ",
     "song": " Aw aw aw",
-    "tabs": "https://gtabs.vercel.app/tabs/the-potters-aw-aw-aw.html"
+    "tabs": "/tabs/the-potters-aw-aw-aw.html"
   },
   {
     "artist": "The Potters ",
     "song": " Keterlaluan",
-    "tabs": "https://gtabs.vercel.app/tabs/the-potters-keterlaluan.html"
+    "tabs": "/tabs/the-potters-keterlaluan.html"
   },
   {
     "artist": "The Potters ",
     "song": " Temani Masa Tua",
-    "tabs": "https://gtabs.vercel.app/tabs/the-potters-temani-masa-tua.html"
+    "tabs": "/tabs/the-potters-temani-masa-tua.html"
   },
   {
     "artist": "The Rock ",
     "song": " Aku Cinta Kau Dan Dia",
-    "tabs": "https://gtabs.vercel.app/tabs/the-rock-aku-cinta-kau-dan-dia.html"
+    "tabs": "/tabs/the-rock-aku-cinta-kau-dan-dia.html"
   },
   {
     "artist": "The Rock ",
     "song": " Madu Tiga",
-    "tabs": "https://gtabs.vercel.app/tabs/the-rock-madu-3.html"
+    "tabs": "/tabs/the-rock-madu-3.html"
   },
   {
     "artist": "The Rock ",
     "song": " Munajat Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/the-rock-munajat-cinta.html"
+    "tabs": "/tabs/the-rock-munajat-cinta.html"
   },
   {
     "artist": "The Rollies ",
     "song": " Kau Yang Kusayang",
-    "tabs": "https://gtabs.vercel.app/tabs/the-rollies-kau-yang-kusayang.html"
+    "tabs": "/tabs/the-rollies-kau-yang-kusayang.html"
   },
   {
     "artist": "The Virgin ",
     "song": " Cinta Terlarang",
-    "tabs": "https://gtabs.vercel.app/tabs/the-virgin-cinta-terlarang.html"
+    "tabs": "/tabs/the-virgin-cinta-terlarang.html"
   },
   {
     "artist": "Titiek Sandhora",
     "song": " Mustika",
-    "tabs": "https://gtabs.vercel.app/tabs/titiek-sandhora-mustika.html"
+    "tabs": "/tabs/titiek-sandhora-mustika.html"
   },
   {
     "artist": "Titiek Sandhora",
     "song": " Merantau",
-    "tabs": "https://gtabs.vercel.app/tabs/titiek-sandhora-merantau.html"
+    "tabs": "/tabs/titiek-sandhora-merantau.html"
   },
   {
     "artist": "Tommy J Pisa ",
     "song": " Biarkan Aku Menangis",
-    "tabs": "https://gtabs.vercel.app/tabs/tommy-j-pisa-biarkan-aku-menangis.html"
+    "tabs": "/tabs/tommy-j-pisa-biarkan-aku-menangis.html"
   },
   {
     "artist": "Tommy J Pisa ",
     "song": " Di Batas Kota Ini",
-    "tabs": "https://gtabs.vercel.app/tabs/tommy-j-pisa-dibatas-kota-ini.html"
+    "tabs": "/tabs/tommy-j-pisa-dibatas-kota-ini.html"
   },
   {
     "artist": "Tommy J Pisa ",
     "song": " Disini Di Batas Kota Ini",
-    "tabs": "https://gtabs.vercel.app/tabs/tommy-j-pisa-disini-di-batas-kota-ini.html"
+    "tabs": "/tabs/tommy-j-pisa-disini-di-batas-kota-ini.html"
   },
   {
     "artist": "TRIAD ",
     "song": " Selir Hati",
-    "tabs": "https://gtabs.vercel.app/tabs/triad-selir-hati.html"
+    "tabs": "/tabs/triad-selir-hati.html"
   },
   {
     "artist": "Trio Elexis ",
     "song": " Anggur Merah 2",
-    "tabs": "https://gtabs.vercel.app/tabs/trio-elexis-anggur-merah-2.html"
+    "tabs": "/tabs/trio-elexis-anggur-merah-2.html"
   },
   {
     "artist": "Trio Elexis ",
     "song": " Jangan Salah Menilai",
-    "tabs": "https://gtabs.vercel.app/tabs/trio-elexis-jangan-salah-menilai.html"
+    "tabs": "/tabs/trio-elexis-jangan-salah-menilai.html"
   },
   {
     "artist": "Tulus ",
     "song": " Andai Aku Bisa",
-    "tabs": "https://gtabs.vercel.app/tabs/tulus-andai-aku-bisa.html"
+    "tabs": "/tabs/tulus-andai-aku-bisa.html"
   },
   {
     "artist": "Uje ",
     "song": " Sepohon Kayu",
-    "tabs": "https://gtabs.vercel.app/tabs/uje-sepohon-kayu.html",
+    "tabs": "/tabs/uje-sepohon-kayu.html",
     "file": "https://www.dropbox.com/scl/fi/gjpxvvxcblaimx2j81462/Jefri-Al-Buchori-Sepohon-Kayu.mp3?rlkey=d84b2qf749tnmqjw1a20af8v8&st=52yfgevr&raw=1"
   },
   {
     "artist": "Ungu ",
     "song": " Andai Kutahu",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-andai-kutahu.html",
+    "tabs": "/tabs/ungu-andai-kutahu.html",
     "file": "https://www.dropbox.com/scl/fi/760al5jyrc190aiyu5aqi/Ungu-Andai-Ku-Tahu.mp3?rlkey=iy20580hrqz3ql3d96qsrmhif&st=c4guo7os&raw=1"
   },
   {
     "artist": "Ungu ",
     "song": " Asmara Terindah",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-asmara-terindah.html"
+    "tabs": "/tabs/ungu-asmara-terindah.html"
   },
   {
     "artist": "Ungu ",
     "song": " Bila Tiba",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-bila-tiba.html",
+    "tabs": "/tabs/ungu-bila-tiba.html",
     "file": "https://www.dropbox.com/scl/fi/gxpmz8hnldyvo9th6adyo/Ungu-Bila-Tiba-OST-Sang-Kiai.mp3?rlkey=4ffd5e5bo2ehowlks0vw7o5wr&st=yvpjtiee&raw=1"
   },
   {
     "artist": "Ungu ",
     "song": " Cinta Dalam Hati",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-cinta-dalam-hati.html"
+    "tabs": "/tabs/ungu-cinta-dalam-hati.html"
   },
   {
     "artist": "Ungu ",
     "song": " Cinta Yang Lain",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-cinta-yang-lain.html"
+    "tabs": "/tabs/ungu-cinta-yang-lain.html"
   },
   {
     "artist": "Ungu ",
     "song": " Dengan Nafasmu",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-dengan-nafasmu.html",
+    "tabs": "/tabs/ungu-dengan-nafasmu.html",
     "file": "https://www.dropbox.com/scl/fi/ceg8qy07xoljgavo6d9dt/UNGU-Dengan-Nafasmu.mp3?rlkey=0nr3021gc57188da9nx35x7bo&st=ffcignr2&raw=1"
   },
   {
     "artist": "Ungu ",
     "song": " Dilema Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-dilema-cinta.html"
+    "tabs": "/tabs/ungu-dilema-cinta.html"
   },
   {
     "artist": "Ungu ",
     "song": " Hampa Hatiku",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-hampa-hatiku.html"
+    "tabs": "/tabs/ungu-hampa-hatiku.html"
   },
   {
     "artist": "Ungu ",
     "song": " Hanya Cinta",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-hanya-cinta.html"
+    "tabs": "/tabs/ungu-hanya-cinta.html"
   },
   {
     "artist": "Ungu ",
     "song": " Luka Disini",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-luka-disini.html"
+    "tabs": "/tabs/ungu-luka-disini.html"
   },
   {
     "artist": "Ungu ",
     "song": " Mengharapkanmu",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-mengharapkanmu.html"
+    "tabs": "/tabs/ungu-mengharapkanmu.html"
   },
   {
     "artist": "Ungu ",
     "song": " Saat Bahagia",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-saat-bahagia.html"
+    "tabs": "/tabs/ungu-saat-bahagia.html"
   },
   {
     "artist": "Ungu ",
     "song": " Sayang",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-sayang.html"
+    "tabs": "/tabs/ungu-sayang.html"
   },
   {
     "artist": "Ungu ",
     "song": " Sejauh Mungkin",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-sejauh-mungkin.html"
+    "tabs": "/tabs/ungu-sejauh-mungkin.html"
   },
   {
     "artist": "Ungu ",
     "song": " Seperti Kekasihku",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-seperti-kekasihku.html"
+    "tabs": "/tabs/ungu-seperti-kekasihku.html"
   },
   {
     "artist": "Ungu ",
     "song": " Seperti Yang Dulu",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-seperti-yang-dulu.html"
+    "tabs": "/tabs/ungu-seperti-yang-dulu.html"
   },
   {
     "artist": "Ungu ",
     "song": " Sesungguhnya",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-sesungguhnya.html",
+    "tabs": "/tabs/ungu-sesungguhnya.html",
     "file": "https://www.dropbox.com/scl/fi/a8zn092vewgpb4jv22lbc/Ungu-Sesungguhnya.mp3?rlkey=0e75ixtkwa4fzfehxj46m0a48&st=7b2gvsa6&raw=1"
   },
   {
     "artist": "Ungu ",
     "song": " Surgamu",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-surgamu.html",
+    "tabs": "/tabs/ungu-surgamu.html",
     "file": "https://www.dropbox.com/scl/fi/q0fkpwg12t4b6y4gj6g9x/Ungu-SurgaMU.mp3?rlkey=jo3mi3gnddi7tuiw4wi2wvm7t&st=8sg47dam&raw=1"
   },
   {
     "artist": "Ungu ",
     "song": " Terang Dalam Gelap",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-terang-dalam-gelap.html"
+    "tabs": "/tabs/ungu-terang-dalam-gelap.html"
   },
   {
     "artist": "Ungu ",
     "song": " Tercipta Untukku",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-tercipta-untukku.html"
+    "tabs": "/tabs/ungu-tercipta-untukku.html"
   },
   {
     "artist": "Ungu ",
     "song": " Untukmu Selamanya",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-untukmu-selamanya.html"
+    "tabs": "/tabs/ungu-untukmu-selamanya.html"
   },
   {
     "artist": "Ungu ",
     "song": " Waktu Yang Dinanti",
-    "tabs": "https://gtabs.vercel.app/tabs/ungu-waktu-yang-dinanti.html"
+    "tabs": "/tabs/ungu-waktu-yang-dinanti.html"
   },
   {
     "artist": "Utha Likumahuwa ",
     "song": " Esok Kan Masih Ada",
-    "tabs": "https://gtabs.vercel.app/tabs/utha-likumahuwa-esok-kan-masih-ada.html"
+    "tabs": "/tabs/utha-likumahuwa-esok-kan-masih-ada.html"
   },
   {
     "artist": "Utha Likumahuwa ",
     "song": " Untuk Apa Lagi",
-    "tabs": "https://gtabs.vercel.app/tabs/utha-likumahuwa-untuk-apa-lagi.html"
+    "tabs": "/tabs/utha-likumahuwa-untuk-apa-lagi.html"
   },
   {
     "artist": "Utopia ",
     "song": " Antara Ada Dan Tiada",
-    "tabs": "https://gtabs.vercel.app/tabs/utopia-antara-ada-dan-tiada.html"
+    "tabs": "/tabs/utopia-antara-ada-dan-tiada.html"
   },
   {
     "artist": "Utopia ",
     "song": " Mencintaimu Sampai Mati",
-    "tabs": "https://gtabs.vercel.app/tabs/utopia-mencintaimu-sampai-mati.html"
+    "tabs": "/tabs/utopia-mencintaimu-sampai-mati.html"
   },
   {
     "artist": "Utopia ",
     "song": " Serpihan Hati",
-    "tabs": "https://gtabs.vercel.app/tabs/utopia-serpihan-hati.html.html"
+    "tabs": "/tabs/utopia-serpihan-hati.html.html"
   },
   {
     "artist": "Vagetoz ",
     "song": " Kehadiranmu",
-    "tabs": "https://gtabs.vercel.app/tabs/vagetoz-kehadiranmu.html"
+    "tabs": "/tabs/vagetoz-kehadiranmu.html"
   },
   {
     "artist": "Vagetoz ",
     "song": " Saat Kau Pergi",
-    "tabs": "https://gtabs.vercel.app/tabs/vagetoz-saat-kau-pergi.html"
+    "tabs": "/tabs/vagetoz-saat-kau-pergi.html"
   },
   {
     "artist": "Vanny Vabiola ",
     "song": "Dibatas Kota Ini",
-    "tabs": "https://gtabs.vercel.app/tabs/vanny-vabiola-dibatas-kota-ini.html"
+    "tabs": "/tabs/vanny-vabiola-dibatas-kota-ini.html"
   },
   {
     "artist": "Vanny Vabiola ",
     "song": "Disini Dibatas Kota Ini",
-    "tabs": "https://gtabs.vercel.app/tabs/vanny-vabiola-disini-dibatas-kota-ini.html"
+    "tabs": "/tabs/vanny-vabiola-disini-dibatas-kota-ini.html"
   },
   {
     "artist": "Vanny Vabiola ",
     "song": "Jangan Sampai Tiga Kali",
-    "tabs": "https://gtabs.vercel.app/tabs/vanny-vabiola-jangan-sampai-tiga-kali.html"
+    "tabs": "/tabs/vanny-vabiola-jangan-sampai-tiga-kali.html"
   },
   {
     "artist": "Victor Hutabarat ",
     "song": " Fatwa Pujangga",
-    "tabs": "https://gtabs.vercel.app/tabs/victor-hutabarat-fatwa-pujangga.html"
+    "tabs": "/tabs/victor-hutabarat-fatwa-pujangga.html"
   },
   {
     "artist": "Victor Hutabarat ",
     "song": " O Tano Batak",
-    "tabs": "https://gtabs.vercel.app/tabs/victor-hutabarat-o-tano-batak.html"
+    "tabs": "/tabs/victor-hutabarat-o-tano-batak.html"
   },
   {
     "artist": "Virgoun ",
     "song": " Bukti",
-    "tabs": "https://gtabs.vercel.app/tabs/virgoun-bukti.html"
+    "tabs": "/tabs/virgoun-bukti.html"
   },
   {
     "artist": "Virgoun ",
     "song": " Surat Cinta Untuk Starla",
-    "tabs": "https://gtabs.vercel.app/tabs/virgoun-surat-cinta-untuk-starla.html"
+    "tabs": "/tabs/virgoun-surat-cinta-untuk-starla.html"
   },
   {
     "artist": "Wali ",
     "song": " Baik Baik Sayang",
-    "tabs": "https://gtabs.vercel.app/tabs/wali-baik-baik-sayang.html"
+    "tabs": "/tabs/wali-baik-baik-sayang.html"
   },
   {
     "artist": "Wali ",
     "song": " Cari Jodoh",
-    "tabs": "https://gtabs.vercel.app/tabs/wali-cari-jodoh.html"
+    "tabs": "/tabs/wali-cari-jodoh.html"
   },
   {
     "artist": "Wali ",
     "song": " Dik",
-    "tabs": "https://gtabs.vercel.app/tabs/wali-dik.html"
+    "tabs": "/tabs/wali-dik.html"
   },
   {
     "artist": "Wali ",
     "song": " Doaku Untukmu Sayang",
-    "tabs": "https://gtabs.vercel.app/tabs/wali-doaku-untukmu-sayang.html"
+    "tabs": "/tabs/wali-doaku-untukmu-sayang.html"
   },
   {
     "artist": "Wali ",
     "song": " Harga Diriku",
-    "tabs": "https://gtabs.vercel.app/tabs/wali-harga-diriku.html"
+    "tabs": "/tabs/wali-harga-diriku.html"
   },
   {
     "artist": "Wali ",
     "song": " Takkan Pisah",
-    "tabs": "https://gtabs.vercel.app/tabs/wali-takkan-pisah.html"
+    "tabs": "/tabs/wali-takkan-pisah.html"
   },
   {
     "artist": "Wali ",
     "song": " Until Jannah",
-    "tabs": "https://gtabs.vercel.app/tabs/wali-until-jannah.html"
+    "tabs": "/tabs/wali-until-jannah.html"
   },
   {
     "artist": "Wali ",
     "song": " Yank",
-    "tabs": "https://gtabs.vercel.app/tabs/wali-yank.html"
+    "tabs": "/tabs/wali-yank.html"
   },
   {
     "artist": "Wayang ",
     "song": " Tak Selamanya",
-    "tabs": "https://gtabs.vercel.app/tabs/wayang-tak-selamanya.html"
+    "tabs": "/tabs/wayang-tak-selamanya.html"
   },
   {
     "artist": "White Lion ",
     "song": " Till Death Do Us Apart",
-    "tabs": "https://gtabs.vercel.app/tabs/white-lion-till-death-do-us-apart.html"
+    "tabs": "/tabs/white-lion-till-death-do-us-apart.html"
   },
   {
     "artist": "White Lion ",
     "song": " Youre All I need",
-    "tabs": "https://gtabs.vercel.app/tabs/white-lion-youre-all-i-need.html"
+    "tabs": "/tabs/white-lion-youre-all-i-need.html"
   },
   {
     "artist": "Zivilia ",
     "song": " Pintu Taubat",
-    "tabs": "https://gtabs.vercel.app/tabs/zivilia-pintu-taubat.html",
+    "tabs": "/tabs/zivilia-pintu-taubat.html",
     "file": "https://www.dropbox.com/scl/fi/40i3mkvlyoz2w1v6dn4zv/Zivilia-Pintu-Taubat.mp3?rlkey=w7zpnpjgjqb6f9b5255dhezbw&st=tkqqy72s&raw=1"
   }
 ]

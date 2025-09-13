@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chord Chart Formatter</title>
+    <link href="/images/icon.png" rel="icon" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Courier New', monospace;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 15px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+
+      .header {
+        background: linear-gradient(45deg, #2c3e50, #3498db);
+        color: white;
+        padding: 30px;
+        text-align: center;
+      }
+
+      .header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      .main-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        padding: 30px;
+      }
+
+      .input-section,
+      .output-section {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .section-title {
+        font-size: 1.4em;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #2c3e50;
+        border-bottom: 3px solid #3498db;
+        padding-bottom: 8px;
+      }
+
+      .input-area {
+        width: 100%;
+        height: 400px;
+        padding: 15px;
+        border: 2px solid #bdc3c7;
+        border-radius: 8px;
+        font-family: 'Courier New', monospace;
+        font-size: 12px;
+        resize: vertical;
+        transition: border-color 0.3s ease;
+        background: white;
+      }
+
+      .input-area:focus {
+        outline: none;
+        border-color: #3498db;
+        box-shadow: 0 0 10px rgba(52, 152, 219, 0.3);
+      }
+
+      .input-area::placeholder {
+        color: #7f8c8d;
+      }
+
+      .button-group {
+        display: flex;
+        gap: 15px;
+        margin: 20px 0;
+        justify-content: center;
+      }
+
+      .format-btn {
+        padding: 12px 25px;
+        background: linear-gradient(45deg, #e74c3c, #c0392b);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1em;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .format-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
+      }
+
+      .copy-btn {
+        padding: 12px 25px;
+        background: linear-gradient(45deg, #27ae60, #2ecc71);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1em;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .copy-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(39, 174, 96, 0.4);
+      }
+
+      .clear-btn {
+        padding: 12px 25px;
+        background: linear-gradient(45deg, #95a5a6, #7f8c8d);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1em;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .clear-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(149, 165, 166, 0.4);
+      }
+
+      .output-area {
+        border: 2px solid #bdc3c7;
+        border-radius: 8px;
+        padding: 15px;
+        background: #f8f9fa;
+        height: 400px;
+        overflow-y: auto;
+        font-size: 12px;
+      }
+
+      .full-width {
+        grid-column: 1 / -1;
+        margin-top: 20px;
+      }
+
+      .html-output {
+        width: 100%;
+        height: 200px;
+        padding: 15px;
+        border: 2px solid #bdc3c7;
+        border-radius: 8px;
+        font-family: 'Courier New', monospace;
+        font-size: 12px;
+        background: white;
+        resize: vertical;
+      }
+
+      /* Chord styling for preview */
+      .lyrics {
+        font-family: 'Courier New', monospace;
+        line-height: 1.6;
+        margin: 10px 0;
+        white-space: pre-wrap;
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+        border: 2px solid #ecf0f1;
+      }
+
+      .chord {
+        color: #e74c3c;
+        font-weight: bold;
+        background: rgba(231, 76, 60, 0.1);
+        padding: 2px 6px;
+        border-radius: 4px;
+        border: 1px solid rgba(231, 76, 60, 0.3);
+      }
+
+      #reff {
+        background: rgba(39, 174, 96, 0.1);
+        border-color: rgba(39, 174, 96, 0.3);
+      }
+
+      .empty-state {
+        text-align: center;
+        color: #7f8c8d;
+        font-style: italic;
+        padding: 50px 20px;
+        font-size: 1.1em;
+      }
+
+      .success-message {
+        background: rgba(39, 174, 96, 0.1);
+        color: #27ae60;
+        padding: 10px 15px;
+        border-radius: 6px;
+        margin-top: 10px;
+        font-weight: bold;
+        border: 1px solid rgba(39, 174, 96, 0.3);
+        display: none;
+      }
+
+      @media (max-width: 768px) {
+        .main-content {
+          grid-template-columns: 1fr;
+          gap: 20px;
+          padding: 20px;
+        }
+
+        .header h1 {
+          font-size: 2em;
+        }
+
+        .button-group {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Chord Chart Formatter</h1>
+      </div>
+
+      <div class="main-content">
+        <div class="input-section">
+          <div class="section-title">Input</div>
+          <textarea
+            class="input-area"
+            id="inputText"
+            placeholder="Paste your chord chart here...
+
+Example:
+Intro : GM7 CM7 Bm7 Am7 Em Dadd11
+
+GM7     CM7            GM7  
+Suatu malam adam bercerita
+GM7         CM7                 Dadd11 
+Hawanya tak lagi di jalur yang sama
+
+Am7        Em7                GM7 
+Bacaan dan doa yang mulai berbeda
+Am7         Em7          Dadd11 
+Ego dan air mata kita bicara
+
+Reff
+G                Dm7 
+Gila tak masuk logika
+           Am7
+Termangu hatiku
+Em                D 
+Kau menggenggam kumenadahnya
+
+Outro : GM7 CM7 Bm7 Am7 Em Dadd11"
+          ></textarea>
+        </div>
+
+        <div class="output-section">
+          <div class="section-title">Preview</div>
+          <div id="previewContainer" class="output-area">
+            <div class="empty-state">Your formatted chords will appear here</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="button-group">
+        <button class="format-btn" onclick="formatChords()">🎼 Format Chords</button>
+        <button class="copy-btn" onclick="copyToClipboard()">📋 Copy HTML</button>
+        <button class="clear-btn" onclick="clearAll()">🗑️ Clear All</button>
+      </div>
+
+      <div class="main-content full-width">
+        <div class="input-section">
+          <div class="section-title">HTML Code</div>
+          <textarea class="html-output" id="outputHTML" readonly></textarea>
+
+          <div id="copySuccess" class="success-message">HTML copied successfully!</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function formatChords() {
+        const input = document.getElementById('inputText').value;
+        if (!input.trim()) {
+          alert('Please enter some lyrics with chords!');
+          return;
+        }
+
+        const formattedHTML = processLyrics(input);
+        document.getElementById('outputHTML').value = formattedHTML;
+        document.getElementById('previewContainer').innerHTML = formattedHTML;
+      }
+
+      function processLyrics(input) {
+        const lines = input.split('\n');
+        let result = '';
+        let currentSection = [];
+
+        for (let i = 0; i < lines.length; i++) {
+          const line = lines[i];
+
+          // Check if it's an empty line - end current section
+          if (line.trim() === '') {
+            if (currentSection.length > 0) {
+              result += formatSection(currentSection);
+              currentSection = [];
+            }
+            continue;
+          }
+
+          currentSection.push(line);
+        }
+
+        // Don't forget the last section
+        if (currentSection.length > 0) {
+          result += formatSection(currentSection);
+        }
+
+        return result;
+      }
+
+      function formatSection(lines) {
+        if (lines.length === 0) return '';
+
+        // Join all lines in the section
+        let content = lines.join('\n');
+
+        // Process chords
+        content = processChords(content);
+
+        // Check if this section contains "Reff" or "Chorus"
+        const isReff = /^(Reff|Chorus|Bridge)/i.test(lines[0]);
+        const reffId = isReff ? ' id="reff"' : '';
+
+        return `<pre class="lyrics"${reffId}>${content}</pre>\n\n`;
+      }
+
+      function processChords(text) {
+        // Common chord patterns - more comprehensive list
+        const chordPattern = /\b([A-G](?:#|b)?(?:maj|min|m|M|\+|-|dim|aug|sus|add)?[0-9]*(?:\/[A-G](?:#|b)?)?)\b/g;
+
+        return text.replace(chordPattern, (match, chord) => {
+          // Don't replace if it's part of a word (basic check)
+          return `<span class="chord">${chord}</span>`;
+        });
+      }
+
+      function clearAll() {
+        document.getElementById('inputText').value = '';
+        document.getElementById('outputHTML').value = '';
+        document.getElementById('previewContainer').innerHTML = '<div class="empty-state">Your formatted chords will appear here</div>';
+      }
+
+      function copyToClipboard() {
+        const outputHTML = document.getElementById('outputHTML');
+        outputHTML.select();
+        outputHTML.setSelectionRange(0, 99999); // For mobile devices
+
+        try {
+          document.execCommand('copy');
+          const successMsg = document.getElementById('copySuccess');
+          successMsg.style.display = 'block';
+          setTimeout(() => {
+            successMsg.style.display = 'none';
+          }, 2000);
+        } catch (err) {
+          alert('Failed to copy. Please select the text manually and copy.');
+        }
+      }
+    </script>
+  </body>
+</html>
