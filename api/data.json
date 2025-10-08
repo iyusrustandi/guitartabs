@@ -1,5 +1,20 @@
 [
   {
+    "artist": " Slank ",
+    "song": "Terlau Manis",
+    "tabs": "/tabs/slank-terlalu-manis.html"
+  },
+  {
+    "artist": " Slank ",
+    "song": "Kamu Harus Pulang (Roadshow)",
+    "tabs": "/tabs/slank-kamu-harus-pulang-roadshow.html"
+  },
+  {
+    "artist": " Slank ",
+    "song": "Kamu Harus Pulang",
+    "tabs": "/tabs/slank-kamu-harus-pulang.html"
+  },
+  {
     "artist": " My Chemical Romance ",
     "song": "I Don't Love You",
     "tabs": "/tabs/my-chemical-romance-i-dont-love-you.html"
@@ -664,7 +679,7 @@
   {
     "artist": "Ada Band ",
     "song": "Haruskah Kumati ",
-    "tabs": "/tabs/adaband-haruskah-kumati.html"
+    "tabs": "/tabs/ada-band-haruskah-kumati.html"
   },
   {
     "artist": "Andmesh ",
