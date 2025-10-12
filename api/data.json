@@ -1,6 +1,21 @@
 [
   {
     "artist": " Slank ",
+    "song": "Cinta",
+    "tabs": "/tabs/slank-cinta.html"
+  },
+  {
+    "artist": " Nidji ",
+    "song": "Sumpah dan Cinta Matiku",
+    "tabs": "/tabs/nidji-sumpah-dan-cinta-matiku.html"
+  },
+  {
+    "artist": " Rizky Febian & Adrian Kahlif ",
+    "song": "Alamak",
+    "tabs": "/tabs/rizky-febian-adrian-kahlif-alamak.html"
+  },
+  {
+    "artist": " Slank ",
     "song": "Terlau Manis",
     "tabs": "/tabs/slank-terlalu-manis.html"
   },
