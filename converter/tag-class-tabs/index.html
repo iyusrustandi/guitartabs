@@ -3,72 +3,497 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guitar Tab Formatter</title>
+    <title>Chord & Tab Formatter</title>
     <link href="/images/icon.png" rel="icon" />
-    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Courier New', monospace;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 15px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+
+      .header {
+        background: linear-gradient(45deg, #2c3e50, #3498db);
+        color: white;
+        padding: 30px;
+        text-align: center;
+      }
+
+      .header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      .main-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        padding: 30px;
+      }
+
+      .input-section,
+      .output-section {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .section-title {
+        font-size: 1.4em;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #2c3e50;
+        border-bottom: 3px solid #3498db;
+        padding-bottom: 8px;
+      }
+
+      .input-area {
+        width: 100%;
+        height: 400px;
+        padding: 15px;
+        border: 2px solid #bdc3c7;
+        border-radius: 8px;
+        font-family: 'Courier New', monospace;
+        font-size: 12px;
+        resize: vertical;
+        transition: border-color 0.3s ease;
+        background: white;
+      }
+
+      .input-area:focus {
+        outline: none;
+        border-color: #3498db;
+        box-shadow: 0 0 10px rgba(52, 152, 219, 0.3);
+      }
+
+      .input-area::placeholder {
+        color: #7f8c8d;
+      }
+
+      .button-group {
+        display: flex;
+        gap: 15px;
+        margin: 20px 0;
+        justify-content: center;
+        grid-column: 1 / -1;
+      }
+
+      .format-btn {
+        padding: 12px 25px;
+        background: linear-gradient(45deg, #e74c3c, #c0392b);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1em;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .format-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
+      }
+
+      .clear-btn {
+        padding: 12px 25px;
+        background: linear-gradient(45deg, #95a5a6, #7f8c8d);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1em;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .clear-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(149, 165, 166, 0.4);
+      }
+
+      .copy-btn {
+        padding: 12px 25px;
+        background: linear-gradient(45deg, #27ae60, #2ecc71);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1em;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .copy-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(39, 174, 96, 0.4);
+      }
+
+      .output-area {
+        border: 2px solid #bdc3c7;
+        border-radius: 8px;
+        padding: 15px;
+        background: #f8f9fa;
+        height: 400px;
+        overflow-y: auto;
+        font-size: 12px;
+      }
+
+      .full-width {
+        grid-column: 1 / -1;
+        margin-top: 0;
+      }
+
+      .html-output {
+        width: 100%;
+        height: 200px;
+        padding: 15px;
+        border: 2px solid #bdc3c7;
+        border-radius: 8px;
+        font-family: 'Courier New', monospace;
+        font-size: 12px;
+        background: white;
+        resize: vertical;
+      }
+
+      /* Chord styling for preview */
+      .chords {
+        font-family: 'Courier New', monospace;
+        line-height: 1.6;
+        margin: 10px 0;
+        white-space: pre-wrap;
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+        border: 2px solid #ecf0f1;
+      }
+
+      .tabs {
+        font-family: 'Courier New', monospace;
+        line-height: 1.4;
+        margin: 10px 0;
+        white-space: pre;
+        background: #2c3e50;
+        color: #ecf0f1;
+        padding: 15px;
+        border-radius: 8px;
+        border: 2px solid #34495e;
+        overflow-x: auto;
+      }
+
+      .lyrics {
+        font-family: 'Courier New', monospace;
+        line-height: 1.6;
+        margin: 10px 0;
+        white-space: pre-wrap;
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+        border: 2px solid #ecf0f1;
+      }
+
+      .chord {
+        color: #e74c3c;
+        font-weight: bold;
+        background: rgba(231, 76, 60, 0.1);
+        padding: 2px 6px;
+        border-radius: 4px;
+        border: 1px solid rgba(231, 76, 60, 0.3);
+      }
+
+      #reff {
+        background: rgba(39, 174, 96, 0.1);
+        border-color: rgba(39, 174, 96, 0.3);
+      }
+
+      .empty-state {
+        text-align: center;
+        color: #7f8c8d;
+        font-style: italic;
+        padding: 50px 20px;
+        font-size: 1.1em;
+      }
+
+      .success-message {
+        background: rgba(39, 174, 96, 0.1);
+        color: #27ae60;
+        padding: 10px 15px;
+        border-radius: 6px;
+        margin-top: 10px;
+        font-weight: bold;
+        border: 1px solid rgba(39, 174, 96, 0.3);
+        display: none;
+      }
+
+      @media (max-width: 768px) {
+        .main-content {
+          grid-template-columns: 1fr;
+          gap: 20px;
+          padding: 20px;
+        }
+
+        .header h1 {
+          font-size: 2em;
+        }
+
+        .button-group {
+          flex-direction: row;
+          justify-content: center;
+          flex-wrap: wrap;
+        }
+
+        .format-btn,
+        .clear-btn,
+        .copy-btn {
+          font-size: 0.9em;
+          padding: 10px 15px;
+          flex: 1;
+          min-width: 120px;
+        }
+
+        .input-area,
+        .output-area {
+          height: 300px;
+        }
+
+        .html-output {
+          height: 150px;
+        }
+      }
+    </style>
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <h1>🎸 Guitar Tab Formatter</h1>
-        <p>Convert your guitar tabs into beautifully formatted HTML with CSS classes</p>
+        <h1>🎸 Chord & Tab Formatter</h1>
       </div>
 
       <div class="main-content">
         <div class="input-section">
-          <div class="section-title">📝 Input Your Guitar Tab</div>
+          <div class="section-title">Input</div>
           <textarea
-            id="inputArea"
             class="input-area"
-            placeholder="Paste your guitar tab here...
+            id="inputText"
+            placeholder="Paste your chord chart or guitar tabs here...
 
-Example:
-Intro : E A 
+Example with tabs:
+Intro : B Em C Am D (2X)
+        G
+e|----------------------|-----------------------------------------------------------|
+B|----------------------|-----------------------------------------------------------|
+G|--------8b------------|-----------------------------------------------------------|
+D|----7-9----9-7-7/9-7--|-5-5-4b---2-2/5---5/7-5-4----------------------------------|
+A|-/9-------------------|-----------------------------------------------------------|
+E|----------------------|-----------------------------------------------------------|
 
-e|----------------|------------------|
-B|-----7---9---7--|-------7---9---7--|
-G|---9------------|---9--------------|
-D|-9-----9---9----|-9---9---9---9----|
-A|----------------|------------------|
-E|----------------|------------------|
+Verse : G B Em C (4X)
 
-Verse : G#m F# G#m B F# G#m (2X)
-	  G#m B C#m D#
-
-e|----------------|-----------------------------------------------------------------|
-B|----------------|---------4-------------------------------------------------------|
-G|-----------6-4--|-----4-------6p4---------6-4-------------------------------------|
-D|---4-5-6-6------|-4h6---6---------6-4-6-6-----------------------------------------|
-A|-6--------------|-----------------------------------------------------------------|
-E|----------------|-----------------------------------------------------------------|
-
-e|------------------|---------4-----------------------------------------------------|
-B|-------------7-5--|-----5-------7p5---------7-5-----------------------------------|
-G|-----4-5-6-6------|-4h6---6---------6-4-6-6---------------------------------------|
-D|-6----------------|---------------------------------------------------------------|
-A|------------------|---------------------------------------------------------------|
-E|------------------|---------------------------------------------------------------|"
+Or regular chords:
+GM7     CM7            GM7  
+Suatu malam adam bercerita
+GM7         CM7                 Dadd11 
+Hawanya tak lagi di jalur yang sama"
           ></textarea>
-          <button class="format-btn" onclick="formatTab()">🎵 Format Tab</button>
-          <button class="copy-btn" onclick="copyOutput()">📋 Copy Output HTML</button>
         </div>
 
         <div class="output-section">
-          <div class="section-title">💻 HTML Output</div>
-          <div id="outputArea" class="output-area">
-            <p style="color: #7f8c8d; text-align: center; margin-top: 50px">Your formatted HTML will appear here...</p>
+          <div class="section-title">Preview</div>
+          <div id="previewContainer" class="output-area">
+            <div class="empty-state">Your formatted chords & tabs will appear here</div>
           </div>
         </div>
-      </div>
 
-      <div class="preview-section">
-        <div class="preview-title">🎭 Live Preview</div>
-        <div id="previewArea">
-          <p style="color: #7f8c8d; text-align: center">Preview will show here when you format your tab...</p>
+        <div class="button-group">
+          <button class="format-btn" onclick="formatChords()">🎼 Format</button>
+          <button class="copy-btn" onclick="copyToClipboard()">📋 Copy HTML</button>
+          <button class="clear-btn" onclick="clearAll()">🗑️ Clear All</button>
+        </div>
+
+        <div class="input-section full-width">
+          <div class="section-title">HTML Code</div>
+          <textarea class="html-output" id="outputHTML" readonly></textarea>
+          <div id="copySuccess" class="success-message">HTML copied successfully!</div>
         </div>
       </div>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+      function formatChords() {
+        const input = document.getElementById('inputText').value;
+        if (!input.trim()) {
+          alert('Please enter some lyrics with chords or tabs!');
+          return;
+        }
+
+        const formattedHTML = processInput(input);
+        document.getElementById('outputHTML').value = formattedHTML;
+        document.getElementById('previewContainer').innerHTML = formattedHTML;
+      }
+
+      function isTabLine(line) {
+        // Check if line starts with guitar string notation (e|, B|, G|, D|, A|, E|)
+        return /^[eEbBgGdDaA]\|/.test(line.trim());
+      }
+
+      function processInput(input) {
+        const lines = input.split('\n');
+        let result = '';
+        let i = 0;
+
+        while (i < lines.length) {
+          const line = lines[i];
+
+          // Skip empty lines
+          if (line.trim() === '') {
+            i++;
+            continue;
+          }
+
+          // Check if this is the start of a tab section
+          if (isTabLine(line)) {
+            // Look back to collect chord lines before tabs
+            let chordLines = [];
+            let j = i - 1;
+
+            while (j >= 0 && lines[j].trim() !== '') {
+              if (!isTabLine(lines[j])) {
+                chordLines.unshift(lines[j]);
+              } else {
+                break;
+              }
+              j--;
+            }
+
+            // Output chord header if exists (as single block)
+            if (chordLines.length > 0) {
+              result += formatChordSection(chordLines);
+            }
+
+            // Collect tab lines
+            let tabLines = [];
+            while (i < lines.length && (isTabLine(lines[i]) || lines[i].trim() === '')) {
+              if (isTabLine(lines[i])) {
+                tabLines.push(lines[i]);
+              } else if (lines[i].trim() === '' && tabLines.length > 0) {
+                tabLines.push('');
+              }
+              i++;
+            }
+
+            // Output tab section
+            if (tabLines.length > 0) {
+              result += formatTabSection(tabLines);
+            }
+          } else {
+            // Collect consecutive non-tab lines as a chord section
+            let chordLines = [];
+            while (i < lines.length && !isTabLine(lines[i]) && lines[i].trim() !== '') {
+              chordLines.push(lines[i]);
+              i++;
+            }
+
+            if (chordLines.length > 0) {
+              result += formatChordSection(chordLines);
+            }
+          }
+        }
+
+        return result;
+      }
+
+      function formatChordSection(lines) {
+        // Join all chord lines together and process chords
+        const combinedLines = lines.join('\n');
+        const processedContent = processChords(combinedLines);
+
+        return `<pre class="chords" >\n${processedContent}\n</pre>\n\n`;
+      }
+
+      function formatTabSection(tabLines) {
+        const tabContent = tabLines.join('\n');
+        return `  <pre class="tabs">\n${tabContent}\n</pre\n  >\n\n`;
+      }
+
+      function processChords(text) {
+        // Updated chord pattern to include -5, -9, +5, +9 etc.
+        const chordPattern = /(?:^|\s)([A-G][#b]?(?:maj|min|m|M|\+|-|dim|aug|sus|add)?[0-9]*(?:[-+][0-9]+)?(?:\/[A-G][#b]?)?)(?=\s|$|[^A-Za-z0-9#b+\-/])/g;
+
+        return text.replace(chordPattern, (match, chord) => {
+          // Convert uppercase M followed by number to Maj (e.g., EM7 -> EMaj7)
+          let convertedChord = chord;
+          if (/[A-G][#b]?M[0-9]/.test(chord)) {
+            convertedChord = chord.replace(/M([0-9])/, 'Maj$1');
+          }
+
+          // Convert slash chords to "on" notation for data-name (e.g., G/B -> GonB)
+          convertedChord = convertedChord.replace(/\//, 'on');
+
+          const chordSpan = `<span data-name="${convertedChord}" class="chord">${chord}</span>`;
+          return match.replace(chord, chordSpan);
+        });
+      }
+
+      function clearAll() {
+        document.getElementById('inputText').value = '';
+        document.getElementById('outputHTML').value = '';
+        document.getElementById('previewContainer').innerHTML = '<div class="empty-state">Your formatted chords & tabs will appear here</div>';
+      }
+
+      function copyToClipboard() {
+        const outputHTML = document.getElementById('outputHTML');
+        outputHTML.select();
+        outputHTML.setSelectionRange(0, 99999);
+
+        try {
+          document.execCommand('copy');
+          const successMsg = document.getElementById('copySuccess');
+          successMsg.style.display = 'block';
+          setTimeout(() => {
+            successMsg.style.display = 'none';
+          }, 2000);
+        } catch (err) {
+          alert('Failed to copy. Please select the text manually and copy.');
+        }
+      }
+
+      // Auto-format on input change
+      document.addEventListener('DOMContentLoaded', function () {
+        const inputText = document.getElementById('inputText');
+
+        inputText.addEventListener('input', function () {
+          const input = this.value;
+          if (input.trim()) {
+            const formattedHTML = processInput(input);
+            document.getElementById('outputHTML').value = formattedHTML;
+            document.getElementById('previewContainer').innerHTML = formattedHTML;
+          } else {
+            document.getElementById('outputHTML').value = '';
+            document.getElementById('previewContainer').innerHTML = '<div class="empty-state">Your formatted chords & tabs will appear here</div>';
+          }
+        });
+      });
+    </script>
   </body>
 </html>
