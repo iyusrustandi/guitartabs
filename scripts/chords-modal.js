@@ -1,7 +1,7 @@
 // ========================== Chord Modal =====================================
 $(document).ready(function () {
   // Load modal chord
-  $('#modal-placeholder').load('/components/chord-modal.html', function () {
+  $('#modal-placeholder').load('https://gtabs.vercel.app/components/chord-modal.html', function () {
     console.log('✅ Chord modal loaded successfully.');
 
     // Event listener klik chord
