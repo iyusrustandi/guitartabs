@@ -1,15 +1,22 @@
+/* ============ Global Style ============ */
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-image: url('https://gtabs.vercel.app//images/background.png');
+  background-image: url('https://gtabs.vercel.app/images/background.png');
   margin: 0;
   padding: 0;
 }
 
+/* ============ Container & Title ============ */
 .container {
   background-color: #fff;
   margin: auto;
   border-radius: 4px;
   border: 1px solid #888;
   width: 50%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .title {
@@ -17,55 +24,51 @@ body {
   color: rgb(255, 0, 0);
   font-size: 2vw;
   font-weight: bold;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding: 8px 0;
 }
 
+/* ============ Chords ============ */
 .chords {
   display: block;
-  /* font-family: monospace; */
-  font-family: 'Oxygen Mono', monospace;
-  /* font-weight: 400;
-  font-style: normal; */
+  font-family: 'Oxygen Mono', Consolas, monospace;
   overflow-x: auto;
   white-space: pre-wrap;
   word-wrap: break-word;
   line-height: 1.5;
   font-weight: bold;
   margin: 0.2em 0;
-  font-size: 1.4vw;
-  padding-left: 1.5vw;
-  padding-right: 1.5vw;
+  font-size: clamp(12px, 1.4vw, 18px);
+  padding: 0 1.5vw;
 }
 
 .chords.hide {
   display: none;
 }
 
+/* ============ Tabs ============ */
 .tabs {
   display: block;
-  font-family: 'Oxygen Mono', monospace;
+  font-family: 'Oxygen Mono', Consolas, monospace;
   white-space: pre;
   font-weight: bold;
   margin: 1em 0;
-  font-size: 1vw;
+  font-size: clamp(10px, 1vw, 16px);
   padding-left: 1.5vw;
 }
 
+/* ============ Lyrics ============ */
 .lyrics {
   display: block;
   background-color: #ece5e5;
   width: 75%;
   border-radius: 5px;
-  font-family: 'Oxygen Mono', monospace;
+  font-family: 'Oxygen Mono', Consolas, monospace;
   color: #000;
-  /* text-decoration: underline;
-  text-decoration-color: red; */
   white-space: pre-wrap;
   font-weight: bold;
   line-height: 1.5;
   margin: 1em 0;
-  font-size: 1vw;
+  font-size: clamp(10px, 1vw, 16px);
   padding-left: 1.5vw;
 }
 
@@ -77,23 +80,78 @@ body {
   color: #ea0505;
 }
 
+/* ============ Lyrics Tabs ============ */
 .lyricsTabs {
-  border-style: solid;
-  border-color: green;
+  border: 1px solid green;
   border-radius: 4px;
   font-family: monospace;
   white-space: pre;
   font-weight: bold;
   margin: 0.2em 0;
-  font-size: 1vw;
+  font-size: clamp(10px, 1vw, 16px);
   padding-left: 1.5vw;
 }
 
+/* ============ Loading ============ */
 .audio-loading {
   font-size: 2vw;
 }
 
-/* ============ Loading Animation============ */
+/* ============ Modal Chord Viewer ============ */
+#chord-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 35vh;
+  max-height: 70vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  max-height: 70vh;
+  overflow-y: auto;
+  padding-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #f44336;
+}
+
+#chord-image {
+  max-width: 100%;
+  max-height: 30vh;
+  margin-top: 10px;
+}
+
+#chord-message {
+  color: #e31708;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* ============ Loading Animation ============ */
 .loading-animation {
   display: flex;
   justify-content: center;
@@ -116,14 +174,14 @@ body {
   }
 }
 
-/* ============transposebutton============ */
+/* ============ Transpose Buttons ============ */
 .transposebutton {
   display: flex;
   justify-content: center;
   text-align: center;
   font-size: 1.5vw;
   color: #fff;
-  border-style: solid;
+  border: 1px solid #85929e;
   border-radius: 5px;
   background: #85929e;
   flex-wrap: wrap;
@@ -146,6 +204,11 @@ body {
   color: #000;
   border: none;
   cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #ddd;
 }
 
 .button img {
@@ -159,26 +222,89 @@ body {
   color: white;
 }
 
-/* Menyembunyikan lyrics dan lyricsTabs secara default */
+/* ============ Toggle Visibility ============ */
 .lyrics,
 .lyricsTabs {
   display: none;
   opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.4s ease, transform 0.3s ease;
+  transform: translateY(10px);
 }
 
-/* Toggle on */
 .lyrics.show,
 .lyricsTabs.show {
   display: block;
   opacity: 1;
+  transform: translateY(0);
 }
 
-/* ============mobile============ */
+/* ============ Section Transition ============ */
+section {
+  display: none;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+section.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ============ Audio Player ============ */
+.audio-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+audio {
+  width: 350px;
+  height: 25px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  border: 2px solid #4caf50;
+}
+
+.no-audio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 25px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  border: 2px solid #4caf50;
+  color: #777;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+}
+
+/* ============ Chords Gallery ============ */
+#chords-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  justify-content: center;
+}
+
+.chords-gallery {
+  margin: 0;
+}
+
+.chords-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ============ Mobile ============ */
 @media (max-width: 480px) {
   .container {
     width: 100%;
-    border: 1px;
   }
 
   .title {
@@ -209,13 +335,22 @@ body {
     width: 3vw;
     height: 5vw;
   }
+
+  #chord-modal {
+    max-width: 25vh;
+    max-height: 50vh;
+  }
+
+  .modal-content {
+    width: 100%;
+    max-height: 50vh;
+  }
 }
 
-/* ============tablet============ */
+/* ============ Tablet ============ */
 @media (max-width: 768px) {
   .container {
     width: 100%;
-    border: 1px;
   }
 
   .title {
@@ -246,90 +381,14 @@ body {
     width: 3vw;
     height: 5vw;
   }
-}
 
-section {
-  display: none;
-  opacity: 0;
-  transform: translateY(10px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-section.active {
-  display: block;
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/*  Audio player*/
-.audio-player {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-audio {
-  width: 350px;
-  height: 25px;
-  background-color: #f4f4f4;
-  border-radius: 10px;
-  border: 2px solid #4caf50;
-}
-.no-audio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 350px;
-  height: 25px;
-  background-color: #f4f4f4;
-  border-radius: 10px;
-  border: 2px solid #4caf50;
-  color: #777;
-  font-size: 14px;
-  font-style: italic;
-  text-align: center;
-}
-
-/* 
-========================visibility button===================== */
-
-#chords-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.chords-gallery {
-  margin: 0px;
-  width: calc(25% - 20px);
-}
-
-.chords-gallery img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-@media (max-width: 1200px) {
-  .chords-gallery {
-    width: calc(25% - 20px);
+  #chord-modal {
+    max-width: 25vh;
+    max-height: 50vh;
   }
-}
 
-@media (max-width: 900px) {
-  .chords-gallery {
-    width: calc(25% - 20px);
-  }
-}
-
-@media (max-width: 600px) {
-  .chords-gallery {
-    width: calc(27% - 20px);
-  }
-}
-
-@media (max-width: 400px) {
-  .chords-gallery {
-    width: 27%;
+  .modal-content {
+    width: 100%;
+    max-height: 50vh;
   }
 }

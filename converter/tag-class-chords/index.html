@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chord Chart Formatter</title>
-    <link href="https://gtabs.vercel.app/images/icon.png" rel="icon" />
     <style>
       * {
         margin: 0;
@@ -43,9 +42,15 @@
 
       .main-content {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 30px;
         padding: 30px;
+      }
+
+      .top-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
       }
 
       .input-section,
@@ -89,7 +94,7 @@
       .button-group {
         display: flex;
         gap: 15px;
-        margin: 20px 0;
+        margin: 0;
         justify-content: center;
       }
 
@@ -131,36 +136,9 @@
         box-shadow: 0 5px 15px rgba(149, 165, 166, 0.4);
       }
 
-      .output-area {
-        border: 2px solid #bdc3c7;
-        border-radius: 8px;
-        padding: 15px;
-        background: #f8f9fa;
-        height: 400px;
-        overflow-y: auto;
-        font-size: 12px;
-      }
-
-      .full-width {
-        grid-column: 1 / -1;
-        margin-top: 20px;
-      }
-
-      .html-output {
-        width: 100%;
-        height: 200px;
-        padding: 15px;
-        border: 2px solid #bdc3c7;
-        border-radius: 8px;
-        font-family: 'Courier New', monospace;
-        font-size: 12px;
-        background: white;
-        resize: vertical;
-      }
-
       .copy-btn {
-        background: linear-gradient(45deg, #27ae60, #2ecc71);
         padding: 12px 25px;
+        background: linear-gradient(45deg, #27ae60, #2ecc71);
         color: white;
         border: none;
         border-radius: 8px;
@@ -175,6 +153,32 @@
       .copy-btn:hover {
         transform: translateY(-2px);
         box-shadow: 0 5px 15px rgba(39, 174, 96, 0.4);
+      }
+
+      .output-area {
+        border: 2px solid #bdc3c7;
+        border-radius: 8px;
+        padding: 15px;
+        background: #f8f9fa;
+        height: 400px;
+        overflow-y: auto;
+        font-size: 12px;
+      }
+
+      .full-width {
+        margin-top: 0;
+      }
+
+      .html-output {
+        width: 100%;
+        height: 200px;
+        padding: 15px;
+        border: 2px solid #bdc3c7;
+        border-radius: 8px;
+        font-family: 'Courier New', monospace;
+        font-size: 12px;
+        background: white;
+        resize: vertical;
       }
 
       /* Chord styling for preview */
@@ -223,8 +227,12 @@
       }
 
       @media (max-width: 768px) {
-        .main-content {
+        .top-section {
           grid-template-columns: 1fr;
+          gap: 20px;
+        }
+
+        .main-content {
           gap: 20px;
           padding: 20px;
         }
@@ -234,8 +242,27 @@
         }
 
         .button-group {
-          flex-direction: column;
-          align-items: center;
+          flex-direction: row;
+          justify-content: center;
+          flex-wrap: wrap;
+        }
+
+        .format-btn,
+        .clear-btn,
+        .copy-btn {
+          font-size: 0.9em;
+          padding: 10px 15px;
+          flex: 1;
+          min-width: 120px;
+        }
+
+        .input-area,
+        .output-area {
+          height: 300px;
+        }
+
+        .html-output {
+          height: 150px;
         }
       }
     </style>
@@ -247,12 +274,13 @@
       </div>
 
       <div class="main-content">
-        <div class="input-section">
-          <div class="section-title">Input</div>
-          <textarea
-            class="input-area"
-            id="inputText"
-            placeholder="Paste your chord chart here...
+        <div class="top-section">
+          <div class="input-section">
+            <div class="section-title">Input</div>
+            <textarea
+              class="input-area"
+              id="inputText"
+              placeholder="Paste your chord chart here...
 
 Example:
 Intro : GM7 CM7 Bm7 Am7 Em Dadd11
@@ -276,25 +304,24 @@ Em                D
 Kau menggenggam kumenadahnya
 
 Outro : GM7 CM7 Bm7 Am7 Em Dadd11"
-          ></textarea>
-        </div>
+            ></textarea>
+          </div>
 
-        <div class="output-section">
-          <div class="section-title">Preview</div>
-          <div id="previewContainer" class="output-area">
-            <div class="empty-state">Your formatted chords will appear here</div>
+          <div class="output-section">
+            <div class="section-title">Preview</div>
+            <div id="previewContainer" class="output-area">
+              <div class="empty-state">Your formatted chords will appear here</div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="button-group">
-        <button class="format-btn" onclick="formatChords()">🎼 Format Chords</button>
-        <button class="clear-btn" onclick="clearAll()">🗑️ Clear All</button>
-        <button class="copy-btn" onclick="copyToClipboard()">📋 Copy HTML</button>
-      </div>
+        <div class="button-group">
+          <button class="format-btn" onclick="formatChords()">🎼 Format Chords</button>
+          <button class="copy-btn" onclick="copyToClipboard()">📋 Copy HTML</button>
+          <button class="clear-btn" onclick="clearAll()">🗑️ Clear All</button>
+        </div>
 
-      <div class="main-content full-width">
-        <div class="input-section">
+        <div class="input-section full-width">
           <div class="section-title">HTML Code</div>
           <textarea class="html-output" id="outputHTML" readonly></textarea>
           <div id="copySuccess" class="success-message">HTML copied successfully!</div>
@@ -360,11 +387,21 @@ Outro : GM7 CM7 Bm7 Am7 Em Dadd11"
       }
 
       function processChords(text) {
-        // Fixed chord pattern - removed word boundaries that interfere with # and b
-        const chordPattern = /(?:^|\s)([A-G][#b]?(?:maj|min|m|M|\+|-|dim|aug|sus|add)?[0-9]*(?:\/[A-G][#b]?)?)(?=\s|$|[^A-Za-z0-9#b])/g;
+        // Updated chord pattern to include -5, -9, +5, +9 etc.
+        const chordPattern = /(?:^|\s)([A-G][#b]?(?:maj|min|m|M|\+|-|dim|aug|sus|add)?[0-9]*(?:[-+][0-9]+)?(?:\/[A-G][#b]?)?)(?=\s|$|[^A-Za-z0-9#b+\-/])/g;
 
         return text.replace(chordPattern, (match, chord) => {
-          return match.replace(chord, `<span class="chord">${chord}</span>`);
+          // Convert uppercase M followed by number to Maj (e.g., EM7 -> EMaj7)
+          let convertedChord = chord;
+          if (/[A-G][#b]?M[0-9]/.test(chord)) {
+            convertedChord = chord.replace(/M([0-9])/, 'Maj$1');
+          }
+
+          // Convert slash chords to "on" notation for data-name (e.g., G/B -> GonB)
+          convertedChord = convertedChord.replace(/\//, 'on');
+
+          const chordSpan = `<span data-name="${convertedChord}" class="chord">${chord}</span>`;
+          return match.replace(chord, chordSpan);
         });
       }
 
@@ -390,8 +427,7 @@ Outro : GM7 CM7 Bm7 Am7 Em Dadd11"
           alert('Failed to copy. Please select the text manually and copy.');
         }
       }
-    </script>
-    <script>
+
       // Auto-format on input change
       document.addEventListener('DOMContentLoaded', function () {
         const inputText = document.getElementById('inputText');
