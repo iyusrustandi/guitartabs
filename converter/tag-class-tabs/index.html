@@ -441,16 +441,8 @@ Hawanya tak lagi di jalur yang sama"
         const chordPattern = /(?:^|\s)([A-G][#b]?(?:maj|min|m|M|\+|-|dim|aug|sus|add)?[0-9]*(?:[-+][0-9]+)?(?:\/[A-G][#b]?)?)(?=\s|$|[^A-Za-z0-9#b+\-/])/g;
 
         return text.replace(chordPattern, (match, chord) => {
-          // Convert uppercase M followed by number to Maj (e.g., EM7 -> EMaj7)
-          let convertedChord = chord;
-          if (/[A-G][#b]?M[0-9]/.test(chord)) {
-            convertedChord = chord.replace(/M([0-9])/, 'Maj$1');
-          }
-
-          // Convert slash chords to "on" notation for data-name (e.g., G/B -> GonB)
-          convertedChord = convertedChord.replace(/\//, 'on');
-
-          const chordSpan = `<span data-name="${convertedChord}" class="chord">${chord}</span>`;
+          // Keep the original chord notation without conversion
+          const chordSpan = `<span data-name="${chord}" class="chord">${chord}</span>`;
           return match.replace(chord, chordSpan);
         });
       }

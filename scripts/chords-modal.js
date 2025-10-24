@@ -2,7 +2,7 @@
 $(document).ready(function () {
   console.log('🎸 Chord modal system initialized.');
 
-  // ===== Inject modal HTML langsung ke halaman =====
+  // Inject modal HTML langsung ke body
   const modalHTML = `
     <div id="chord-modal" class="modal" style="display:none;">
       <div class="modal-backdrop"></div>
@@ -13,9 +13,8 @@ $(document).ready(function () {
     </div>
   `;
   $('body').append(modalHTML);
-  console.log('✅ Chord modal element injected.');
 
-  // ===== Event listener klik chord =====
+  // Klik chord
   $(document).on('click', '.chord', function () {
     console.log('\n========== CHORD CLICKED ==========');
 
@@ -27,8 +26,16 @@ $(document).ready(function () {
       return;
     }
 
-    // Konversi nama chord menjadi nama file valid (contoh: F#M7 → FSharpM7)
-    const fileName = chordName.replace(/#/g, 'Sharp').replace(/b/g, 'Flat').replace(/\s+/g, '');
+    // 🔧 Konversi nama chord ke format nama file
+    const fileName = chordName
+      .replace(/\//g, 'on') // "B/C#" → "BonC#"
+      .replace(/♯/g, 'Sharp') // unicode sharp
+      .replace(/#/g, 'Sharp') // simbol sharp
+      .replace(/♭/g, 'b') // unicode flat ke 'b'
+      .replace(/\s+/g, '') // hapus spasi
+      .replace(/M7$/, 'Maj7') // huruf besar M7 → Maj7
+      .replace(/[^A-Za-z0-9_\-]/g, ''); // hapus karakter tidak valid
+
     console.log('🪶 Converted fileName:', fileName);
 
     // Pastikan modal siap
@@ -46,8 +53,7 @@ $(document).ready(function () {
     $('#chord-image').hide().attr('src', '');
     $('.modal-content').append('<p id="chord-message" style="margin-top: 15px;">Loading chord...</p>');
 
-    // Coba semua ekstensi gambar
-    const basePath = `/images/chords-library/${fileName}`;
+    const basePath = `https://mychords.vercel.app/images/chords-library/${fileName}`;
     const extensions = ['svg', 'png', 'jpg', 'jpeg'];
     let index = 0;
 
@@ -65,14 +71,7 @@ $(document).ready(function () {
       img.onload = function () {
         console.log('✅ Image loaded successfully:', fullPath);
         $('#chord-message').remove();
-        $('#chord-image')
-          .attr('src', fullPath)
-          .css({
-            display: 'block',
-            'max-width': '100%',
-            margin: '10px auto',
-          })
-          .fadeIn(200);
+        $('#chord-image').attr('src', fullPath).css({display: 'block', 'max-width': '100%', margin: '10px auto'}).fadeIn(200);
       };
       img.onerror = function () {
         console.warn('❌ Not found:', fullPath);
@@ -85,12 +84,12 @@ $(document).ready(function () {
     tryNextExtension();
   });
 
-  // ===== Close modal =====
+  // Tutup modal
   $(document).on('click', '.close', function () {
     $('#chord-modal').fadeOut();
   });
 
-  // Klik luar modal untuk close
+  // Klik luar modal → tutup
   $(window).on('click', function (event) {
     if ($(event.target).is('#chord-modal')) {
       $('#chord-modal').fadeOut();

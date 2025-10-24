@@ -1,4 +1,4 @@
-// scripts/transposeButton.js
+// scripts/transpose-button.js
 
 const transposeButtonHTML = `
 <div class="transposebutton">
@@ -21,13 +21,13 @@ const transposeButtonHTML = `
         <input type="checkbox" id="lyrics" />
         <span class="toggle-slider"></span>
     </label>
-     <a>Lyrics Tab</a>
+    <a>Lyrics Tab</a>
     <label class="toggle-container">
         <input type="checkbox" id="lyricsTabs" />
         <span class="toggle-slider"></span>
     </label>
 </div>
-  <div class="transposebutton" id="tabs-nav">
+<div class="transposebutton" id="tabs-nav">
     <button class="button" data-target="onC">C</button>
     <button class="button" data-target="onC#">C#</button>
     <button class="button" data-target="onD">D</button>
@@ -40,7 +40,7 @@ const transposeButtonHTML = `
     <button class="button" data-target="onA">A</button>
     <button class="button" data-target="onBb">Bb</button>
     <button class="button" data-target="onB">B</button>
-  </div>
+</div>
 `;
 
 function injectTransposeButton(targetElementId) {
@@ -52,28 +52,54 @@ function injectTransposeButton(targetElementId) {
   }
 }
 
-// --- Transpose Functions ---
+// ========================== Transpose Logic =====================================
+const notes = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'Bb', 'B'];
+const flatNotes = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
+
 function transposeChords(step) {
-  document.querySelectorAll('.chords, .chord').forEach((element) => {
-    element.textContent = element.textContent.replace(/[A-G](#|b)?/g, (chord) => transposeChord(chord, step));
+  document.querySelectorAll('span[data-name]').forEach((span) => {
+    const chord = span.getAttribute('data-name');
+    if (!chord) return; // Skip jika data-name kosong
+
+    // Pisahkan chord utama dan suffix (contoh: F#m7, G/B)
+    const match = chord.match(/^([A-G][#b]?)(.*)$/);
+    if (!match) return; // Skip jika tidak valid
+
+    const baseChord = match[1]; // Misal: F#
+    const suffix = match[2]; // Misal: m7 atau /B
+
+    let noteIndex = notes.indexOf(baseChord);
+    if (noteIndex === -1) {
+      noteIndex = flatNotes.indexOf(baseChord);
+      if (noteIndex === -1) return;
+    }
+
+    const transposedIndex = (noteIndex + step + 12) % 12;
+    const transposedNote = notes[transposedIndex];
+
+    // Jika ada bass note (slash chord)
+    const bassMatch = suffix.match(/\/([A-G][#b]?)/);
+    if (bassMatch) {
+      const bassNote = bassMatch[1];
+      let bassIndex = notes.indexOf(bassNote);
+      if (bassIndex === -1) {
+        bassIndex = flatNotes.indexOf(bassNote);
+        if (bassIndex === -1) return;
+      }
+
+      const transposedBassIndex = (bassIndex + step + 12) % 12;
+      const transposedBassNote = notes[transposedBassIndex];
+
+      // Update isi dan atribut data-name
+      const newChord = `${transposedNote}${suffix.replace(bassNote, transposedBassNote)}`;
+      span.textContent = newChord;
+      span.setAttribute('data-name', newChord);
+    } else {
+      const newChord = transposedNote + suffix;
+      span.textContent = newChord;
+      span.setAttribute('data-name', newChord);
+    }
   });
-}
-
-function transposeChord(chord, step) {
-  const notes = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'Bb', 'B'];
-  const flatNotes = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
-
-  if (!/^[A-G](#|b)?$/.test(chord)) return chord;
-
-  const scale = chord.includes('b') ? flatNotes : notes;
-  const baseNote = chord.slice(0, chord.length > 1 && (chord[1] === '#' || chord[1] === 'b') ? 2 : 1);
-  const modifier = chord.slice(baseNote.length);
-
-  let index = scale.indexOf(baseNote);
-  if (index === -1) return chord;
-  index = (index + step + scale.length) % scale.length;
-
-  return scale[index] + modifier;
 }
 
 // Fungsi untuk transpose tabs juga berlaku untuk lyricsTabs
