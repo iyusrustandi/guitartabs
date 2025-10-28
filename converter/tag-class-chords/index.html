@@ -388,13 +388,25 @@ Outro : GM7 CM7 Bm7 Am7 Em Dadd11"
       }
 
       function processChords(text) {
-        // Updated chord pattern to include -5, -9, +5, +9 etc.
-        const chordPattern = /(?:^|\s)([A-G][#b]?(?:maj|min|m|M|\+|-|dim|aug|sus|add)?[0-9]*(?:[-+][0-9]+)?(?:\/[A-G][#b]?)?)(?=\s|$|[^A-Za-z0-9#b+\-/])/g;
+        // Updated chord pattern to handle chords separated by hyphens
+        // Match chords that can be at start, after space/colon, OR after a hyphen
+        const chordPattern = /(?:^|[\s:]|(?<=\-))([A-G][#b]?(?:maj|min|m|M|dim|aug|sus|add)?[0-9]*(?:(?<!\-)[+\-][0-9]+)?(?:\/[A-G][#b]?)?)(?=[\s:,\-]|$)/g;
 
-        return text.replace(chordPattern, (match, chord) => {
-          // Keep the original chord notation for both display and data-name
+        return text.replace(chordPattern, (match, chord, offset, string) => {
+          // Check what comes before the match
+          const charBefore = offset > 0 ? string.charAt(offset - 1) : '';
+
+          // If preceded by hyphen, don't add prefix
+          if (charBefore === '-') {
+            return `<span data-name="${chord}" class="chord">${chord}</span>`;
+          }
+
+          // Otherwise preserve the leading space or colon
+          const leadingChar = match.charAt(0);
+          const prefix = leadingChar.match(/[\s:]/) ? leadingChar : '';
+
           const chordSpan = `<span data-name="${chord}" class="chord">${chord}</span>`;
-          return match.replace(chord, chordSpan);
+          return prefix + chordSpan;
         });
       }
 
