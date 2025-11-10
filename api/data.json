@@ -1,5 +1,30 @@
 [
   {
+    "artist": " Didi Kempot ",
+    "song": "Pamer Bojo",
+    "tabs": "/tabs/didi-kempot-pamer-bojo.html"
+  },
+  {
+    "artist": " Metallica ",
+    "song": "Seek and Destroy",
+    "tabs": "/tabs/metallica-seek-and-destroy.html"
+  },
+  {
+    "artist": " Metallica ",
+    "song": "The Unforgiven",
+    "tabs": "/tabs/metallica-the-unforgiven.html"
+  },
+  {
+    "artist": " Goliath ",
+    "song": "Masih Disini Masih Denganmu",
+    "tabs": "/tabs/goliath-masih-disini-masih-denganmu.html"
+  },
+  {
+    "artist": " Goliath ",
+    "song": "Cinta Monyet",
+    "tabs": "/tabs/goliath-cinta-monyet.html"
+  },
+  {
     "artist": " Dek Aroel ",
     "song": "Tia Monika",
     "tabs": "/tabs/dek-aroel-tia-monika.html"
